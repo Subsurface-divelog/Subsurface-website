@@ -1,0 +1,91 @@
+---
+ID: 1620
+post_title: Announcing Subsurface 4.5 Beta 2
+author: hohndel
+post_date: 2015-09-19 16:02:50
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2015/09/announcing-subsurface-4-5-beta-2/
+published: true
+---
+Because of all the new features we were taking things rather slowly with the Beta, but frankly, there haven't been a lot of issues reported. We have a couple of bugs that are still not fixed but they are mostly minor annoyances. Overall 4.5 looks to be pretty solid. But of course so far fewer than 1% of our user base have tested, so who knows...
+
+Anyway, we are happy to announce <em>Subsurface</em> 4.5 Beta 2.
+
+Some of the changes since <em>Subsurface</em> 4.5 Beta 1:
+
+<div class="paragraph"><p><strong>The following issues have been addressed:</strong></p></div>
+<div class="ulist"><ul>
+<li>
+<p>
+crash when uploading dive data to divelogs.de
+</p>
+</li>
+<li>
+<p>
+printing now works with the Mac bundle
+</p>
+</li>
+<li>
+<p>
+stability improvements for BT support
+</p>
+</li>
+<li>
+<p>
+fix for several bugs in the Uemis import
+</p>
+</li>
+<li>
+<p>
+the "spinner" UI effect to show activity when syncing with cloud storage was replaced by a more conventional progress dialog that appears to work much more reliably
+</p>
+</li>
+<li>
+<p>
+the Mac bundle should finally validate on newer Macs with Gatekeeper enabled
+</p>
+</li>
+<li>
+<p>
+Facebook sharing has been moved to a menu entry and no longer shows up as an icon next to the notes field
+</p>
+</li>
+<li>
+<p>
+small adjustments to the VPM-B implementation to bring it even closer to the reference implementation
+</p>
+</li>
+<li>
+<p>
+many updates to the user manual and the UI translations
+</p>
+</li>
+<li>
+<p>
+various other small bug fixes in response to bug reports
+</p>
+</li>
+</ul></div>
+<div class="paragraph"><p><strong>Known issues</strong></p></div>
+<div class="ulist"><ul>
+<li>
+<p>
+Windows 10 appears to have a bug in the Bluetooth SPP communication so using that to communicate with BT dive computers on Windows 10 may not work until Microsoft releases a fix. Native BT should work.
+</p>
+</li>
+</ul></div>
+
+You can get Subsurface 4.5 Beta 2 from these locations:
+
+<strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.5-Beta-2.exe">https://subsurface-divelog.org/downloads/subsurface-4.5-Beta-2.exe</a>
+
+<strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.5-Beta-2.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.5-Beta-2.dmg</a> <br/>
+As noted above, the signatures on Subsurface.app should now verify correctly and OS X should no longer claim that the binary wasn't signed by a verified developer.
+
+<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface-beta</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface-beta/ubuntu<code></code></code> to get our latest beta version.
+
+<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurfacebeta">open build service beta page</a>
+
+<strong>This is a beta release,</strong> so the usual warnings apply. We really don't think that it will eat your data file (and it is making a backup of your old files, just in case), but paying extra attention might not hurt. And as always, we are very curious to get feedback (after all, that's the purpose of a beta release). Please post in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="http://trac.subsurface-divelog.org">Bug Tracker</a>.

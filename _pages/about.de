@@ -1,0 +1,68 @@
+---
+ID: 1687
+post_title: Subsurface
+author: hohndel
+post_date: 2011-10-06 02:48:17
+post_excerpt: ""
+layout: page
+permalink: https://subsurface-divelog.org
+published: true
+---
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid" saved_tabs="all" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" global_module="1887"]
+
+
+
+[/et_pb_post_title][et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
+
+[et_pb_slide heading="Plattformübergreifend" background_position="default" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/OS-logos1.png" alignment="center" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000" image_alt="Windows, Mac und Linux"]
+
+Subsurface ist ein quell-offenes und kostenloses Tauchlogbuch, das auf Windows, Macs und Linux Computern benutzt werden kann.
+
+[/et_pb_slide][et_pb_slide heading="Tauchdaten aus vielen Quellen" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Screenshot.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
+
+Tauchdaten können von vielen Tauchcomputern direkt heruntergeladen und aus anderen elektronischen Tauchlogbüchern oder Tauch-Webseiten import werden. Natürlich können Tauchdaten auch manuell eingegeben werden.
+
+[/et_pb_slide][et_pb_slide heading="Tauchplanung" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Planner.png" alignment="center" image_alt="Tauchgangplanung" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
+
+Das Tauchplan Modul macht es einfach Tauchgänge zu planen. Mit grafischer Eingabe des Tauchprofils und unter Benutzung von entweder Bühlmann ZH-16 oder VPM-B als Dekompressionsalgorithmus.
+
+[/et_pb_slide][et_pb_slide heading="Cloud Speicher-Lösung" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRFCloud.png" alignment="center" image_alt="Cloud Speicher" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
+
+Die Tauchdaten können auch in der Subsurface Cloud gespeichert werden und sind dann von verschiedenen Computern zugreifbar. Voll-integriert, transparent, umsonst und einfach zu konfigurieren.
+
+[/et_pb_slide]
+
+[/et_pb_slider][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+Subsurface erlaubt eine innovative Visualisierung der Daten, die moderne <strong>Tauchcomputer</strong> während des Tauchgangs aufzeichnen. Eine Fülle weiterer Informationen zu den Tauchgängen können vom Benutzer komfortabel erfasst und verwaltet werden. So können beispielsweise die verwendeten Atemgase, Ausrüstungsgegenstände oder Tauchpartner verzeichnet, Bewertungen und Notizen Tauchgängen zugeordnet werden. Weiterhin können die GPS-Koordinaten von Tauchplätzen verwaltet und auf einfache Weise mittels online-Kartenmaterial eingegeben werden.
+
+[/et_pb_text][et_pb_image admin_label="Image" saved_tabs="all" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|1em|1em" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/TagsAndRating1.png" alt="Bildschirmansicht mit Tags und am Tauchgang beteiligten Personen"]
+
+
+
+[/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+Subsurface kann mit verschiedenen Gasgemischen wie Luft, Nitrox oder TriMix, auch bei Gaswechseln innerhalb desselben Tauchgangs, umgehen und berechnet auf Basis der aufgezeichneten Daten weitere Werte und <strong>Statistiken</strong> wie etwa das Atemminutenvolumen, Partialdrücke der Atemgase, berechnete Deko-Daten und vieles mehr.
+
+Subsurface kann in <strong>20 Sprachen</strong> benutzt werden und wird von einer aktiven Entwicklergemeinde unterstützt.
+
+[/et_pb_text][/et_pb_column][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+Wir verwalten eine <a href="https://subsurface-divelog.org/documentation/supported-dive-computers">lange Liste unterstützter Tauchcomputer</a>. Existierende Logbucheinträge können unter anderem aus <a href="http://www.mac-dive.com/">MacDive</a>, Suunto DM3/4/5, <a href="http://jdivelog.org/">JDiveLog</a> und <a href="http://en.divelogs.de/">divelogs.de</a> übernommen werden.
+
+Eine weitere von Subsurfaces ausgeprägten Stärken ist die innovative <strong>Visualisierung</strong> der Daten. So bereitet Subsurface die Tauchprofil-Daten auf eine Weise auf, die dem Benutzer direkt seine momentane vertikal-Geschwindigkeit zeigt. Ebenso wird das momentane Atemvolumen visualisiert.
+
+[/et_pb_text][et_pb_image admin_label="Image" saved_tabs="all" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|1em|1em" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-metric.png" alt="Profil des Tauchgangs"]
+
+
+
+[/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+Subsurface ermöglicht dem Benutzer detaillierte Logbuchseiten, inklusive Tiefenprofilen, auszudrucken.
+
+[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid" custom_margin="2em|||"]
+
+<h5>Ein bisschen Hintergrund Geschichte zu Subsurface:</h5>
+Als im Herbst 2011 eine vorübergehende Flaute bei der Linux-Kernel Weiterentwicklung Gelegenheit dazu gab, entschied sich Linux-Erfinder Linus Torvalds etwas gegen das frustrierende Fehlen einer brauchbaren Software für die Verwaltung von Taucher-Logbucheinträgen unter Linux zu tun. Subsurface ist das Resultat der Arbeit, die er und viele andere Entwickler seitdem geleistet haben. Seit Herbst 2012 hat Dirk Hohndel die Betreuung von Subsurface übernommen.
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

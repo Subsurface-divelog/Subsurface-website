@@ -1,0 +1,117 @@
+---
+ID: 2079
+post_title: Rilasciato Subsurface 4.3!
+author: hohndel
+post_date: 2014-12-17 21:16:46
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2014/12/announcing-subsurface-4-3/
+published: true
+---
+<div class="sectionbody">
+<div class="paragraph">
+
+Il team di sviluppo di <em>Subsurface</em> annuncia con orgoglio il rilascio della versione 4.3 di <em>Subsurface</em>, un divelog e dive planner per Windows, Mac e Linux.
+
+</div>
+<div class="sect2">
+<h3 id="_some_of_the_changes_since_em_subsurface_em_4_2">Alcuni dei cambiamenti da <em>Subsurface</em> 4.2</h3>
+<div class="paragraph">
+
+<em>Subsurface</em> adesso supporta filtri flessibili della lista delle immersioni. Quando il filtro è aperto, è possibile specificare diversi parametri come posizione, partecipanti all'immersione, muta usata, ecc. Mentre si filtra è possibile vedere il numero di immersioni che soddisfano ciascun parametro (vedere la figura sotto).
+
+</div>
+<div class="imageblock" style="text-align: center;">
+<div class="content"><img class="aligncenter size-full wp-image-1381" src="https://subsurface-divelog.org/wp-content/uploads/2014/12/V4.3_Subsurface_filter.jpg" alt="Subsurface main screen with filters" width="750" height="536" /></div>
+</div>
+<div class="paragraph">
+
+Quando si modifica una immersione, si possono copiare le informazioni da una immersione ed incollarle in una o più immersioni. Questo facilita l'inserimento di attrezzatura, compagni, ed altre cose in un gruppo di immersioni simili.
+
+</div>
+<div class="paragraph">
+
+Il profilo di immersione adesso mostra un grafico sulla saturazione dei tessuti durante l'immersione (vedere la figura sotto).
+
+</div>
+<div class="imageblock" style="text-align: center;">
+<div class="content"><img class="aligncenter size-full wp-image-1382" src="https://subsurface-divelog.org/wp-content/uploads/2014/12/V4.3_CylBars.jpg" alt="Cylinder bars and tissue saturation graph" width="500" height="97" /></div>
+</div>
+<div class="paragraph">
+
+Nel profilo di immersione è possibile usare una modalità per mostrare la combinazione di gas durante l'immersione (figura sopra).
+
+</div>
+<div class="paragraph">
+
+I proprietari del Heinrichs &amp; Weikamp OSTC 2 e 3 e dei Suunto Vyper possono configurare i parametri del loro computer usando <em>Subsurface</em>.
+
+</div>
+<div class="paragraph">
+
+Per alcuni modelli do computer, <em>Subsurface</em> adesso scarica dei dati aggiuntivi e li mostra in una nuova scheda sullo schermo. Questi comprendono (a seconda del modello di computer) informazioni sulla batteria, sul periodo di no fly, ecc. Questa funzionalità è abilitata su tutti i binari ufficiali di <em>Subsurface</em> ed include il Uemis Zurich SDA. Quando si compila da sorgenti, la funzionalità richiede una versione modificata di libdivecomputer (come spiegato nel file INSTALL).
+
+</div>
+<div class="paragraph">
+
+La modalità di pianificazione consente adesso di ri-pianificare immersioni e di duplicarle, per affrontare scenari multipli.
+
+</div>
+<div class="paragraph">
+
+&Egrave; stato aggiunto il supporto per molti nuovi computer, tra cui: Suunto EON Steel, Aeris A300 CD, Aeris F11.
+
+</div>
+<div class="paragraph">
+
+<em>Subsurface</em> può adesso importare i divelog da software Liquivision, Cochran ed il nuovo Suunto DM5.
+
+</div>
+<div class="paragraph">
+
+Abbiamo fatto migliorie riguardanti l'importazione di file UDDF e CSV. L'importazione UDDF è adesso in linea con l'ultima versione dello standard.
+
+</div>
+<div class="paragraph">
+
+Molti problemi con l'esportazione in HTML sono stati risolti.
+
+</div>
+<div class="paragraph">
+
+&Egrave; stato aggiunto il supporto iniziale per i rebreathers a circuito chiuso (CCR) e pSCR. Divelogs dal Poseidon MkVI CCR possono essere importati. La visualizzazione e la pianificazione dovrebbero funzionare, ma questa funzionalità è ancora in fase iniziale di sviluppo e potrebbero esserci dei bug. Qui sotto un esempio di profilo di immersione per un Poseidon MkVI:
+
+</div>
+<div class="imageblock" style="text-align: center;">
+<div class="content"><img class="aligncenter size-full wp-image-1380" src="https://subsurface-divelog.org/wp-content/uploads/2014/12/V4.3_CCR.jpg" alt="CCR sample profile" width="510" height="438" /></div>
+</div>
+<div class="paragraph">
+
+<strong>Altri miglioramenti</strong>
+
+</div>
+<div class="ulist">
+<ul>
+	<li>Importazione manuale (ad esempio da un pre-esistente logbook cartaceo) è documentata meglio nel manuale. Invece di inserire le immersioni manualmente e creare il profilo di immersione gli utenti possono inserire i dati in un foglio di calcolo ed importarli in una singola operazione</li>
+	<li>Piccoli miglioramenti per la pianificazione</li>
+	<li>Molti miglioramenti sull'interfaccia grafica per un uso migliore su piccolo schermi (colonne più piccole, profilo di immersione senza dimensione minima, ecc)</li>
+	<li>Miglioramenti per i display HiDPI</li>
+	<li>Abbiamo corretto un bug in cui iniziando a modificare una immersione, il pop-up per il completamento copriva la casella di testo (solitamente avveniva modificando i tag)</li>
+	<li>Per i computer (piuttosto inusuali) che mandano un evento di cambiamento di rotta ad ogni campione di dati, adesso nascondiamo i dati dal profilo di immersione</li>
+	<li>L'installer Windows è più furbo: la versione a 64 bit rifiuta l'installazione su sistemi a 32 bit; e rispettivamente l'installer a 32 bit avvisa l'utente durante l'installazione su sistemi a 64 bit</li>
+	<li>Migliore sincronizzazione con divelogs.de, incluso il supporto per bombole multiple</li>
+</ul>
+</div>
+<div class="paragraph">
+
+<strong>Problemi noti</strong>
+
+</div>
+<div class="ulist">
+<ul>
+	<li>Sembra esserci un bug nelle librerie Qt: quando si cambia la password per l'uso di un proxy, <em>Subsurface</em> non userà la nuova password fino al riavvio del software.</li>
+</ul>
+</div>
+</div>
+</div>

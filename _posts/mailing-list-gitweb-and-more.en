@@ -1,0 +1,13 @@
+---
+ID: 65
+post_title: '<!--:en-->Mailing list, gitweb and more<!--:-->'
+author: hohndel
+post_date: 2011-10-06 15:58:51
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2011/10/mailing-list-gitweb-and-more/
+published: true
+---
+<!--:en--><p>Things are moving quite quickly - we now have a <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">mailing list</a> that is <a href="http://lists.subsurface-divelog.org/pipermail/subsurface/">archived</a>.</p>
+<p>We also have a gitweb interface that allows browsing the <a href="http://git.subsurface-divelog.org/index.cgi?p=subsurface.git;a=summary">subsurface git repository</a>. So far the local repository here on the server isn't the authoritative one that Linus pushes to.</p><!--:-->

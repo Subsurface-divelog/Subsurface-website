@@ -1,0 +1,35 @@
+---
+ID: 2101
+post_title: Subsurface 3.0 est sortie
+author: hohndel
+post_date: 2013-02-21 09:40:25
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2013/02/subsurface-3-0-has-been-released/
+published: true
+---
+<p>L'équipe de développeurs de Subsurface est heureuse de vous annoncer la sortie de la dernière version de Subsurface.</p>
+<p>Les nouveautés (comparé à Subsurface 2.1):</p>
+<p><ul><li> Support de nouveaux ordinateurs de plongée et améliorations du support des anciens:</li><ul>
+     <li> Cressi Leonardo, Seemann XP5, Mares Matrix, Mares Puck Pro, Mares Nemo Wide 2, Shearwater Petrel, Shearwater Predator, Aeris A300 AI, Hollis DG03</li>
+     <li> Amélioration significative du support pour le OSTC Heinrichs Weiskamp</li>
+   </ul>
+   <li> Amélioration de la sélection pour la récupération des informations de l'ordinateur de plongée</li>
+   <li> Présentation sur une carte des plongées disposant de coordonnées GPS et possibilité d'associer ou d'éditer des coordonnées GPS avec une plongée.</li>
+   <li> Amélioration de la numérotation automatique des plongées</li>
+   <li> Présentation de statistiques sur le point considéré sur le profil de plongée</li>
+   <li> Possibilité de zoomer sur le profil</li>
+   <li> Simulateur de plongée</li>
+   <li> Amélioration de la gestion de l'impression</li>
+   <li> Amélioration de la gestion des voyages/groupes de plongée</li>
+   <li> Ajout de la possibilité d'avoir plusieurs ordinateurs de plongée pour une même personne (par exemple pour votre ordinateur principal et votre ordinateur de secours)</li>
+   <li> Ajout de la possibilité d'importer vos données depuis les logiciels Suunto DM3 (plus besoin de le faire à la main), MacDive et divelogs.de</li>
+   <li> Et quelques fonctionnalités pour les plongeurs plus techniques:</li><ul>
+        <li> Support expérimental de calcul de décompression avec la possibilité (en option) d'afficher le plafond de décompression (basé sur l'algorithme de Buhlmann ZH16 avec des gradients de facteurs)
+        <li> Affichage des informations de décompressions pour les ordinateurs de plongée qui le permettent</li>
+        <li> Support du TriMix</li>
+        <li> Support des plongées en circuit fermé (avec point fixe ou variable, pour les ordinateurs qui le supportent)</li>
+        <li> Affichage optionnel des graphiques de saturation en oxygène (pO2), nitrogène (pN2) et hélium (pH2)</li>
+        <li> Suivis de l'hyperoxie (CNS) pour les ordinateurs qui le supportent</li></ul>
+   <li> Beaucoup de bogues résolus</li></ul></p>

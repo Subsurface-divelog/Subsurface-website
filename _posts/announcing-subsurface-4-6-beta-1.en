@@ -1,0 +1,80 @@
+---
+ID: 2604
+post_title: Announcing Subsurface 4.6 Beta 1
+author: hohndel
+post_date: 2016-12-26 08:00:51
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2016/12/announcing-subsurface-4-6-beta-1/
+published: true
+---
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" global_module="1887" saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_line_height="1.3em" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid" meta_font_size="14"]
+
+
+
+[/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+The Subsurface developer team is proud to announce our first beta version of Subsurface 4.6.
+
+[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="1_3"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+This version adds support for multiple new dive computers, the beginnings of multi-user support, and introduces new visualization of tissue loading on deco dives (the heat map, as seen in the picture below the dive profile). Plenty of bugs have been squashed along with improvements on dive planning and import/export functionality.
+
+[/et_pb_text][/et_pb_column][et_pb_column type="2_3"][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2016/12/Screen-Shot-2016-12-26-at-11.36.38-AM.png" alt="Subsurface 3.6 Beta 1 with heat map" title_text="Subsurface 3.6 Beta 1 with heat map" show_in_lightbox="off" url_new_window="off" use_overlay="off" animation="off" sticky="on" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="off" border_color="#ffffff" border_style="solid" /][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+Some of the changes since Subsurface 4.5.6:
+
+<ul>
+<li> Fixed spurious errors when saving to cloud storage</li>
+<li> Better handling of slow network connections when using cloud storage
+</li><li> Add --cloud-timeout= command line argument that allows to wait longer (or shorter, for that matter) before we time out waiting for cloud storage. Very useful when in areas with poor internet connectivity</li>
+<li> Add --user= command line argument that allows switching between different users from the command line</li>
+<li> Many fixes to CVS importer</li>
+<li> DAN DL7 import</li>
+<li> SmartTrack .slg import</li>
+<li> Fixes to Divelogs.de import and export</li>
+<li> Fixes to UDDF exporter</li>
+<li> Small fix to Uemis downloader for yet another corner case (Uemis downloader is known to be broken for some users - it is no longer actively maintained)</li>
+<li> Improved handling of dive computer events (grouping them into info, warning and alert - best supported on Suunto EON Steel)</li>
+<li> Add heatmap visualization of deco tissue loading</li>
+<li> Many small fixes to the dive planner</li>
+<li> Many fixes for various errors</li>
+<li> Added current libdivecomputer with support for additional divecomputers:</li>
+<ul><li> aqualand: Citizen Hyper Aqualand</li>
+    <li> meridian: Scubapro Mantis</li>
+    <li> nitekq: Dive Rite NiTek Q, NikTek Trio</li>
+    <li> Aeris: 500 AI, XR-1 NX</li>
+    <li> Aqualung: i300, i550T</li>
+    <li> Beuchat: Mundial 2, Mundial 3, Voyager 2G</li>
+    <li> Cressi: Giotto</li>
+    <li> Hollis: TX1</li>
+    <li> Mares: Airlab, Smart Apnea, Puck 2</li>
+    <li> Oceanic: OCi</li>
+    <li> Scubapro: XTender 5</li>
+    <li> Sherwood: Amphos, Amphos Air, Vision</li>
+    <li> Subgear: XP-3G, XP-Air</li>
+    <li> Uwatec: Aladin 2G</li>
+</ul></ul>
+
+[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+Binaries are available for Windows, Mac, and an AppImage for Linux (plus distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE). You can get Subsurface 4.6 Beta 1 from these locations:
+
+<strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.6-Beta-1.exe">https://subsurface-divelog.org/downloads/subsurface-4.6-Beta-1.exe</a>
+
+<strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6-Beta-1.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.6-Beta-1.dmg</a>
+
+<strong>Linux:</strong> A generic AppImage is available for download as <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6-Beta-1-x86_64.AppImage">Subsurface-4.6-Beta-1-x86_64.AppImage</a>. Download this file, make it executable
+<code>chmod +x Subsurface-4.6-Beta-1-x86_64.AppImage</code> and then simply run this file. 
+<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface-beta</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface-beta/ubuntu</code> to get our latest beta version.
+
+<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurfacebeta">open build service beta page</a>
+
+<strong>This is a beta release,</strong> so the usual warnings apply. We don't think it will eat your data file (and it will make a backup of your old files, just in case), but paying extra attention might not hurt. As always, we are very curious to get feedback (after all, that's the purpose of a beta release). Please post in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="http://trac.subsurface-divelog.org">Bug Tracker</a>.
+
+<small>
+
+This took us a lot longer than we hoped. Much time was spent on getting the mobile versions released and stable for Android and IoS. And then a few of the key developers in this open source projects changed jobs and simply didn't have as much time (or any time) to devote to their hobby.</small>
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

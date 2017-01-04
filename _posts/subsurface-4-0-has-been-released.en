@@ -1,0 +1,36 @@
+---
+ID: 824
+post_title: Subsurface 4.0 has been released
+author: hohndel
+post_date: 2013-12-15 14:21:49
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2013/12/subsurface-4-0-has-been-released/
+published: true
+---
+The Subsurface developer team is proud to announce the release of the next major version of Subsurface.
+
+With version 4.0 we switched to <a href="http://qt-project.org/">Qt</a> as our UI toolkit. This caused the need to do a complete rewrite of a large chunk of the Subsurface code base. We decided to keep much of the logic and core of the existing code around, but used the opportunity for quite a bit of cleanup and many improvements.
+
+The basic concepts are the same, most of the basic features are the same, but trying to create a concise list of changes that summarizes the more than 1600 commits that have gone in since version 3.1 seems a daunting task.
+
+Here are some of the highlights:
+<ul>
+	<li>new map widget with a spinning globe to visualize dive locations</li>
+	<li>much more "native" look and feel under Windows and Mac</li>
+	<li>ability to edit dives "in place": simply click on an entry in the Dive Notes or Equipment tabs to start editing</li>
+	<li>more data about each dive is presented in the Dive Notes and can be edited without separate dialogs and without having to go through context menues</li>
+	<li>graphical editor for dive profiles for manually added dives</li>
+	<li>better information overlay for the dive profile</li>
+	<li>addition of a "ruler" tool in the profile window that allows measuring of many properties between two points in the profile</li>
+	<li>better tag system with both predefined user-specified free text tags</li>
+	<li>better integration with divelogs.de (upload &amp; download support)</li>
+	<li>ability to show the user manual from within the application without a life internet connection and without opening the manual in an external browser window</li>
+	<li>better statistics (with per-trip statistics available)</li>
+</ul>
+As always in a massive rewrite like this, there are still a small handful of known bugs and issues - please check the <a href="http://git.subsurface-divelog.org/?p=subsurface.git;a=blob;f=ReleaseNotes.txt;hb=refs/tags/v4.0">ReleaseNotes</a> and our <a href="http://trac.subsurface-divelog.org">bug tracker</a>. The two biggest missing features (compared to 3.1.1) are
+<ul>
+	<li>Filter-&gt;Select Events is not implemented</li>
+	<li>Dive planner has been disabled for now</li>
+</ul>

@@ -1,0 +1,23 @@
+---
+ID: 2069
+post_title: Nova versão Subsurface 4.4.1
+author: hohndel
+post_date: 2015-02-18 14:41:43
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2015/02/announcing-subsurface-4-4-1/
+published: true
+---
+A equipa de desenvolvimento do Subsurface, tem o prazer de anunciar o lançamento do Subsurface 4.4.1.
+
+Estão disponíveis binários para Windows, Mac e Linux (Ubuntu, Debian, Linux Mint, Fedora, and openSUSE). Consultar a página <a title="Downloads" href="https://subsurface-divelog.org/download/">Transferir</a> para mais detalhes.
+<h2 id="_some_of_the_changes_since_em_subsurface_em_4_4">Melhorias desde da versão anterior (4.4):</h2>
+<ul>
+	<li>Actualização das traduções do manual em Espanhol, Russo e Françês.</li>
+	<li>Melhorias na leitura de coordenadas GPS.</li>
+	<li>Melhorias na exportação para HTML.</li>
+	<li>Correcção de um problema na importação de mergulhos dos computadores Shearwater.</li>
+	<li>Correcções várias na importação de mergulhos de outras aplicações, incluindo o MacDive.</li>
+	<li>Melhoria nas scripts de compilação ("build") que facilitam construir o Subsurface a partir do código fonte, noutras distribuições de Linux.</li>
+</ul>

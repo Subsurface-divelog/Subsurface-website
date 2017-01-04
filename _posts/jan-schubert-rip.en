@@ -1,0 +1,27 @@
+---
+ID: 614
+post_title: '<!--:en-->Jan Schubert -- RIP<!--:--><!--:de-->Jan Schubert -- Ruhe in Frieden<!--:--><!--:fr-->Jan Schubert -- RIP<!--:--><!--:es-->Jan Schubert -- RIP<!--:--><!--:pl-->Jan Schubert -- RIP<!--:-->'
+author: hohndel
+post_date: 2013-03-31 13:14:28
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2013/03/jan-schubert-rip/
+published: true
+---
+<!--:en-->It is with great sadness that we say a final "Tschüss" to one of our most active and engaging developers. Without Jan, Subsurface would not support the needs of technical divers the way it does today.
+
+Our hearts reach out to his wife and children.
+
+Jan, you will be missed.<!--:--><!--:de--><p>Mit tiefer Trauer nehmen wir Abschied von Jan Schubert, einem unserer aktivsten Entwickler. Die Unterstützung für Tec-Taucher in Subsurface geht im Wesentlichen auf Jans Einsatz zurück.</p>
+<p>Unsere tiefe Anteilnahme an Jans Frau und Kinder.</p>
+<p>Jan, wir vermissen Dich.</p><!--:--><!--:fr--><p>C'est avec une grande tristesse que nous disons un dernier «Adieu» à l'une de nos développeurs les plus actifs et engagés. Sans Jan, Subsurface ne prendrait pas en charge les besoins des plongeurs techniques de la façon dont il le fait aujourd'hui.</p>
+<p>Nos coeurs et nos pensées vont vers sa femme et ses enfants.</p>
+<p>Jan, tu vas nous manquer.</p><!--:--><!--:es--><p>Es con gran tristeza que decimos un último "Adiós" a uno de nuestros más activos y comprometidos desarrolladores . Sin el, SubSurface no atenderia a las necesidades de los buceadores técnicos como lo hace hoy.</p>
+<p>Nuestros corazones y pensamientos están con su esposa e hijos.</p>
+<p>Jan, te vamos a echar de menos.</p>
+<!--:--><!--:pl-->Z głębokim smutkiem żegnamy jednego z naszych najbardziej aktywnych i zaangażowanych programistów. Subsurface nie nie oferowałby wsparcia dla nurkowań technicznych bez Jana.
+
+Nasze myśli pozostają przy Jego żonie i dzieciach.
+
+Jan, będzie nam Ciebie brakowało..<!--:-->

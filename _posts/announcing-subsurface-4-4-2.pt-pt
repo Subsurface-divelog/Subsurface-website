@@ -1,0 +1,30 @@
+---
+ID: 2063
+post_title: Subsurface 4.4.2
+author: hohndel
+post_date: 2015-05-04 13:39:07
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2015/05/announcing-subsurface-4-4-2/
+published: true
+---
+A equipa de desenvolvimento do Subsurface, tem o prazer de anunciar o lançamento do Subsurface 4.4.2.
+
+Estão disponíveis binários para Windows, Mac e Linux (Ubuntu, Debian, Linux Mint, Fedora, and openSUSE). Consultar a página <a href="https://subsurface-divelog.org/download/">Transferir</a> para mais detalhes.
+
+<h2>Melhorias em relação à anterior versão (Subsurface 4.4.1)</h2>
+<ul>
+
+<li>Melhorias na edição de 'tags' quando estão seleccionados múltiplos mergulhos.</li>
+<li>Melhoria na definição das amostras, durante a transferência para divelogs.de</li>
+<li>Correcções várias em transferências do computador de mergulho UEMIS SDA</li>
+<li>Adicionado suporte para novos modelos de computador de mergulho Heinrichs & Weikamp OSTC 2 e OSTC 3</li>
+<li>Adicionado suporte para modelo de computador de mergulho Tusa IQ-700</li>
+<li>Adicionado suporte para modelo de computador de mergulho Mares Smart</li>
+<li>Adicionado suporte para novos modelos de computador de mergulho da DiveSystems iDive</li>
+<li>Adicionado suporte para novos modelos de computador de mergulho Scubapro Meridian e Chromis</li>
+<li>Adicionado/Melhorado suporte modelos de computador de mergulho Oceanic Veo 2, Veo 3 e VTX</li>
+</ul>
+<strong>Problemas conhecidos</strong> (conhecidos da versão 4.4 e 4.4.1):
+Suunto Eon Steel em MacOS não está a funcionar!

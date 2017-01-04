@@ -1,0 +1,27 @@
+---
+ID: 2159
+post_title: Subsurface 3.1 Lançada
+author: hohndel
+post_date: 2013-05-17 11:29:40
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2013/05/subsurface-3-1-has-been-released/
+published: true
+---
+O Time de desenvolvedores do subsurface está orgulhoso em anunciar o lançamento da mais nova versão do Subsurface.
+
+Novas alterações da versão ( Comparado com o Subsurface 3.0.2 )
+<ul>
+	<li>Adicinoadas Tags para os mergulhos (coisas como 'barco', 'praia', 'fundo', etc)</li>
+	<li>Filtragem por tags</li>
+	<li>Modificar eventos por um menu no gráfico do mergulho ( incluindo a habilidade de adicionar mudanças de gás )</li>
+	<li>Exportação direta para o serviço online  divelogs.de</li>
+	<li>Exportação de arquivos Suunto DM4</li>
+	<li>Melhorias na formatação da impressora</li>
+	<li>Suporte a impressão em cores</li>
+	<li>Planejamento de Mergulho: Adicionada opção para ultima parada em 6m/20pés</li>
+	<li>Adicionado suporte a Heinrichs Weikamp OSTC3 e Suunto DX</li>
+	<li>Suporte nativo do Shearwater Petrel (downloads muito mais rápidos)</li>
+	<li>Varios bugs corrigidos</li>
+</ul>

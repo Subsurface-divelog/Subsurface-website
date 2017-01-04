@@ -1,0 +1,38 @@
+---
+ID: 2134
+post_title: Subsurface 4.0 est sortie
+author: hohndel
+post_date: 2013-12-15 14:21:49
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2013/12/subsurface-4-0-has-been-released/
+published: true
+---
+Toute l'équipe de dévelopement de Subsurface est heureuse de vous annoncé la nouvelle version majeur de Subsurface.
+
+Avec la version 4.0 nous sommes passé à l'environement graphique <a href="http://qt-project.org/">Qt</a>. Ceci nous a amené à récrire une grande partie du code de Subsurface. Nous avons décidé de garder une partie de l'ancien code mais avons utilisé aussi cette opportunité pour l'améliorer.
+
+Les idées de basent n'ont pas changé et les fonctionnalités sont toujours présentes mais essayer de décrire de manière consises les changements qu'ont apporté les quelques 1600 commits (contributions) qu'il y a eu depuis la version 3.1 n'est pas une mince affaire.
+
+En voici cependant quelques uns:
+<ul>
+	<li>Une nouvelle visualisation du globe pour localiser vos plongées</li>
+	<li>Une meilleur intégration graphique sous Windows et Mac</li>
+	<li>Possibilité d'éditer les informations relatives à une plongée directement en cliquant simplement sur l'élément à éditer</li>
+	<li>Plus de champs pour chaque plongées, tous éditables directement sans passé par une nouvelle fenêtre ou un menu</li>
+	<li>Editeur graphique pour les profiles de plongées pour les plongées entré manuellement</li>
+	<li>Meilleur présentation des informations des profiles de plongées</li>
+	<li>Ajout d'une "règle" sur les profiles de plongées pour mesurer les informations disponibles entre deux point</li>
+	<li>Meilleur intégration d'un système de tag des plongées avec un set de tag prédéfini et la possibilité d'en ajouter</li>
+	<li>Meilleur intégration avec le project divelogs.de (chargement et téléchargement)</li>
+	<li>Possibilité de consulter le manuel de l'application depuis l'application en tant que telle, sans avoir besoin d'une connection internet ou de lancer un navigateur</li>
+	<li>Meilleur présentation des statistiques (notamment par voyage)</li>
+</ul>
+Comme toujours lors d'une ré-écriture d'un programme comme ici, il y a un petit nombre de bogues et problèmes connus, n'hésitez pas à lire les <a href="http://git.subsurface-divelog.org/?p=subsurface.git;a=blob;f=ReleaseNotes.txt;hb=refs/tags/v4.0">Notes de sorties (en anglais)</a> ou à consulter les <a href="http://trac.subsurface-divelog.org">rapports d'anomalies</a>.
+
+Les deux fonctionnalités manquantes (par rapports à 3.1.1) sont:
+<ul>
+	<li>La possibilité de sélectionner et filtrer un évênement</li>
+	<li>Le plannificateur de plongée a été désactivé pour le moment</li>
+</ul>

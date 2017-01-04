@@ -1,0 +1,13 @@
+---
+ID: 104
+post_title: '<!--:en-->Windows binaries<!--:-->'
+author: hohndel
+post_date: 2011-10-29 10:17:29
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2011/10/windows-binaries/
+published: true
+---
+<!--:en--><p>I've had quite a few requests, so the past week I've spent some spare cycles on making subsurface work under Windows and I just uploaded a Windows installer binary. Check it out if you have access to a Windows machine...</p>
+<p>You can find it on the <a href="https://subsurface-divelog.org/downloads/">Downloads</a> page.</p><!--:-->

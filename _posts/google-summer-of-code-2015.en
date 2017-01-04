@@ -1,0 +1,25 @@
+---
+ID: 1601
+post_title: Google Summer of Code 2015
+author: hohndel
+post_date: 2015-08-28 12:25:28
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2015/08/google-summer-of-code-2015/
+published: true
+---
+<!--:en-->We had an extremely successful summer - and a big part of this are the contributions of our four students that were part of the Google Summer of Code 2015.
+
+Four very interesting projects were accepted and the results of their work will be integrated into the upcoming Subsurface 4.5 release:
+<ul>
+	<li>Claudiu implemented Bluetooth support in Subsurface and a mechanism to integrate this into libdivecomputer which greatly improves the user experience for divers with Bluetooth enabled dive computers like the heinrichs weikamp OSTC (thanks to <a href="http://heinrichsweikamp.com/">heinrichs weikamp</a> for supporting this project by providing free equipment to Claudiu so he could successfully test his code)
+
+[caption id="attachment_1603" align="aligncenter" width="741"]<img class="size-full wp-image-1603" src="https://subsurface-divelog.org/wp-content/uploads/2015/08/BT.png" alt="Picking a BT connected dive computer" width="741" height="524" /> Picking a BT connected dive computer[/caption]</li>
+	<li>Gehad worked on a new printing subsystem that allows user customizable templates
+
+[caption id="attachment_1604" align="aligncenter" width="420"]<img class="size-full wp-image-1604" src="https://subsurface-divelog.org/wp-content/uploads/2015/08/print.png" alt="Sample print output" width="420" height="371" /> Sample print output[/caption]</li>
+	<li>Grace implemented a mobile UI for Subsurface that will allow us to have a full featured Subsurface app on Android</li>
+	<li>Jan implemented VPM-B for our dive planner so we now have two different deco algorithms available for dive planning</li>
+</ul>
+<!--:-->

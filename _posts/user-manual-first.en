@@ -1,0 +1,13 @@
+---
+ID: 145
+post_title: User Manual
+author: hohndel
+post_date: 2012-01-01 07:24:20
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2012/01/user-manual-first/
+published: true
+---
+<p>Thanks to Jacco van Koll over the last few weeks we have made tremendous progress towards a user manual. And I spent much of yesterday to convert that into docbook and put the tooling in place to easily keep a version on this website in sync with the documenation in the git tree. Special thanks to Remko Tronçon for his <a href="http://el-tramo.be/blog/integrating-docbook-with-wordpress/">docbook-kit</a> that made all this really easy.</p>
+<p>Please take a look and provide feedback: <a href="https://subsurface-divelog.org/documentation/user-manual">User Manual</a>.</p>

@@ -1,0 +1,38 @@
+---
+ID: 1840
+post_title: Contribuer
+author: hohndel
+post_date: 2011-10-06 09:18:48
+post_excerpt: ""
+layout: page
+permalink: >
+  https://subsurface-divelog.org/documentation/contributing/
+published: true
+---
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" global_module="1887" saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_line_height="1.3em" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+
+
+[/et_pb_post_title][et_pb_text admin_label="Text"]
+
+<p> Avant tout, il peut être utile de joindre notre  <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface"> liste de diffusion</a>.</p>
+<p> Pour modifier le code, envoyez vos correctifs signés. Si vous ne les signez pas, ils ne seront pas acceptés. Signer  un correctif correspond à ajouter la ligne « Signed-off-by: votre_nom <email>»  à la fin de chaque correctif. Cela indique que vous avez écrit ce code  et que vous avez légalement le droit de l'envoyer à un projet libre en  tant que correctif.</p>
+<p> Voir: <a href="http://gerrit.googlecode.com/svn/documentation/2.0/user-signedoffby.html"> ligne de signature « signed-off-by »</a></p>
+<p> Veuillez également faire écrire une description précise du correctif. En voici un exemple :<br />
+<code><br />
+        Corps de texte du correctif en quelques lignes, expliquant<br />
+        plus longuement pourquoi ce changement et éventuellement donnant des<br />
+        informations pour comprendre ce qui est corrigé ou ajouté ici, etc.</p>
+<p>        Le corps de texte peut être en plusieurs paragraphes et s'il vous plait,<br />
+        faites attention à garder la largeur inférieure à environ 74<br />
+        caractères. Ainsi « git log » affichera les messages correctement<br />
+        même quand c'est indenté.</p>
+<p>Reported-by: personne-qui-a-rapporté-l'anomalie<br />
+Signed-off-by: Votre-nom <youremail @yourhost.com><br />
+</code>
+</p>
+<p> La ligne d'entête doit décrire brièvement le correctif et tenir sur une seule ligne. C'est cette ligne qui est montrée par les outils tels que gitk ou shortlog. Elle doit présenter le changement sur une ligne de texte de façon lisible et compréhensible. </p>
+[caption id="attachment_42" align="aligncenter" width="761" caption="gitk sample"]<img src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Screenshot-gitk-subsurface-1.png" alt="gitk sample" title="gitk sample" width="761" height="757" class="size-full wp-image-42" />[/caption]
+<p></p>
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

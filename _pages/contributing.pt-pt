@@ -1,0 +1,65 @@
+---
+ID: 1845
+post_title: Contributing
+author: hohndel
+post_date: 2011-10-06 09:18:48
+post_excerpt: ""
+layout: page
+permalink: >
+  https://subsurface-divelog.org/documentation/contributing/
+published: true
+---
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" global_module="1887" saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_line_height="1.3em" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+
+
+[/et_pb_post_title][et_pb_text admin_label="Text"]
+
+It might be a good idea to join our <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">mailing list</a>. Conversation there is in English - even though this site (and Subsurface itself) are available in many languages, the shared language we all communicate in is English. Actually "Broken English" is just fine... :-)
+
+We also tend to have some developers hanging out in the <code>#subsurface</code> channel on <a href="http://freenode.net/">Freenode</a>.
+
+There are many ways in which you can contribute. We are always looking for testers who are willing to test the code while it is being developed. We especially need people running Windows and Mac (as the majority of the active developers are Linux people). We are also always looking for volunteers who help reviewing and improving the documentation. And very importantly we are looking for translators willing to translate the software into different languages. Our translations are centrally handled at <a href="https://www.transifex.com/">Transifex</a> - please sign up for an account there and then request to join the <a href="https://www.transifex.com/projects/p/subsurface/">Subsurface Team</a>.
+
+If you would like to contribute patches that fix bugs or add new features, that is of course especially welcome. If you are looking for places to start, look at the open bugs in our <a href="http://trac.subsurface-divelog.org">bug tracker</a>.
+
+Here is a very brief introduction on creating commits that you can send to the mailing list. Much more details on how to use git can be found at the <a href="https://www.kernel.org/pub/software/scm/git/docs/user-manual.html">git user manual</a>.
+
+Start with getting the latest source (look at the <a href="https://subsurface-divelog.org/building/">Building Page</a> to find out how).
+<code>cd subsurface
+git checkout master
+git pull</code>
+ok, now we know you're on the latest version. Create a working branch to keep your development in:
+<code>git checkout -b devel</code>
+Edit the code (or documentation), compile, test... then create a commit:
+<code>git commit -s -a</code>
+Depending on your OS this will open a default editor - usually you can define which by setting the environment variable <code>GIT_EDITOR</code>. Here you enter your commit message. The first line is the title of your commit. Keep it brief and to the point. Then a longer explanation (more on this and the fact that we insist on all contributions containing a Signed-off-by: line below).
+If you want to change the commit message, "git commit --amend" is the way to go. Feel free to break your changes into multiple smaller commits. Then, when you are done run
+<code>git format-patch master..devel</code>
+Which creates a number of files that have names like 0001-Commit-title.patch.
+
+When sending code, please either send signed-off patches or a pull request with signed-off commits. If you don't sign off on them, we will not accept them. This means adding a line that says "Signed-off-by: Name " at the end of each commit, indicating that you wrote the code and have the right to pass it on as an open source patch.
+
+See: <a href="http://gerrit.googlecode.com/svn/documentation/2.0/user-signedoffby.html">Signed-off-by Lines</a>
+
+Also, please write good git commit messages. A good commit message looks like this:
+
+Header line: explaining the commit in one line
+
+Body of commit message is a few lines of text, explaining things
+in more detail, possibly giving some background about the issue
+being fixed, etc etc.
+
+The body of the commit message can be several paragrahps, and
+please do proper word-wrap and keep columns shorter than about
+74 characters or so. That way "git log" will show things
+nicely even when it's indented.
+
+Reported-by: whoever-reported-it
+Signed-off-by: Your Name
+
+That header line really should be meaningful, and really should be just one line. The header line is what is shown by tools like gitk and shortlog, and should summarize the change in one readable line of text, independently of the longer explanation.
+
+[caption id="attachment_42" align="aligncenter" width="761"]<img class="size-full wp-image-42" title="Exemple avec gitk" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Screenshot-gitk-subsurface-1.png" alt="gitk sample" width="761" height="757" /> Exemple with gitk[/caption]
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

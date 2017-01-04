@@ -1,0 +1,43 @@
+---
+ID: 1722
+post_title: Scarica
+author: hohndel
+post_date: 2011-10-12 20:59:58
+post_excerpt: ""
+layout: page
+permalink: https://subsurface-divelog.org/download/
+published: true
+---
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" global_module="1887" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid" saved_tabs="all" title_font="|on|||" title_font_size="31px" title_text_color="#204a87"]
+
+
+
+[/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+[himage][s-var slug="exeurl"]<img src="/wp-content/uploads/2011/10/en-button-win.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-win-hover.png" alt="" height="54" width="288">[/himage] [himage][s-var slug="dmgurl"]<img src="/wp-content/uploads/2011/10/en-button-mac.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-mac-hover.png" alt="" height="54" width="288">[/himage]
+<h2>Windows</h2>
+[s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] è una versione a 32/64bit che è stata provata su diverse versioni di Windows, tra cui XP, Windows 7 e Windows 8.<p></p>
+<h2>Mac</h2>
+[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] è una immagine Mac che può essere installata su Mac Intel a 64bit con MacOS 10.7 o successivo , copiando Subsurface.app nella cartella <code>/Applications</code>.<p></p>
+<h2>Linux</h2>
+<p>Il team di Subsurface mette a disposizione binari precompilati per alcune distribuzioni Linux. Al momento sono disponibili per Ubuntu (14.04, 15.04, 15.10 e 16.04), LinuxMint (17), e Debian Jessie.<br>
+Per usare questi binari in Ubuntu, bisogna aggiungere il PPA al sistema:</p>
+<pre><code>ppa:subsurface/subsurface</code></pre>
+<p>Sembra che su LinuxMint si debba richiedere esplicitamente la versione di Subsurface dal PPA, o si ottiene quella più vecchia dai repository ufficiali. Quindi i passi necessari sono:</p>
+<pre><code>sudo apt-add-repository ppa:subsurface/subsurface
+sudo apt-get install subsurface=[s-var slug="latest"]-1~trusty</code></pre>
+<p>Per Debian Jesse è necessario aggiungere i repository Ubuntu:</p>
+<pre><code style="font-size: 10px;">echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main" 
+        | sudo tee /etc/apt/sources.lists.d/subsurface.list
+gpg --keyserver subkeys.pgp.net --recv-keys A8BC9756EE61D9C6
+gpg -a --export A8BC9756EE61D9C6 | sudo apt-key add -
+sudo apt-get update</code></pre>
+<p>Adesso è possibile installare Subsurface dal nuovo repository:</p>
+<pre><code style="font-size: 10px;">sudo apt-get install subsurface</code></pre>
+<p>Assicurarsi di avere una versione aggiornata delle librerie Qt5.</p>
+<p>In aggiunta, molte distribuzioni consentono l'installazione di Subsurface direttamente dai repository principali. Nonostante questo sia molto comodo, le versioni presenti sono spesso poco aggiornate e non utilizzano le versioni modificate di alcune librerie importanti per Subsurface; quindi i pacchetti ufficiali (ottenuti da questo sito) dovrebbero essere una scelta migliore.</p>
+<h2>Sorgenti</h2>
+<p>I sorgenti sono disponibili via <a href="http://git.subsurface-divelog.org/index.cgi?p=subsurface.git;a=summary">git</a> o sotto forma di release tarball [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] I sorgenti dei componenti sotto licenza GPL e LGPL forniti nei file binari Windows e Mac sono disponibili in <a href="http://www.macports.org/">MacPorts</a> e <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.</p>
+<p></p>
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

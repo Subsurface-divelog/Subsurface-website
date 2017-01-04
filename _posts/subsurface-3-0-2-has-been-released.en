@@ -1,0 +1,85 @@
+---
+ID: 505
+post_title: '<!--:en-->Subsurface 3.0.2 has been released<!--:--><!--:de-->Subsurface 3.0.2 freigegeben<!--:--><!--:fr-->Subsurface 3.0.2 est sortie<!--:--><!--:es-->Subsurface 3.0.2 ha sido liberado<!--:-->'
+author: hohndel
+post_date: 2013-03-04 07:35:34
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2013/03/subsurface-3-0-2-has-been-released/
+published: true
+---
+<!--:en-->The Subsurface developer team is proud to announce the release of another small update of Subsurface.
+
+This update was mainly triggered by a bug in the handling of pO2 values read from CCR / rebreather dive computers. This bug can lead to incorrect data being stored in the Subsurface XML file. Installing Subsurface 3.0.2 and re-downloading the dives will correct the incorrect data. In order to re-download the dives connect your dive computer (this should only affect people with certain tec dive computers like the Shearwater Petrel or Predator that store pO2 values read from a pO2 sensor in their dive log), open the download dialog, check the box "Force download of all dives" and download your dives. After you save your data file the correct pO2 data should be stored in the samples.
+
+If you are using one of those dive computers, have saved data files with Subsurface 3.0 or 3.0.1 and have since deleted those dives from your dive computers, please contact the developers as we also have an experimental script that should be able to fix incorrect XML files - but re-downloading the data is the much more reliable way to address this issue.
+
+In addition to this bug fix, 3.0.2 brings a number of other improvements:
+<ul>
+	<li>A Portuguese localization of Subsurface was added.</li>
+	<li>Subsurface now remembers its window size and pane layout the next time it is started.</li>
+	<li>Several importers for data for third party dive software were improved.</li>
+	<li>Dives from the Heinrichs &amp; Weikamp DR5 and from <a href="http://wrobell.it-zone.org/kenozooid/">kenozooid</a> can now be imported into Subsurface.</li>
+	<li>A crash with localized versions of Subsurface on Mac was resolved.</li>
+	<li>The map provider for the GPS maps is now configurable.</li>
+	<li>The layout of some dialog boxes was changed to improve usability on small screens.</li>
+	<li>It is now easier to edit date and time of existing dives (and you can now edit duration, maximum and average depth for dives that were manually entered).</li>
+	<li>Several small bugs were addressed.</li>
+</ul>
+As an interesting side note, almost all of these changes were triggered by reports made to our <a href="http://trac.subsurface-divelog.org">bug and feature-request tracker</a>.<!--:--><!--:de-->Das Subsurface Entwicklerteam veröffentlicht ein weiteres Update.
+
+Hauptgrund ist ein Fehler, der bei Verwendung von Tauchcomputern in Verwendung mit Kreislauftauchgeräten auftreten kann. Dieser kann dazu führen, dass die gespeicherten XML Daten verfälscht werden, betroffen sind vor allem technische Tauchcomputer die den Sauerstoffpartialdruck speichern, z.B. der Shearwater Predator oder Petrel. Ein erneuter Download dieser Daten vom Tauchcomputer mit Subsurface 3.0.2 korrigiert dieses Problem.
+
+Beim erneuten Download der Daten ist es wichtig, dass die Option "Force download of all dives" gewählt wird, falls dies nicht mehr möglich ist, kontaktieren Sie bitte die Subsurface Entwickler für Alternativen, der erneute Download wird aber als Lösung empfohlen.
+
+Im Vergleich zur Vorgängerversion gibt es folgende Verbesserungen:
+<ul>
+	<li>Übersetzung ins Portugiesische</li>
+	<li>Subsurface merkt sich jetzt Fenster- und Panel-Positionen und Größen</li>
+	<li>Mehrere Importer für Daten von anderen Tauch-Logbuch Programmen wurden verbessert</li>
+	<li>Importe von Heinrichs & Weikamp Tauchcomputer DR5 sowie von <a href="http://wrobell.it-zone.org/kenozooid/">kenozooid</a> sind nun möglich</li>
+	<li>Ein Fehler in lokalisierten Mac versionen wurde behoben</li>
+	<li>Der Karten-Lieferant für die Positonswahl ist nun konfigurierbar</li>
+	<li>Das Layout der Dialogboxen wurde für die Verwendung auf kleineren Bildschirmen verbessert</li>
+	<li>Es ist jetzt möglich, das Datum existierender Tauchgänge zu verändern, auch Dauer, maximale und durchschnittliche Tiefe sind veränderbar für manuell erfasste Tauchgänge</li>
+	<li>Einige kleinere Fehler wurden verbessert</li>
+</ul>
+Anmerkung:  Nahezu alle diese Änderungen sind auf die zahlreichen Rückmeldungen zu Release 3.0 im <a href="http://trac.subsurface-divelog.org">bug and feature-request tracker</a> zurückzuführen, Vielen Dank :-).<!--:--><!--:fr-->L'équipe de développement de Subsurface est fière d'annoncer la sortie d'une autre petite mise à jour de Subsurface.
+
+Cette mise à jour est principalement due à une erreur dans la gestion de la valeur pO2 par des ordinateurs de plongée CCR / recycleur. Ce bug peut conduire à stocker des données incorrectes dans le fichier XML de Subsurface. L'installation de Subsurface 3.0.2 et le fait de télécharger de nouveau les plongées corrigeront les données erronées. Pour retélécharger les plongées, connectez votre ordinateur de plongée (cela ne devrait concerner que les personnes ayant certains ordinateurs de plongée technique comme le Shearwater Petrel ou Predator qui stockent les valeurs pO2 lues à partir d'un capteur de pO2 dans leur carnet de plongée), ouvrez la boîte de dialogue de téléchargement, cochez la case «Forcer le téléchargement de toutes les plongées" et téléchargez vos plongées. Après avoir enregistré votre fichier de données, les valeurs correctes de pO2 doivent être stockées.
+
+Si vous utilisez l'un de ces ordinateurs de plongée, que vous avez enregistré les données depuis Subsurface 3.0 ou 3.0.1 et que vous avez supprimé ces plongées de vos ordinateurs de plongée, contactez s'il vous plait les développeurs, car nous avons également un script expérimental qui devrait être en mesure d'arranger les erreurs du fichier XML - mais retélécharger les données est le moyen le plus fiable pour régler ce problème.
+
+En plus de la correction du bogue, la version 3.0.2 apporte un certain nombre d'autres améliorations:
+<ul>
+	<li>Une traduction en portugais de Subsurface a été ajoutée.</li>
+	<li>Subsurface se souvient maintenant de la taille de sa fenêtre et du volet au prochain lancement.</li>
+	<li>Les importations de données depuis des logiciels de plongée tiers ont été améliorées.</li>
+	<li>Les plongées faites avec des Heinrichs & Weikamp DR5 et <a href="http://wrobell.it-zone.org/kenozooid/">kenozooid</a> peuvent désormais être importées dans Subsurface.</li>
+	<li>Un plantage avec des versions traduites de Subsurface sur Mac a été résolu.</li>
+	<li>Le fournisseur de carte pour les cartes GPS est maintenant configurable.</li>
+	<li>La disposition de certaines boîtes de dialogue a été modifiée pour améliorer l'utilisation sur de petits écrans.</li>
+	<li>Il est désormais plus facile de modifier la date et l'heure de plongées existantes (et vous pouvez maintenant modifier la durée, la profondeur maximum et moyenne pour les plongées qui ont été saisies manuellement).</li>
+	<li>Plusieurs petits bogues ont été corrigés.</li>
+</ul>
+Note intéressante: la quasi-totalité de ces changements a été reportée sur notre <a href="http://trac.subsurface-divelog.org/">bugtracker</a>.<!--:--><!--:es-->El equipo de desarrolladores de Subsurface esta orgulloso de anunciar la liberación de otra actualización de Subsurface.
+
+Esta actualización ha sido provocada, principalmente, por un defecto en el manejo de los valores de pO2 leídos desde computadores de buceo para CCR / rebreather. Este fallo puede derivar en que los datos sean almacenados incorrectamente en el archivo XML de Subsurface. Instalando Subsurface 3.0.2 y volviendo a bajar los buceos corregirá los datos erróneos automáticamente. Para volver a bajar los buceos, conecta el computador de buceo (esto debería afectar solamente a personas con cierto tipo de computadores de buceo técnico como el Shearwater Petrel o Predator que almacenan los valores de pO2 leídos por el sensor de pO2 y los almacena en el archivo XML), abre el dialogo para bajar los buceos, marca la opción "Forzar bajar todos los buceos" y baja los buceos. Después de guardar el archivo XML, los valores correctos de pO2 deberían estar almacenados en los buceos en cuestión.
+
+Si estas usando uno de estos computadores de buceo, y has guardado archivos XML con datos  con Subsurface 3.0 o 3.0.1 y has borrado estos buceos de tu computador de buceo, por favor contacta a los desarrolladores porque tenemos un programa experimental  que debería ser capaz de arreglar los archivos XML con datos erróneos.
+Volver a bajar los datos desde el computador es la manera más segura y fácil de arreglar este problema.
+
+Además de solucionar este fallo en particular, 3.0.2 incorpora muchas otras mejoras:
+<ul>
+	<li>Soporte en Subsurface para Portugués ha sido agregado.</li>
+	<li>Subsurface ahora recuerda el tamaño de la ventana y la disposición de los paneles la próxima vez que sea arrancado.</li>
+	<li>Se han mejorado varios importadores de datos desde otros programas.</li>
+	<li>Los buceos desde Heinrichs &amp; Weikamp DR5 y desde <a href="http://wrobell.it-zone.org/kenozooid/">kenozooid</a> se pueden importar ahora en Subsurface.</li>
+	<li>Una caída del programa con ciertos lenguajes en Mac se ha corregido.</li>
+	<li>El usuario puede ahora configurar al proveedor de los mapas GPS.</li>
+	<li>La disposición de algunas ventanas de dialogo se cambiaron para mejorar el uso de la aplicación en ventanas pequeñas.</li>
+	<li>Ahora es más fácil editar fecha y hora en los buceos existentes (y se puede editar la duración, profundidad máxima y promedio de buceos ingresados manualmente).</li>
+	<li>Varios pequeños fallos se han solucionado.</li>
+</ul>
+Es muy interesante notar que la mayoría de estos cambios fueron iniciados por reportes hechos en <a href="http://trac.subsurface-divelog.org">bug and feature-request tracker</a>.<!--:-->

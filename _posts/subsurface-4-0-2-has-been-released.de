@@ -1,0 +1,23 @@
+---
+ID: 2120
+post_title: Subsurface 4.0.2 freigegeben
+author: hohndel
+post_date: 2014-01-09 04:56:08
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2014/01/subsurface-4-0-2-has-been-released/
+published: true
+---
+The Subsurface team is proud to announce another small bugfix and enhancement update to Subsurface.
+
+New in version 4.0.2 compared to Subsurface 4.0.1:
+<ul>
+	<li>fixed potential crash when importing dive data without dive computer model information</li>
+	<li>improve parsing of equipment data; this now accepts localized units as well as input in units that are not the display units (so if you run Subsurface in metric, but went diving in a place where weights are in US Pounds (lbs), you can now enter the weight in lbs and Subsurface does the right thing)</li>
+	<li>fix temperature conversion when downloading data from Uemis SDA</li>
+	<li>improve autocompletion to always be case insensitive</li>
+	<li>improve selection handling in the dive list</li>
+	<li>include event data in libdivecomputer dump</li>
+	<li>improve profiles generated for dives with no depth samples and no average depth</li>
+</ul>

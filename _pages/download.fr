@@ -1,0 +1,54 @@
+---
+ID: 1720
+post_title: Télécharger
+author: hohndel
+post_date: 2011-10-12 20:59:58
+post_excerpt: ""
+layout: page
+permalink: https://subsurface-divelog.org/download/
+published: true
+---
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" global_module="1887" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid" saved_tabs="all" title_font="|on|||" title_font_size="31px" title_text_color="#204a87"]
+
+
+
+[/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+[himage][s-var slug="exeurl"]<img src="/wp-content/uploads/2011/10/fr-button-win.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/fr-button-win-hover.png" alt="" height="54" width="288">[/himage] [himage][s-var slug="dmgurl"]<img src="/wp-content/uploads/2011/10/fr-button-mac.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/fr-button-mac-hover.png" alt="" height="54" width="288">[/himage]
+<h2>Windows</h2>
+[s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] est un logiciel 32/64&nbsp;bit, testé sur Windows XP, Windows 7 et Windows 8.<p></p>
+<h2>Mac</h2>
+[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] est une image Mac qui peut être installée, sur les Macs Intel 64 bits utilisant MacOS 10.7 ou plus récent, en plaçant le fichier Subsurface.app dans votre dossier <code>/Applications</code>.<p></p>
+<h2>Linux</h2>
+<p>Nous proposons une installation simple à partir de nos propres binaires pour plusieurs versions de Linux.</p>
+<h2>Ubuntu (14.04, 15.04, 15.10, 16.04), LinuxMint (17), and Debian Jessie</h2>
+<p>Pour utiliser ces binaires depuis Ubuntu, ajouter simplement le PPA suivant à votre système :</p>
+<pre><code>ppa:subsurface/subsurface</code></pre>
+<ul>
+<li>Ouvrir le centre de logiciels Ubuntu</li>
+<li>Edition –&gt; Sources de logiciels</li>
+<li>Autres logiciels –&gt; Ajouter –&gt; ppa:subsurface/subsurface</li>
+<li>Fermer et rechercher Subsurface. Installer.</li>
+</ul>
+<p>Il semble que sur Linux Mint, il faut utiliser les lignes de commande suivantes, sinon l'ancienne version 4.0 est installée :</p>
+<pre><code>sudo apt-add-repository ppa:subsurface/subsurface
+sudo apt-get install subsurface=[s-var slug="latest"]-1~trust</code></pre>
+<p>Pour Debian Jessie, il faut ajouter le dépôt Ubuntu :</p>
+<pre><code>echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main" 
+        | sudo tee /etc/apt/sources.lists.d/subsurface.list
+gpg --keyserver subkeys.pgp.net --recv-keys A8BC9756EE61D9C6
+gpg -a --export A8BC9756EE61D9C6 | sudo apt-key add -
+sudo apt-get update</code></pre>
+<p>Il suffit à présent d'installer Subsurface depuis le dépôt :</p>
+<pre><code>sudo apt-get install subsurface</code></pre>
+<p>Assurez-vous d'obtenir la dernière version avec toutes les dépendances Qt5.</p>
+<h2>OpenSUSE 13.1 / 13.2 / Tumbleweed et Fedora 22&lt; / 23/h2&gt;
+<p>Pour installer les paquets Subsurface officiels sous openSUSE 13.1, 13.2, ou Tumbleweed ainsi que Fedora 22, 23, allez sur <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">our build service project page</a> et suivez les instructions, simplement quelques clics.</p>
+<h2>All other 64bit Linux versions</h2>
+A generic AppImage is available for download as [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"]. You should be able to download this file, make it executable <code>chmod +x [s-var slug="appimage"]</code> and then simply run this file. We are very interested in feedback regarding this way of distributing Linux binaries.
+</h2><h2>Paquets maintenus par les distributions obsolètes</h2>
+<p>Plusieurs distributions Linux permettent d'installer Subsurface à partir de l'OS. C'est pratique mais les versions offertes sont obsolètes et ne sont pas compilées avec nos propres bibliothèques, donc les paquets officiels de Subsurface (tels qu'ils sont disponibles à présent) devraient être un bien meilleur choix.</p>
+<h2>Sources</h2>
+<p>Les sources de Subsurface sont bien sûr disponibles via <a href="http://git.subsurface-divelog.org/index.cgi?p=subsurface.git;a=summary">git</a> ou sous forme d'une archive : [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] Les sources des composants GPL et LGPL incluses dans les binaires pour Windows et Mac OS peuvent être trouvées via <a href="http://www.macports.org/">MacPorts</a> et <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.</p>
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

@@ -1,0 +1,48 @@
+---
+ID: 1721
+post_title: Programm herunterladen
+author: hohndel
+post_date: 2011-10-12 20:59:58
+post_excerpt: ""
+layout: page
+permalink: https://subsurface-divelog.org/download/
+published: true
+---
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" global_module="1887" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid" saved_tabs="all" title_font="|on|||" title_font_size="31px" title_text_color="#204a87"]
+
+
+
+[/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+[himage][s-var slug="exeurl"]<img src="/wp-content/uploads/2011/10/de-button-win.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/de-button-win-hover.png" alt="" height="54" width="288">[/himage] [himage][s-var slug="dmgurl"]<img src="/wp-content/uploads/2011/10/de-button-mac.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/de-button-mac-hover.png" alt="" height="54" width="288">[/himage]
+<h2>Windows</h2>
+[s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] ist ein ausführbares Programm für das Windows Betriebssystem, das unter verschiedenen 32- und 64-bit Windows Versionen getestet ist.<p></p>
+<h2>Mac</h2>
+[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] ist eine Image-Datei für 64-bit Intel Macs unter MacOS 10.7 oder neuer; ein Doppelklick auf diese Datei öffnet den Datenträger. Das dadurch sichtbar werdende Programm "Subsurface.app" kann installiert werden, indem es auf den <code>/Programme</code> Ordner gezogen wird.<p></p>
+<h2>Linux</h2>
+Das Subsurface Team stellt seine eigenen Binaries für verschiedene Linux Versionen zur Verfügung.
+<h2>Ubuntu (14.04, 15.04, 15.10, 16.04), LinuxMint (17), und Debian Jessie</h2>
+In Ubuntu reicht es aus, folgendes PPA einzufügen:
+<pre><code>ppa:subsurface/subsurface</code></pre>
+Für LinuxMint muss man scheinbar explizit die PPA Version von Subsurface installieren, ansonsten wird die veraltete  Subsurface installiert:
+<pre><code>sudo apt-add-repository ppa:subsurface/subsurface
+sudo apt-get install subsurface=[s-var slug="latest"]-1~trusty</code></pre>
+Für Debian Jessie muss das Ubuntu Repository angefordert werden:
+<pre><code style="font-size: 10px;">echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main" 
+        | sudo tee /etc/apt/sources.lists.d/subsurface.list
+gpg --keyserver subkeys.pgp.net --recv-keys A8BC9756EE61D9C6
+gpg -a --export A8BC9756EE61D9C6 | sudo apt-key add -
+sudo apt-get update</code></pre>
+Jetzt kann man Subsurface aus diesem Repository installieren:
+<pre><code style="font-size: 10px;">sudo apt-get install subsurface</code></pre>
+<h2>OpenSUSE 13.1 / 13.2 / Tumbleweed und Fedora 22, 23</h2>
+Die offiziellen Subsurface Pakete für OpenSUSE 13.1, 13.2, oder Tumbleweed sowie Fedora 22, 23, können direkt von <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">unserem Build Service Projekt</a> installiert werden.
+<h2>Alle anderen 64bit Linux Versionen</h2>
+Ein generisches AppImage kann als [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"] heruntergeladen werden. Einfach diese Datei ausfürbar machen <code>chmod +x [s-var slug="appimage"]</code> und dann starten.
+<h2>Pakete in den Distributionen</h2>
+Einige Linux Distributionen beinhalten ihre eigenen Subsurface Pakete. Dies ist sehr einfach für die Benutzer, aber leider sind diese Versionen oft veraltet und werden nicht mit unseren Versionen einiger sehr wichtiger Bibliotheken gebaut. Aus diesem Grund empfehlen wir, die von uns bereitgestellten Pakete zu benutzen.
+<h2>Quelltext</h2>
+<p>Der subsurface Quelltext ist verfügbar über die <a href="http://git.subsurface-divelog.org/index.cgi?p=subsurface.git;a=summary">git</a> Quelltextverwaltung oder als komprimiertes tar-Archiv [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] Der Quelltext der GPL und LGPL Komponenten, die mit den ausführbaren Mac und Windows Dateien ausgeliefert werden, findet sich bei <a href="http://www.macports.org/">MacPorts</a> und <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.</p>
+<p></p>
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

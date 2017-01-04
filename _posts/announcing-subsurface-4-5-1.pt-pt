@@ -1,0 +1,28 @@
+---
+ID: 2444
+post_title: Actualização Subsurface 4.5.1
+author: Eduardo Ramalho
+post_date: 2015-10-27 03:22:04
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2015/10/announcing-subsurface-4-5-1/
+published: true
+---
+A equipa de desenvolvimento do Subsurface tem o prazer de anunciar a actualização da aplicação de registo e planeamento de mergulho Subsurface, para a versão 4.5.1.
+
+Estas são algumas das actualizações:
+<ul>
+	<li>Correcções nas traduções, uma das quais causava um crash da aplicação.</li>
+	<li>Correcção de dois problema relacionados com a integração com a página "divelogs.de".</li>
+	<li>Correcção na edição de modelos de impressão.</li>
+	<li>Suporte em Mac para computadores Suunto EON Steel.</li>
+	<li>Transferência dos tamanhos das garrafas guardados em Suunto EON Steel</li>
+	<li>Melhoria no suporte para mergulho livre/apneia.</li>
+	<li>Melhoria em algoritmos.</li>
+	<li>Correcções diversas na interface gráfica.</li>
+</ul>
+&nbsp;
+
+A aplicação está disponivel para Windows, Mac e diversas variantes de Linux (Ubuntu, Debian, Linux Mint, Fedora, and openSUSE).
+Verificar a página de <a href="https://subsurface-divelog.org/pt-pt/download/">Transferências</a> para mais informação.

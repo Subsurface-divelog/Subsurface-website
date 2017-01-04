@@ -1,0 +1,30 @@
+---
+ID: 2439
+post_title: Actualização Subsurface 4.5.3
+author: Eduardo Ramalho
+post_date: 2015-12-14 02:45:40
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2015/12/announcing-subsurface-4-5-3/
+published: true
+---
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text"]
+
+A equipa de desenvolvimento do Subsurface tem o prazer de anunciar a actualização da aplicação de registo e planeamento de mergulho Subsurface, para a versão 4.5.3.
+
+Estes são algumas das actualizações:
+<ul>
+	<li>Correcção em mensagens confusas relacionadas com o número de tanques e gases em alguns computadores de mergulho da Suunto.</li>
+	<li>Correcção com falta a falta de temperaturas em alguns dos computadores de mergulho da Suunto.</li>
+	<li>Correcções pontuais para Uemis.</li>
+	<li>Correcções relacionadas com inconsistências do interface gráfico (GUI).</li>
+	<li>Cloud storage (Armazenamento da Nuvem): Não é mais guardado imagens devido a tempo excessivo de sincronização de dados.</li>
+	<li>Quando se escreve o o nome de uma localização de mergulho, é feita uma pesquisa nos nomes já conhecidos em qualquer parte do nome (e não só no inicio dos nomes). O objectivo é facilitar a pesquisa, quando só se recorda parte do nome.</li>
+	<li>Correcções na importação de dados a partir de outros formatos.</li>
+	<li>Actualização do manual (em inglês).</li>
+</ul>
+A aplicação está disponivel para Windows, Mac e diversas variantes de Linux (Ubuntu, Debian, Linux Mint, Fedora, and openSUSE).
+Verificar a página de <a href="https://subsurface-divelog.org/pt-pt/download/">Transferências</a> para mais informação.
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

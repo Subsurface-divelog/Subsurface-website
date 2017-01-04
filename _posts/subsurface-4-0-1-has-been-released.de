@@ -1,0 +1,24 @@
+---
+ID: 2125
+post_title: Subsurface 4.0.1 veröffentlicht
+author: hohndel
+post_date: 2014-01-03 08:49:33
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2014/01/subsurface-4-0-1-has-been-released/
+published: true
+---
+<p>Das Subsurface Team präsentiert stolz eine neue Version von Subsurface</p>
+<p>Neu in Version 4.0.1 verglichen mit Subsurface 4.0:<ul>
+<li> mehrere Fehler im Umgang mit nicht-ASCII Text sowohl in den Text Feldern als auch in Windows Datei Namen behoben</li>
+<li> Unterstützung für libdivecomputer Log- und Dump Dateien</li>
+<li> viele Verbesserungen beim Importiere und Exportieren von anderen Datei Formaten</li>
+<li> XSLT Dateien sind nun als Resources Teil der ausführbaren Datei; damit werden Probleme mit dem Finden dieser Dateien zur Laufzeit vermieden</li>
+<li> Unterstützung für mehr Formate für GPS Koordinaten</li>
+<li> mehrere Fehler rund um das Bearbeiten von von Hand eingegebenen Tauchgängen behoben</li>
+<li> mehrere Fehler rund um das Eingeben von Daten für Gewichte und Flaschen behoben</li>
+<li> Unterstützung von bis zu 6 Gewichten</li>
+<li> Auswahl des Fonts in den Einstellungen wird nun respektiert</li>
+<li> bessere Integration mit dunklen Benutzerintterface Themen</li>
+<li> Unterstützung für ältere Versionen von Mac OS/X  (>= 10.5)</li></ul></p>

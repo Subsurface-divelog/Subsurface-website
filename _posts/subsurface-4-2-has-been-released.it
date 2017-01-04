@@ -1,0 +1,33 @@
+---
+ID: 2092
+post_title: 'E&#8217; stata rilasciato Subsurface 4.2'
+author: hohndel
+post_date: 2014-08-08 13:42:43
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2014/08/subsurface-4-2-has-been-released/
+published: true
+---
+<p>Il team di sviluppatori di subsurface &egrave; orgoglioso di annunciare il
+rilascio della  nuova versione di Subsusrface. La versione 4.2
+contiene numerosi bugfix e miglioramenti rispetto alla versione 4.1. I
+miglioramenti includono:</p>
+
+<ul>
+<li>L'installer per windows adesso &egrave; a 64bit e comprende Qt5</li>
+<li>C'&egrave; ancora un installer a 32bit deprecato che include Qt4 ma ha diversi problemi noti (tra cui, la stampa ha diversi bug corretti da Qt5).</li>
+<li>Anche l'installer per Mac &egrave; stato aggiornato a Qt5</li>
+<li>Le versioni per Windows e Mac usano una versione aggiornata di libdivecomputer.</li>
+<li>E' stato di nuovo aggiunto un pianificatore di immersioni che utilizza l'editor grafico del profilo; Il pianificatore supporta differenti velocit&agrave; di risalita, "breaks" con il gas di fondo durante la decompressione e molte altre interessanti funzionalit&agrave;. Permette all'utente di stampare anche solo la pianificazione dell'immersione (senza il profilo grafico) con l'unico inconveniente di non poter attualmente ri-pianificare una immersione, ovvero, una volta salvata una pianificazione, non pu&ograve; pi&ugrave; essere modificata ma &egrave; necessario ricominciare da capo. Questo problema sar&agrave; risolto nelle prossime versioni.</li>
+<li>Le foto possono essere associate alle immersioni e mostrate nel profilo.</li>
+<li>La stampa &egrave; stata notevolmente migliorata (leggere i punti precedenti); adesso include una modalit&agrave; "1 immersione per pagina", un rendering su stampa migliorato (a nostro giudizio) e una migliore presentazione dei dati di immersione.</li>
+<li>L'inserimento dei dati di immersione &egrave; pi&ugrave; coerente e intuitivo.</li>
+<li>E' stato introdotta una funzionalit&agrave; di esportazione dei log di immersione in HTML che funziona abbastanza bene (&egrave; ancora in via di sviluppo ma &egrave; gi&agrave; abbastanza potente  anche se ancora manca il supporto alla localizzazione).</li>
+<li>Aggiunto il supporto per importare i dati dai computer Seabear.</li>
+<li>Aggiunto un sondaggio per conoscere meglio le esigenze dei nostrti utenti.</li>
+<li>Il manuale utente &egrave; stato migliorato.</li>
+<li>Il manuale utente &egrave; stato tradotto anche in spagnolo e russo.</li>
+</ul>
+
+<p>Se stai usando Subsurface 4.1 su Windows o Mac, dovresti essere in grado di ottenere gli aggiornamenti direttamente dall'applicazione tramite il men&ugrave; "Aiuto". Altrimenti &egrave; possibile trovare i i link per i download sulla nostra <a href="https://subsurface-divelog.org/download/">Pagina Download</a>. Nota che se stai usando una versione di Windows a 32bit, l'installer di default funziona solo su sistemi a 64bit.</p>

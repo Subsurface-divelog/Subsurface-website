@@ -1,0 +1,36 @@
+---
+ID: 2568
+post_title: Actualização Subsurface 4.5.4
+author: hohndel
+post_date: 2016-03-27 03:18:10
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2016/03/announcing-subsurface-4-5-4/
+published: true
+---
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text"]
+
+A equipa de desenvolvimento tem o prazer de anunciar a actualização para a versão 4.5.4, da aplicação de registo e planeamento de mergulho Subsurface.
+
+Estas são algumas das melhorias:
+<ul>
+	<li>Actualizações via biblioteca <strong>libdivecomputer</strong>:
+<ul>
+	<li>Correcções de erros na leitura de dados dos computadores de mergulho: Shearmos Amphos Air, Shearwater Predator, modelos da Oceanic diversos).</li>
+	<li>Suporte para Oceanic / Aeris F11, DiveSystem iX3M, Shearwater Perdix.</li>
+	<li>Correcções diversas na importação de dados do formato CSV, da página "divelogs.de" e de outras fontes.</li>
+</ul>
+</li>
+	<li>Melhoria no suporte de configuração do OSTC3.</li>
+	<li>Correcção de um erro de arredondamento na exportação de sistemas de pesos.</li>
+	<li>Interpretar correctamente valores de salinidade (em vez de densidade), em XML.</li>
+	<li>Adicção de estatísticas por tipo de mergulho.</li>
+	<li>Melhorias pontuais no interface gráfico (GUI).</li>
+</ul>
+&nbsp;
+
+Os binários estão disponiveis para Windows, Mac e Linux (este último com binários específicos para várias distribuições: Ubuntu, Debian, Linux Mint, Fedora, and openSUSE ou então como no modo AppImage).
+Consultar a página Tranferências (Downloads) para mais detalhes.
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

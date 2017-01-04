@@ -1,0 +1,20 @@
+---
+ID: 2147
+post_title: Subsurface 3.1.1 est sortie
+author: hohndel
+post_date: 2013-06-30 10:59:03
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2013/06/subsurface-3-1-1-has-been-released/
+published: true
+---
+<p>L'équipe de developpeurs de Subsurface est fière de vous annoncer la sortie de la dernière version de Subsurface.</p>
+<p>Nouveautés de la version 3.1.1 (comparé à Subsurface 3.1):
+<ul><li> support du firmware pour le OSTC2 et le OSTC3</li>
+<li> correctif pour les téléchargements vers divelog.de pour Mac</li>
+<li> support de l'import UDDF de Aquadivelog</li>
+<li> ajout des options de ligne de commande --version et --help</li>
+<li> mise à jour de la documentation</li>
+<li> mise à jour des traductions (ajout pour la première fois de la traduction vietnamienne)</li></ul>
+</p>

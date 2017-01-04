@@ -1,0 +1,36 @@
+---
+ID: 2135
+post_title: Subsurface 4.0 veröffentlicht
+author: hohndel
+post_date: 2013-12-15 14:21:49
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2013/12/subsurface-4-0-has-been-released/
+published: true
+---
+Das Subsurface Entwicklerteam präsentiert stolz den nächsten großen Versionssprung:
+
+Ab Version 4.0 dient nun <a href="http://qt-project.org/">Qt</a> als Basis für die grafische Benutzeroberfläche. Dafür wurden große Teile des Subsurface Codes neu geschrieben. Wir haben uns entschieden, viel von der Logik und dem Kern des existierenden Codes beizubehalten, aber die Gelegenheit zu nutzen um einiges zu bereinigen und zu verbessern.
+
+Die grundlegenden Konzepte und Möglichkeiten wurden beibehalten - dennoch erscheint es als gewaltige Aufgabe, vollständig aufzulisten, was sich in den 1600 Änderungsbeiträgen zum Code seit Version 3.1 getan hat.
+
+Daher hier nur eine Auswahl der wichtigsten Änderungen:
+<ul>
+	<li>Ein neues Karten-Widget zeigt einen rotierenden Globus zur Visualisierung der Tauchplätze</li>
+	<li>Die grafische Benutzeroberfläche unter Windows und MacOS orientiert sich jetzt deutlich stärker an den jeweiligen Betriebssystemstandards</li>
+	<li>Die Daten zu Tauchgängen können nun einfach durch Anklicken der Einträge in den Tauchgangsnotizen oder den "Ausrüstung"-Karteireitern bearbeitet werden.</li>
+	<li>Mehr Daten zu den Tauchgängen werden in den Tauchgangsnotizen direkt angezeigt und können ohne den Umweg über separate Dialoge oder Kontextmenus bearbeitet werden</li>
+	<li>Das Profil manuell hinzugefügter Tauchgänge kann jetzt mittels eines grafischen Editors bearbeitet werden.</li>
+	<li>Die Einblendung von Detailinformationen im Tauchprofil wurde verbessert</li>
+	<li>Ein "Lineal"-Werkzeug im Tauchprofil erlaubt es verschiedene Werte zwischen beliebigen Punkten des Tauchprofils zu vermessen.</li>
+	<li>Ein verbessertes Schlagwort-System erlaubt sowohl vordefinierte als auch benutzerdefinierte Freitexte zur Kennzeichnung von Tauchgängen zu verwenden</li>
+	<li>Die Integration mit dem Service von "divelogs.de" wurde erweitert (jetzt sind upload und download möglich)</li>
+	<li>Die Subsurface Benutzeranleitung kann nun auch ohne bestehenden Internet-Zugang von der Applikation aus angezeigt werden</li>
+	<li>Die Statistiken wurden verbessert, z.B. können Statistiken bezogen auf eine Reise errechnet werden</li>
+</ul>
+Wie immer bei größeren Umbauten wie dieser gibt es noch eine handvoll bekannter Fehler, mehr dazu steht in den <a href="http://git.subsurface-divelog.org/?p=subsurface.git;a=blob;f=ReleaseNotes.txt;hb=refs/tags/v4.0">ReleaseNotes</a> und in unserem <a href="http://trac.subsurface-divelog.org">bug tracker</a>. Die zwei wichtigsten noch im Vergleich zu Version 3.1.1 fehlenden Funktionen sind:
+<ul>
+	<li>"Filter -&gt; Ereignisse Auswählen" ist noch nicht implementiert</li>
+	<li>Die Funktion "Tauchgangsplanung" ist noch deaktiviert</li>
+</ul>

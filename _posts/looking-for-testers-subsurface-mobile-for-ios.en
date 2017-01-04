@@ -1,0 +1,36 @@
+---
+ID: 2555
+post_title: 'Looking for testers: Subsurface-mobile for iOS'
+author: hohndel
+post_date: 2016-03-23 21:55:04
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2016/03/looking-for-testers-subsurface-mobile-for-ios/
+published: true
+---
+[et_pb_section admin_label="section"][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" global_module="1887" saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_line_height="1.3em" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid"]
+[/et_pb_post_title][/et_pb_column][/et_pb_row][et_pb_row admin_label="row"][et_pb_column type="1_3"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+As promised in the announcement of the Android version of Subsurface-mobile, the development team has continued to work on a matching iOS version.
+
+We're not quite ready to broadly release this via iTunes, yet, but if you are brave enough to play with a beta version on your iPhone or iPad (and if you have the patience for the slightly obnoxious setup that it takes to do that right now)... here's your chance to take an early look at our mobile app on iOS!
+
+[/et_pb_text][/et_pb_column][et_pb_column type="2_3"][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2016/03/Screen-Shot-2016-03-23-at-9.46.05-PM.png" alt="Subsurface-mobile on an iPad" title_text="Subsurface-mobile on an iPad" show_in_lightbox="off" url_new_window="off" use_overlay="off" animation="left" sticky="off" align="right" force_fullwidth="off" always_center_on_mobile="on" use_border_color="off" border_color="#ffffff" border_style="solid"]
+[/et_pb_image][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+<del>The beta version is released via "ad-hoc" distribution. In order for that to work we need to go through a somewhat cumbersome three step process:</del>
+<ol>
+	<li><del>You determine the device ID of your iPad or iPhone. There are many ways to do that, the easiest might be <a href="https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingProfiles/MaintainingProfiles.html#//apple_ref/doc/uid/TP40012582-CH30-SW46">using iTunes</a>.</del></li>
+	<li><del>You send this device ID to me (dirk at subsurface dash divelog dot org) and I add this to the list of authorized devices and create a new installable archive (that's the painful part about doing "ad-hoc" distribution; whenever I add a new device that the application is supposed to run on, I need to recreate the iOS app archive).</del></li>
+	<li><del>Once I have done that and responded to you with a link to the latest Subsurface-mobile-[version].ipa file that has the right keys for your device included, you download that file and install it on your device. There are again several ways to do that, but the easiest appear to be either <a href="https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/TestingYouriOSApp/TestingYouriOSApp.html#//apple_ref/doc/uid/TP40012582-CH8-SW6">using iTunes</a> or <a href="https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/TestingYouriOSApp/TestingYouriOSApp.html#//apple_ref/doc/uid/TP40012582-CH8-SW10">using Apple Configurator </a>(both of these instructions refer to "the iOS app file that you created earlier" which in this case means the Subsurface-mobile ipa file that you downloaded from our server.</del></li>
+</ol>
+<strong>Update: </strong>I managed to get TestFlight to work. So in order to beta test Subsurface-mobile for iOS, all you need to do is send us a note with your email address and a request to be added to the test. Once we've added you to the tester group, Apple will send you an email with instruction how to register with TestFlight and how to install Subsurface-mobile on your iOS device(s).
+
+Once this is done, you should see a Subsurface-mobile icon on your iPad or iPhone. The <a href="/documentation/subsurface-mobile-user-manual/">Subsurface-mobile User Manual</a> applies for the iOS version as well - the only difference is that iOS has no back button. In situation where the back button is used to cancel an operation or navigate, a context menu with that option has been added (context menus can be opened by swiping across the right edge of the screen or by tapping on the small angle symbol in the lower right corner).
+
+As with the Android version, the iOS version is mostly useful in conjunction with the Subsurface desktop application. You are able to share the same dive list between all your devices using a Subsurface cloud storage account that can be created in Subsurface; simply enter the credentials you used to create that account in Subsurface-mobile and you'll have access to your dive data on your device.
+
+Since this is a beta release we expect that there might still be some issues - please contact us either via the <a href="/user-forum/">user forum</a> or our developer mailing list. We are interest in any kind of feedback - especially in this phase of the development process it's important that we here from our users.
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

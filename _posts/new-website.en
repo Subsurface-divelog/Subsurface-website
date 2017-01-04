@@ -1,0 +1,12 @@
+---
+ID: 9
+post_title: '<!--:en-->New website<!--:-->'
+author: hohndel
+post_date: 2011-10-06 02:51:00
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2011/10/new-website/
+published: true
+---
+<!--:en-->Bring up a relatively simple website that allows us to serve as a landing page for subsurface. For now this will provide screenshots, documentation, links to the git repository and other resources for both developers and users of subsurface.<!--:-->

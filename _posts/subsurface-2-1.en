@@ -1,0 +1,29 @@
+---
+ID: 201
+post_title: '<!--:en-->Subsurface 2.1<!--:-->'
+author: hohndel
+post_date: 2012-10-22 21:00:47
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2012/10/subsurface-2-1/
+published: true
+---
+<!--:en--><p>Yes, we skipped versions 2.0 and never released it in public, but it was worth it.</p>
+<p>Subsurface 2.1 is out, we have binaries for Windows and Mac on our <a href="https://subsurface-divelog.org/downloads/">Downloads</a> page and packages for various Linux distributions are under way. And of course it's quite easy to build Subsurface from source - check the <a href="https://subsurface-divelog.org/building/">build page</a> for details.</p>
+<p><a href="https://subsurface-divelog.org/wp-content/uploads/2012/10/Screenshot-Subsurface-2.1.png"><img src="https://subsurface-divelog.org/wp-content/uploads/2012/10/Screenshot-Subsurface-2.1.png" alt="Screenshot-Subsurface-2.1" title="Screenshot-Subsurface-2.1" width="983" height="719" class="aligncenter size-full wp-image-214" /></a></p>
+<p>Here are some of the highlights of what changed since Subsurface 1.2:<ul>
+<li>Localization into more than ten languages</li>
+<li>Dives can be grouped by dive trips (both automatically and manually)</li>
+<li>Tracking of weight systems, exposure suit</li>
+<li>Improved import from other divelog programs</li>
+<li>Improved editing of existing dives</li>
+<li>Improved statistics functionality</li>
+<li>Better file handling, introduction of a default file (useful for starting Subsurface from the desktop)</li>
+<li>Significantly improved Windows and Mac binary packages</li>
+<li>Improved handling of shorter apnea dives</li>
+<li>Lots of bug fixes, stability improvements</li>
+<li>Beginnings of <a href="https://subsurface-divelog.org/documentation/user-manual/">end user documentation</a> (needs to be extended a lot, I think, but it's a great start)</li>
+<li>Update to libdivecomputer 0.2 with a long list of <a href="http://www.divesoftware.org/libdc/">supported dive computers</a></li>
+<li>Direct download from Uemis dive computers</li>
+</ul></p><!--:-->

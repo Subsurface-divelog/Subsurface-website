@@ -1,0 +1,28 @@
+---
+ID: 1561
+post_title: Announcing Subsurface 4.4.2
+author: hohndel
+post_date: 2015-05-04 13:39:07
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2015/05/announcing-subsurface-4-4-2/
+published: true
+---
+The Subsurface development team proudly announces release 4.4.2 of Subsurface, an open source divelog and dive planning program for Windows, Mac and Linux.
+
+Binaries are available for Windows, Mac, and a number of Linux flavors (Ubuntu, Debian, Linux Mint, Fedora, and openSUSE). Please take a look at our <a href="https://subsurface-divelog.org/download/">Downloads</a> page for details.
+<h2>Some of the changes since Subsurface 4.4.1</h2>
+<ul>
+	<li>Improved editing of tags when multiple dives are selected.</li>
+	<li>Improved handling of the sample interval when uploading data to divelogs.de</li>
+	<li>Fixed several issues with downloads from the UEMIS SDA</li>
+	<li>Added support for the new models of the Heinrichs &amp; Weikamp OSTC 2 and OSTC 3</li>
+	<li>Added support for the Tusa IQ-700</li>
+	<li>Added support for the Mares Smart</li>
+	<li>Added more DiveSystems iDive models</li>
+	<li>Added support for Scubapro Meridian and Chromis</li>
+	<li>Added / improved support for Oceanic Veo 2, Veo 3 and VTX</li>
+</ul>
+<strong>Known issue</strong> (and this was the case in 4.4 and 4.4.1 as well):
+Suunto Eon Steel support on MacOS is currently not working as MacOS grabs the device before Subsurface gets to see it.

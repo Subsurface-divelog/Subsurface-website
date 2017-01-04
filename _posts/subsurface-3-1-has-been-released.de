@@ -1,0 +1,25 @@
+---
+ID: 2157
+post_title: Subsurface 3.1 veröffentlicht
+author: hohndel
+post_date: 2013-05-17 11:29:40
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2013/05/subsurface-3-1-has-been-released/
+published: true
+---
+Das Subsurface Entwicklerteam ist stolz, die Fertigstellung der neuen Version 3.1 verkünden zu können. Neu in dieser Version (im Vergleich zu Subsurface 3.0.2) ist:
+<ul>
+	<li>Kennzeichnungsmöglichkeit für Tauchgangstypen (z.B "Boot", "Ufer", "Tief" usw.)</li>
+	<li>Filtermöglichkeit nach Tauchgangstypen</li>
+	<li>Ereignisse (z.B. Gaswechsel) können auch mit einem Kontextmenü im Tauchprofil verändert werden.</li>
+	<li>Direkte Export-/Upload-Möglichkeit zum "divelogs.de" Online-Logbuch</li>
+	<li>Import von Suunto DM4 Dateien</li>
+	<li>Verbesserte Dialoge für Druckformatierung und Druckerauswahl</li>
+	<li>Unterstützung farbiger Ausdrucke</li>
+	<li>Tauchplanung kann optional den letzten Dekompressionsstop bei 6m ansetzen</li>
+	<li>Unterstützung für Heinrichs Weikamp OSTC3 und Suunto DX</li>
+	<li>Direkte Unterstützung für den Shearwater Petrel (beschleunigter Datentransfer)</li>
+	<li>Diverse Fehler beseitigt</li>
+</ul>

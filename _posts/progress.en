@@ -1,0 +1,14 @@
+---
+ID: 92
+post_title: '<!--:en-->Progress<!--:-->'
+author: hohndel
+post_date: 2011-10-23 22:26:01
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2011/10/progress/
+published: true
+---
+<!--:en--><p>Over the last few days subsurface has made quite a bit of progress. I haven't had a chance to update the binaries so you'll need to get it from git but I think we've come a long way.</p> 
+<p>Input of dive information is hugely improved - Location, Buddy and Dive Master now all have drop down menus but more importantly they search through existing entries by default as you start typing. That's a much nicer interface.</p>
+<p>There have some visual updates as well and as a major new feature we now deal with multi tank dives much better. On Linus' and my dive computer things work well - we need others to test with theirs as they all seem to do slightly different things to indicate a tank change. But the infrastructure is there and hooking the rest in should be straight forward.</p><!--:-->

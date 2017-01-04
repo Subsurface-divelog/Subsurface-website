@@ -1,0 +1,139 @@
+---
+ID: 1858
+post_title: Compilare da sorgenti
+author: hohndel
+post_date: 2011-10-06 03:49:48
+post_excerpt: ""
+layout: page
+permalink: >
+  https://subsurface-divelog.org/documentation/building/
+published: true
+---
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+<p><b>These instructions need to be updated for Subsurface [s-var slug="latest"]. Please look at the <a href="https://subsurface-divelog.org/en/documentation/building/">English version of this page</a></b></p>
+<p>Licenza: GPLv2</p>
+<p>È possibile ottenere i sorgenti della versione attualmente in sviluppo dal nostro <a href="http://git.subsurface-divelog.org/index.cgi?p=subsurface.git;a=summary">repository git</a> oppure scaricare <a href="https://subsurface-divelog.org/downloads/Subsurface-4.2.tgz">Subsurface-4.2.tgz</a> dal nostro sito.</p>
+<p>Subsurface usa alcune librerie e framework open source. I più importanti sono libdivecomputer, Qt4 o Qt5, Marble ( libmarble), libxml2, libxslt, libsqlite3, e libzip.</p>
+<p>Qui ci sono le istruzioni per compilare Subsurface su alcune distribuzioni Linux, per compilare usando Homebrew su Mac, e per cross-compilare per Windows. L'assenza di un gestore di paccketti nativo per Windows rende difficile compilare nativamente su Windows; abbiamo solo dei suggerimenti su come fare, nel file INSTALL incluso nei sorgenti.</p>
+<h2>Opzioni di compilazione</h2>
+<p>Le seguenti opzioni possono essere usate per qmake:</p>
+<pre><code> -config debug        Crea una build di debug
+ -config release      Crea una build per la release
+		      Il default dipende dai parametri con cui Qt è stato compilato
+ V=1                  Attiva verbosità
+ LIBDCDEVEL=1         Cerca in ../libdivecomputer per libdivecomputer
+ INCLUDEPATH+=xxx     Aggiunge xxx agli include path del compilatore
+		      (passare il percorso attuale, senza -I)
+ LIBS+=xxx            Aggiunge xxx ai flag del linker. -l e -L 
+		      vengono riconosciuti.</code></pre>
+<p>Le opzioni INCLUDEPATH e LIBS sono utili per utilizzare librerie installate in posizioni non di default. Queste opzioni possono essere ripetute più volte o ricevere argomenti multipli separati da spazio. Per esempio:</p>
+<pre><code>  qmake LIBS+="-L$HOME/marble/lib -L$HOME/libdivecomputer/lib" 
+	INCLUDEPATH+="$HOME/marble/include 
+                        $HOME/libdivecomputer/include"</code></pre>
+<h2>Compilare su Linux</h2>
+<p>Fedora</p>
+<pre><code>sudo yum install qt-devel marble-devel libzip-devel libxml2-devel 
+         libxslt-devel libsqlite3x-devel libudev-devel 
+         libtool autoconf libusb-devel qtwebkit-devel</code></pre>
+<p>Su distribuzioni derivate da Debian, è possibile installare le librerie richieste (se subsurface è già disponibile come pacchetto)</p>
+<pre><code>$ sudo apt-get build-dep subsurface</code></pre>
+<p>Se vuoi installare i pacchetti richiesti individualmente.</p>
+<pre><code>$ sudo apt-get install libqt4-dev qt4-qmake libxml2-dev 
+         libxslt1-dev zlib1g-dev libzip-dev libmarble-dev 
+         libsqlite3-dev libqtwebkit-dev libusb-1.0-0-dev 
+         libtool autoconf libgit2-dev txt2html</code></pre>
+<p>Sfortunatamente le versioni di marble in Debian stable (e Ubuntu?) non hanno alcuni header che sono usati in Subsurface. Al momento usiamo un hack e li forniamo con il sorgente, ma questo potrebbe causare conflitti.</p>
+<p>Sembra che in alcune versioni di Debian, ci sia un bug nelle dipendenze di <code>libgit2-dev</code>. Se si ottiene un messaggio strano sulla mancanza di libgit2 anche se il pacchetto è installato, provare ad installare anche <code>libssh2-1-dev</code>.</p>
+<p>Per compilare libdivecomputer:</p>
+<pre><code>$ git clone git://git.libdivecomputer.org/libdivecomputer
+$ cd libdivecomputer
+$ git checkout master
+$ autoreconf --install
+$ ./configure --disable-shared
+$ make
+$ sudo make install
+</code></pre>
+<p>Per compilare Subsurface:</p>
+<pre><code>$ git clone git://subsurface-divelog.org/subsurface.git
+$ cd subsurface
+$ qmake # qmake-qt4 on some flavors of Linux
+$ make
+$ sudo make install     [optionally, add: prefix=/usr/local]
+</code></pre>
+<p>Nota: su fedora qmake si chiama qmake-qt4 o qmake-qt5</p>
+<h2>Compilare Subsurface su MacOS X</h2>
+<p>1) Installare Homebrew</p>
+<pre><code>$ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"</code></pre>
+<p>2) Installare le dipendenze</p>
+<pre><code>$ brew install asciidoc libzip qt5 sqlite cmake libusb pkg-config 
+ automake libtool</code></pre>
+<p>3) Rendere la versione brew di sqlite di default</p>
+<pre><code>$ brew link --force sqlite</code></pre>
+<p>4) Installare Marble</p>
+<pre><code>$ mkdir -p marble_dir/build
+$ git clone git://anongit.kde.org/marble marble_dir/repo
+$ cd marble_dir/build
+$ /usr/local/opt/cmake/bin -DCMAKE_BUILD_TYPE=Release -DQTONLY=TRUE 
+  -DCMAKE_PREFIX_PATH=/usr/local/opt/qt5/lib/cmake 
+  -DCMAKE_INSTALL_PREFIX=/usr/local ../repo
+$ cd src/lib/marble
+$ make -j4
+$ install_name_tool -id 
+  /usr/local/lib/$(echo libmarblewidget.??.dylib) 
+  libmarblewidget.dylib
+$ cp -v *dylib /usr/local/lib/
+$ mkdir -p /usr/local/include/marble
+$ cp -v $(find ../../../../repo/src/lib -name '*.h') 
+  /usr/local/include/marble/</code></pre>
+<p>5) Install Libdivecomputer</p>
+<pre><code>$ git clone git://git.libdivecomputer.org/libdivecomputer
+$ cd libdivecomputer
+$ autoreconf --install
+$ ./configure --disable-shared
+$ make
+$ make install</code></pre>
+<p>6) Compilare Subsurface</p>
+<pre><code>$ git clone git://subsurface-divelog.org/subsurface.git
+$ cd subsurface
+$ qmake 
+  INCLUDEPATH+="/usr/local/include /usr/local/opt/sqlite/include" 
+  LIBS+="-L/usr/local/lib -L/usr/local/opt/sqlite/lib"
+$ make
+$ make install_mac_bundle</code></pre>
+<p>Dopo, Subsurface verrà installato in /Applications.</p>
+<p>Un'altra opzione è quella di creare un file .dmg da essere distribuito:</p>
+<pre><code>$ make mac-create-dmg</code></pre>
+<p>NOTE: macdeployqt assume che i plugin si trovino "accanto" ai framework. I framework sono linkati da /usr/local/lib - ma i plugin non sono in /usr/local/plugins. Il workaround più semplice è di creare un link simbolico da /usr/local/plugins a /usr/local/opt/qt5/plugins.</p>
+<h2>Cross-compilare Subsurface su Linux per Windows</h2>
+<p>Subsurface compila con MinGW - le build ufficiali sono fatte cross compilando su Linux (al momento Fedora 20). Uno script di shell che si occupa di questo (più il file .nsi per creare l'installer con makensis) sono inclusi nella directory packaging/windows.</p>
+<p>Il modo migliore per compilare libdivecomputer sembra essere</p>
+<pre><code>$ mkdir -p ~/src
+$ git clone git://git.libdivecomputer.org/libdivecomputer ~/src/libdivecomputer
+$ cd ~/src/libdivecomputer
+$ git checkout master
+$ mingw32-configure --disable-shared
+$ mingw32-make
+$ sudo mingw32-make install</code></pre>
+<p>Per compilare Marble usare:</p>
+<pre><code>$ mkdir -p ~/src/marble/build
+$ git clone -b KDE/4.13 git://anongit.kde.org/marble ~/src/marble/sources
+$ cd ~/src/marble/build
+$ mingw32-cmake -DCMAKE_BUILD_TYPE=Debug -DQTONLY=TRUE ../sources
+ - oppure -
+$ mingw32-cmake -DCMAKE_BUILD_TYPE=Release -DQTONLY=TRUE ../sources
+$ mingw32-make -j4
+$ mingw32-make install</code></pre>
+<p>Per compilare subsurface:</p>
+<pre><code>$ mkdir -p ~/src/subsurface
+$ git clone git://subsurface-divelog.org/subsurface.git ~/src/subsurface
+$ cd ~/src/subsurface
+$ packaging/windows/mingw-make.sh
+$ packaging/windows/mingw-make.sh install
+$ packaging/windows/mingw-make.sh installer</code></pre>
+<p>L'ultimo passo assume che ci sia un link da packaging/windows/dll alla directory corretta in MinGW. Sulla mia macchina questo è <code>/usr/i686-w64-mingw32/sys-root/mingw/bin</code>. Similarmente, i percorsi usati in packaging/windows/mingw-make.sh potrebbero aver bisogno di essere modificati in base ai percorsi usati dalla propria distribuzione.</p>
+<h2>Subsurface Companion App per Android</h2>
+<p>Questa app è disponibile nel <a href="https://play.google.com/store/apps/details?id=org.subsurface">Google Play Store</a>. È coperta da licenza GPLv2 e i sorgenti si trovano in <a href="http://git.subsurface-divelog.org/?p=subsurface-companion.git;a=summary"><code>git://subsurface-divelog.org/subsurface-companion.git</code></a></p>
+<p></p>
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

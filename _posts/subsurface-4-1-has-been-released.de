@@ -1,0 +1,32 @@
+---
+ID: 2107
+post_title: Subsurface 4.1 veröffentlicht
+author: hohndel
+post_date: 2014-05-08 11:05:55
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2014/05/subsurface-4-1-has-been-released/
+published: true
+---
+<p>Das Subsurface Entwickler Team verkündet stolz die Veröffentlichung der neuesten Version von Subsurface: Version 4.1 hat eine deutlich verbesserte Optik gegenüber Version 4.0. Das Tauchgangsprofil wurde komplett überarbeitet und verfügt nun über animierte Effekte, eine signifikant verbesserte Informationseinblendung und eine verbesserte Aktualisierungslogik. Eine zusätzliche Werkzeugleiste erlaubt das An- und Abschalten vieler Profildarstellungsoptionen, ohne das Voreinstellungsmenü öffnen zu müssen. </p>
+<p>Einige weitere Höhepunkte der neuen Version sind:</p>
+<ul>
+<li>Verbesserter CVS Import und neuer CSV Export</li>
+<li>Import von log files, die von Sensus (CSV) und Shearwater Desktop (XML) geschrieben wurden</li>
+<li>Verbesserte Unterstützung von UDDF und divelogs.de</li>
+<li>Generalisierter Import Dialog</li>
+<li>Deutlich verbesserte Konsistenz der Dialogfenster,  Tastaturkürzel usw.</li>
+<li>Verbesserte Fehlerbehandlung beim Datentransfer vom Tauchcomputer</li>
+<li>Export einer HTML Weltkarte mit allen Tauchgangsorten</li>
+<li>Automatische Sicherheitskopie von XML Dateien, bevor diese überschrieben werden</li>
+<li>Unbenutzte Tauchflaschen werden nicht mehr in der Ausrüstungsübersicht angezeigt (das alte Verhalten kann in den Voreinstellungen optional reaktiviert werden) </li>
+<li>Jede Menge Bereinigungen und verbesserte Konsistenz im Quellcode</li>
+<li>Verbesserte Unterstützung von Qt5 (es gibt damit aber noch sichtbare Merkwürdigkeiten)</li>
+<li>Viele Verbesserungen der Kompilationsinfrastruktur (Kompilation ausserhalb des Quellcodeverzeichnisses, Möglichkeit der Übersetzung ohne Marble, WIP Planer jetzt nur optional dabei)</li>
+<li>Mehr als 50 bugs wurden behoben</li>
+<li>Weitere Übersetzungen (Griechisch, Britisches Englisch, Litauisch, Rumänisch)</li>
+<li>Experimentelles Feature "Verfügbarkeit von Aktualisierung prüfen" (vornehmlich für Windows und Mac)</li>
+<li>Experimentelles (und undokumentiertes) alternatives Speicherformat</li>
+</ul>
+<p>Viel Spaß!</p>

@@ -1,0 +1,13 @@
+---
+ID: 377
+post_title: '<!--:en-->3.0 is almost here<!--:-->'
+author: hohndel
+post_date: 2013-02-17 15:46:32
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2013/02/3-0-is-almost-here/
+published: true
+---
+<!--:en--><p>I guess one could say we are putting the finishing touches on 3.0. The code seems to be pretty much in place with testing being the main thing going on right now. In addition to that we are busily working on documentation, announcements and lots of other big and small pieces required for a successful release.</p>
+<p>If all goes well we should have a release by the end of this week.</p><!--:-->

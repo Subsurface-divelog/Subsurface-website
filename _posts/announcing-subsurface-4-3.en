@@ -1,0 +1,119 @@
+---
+ID: 1377
+post_title: Announcing Subsurface 4.3
+author: hohndel
+post_date: 2014-12-17 21:16:46
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2014/12/announcing-subsurface-4-3/
+published: true
+---
+<div class="sectionbody">
+<div class="paragraph">
+
+The <em>Subsurface</em> development team proudly announces release 4.3 of <em>Subsurface</em>, an open source divelog and dive planning program for Windows, Mac and Linux.
+
+</div>
+<div class="sect2">
+<h3 id="_some_of_the_changes_since_em_subsurface_em_4_2">Some of the changes since <em>Subsurface</em> 4.2</h3>
+<div class="paragraph">
+
+<em>Subsurface</em> now supports flexible filtering of the dive list. When the filter is opened,one can specify a combination of different criteria like tags, people who were on the dive, dive site, suit, etc. While filtering one can see how many dives
+match any of the criteria, and how many dives match the combination of the selected criteria (see the panel below the main menu in the image below)
+
+</div>
+<div class="imageblock" style="text-align: center;">
+<div class="content"><img class="aligncenter size-full wp-image-1381" src="https://subsurface-divelog.org/wp-content/uploads/2014/12/V4.3_Subsurface_filter.jpg" alt="Subsurface main screen with filters" width="750" height="536" /></div>
+</div>
+<div class="paragraph">
+
+When editing a dive, one can now copy information about a dive and paste it into one or more other dives. This makes it easy to add the same equipment, buddies, tags or other aspects of a dive into a group of dives with similar characteristics.
+
+</div>
+<div class="paragraph">
+
+The dive profile now offers an easy to understand tissue saturation graph that shows tissue saturation at any point during the dive. (See image below)
+
+</div>
+<div class="imageblock" style="text-align: center;">
+<div class="content"><img class="aligncenter size-full wp-image-1382" src="https://subsurface-divelog.org/wp-content/uploads/2014/12/V4.3_CylBars.jpg" alt="Cylinder bars and tissue saturation graph" width="500" height="97" /></div>
+</div>
+<div class="paragraph">
+
+In the dive profile one can turn on an improved visualization of the gas combinations used during a dive (aka "tank bar" with different gases represented by different colours, see image above).
+
+</div>
+<div class="paragraph">
+
+Owners of the Heinrichs &amp; Weikamp OSTC 2 and 3 as well as dive computers in the popular Suunto Vyper family of dive computers can configure the settings of their dive computers using <em>Subsurface</em>.
+
+</div>
+<div class="paragraph">
+
+For a number of dive computers <em>Subsurface</em> now downloads additional data and shows them in a new tab on the screen. This includes (depending on the dive computer) information like battery levels, no fly times, Gradient Factors used during the dive, etc. This feature is enabled in all official <em>Subsurface</em> binaries and includes the Uemis Zurich SDA. When building from source this requires a custom version of libdivecomputer (as explained in the INSTALL file).
+
+</div>
+<div class="paragraph">
+
+The dive planner now offers the ability to re-plan dives and to create duplicate dive plans in order to plan multiple scenarios.
+
+</div>
+<div class="paragraph">
+
+We added support for several new dive computers including the Suunto EON Steel, Aeris A300 CD, and Aeris F11.
+
+</div>
+<div class="paragraph">
+
+<em>Subsurface</em> can now import dive logs from Liquivision and Cochran software as well as the new Suunto DM5.
+
+</div>
+<div class="paragraph">
+
+We made many improvements for UDDF and CSV import, UDDF export now complies with the latest version of the standard.
+
+</div>
+<div class="paragraph">
+
+Many issues with the HTML export were addressed.
+
+</div>
+<div class="paragraph">
+
+Initial support for closed circuit rebreathers (CCR) and pSCR was added. Dive logs from the Poseidon MkVI CCR can be imported. Visualization of dive logs as well as dive planning should work - but this feature is fairly early in its development and we assume that there may be a few bugs and mis-features hidden in this area. Here is a dive profile for a Poseidon MkVI:
+
+</div>
+<div class="imageblock" style="text-align: center;">
+<div class="content"><img class="aligncenter size-full wp-image-1380" src="https://subsurface-divelog.org/wp-content/uploads/2014/12/V4.3_CCR.jpg" alt="CCR sample profile" width="510" height="438" /></div>
+</div>
+<div class="paragraph">
+
+<strong>Other notable improvements</strong>
+
+</div>
+<div class="ulist">
+<ul>
+	<li>Import of manually logged dives (e.g., from an existing paper logbook) is now much better documented in the user manual. Instead of having to individually enter each dive with the graphical profile editor users can add all their dives in a spreadsheet and import the data from there into <em>Subsurface</em> in one single operation.</li>
+	<li>Many other small improvements to the planner</li>
+	<li>Many small UI changes for better use on small displays (tighter columns and column headers on the dive list, the toolbox of icons no longer
+forces a minimum height of the profile, etc)</li>
+	<li>Improvements on HiDPI displays</li>
+	<li>We fixed an annoying bug where when starting to edit a dive the pop-up with completions would cover the edit line (this usually happened when editing tags)</li>
+	<li>For the (rather unusual) dive computers that send a heading event in every sample we automatically declutter the profile display now</li>
+	<li>The Windows installer is smarter: the 64bit installer refuses to install its binaries on a 32bit OS and conversely the installer warns you when installing 32bit binaries on a 64bit OS</li>
+	<li>Better synchronization with divelogs.de, including support for multiple tanks</li>
+</ul>
+</div>
+<div class="paragraph">
+
+<strong>Known bugs</strong>
+
+</div>
+<div class="ulist">
+<ul>
+	<li>There appears to be a bug in Qt: when changing the password needed authenticate with a proxy, <em>Subsurface</em> will not use the new password until after a restart</li>
+</ul>
+</div>
+</div>
+</div>

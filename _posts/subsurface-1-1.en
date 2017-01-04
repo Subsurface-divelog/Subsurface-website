@@ -1,0 +1,17 @@
+---
+ID: 96
+post_title: '<!--:en-->Subsurface 1.1<!--:-->'
+author: hohndel
+post_date: 2011-10-24 02:02:42
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2011/10/subsurface-1-1/
+published: true
+---
+<!--:en--><p>Linus' commit message:
+<code>We've added a fair amount of features since 1.0 (like multi-tank) and
+we've made things a lot prettier and supports editing much more
+information.  So let's make a new release.
+
+Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org></code></p><!--:-->

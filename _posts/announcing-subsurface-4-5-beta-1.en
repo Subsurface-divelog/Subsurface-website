@@ -1,0 +1,59 @@
+---
+ID: 1607
+post_title: Announcing Subsurface 4.5 Beta 1
+author: hohndel
+post_date: 2015-09-03 13:50:25
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2015/09/announcing-subsurface-4-5-beta-1/
+published: true
+---
+The Subsurface developer team is proud to announce our first beta version of Subsurface 4.5.
+
+After a slightly longer than planned development cycle we think that we have a few interesting new features for our users.
+
+<strong>Highlights since Subsurface 4.4:</strong>
+<ul>
+	<li>Cloud storage.
+<em>Subsurface</em> offers a cloud storage backend that allows using the same dive data from multiple computers. Accounts are free and tied to an email address. An account can easily be created from within <em>Subsurface</em> (Preferences, Network tab; simply enter a valid email address and a password). After the user receives a verification pin and enters this in the corresponding field in the Preferences all is set up and the cloud storage can be transparently used from within <em>Subsurface</em>. While this is nice for many users who have more than one computer on which they use <em>Subsurface</em>, it is espcially useful with our upcoming <em>Subsurface-mobile</em> app on Android (the beta test for that will start soon).</li>
+	<li>Web view.
+Dives stored in the <em>Subsurface</em> cloud storage backend can also be accessed with a web interface. Simply go to https://cloud.subsurface-divelog.org/user/&lt;email&amp;gt and authenticate with the same email address and password as set up in <em>Subsurface</em>.</li>
+	<li>Dive site handling.
+Dive sites are now a first class citizen in <em>Subsurface</em> and can be managed as such. Dives include a reference to a dive site. This also caused changes to our file format (and we bumped the file format version to 3). On first open old data files will be backed up
+and converted to the new format.</li>
+	<li>Geo taxonomy.
+A web lookup service has been implemented that allows the user to get geo taxonomy data based on a GPS fix - so for a dive site that contains GPS data <em>Subsurface</em> can look up the closest body of water, the country or closest city.</li>
+	<li>Significantly improved print support.
+Printing is now template driven and allows the user to customize the format in which dives are presented in print.</li>
+	<li>Better Bluetooth device support.
+Instead of having to manually set up BT devices in the OS, <em>Subsurface</em> now has a much more intuitive UI that allows the user to work with BT dive computers.</li>
+	<li>VPM-B support for dive planning.
+The dive planner module in <em>Subsurface</em> now offers a choice of deco algorithms with both Bühlmann ZH16 and VPM-B. The VPM-B implementation is new and has been developed from scratch. We have tested this against a number of known good profiles from the Fortran
+reference code but would certainly recommend a bit of extra caution when using it for dive planning.</li>
+	<li>Improved image import and management,
+<em>Subsurface</em> now does a better job when handling changes in image folder location and can add images from URLs instead of just local files.</li>
+	<li>Undo / redo support.
+While this does not cover all operations, yet, many operations can now been un-done and subsequently re-done.</li>
+	<li>Many fixes and improvements for import third part files and CSV files</li>
+	<li>Ability to load dives exported with OSTCTools</li>
+	<li>Support for more GPS coordinate formats</li>
+</ul>
+<strong>Known issues</strong>
+<ul>
+	<li>Uemis downloader appears to have serious issues for some users</li>
+	<li>The printing subsystem occasionally picks bad font sizes for the profile and can run out of memory on really large dive profiles</li>
+	<li>The printing subsystem appears to fail on Mac - no data from dives is filled into templates</li>
+	<li>The Bluetooth subsystem definitely needs more testing and doesn’t appear to work reliably for all testers</li>
+</ul>
+You can get Subsurface 4.5 Beta 1 from these locations:
+
+<strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.5-Beta-1.exe">https://subsurface-divelog.org/downloads/subsurface-4.5-Beta-1.exe</a>
+
+<strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.5-Beta-1.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.5-Beta-1.dmg</a> -- please be aware that on 10.9.5 and later the signatures on Subsurface.app don't verify correctly and OS X claims that the binary wasn't signed by a verified developer (even though it is actually signed with a valid ID). We are investigating how to work around this - for now you have to explicitly go to System Preferences -&gt; Security and allow opening this application.
+
+<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface-beta</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface-beta/ubuntu<code></code></code> to get our latest beta version.
+
+<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurfacebeta">open build service beta page</a>
+
+<strong>This is a beta release,</strong> so the usual warnings apply. We don't think it will eat your data file (and it is making a backup of your old files, just in case), but paying extra attention might not hurt. As always, we are very curious to get feedback (after all, that's the purpose of a beta release). Please post in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="http://trac.subsurface-divelog.org">Bug Tracker</a>.

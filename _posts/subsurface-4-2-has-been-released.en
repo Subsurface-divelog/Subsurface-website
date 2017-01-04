@@ -1,0 +1,28 @@
+---
+ID: 1073
+post_title: Subsurface 4.2 has been released
+author: hohndel
+post_date: 2014-08-08 13:42:43
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2014/08/subsurface-4-2-has-been-released/
+published: true
+---
+<p>The Subsurface developer team is proud to announce the release of the next version of Subsurface. Version 4.2 contains a number of bug fixes and improvements compared to 4.1. Highlights include:</p>
+<ul>
+<li>The Windows installer is now a 64bit installer including Qt5</li>
+<li>There is still a deprecated 32bit installer including Qt4, but that has several known issues (among others, printing has a number of bugs that were fixed in Qt5).</li>
+<li>The Mac installer has also been updated to Qt5</li>
+<li>A current development version of libdivecomputer is used for the Windows and Mac builds.</li>
+<li>A Dive Planner got added again, using the graphical profile editor; it supports different ascent speeds, backgas breaks during deco and many other interesting features; it allows the user to print just the dive plan (without graphic profile); one shortcoming is that currently one cannot re-plan a planned dive, i.e., once you save a dive plan, you can no longer edit / change the plan; you have to start from scratch again. This is on the todo list.</li>
+<li>Pictures can be associated with dives and shown in the profile.</li>
+<li>Printing is much improved (but see above), including a "1 dive per page" mode, better rendering of dives (in our mind) and better data presented per dive.</li>
+<li>Data entry for dives is much more intuitive and consistent.</li>
+<li>We have a reasonably functional HTML exporter for the dive log (it's still work in progress but already quite powerful, even though lacking localization support).</li>
+<li>Support to import dive log files from Seabear dive computers.</li>
+<li>We added a user survey to learn more about the interests and needs of our users.</li>
+<li>Improved and extended user manuals</li>
+<li>New translated user manuals in Spanish and Russian</li>
+</ul>
+<p>If you are using Subsurface 4.1 on Windows or Mac you should be able to check for the update from within the application (in the Help menu). Otherwise find download links at our <a href="https://subsurface-divelog.org/download/">Downloads page</a>. Please note if you are running a 32bit version of Windows that the default Windows installer now only runs on 64bit systems.</p>
