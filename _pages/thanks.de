@@ -13,9 +13,9 @@ published: true
 
 
 
-[/et_pb_post_title][et_pb_text admin_label="Text"]
+[/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Das Subsurface Team möchte neben allen Entwicklern und testern auch den folgenden Firmen und Privatpersonen für ihre Hilfe durch Bereitstellung von Dokumentation und Geräte-Leihgaben ganz herzlich danken:
+Das Subsurface Team möchte neben allen Entwicklern und Testern auch den folgenden Firmen und Privatpersonen für ihre Hilfe durch Bereitstellung von Dokumentation und Geräte-Leihgaben ganz herzlich danken:
 <ul>
 	<li><a href="http://www.uemis.com/">Uemis</a></li>
 	<li><a href="http://www.heinrichsweikamp.com/">heinrichs weikamp</a></li>
