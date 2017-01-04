@@ -29,7 +29,7 @@ Daher hier nur eine Auswahl der wichtigsten Änderungen:
 	<li>Die Subsurface Benutzeranleitung kann nun auch ohne bestehenden Internet-Zugang von der Applikation aus angezeigt werden</li>
 	<li>Die Statistiken wurden verbessert, z.B. können Statistiken bezogen auf eine Reise errechnet werden</li>
 </ul>
-Wie immer bei größeren Umbauten wie dieser gibt es noch eine handvoll bekannter Fehler, mehr dazu steht in den <a href="http://git.subsurface-divelog.org/?p=subsurface.git;a=blob;f=ReleaseNotes.txt;hb=refs/tags/v4.0">ReleaseNotes</a> und in unserem <a href="http://trac.subsurface-divelog.org">bug tracker</a>. Die zwei wichtigsten noch im Vergleich zu Version 3.1.1 fehlenden Funktionen sind:
+Wie immer bei größeren Umbauten wie dieser gibt es noch eine handvoll bekannter Fehler, mehr dazu steht in den <a href="http://git.subsurface-divelog.org/?p=subsurface.git;a=blob;f=ReleaseNotes.txt;hb=refs/tags/v4.0">ReleaseNotes</a> und in unserem <a href="https://github.com/Subsurface-divelog/subsurface/issues">bug tracker</a>. Die zwei wichtigsten noch im Vergleich zu Version 3.1.1 fehlenden Funktionen sind:
 <ul>
 	<li>"Filter -&gt; Ereignisse Auswählen" ist noch nicht implementiert</li>
 	<li>Die Funktion "Tauchgangsplanung" ist noch deaktiviert</li>

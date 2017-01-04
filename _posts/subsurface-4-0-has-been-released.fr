@@ -29,7 +29,7 @@ En voici cependant quelques uns:
 	<li>Possibilité de consulter le manuel de l'application depuis l'application en tant que telle, sans avoir besoin d'une connection internet ou de lancer un navigateur</li>
 	<li>Meilleur présentation des statistiques (notamment par voyage)</li>
 </ul>
-Comme toujours lors d'une ré-écriture d'un programme comme ici, il y a un petit nombre de bogues et problèmes connus, n'hésitez pas à lire les <a href="http://git.subsurface-divelog.org/?p=subsurface.git;a=blob;f=ReleaseNotes.txt;hb=refs/tags/v4.0">Notes de sorties (en anglais)</a> ou à consulter les <a href="http://trac.subsurface-divelog.org">rapports d'anomalies</a>.
+Comme toujours lors d'une ré-écriture d'un programme comme ici, il y a un petit nombre de bogues et problèmes connus, n'hésitez pas à lire les <a href="http://git.subsurface-divelog.org/?p=subsurface.git;a=blob;f=ReleaseNotes.txt;hb=refs/tags/v4.0">Notes de sorties (en anglais)</a> ou à consulter les <a href="https://github.com/Subsurface-divelog/subsurface/issues">rapports d'anomalies</a>.
 
 Les deux fonctionnalités manquantes (par rapports à 3.1.1) sont:
 <ul>
