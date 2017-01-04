@@ -29,7 +29,7 @@ Here are some of the highlights:
 	<li>ability to show the user manual from within the application without a life internet connection and without opening the manual in an external browser window</li>
 	<li>better statistics (with per-trip statistics available)</li>
 </ul>
-As always in a massive rewrite like this, there are still a small handful of known bugs and issues - please check the <a href="http://git.subsurface-divelog.org/?p=subsurface.git;a=blob;f=ReleaseNotes.txt;hb=refs/tags/v4.0">ReleaseNotes</a> and our <a href="http://trac.subsurface-divelog.org">bug tracker</a>. The two biggest missing features (compared to 3.1.1) are
+As always in a massive rewrite like this, there are still a small handful of known bugs and issues - please check the <a href="http://git.subsurface-divelog.org/?p=subsurface.git;a=blob;f=ReleaseNotes.txt;hb=refs/tags/v4.0">ReleaseNotes</a> and our <a href="https://github.com/Subsurface-divelog/subsurface/issues">bug tracker</a>. The two biggest missing features (compared to 3.1.1) are
 <ul>
 	<li>Filter-&gt;Select Events is not implemented</li>
 	<li>Dive planner has been disabled for now</li>

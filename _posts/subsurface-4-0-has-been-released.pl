@@ -30,7 +30,7 @@ Najważniejsze zmiany obejmują:
 	<li>poprawione statystyki nurkowań (z uwzględnieniem grupowania nurkowań)</li>
 	<li>możliwość ręcznego wyboru języka</li>
 </ul>
-Przy tak znacznych zmianach w kodzie nie do uniknięcia jest obecność pewnej liczby błędów - proszę przejrzeć <a href="http://git.subsurface-divelog.org/?p=subsurface.git;a=blob;f=ReleaseNotes.txt;hb=refs/tags/v4.0">Uwagi do wydania</a> (po angielsku) i naszą <a href="http://trac.subsurface-divelog.org">listę defektów</a>. Dwie najważniejsze brakujące funkcjonalności (w stosunku do 3.1.1) to
+Przy tak znacznych zmianach w kodzie nie do uniknięcia jest obecność pewnej liczby błędów - proszę przejrzeć <a href="http://git.subsurface-divelog.org/?p=subsurface.git;a=blob;f=ReleaseNotes.txt;hb=refs/tags/v4.0">Uwagi do wydania</a> (po angielsku) i naszą <a href="https://github.com/Subsurface-divelog/subsurface/issues">listę defektów</a>. Dwie najważniejsze brakujące funkcjonalności (w stosunku do 3.1.1) to
 <ul>
 	<li>Filtr-&gt;Wybór Zdarzeń nie jest zaimplementowany</li>
 	<li>Graficzny planer nurkowań jest na razie wyłączony</li>
