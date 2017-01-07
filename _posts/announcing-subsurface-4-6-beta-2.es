@@ -40,8 +40,8 @@ Puedes descargar Subsurface 4.6 Beta 2 desde estas ubicaciones:
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6-Beta-2.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.6-Beta-2.dmg</a>
 
 <strong>Linux:</strong> Disponible para descarga una AppImage genérica como <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6-Beta-2-x86_64.AppImage">Subsurface-4.6-Beta-2-x86_64.AppImage</a>. Descarga este archivo, hazlo ejecutable
-<code>chmod +x Subsurface-4.6-Beta-2-x86_64.AppImage</code> y simplemente ejecutalo.
-<strong>Linux: Ubuntu: </strong>Añade <code>ppa:subsurface/subsurface-beta</code> a tus fuentes de archivos. La PPA también puede instalarse en versiones suficientemente actualizadas de  <strong>Debian</strong> and <strong>LinuxMint</strong>; visita la<a href="https://subsurface-divelog.org/download/">Página de descargas</a> y usa <code>http://ppa.launchpad.net/subsurface/subsurface-beta/ubuntu</code> para obtener la última beta.
+<code>chmod +x Subsurface-4.6-Beta-2-x86_64.AppImage</code> y simplemente ejecútalo.
+<strong>Linux: Ubuntu: </strong>Añade <code>ppa:subsurface/subsurface-beta</code> a tus fuentes de archivos. La PPA también puede instalarse en versiones suficientemente actualizadas de  <strong>Debian</strong> y <strong>LinuxMint</strong>; visita la <a href="https://subsurface-divelog.org/download/">Página de descargas</a> y usa <code>http://ppa.launchpad.net/subsurface/subsurface-beta/ubuntu</code> para obtener la última beta.
 
 <strong>Linux: openSUSE / Fedora:</strong> ves a nuestro <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurfacebeta">servicio beta de compilación</a>
 
