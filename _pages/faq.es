@@ -269,9 +269,19 @@ Subsurface en Mac no soporta actualmente ordenadores de buceo basados en IRDA. E
 
 [/et_pb_accordion_item][et_pb_accordion_item title="¿Como puedo ver mis inmersiones en mi teléfono/tablet?"]
 
-Activa el almacenamiento en la nube de Subsurface. Luego, desde tu dispositivo móvil (o cualquier dispositivo con un navegador web) ves a <a href="https://cloud.subsurface-divelog.org">nuestra nube</a> y regístrate con los mismos e-mail y password. Con esto podrás acceder a tus datos desde le teléfono.
+Para Android e iOS puedes, simplemente, instalar las apps Subsurface-mobile que estan disponibles en sus respectivos appstores. Activa el almacenamiento en la nube en Subsurface y guarda allí tu información de buceo. Las inmersiones estarán disponibles ahora también en tu dispositivo móvil.
 
-Dicho esto, Subsurface-mobile para Android (y posiblemente iOS) esta en camino.
+Para el resto de dispositivos (incluyento tablets y teléfonos con OSs que no soportamos en Subsurface-mobile) puedes abrir <a href="https://cloud.subsurface-divelog.org">nuestra nube</a> y regístrarte con los mismos e-mail y password. Con esto podrás acceder a tus datos desde cualquier dispositivo con un navegador web.
+
+[/et_pb_accordion_item][et_pb_accordion_item title="Al imprimir en un Mac, los saltos de línea en las notas se muestran como <br>"]
+
+Esto es causado probablemente por una instalación anterior de Subsurface en el mismo ordenador. Por algún motivo Subsurface puede haber decidido guardar una copia personal de la plantilla de impresión y esta ytilizando esta en lugar de la entregada con Subsurface.
+
+Si hiciste cambios intencionadamente a las plantillas, re-edita las plantillas y asegurate de que <tt>dive.notes</tt> está referenciado como <tt>dive.notes|secure</tt>. Para la mayoría de usuarios que nunca han editado sus plantillas, sin embargo, la solución más simple es borrar las copias locales. En un terminal ejecuta:
+<code>
+mv ~/Library/Application\ Support/Subsurface/printing_templates \
+     ~/Library/Application\ Support/Subsurface/printing_templates.bak
+</code>
 
 [/et_pb_accordion_item]</pre></pre>
 
