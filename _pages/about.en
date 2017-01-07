@@ -12,7 +12,12 @@ published: true
 
 
 
-[/et_pb_post_title][et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
+[/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+<h2>A new Beta version is available for testing</h2>
+Please check out <a href="https://subsurface-divelog.org/2017/01/announcing-subsurface-4-6-beta-2/">the announcement of Subsurface 4.6 Beta 2</a>.
+
+[/et_pb_text][et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
 
 [et_pb_slide heading="Multiplatform" background_position="default" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/OS-logos1.png" alignment="center" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
@@ -72,4 +77,4 @@ In fall of 2011, when a forced lull in kernel development gave him a chance to s
 Linus worked with a team of developers, and Subsurface is the result.  It now supports Linux, Windows and MacOS and allows data import from many dive computers and several existing divelog programs. It provides a quick and easy way to see the key information provided by a modern dive computer and lets  users track a wide variety of data about their dives. In fall of 2012 Dirk Hohndel took over as Subsurface maintainer.
 License: GPLv2
 
-[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
+[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][/et_pb_row][/et_pb_section]
