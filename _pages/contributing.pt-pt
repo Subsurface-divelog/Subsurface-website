@@ -21,7 +21,7 @@ We also tend to have some developers hanging out in the <code>#subsurface</code>
 
 There are many ways in which you can contribute. We are always looking for testers who are willing to test the code while it is being developed. We especially need people running Windows and Mac (as the majority of the active developers are Linux people). We are also always looking for volunteers who help reviewing and improving the documentation. And very importantly we are looking for translators willing to translate the software into different languages. Our translations are centrally handled at <a href="https://www.transifex.com/">Transifex</a> - please sign up for an account there and then request to join the <a href="https://www.transifex.com/projects/p/subsurface/">Subsurface Team</a>.
 
-If you would like to contribute patches that fix bugs or add new features, that is of course especially welcome. If you are looking for places to start, look at the open bugs in our <a href="http://trac.subsurface-divelog.org">bug tracker</a>.
+If you would like to contribute patches that fix bugs or add new features, that is of course especially welcome. If you are looking for places to start, look at the open bugs in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">bug tracker</a>.
 
 Here is a very brief introduction on creating commits that you can send to the mailing list. Much more details on how to use git can be found at the <a href="https://www.kernel.org/pub/software/scm/git/docs/user-manual.html">git user manual</a>.
 

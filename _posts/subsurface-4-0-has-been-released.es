@@ -29,7 +29,7 @@ Aquí están algunas de las destacadas:
 	<li>Capacidad de mostrar el manual de usuario desde la aplicación, sin necesidad de conexión a internet y sin abrir el manual en un navegador externo</li>
 	<li>Mejores estadísticas (disponibles estadísticas por viaje)</li>
 </ul>
-Como siempre sucede en revisiones de código tan masivas,  todavía existe un puñado de fallos. Por favor comprueba las <a href="http://git.subsurface-divelog.org/?p=subsurface.git;a=blob;f=ReleaseNotes.txt;hb=refs/tags/v4.0">Notas sobre el lanzamiento</a> y nuestro <a href="http://trac.subsurface-divelog.org">bug tracker</a>.
+Como siempre sucede en revisiones de código tan masivas,  todavía existe un puñado de fallos. Por favor comprueba las <a href="http://git.subsurface-divelog.org/?p=subsurface.git;a=blob;f=ReleaseNotes.txt;hb=refs/tags/v4.0">Notas sobre el lanzamiento</a> y nuestro <a href="https://github.com/Subsurface-divelog/subsurface/issues">bug tracker</a>.
 
 Las dos principales capacidades que se han perdido (en relación a 3.1.1) son
 <ul>

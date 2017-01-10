@@ -5,14 +5,19 @@ author: hohndel
 post_date: 2011-10-06 02:48:17
 post_excerpt: ""
 layout: page
-permalink: https://subsurface-divelog.org
+permalink: https://subsurface-divelog.org/es/
 published: true
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid" saved_tabs="all" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" global_module="1887" title_line_height="1.3em"]
 
 
 
-[/et_pb_post_title][et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
+[/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+<h2>Disponible para probar una nueva versión Beta</h2>
+Por favor, visita <a href="https://subsurface-divelog.org/es/2017/01/anuncio-subsurface-4-6-beta-2/">el anuncio de Subsurface 4.6 Beta 2</a>.
+
+[/et_pb_text][et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
 
 [et_pb_slide heading="Multiplataforma" background_position="default" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/OS-logos1.png" alignment="center" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
@@ -70,4 +75,4 @@ En el otoño de 2011, cuando un periodo de calma forzada en el desarrollo del ke
 Subsurface es el resultado de su trabajo y el de un equipo de desarrolladores. Ahora esta disponible para Linux, Windows y MacOS y permite importar datos de un amplio numero de computadores de buceo y muchos softwares de divelog. Provee avanzadas  funciones de visualización de la información relevante que los computadores de buceo modernos facilitan, lo que permite al usuario analizar una amplia variedad de datos acerca de sus buceos. En el otoño de 2012 Dirk Hohndel asumió el mantenimiento de Subsurface.
 Licencia: GPLv2
 
-[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
+[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][/et_pb_row][/et_pb_section]

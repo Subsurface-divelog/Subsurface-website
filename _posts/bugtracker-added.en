@@ -9,4 +9,4 @@ permalink: >
   https://subsurface-divelog.org/2012/10/bugtracker-added/
 published: true
 ---
-<!--:en--><p>In addition to sending email with bugs and feature requests to our <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">mailing list</a> you can now also use Subsurface's web-based <a href="http://trac.subsurface-divelog.org">bug tracking system</a>.</p><!--:-->
+<!--:en--><p>In addition to sending email with bugs and feature requests to our <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">mailing list</a> you can now also use Subsurface's web-based <a href="https://github.com/Subsurface-divelog/subsurface/issues">bug tracking system</a>.</p><!--:-->
