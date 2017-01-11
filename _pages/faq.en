@@ -72,13 +72,13 @@ Once you are logged into Facebook you can close the preferences. You will now se
 
 Currently Subsurface integrates with two different online logbooks: <a href="http://divelogs.de">divelogs.de</a>&nbsp;and <a href="http://dive-share.appspot.com/">DiveShare</a>. You can export dives to either of those two services from the File➝Export menu.
 
-[/et_pb_accordion_item][et_pb_accordion_item title="How do I use the companion apps?"]
+[/et_pb_accordion_item][et_pb_accordion_item title="How do I use the companion apps for recording dive sites?"]
 
-There are companion apps available for both Android and IOS. You can find them in the respective stores. Once you install them on your mobile device you can either mark dive sites and name them (e.g., right before or after a dive), or you can run a "service" in the background that periodically records your position. Don't forget to turn the service off when you are done as it may increase your battery consumption.
+There are companion apps available for both Android and IOS which help the user record dive site locations. You can find them in the respective app stores. Once you install them on your mobile device you can either mark dive sites and name them (e.g., right before or after a dive), or you can run a "service" in the background that periodically records your position. Don't forget to turn the service off when you are done as it may increase your battery consumption.
 
 Once you have uploaded the dive site data from the companion app to our web service, you can then download the data from within Subsurface. Do this <em>after</em> you have downloaded the dives from that day from your divecomputer (or manually added the dives) so that Subsurface can match the dive data (and their time stamps) with the data stored by the companion app. Subsurface will then add GPS data to those dives that didn't have GPS information and are reasonably close in time to to markers saved by the companion app.
 
-Please note that the companion apps by themselves do <em>not</em> add dives to your dive list. The dive needs to exist before GPS data is added to it.
+Please note that the companion apps by themselves do <em>not</em> add dives to your dive list. The dive needs to exist before GPS data is added to it. The companion apps are different than the Subsurface-mobile apps. The Subsurface-mobile apps are for viewing your dive log.  The companion apps are solely for managing and recording dive locations. Many users will choose to have both the Subsurface companion app and the Subsurface-mobile app on their phone/tablet. 
 
 [/et_pb_accordion_item][et_pb_accordion_item title="How can I use more than one tank with the same gas?"]
 
@@ -118,9 +118,9 @@ A good starting point is often to send us a libdivecomputer log and dump (you ca
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Is there a virus in the Subsurface installer?"]
 
-If you get a warning message or if Subsurface is blocked by your anti virus software, that is almost certainly a false positive. Subsurface is not built on a Windows machine, it is cross built from source on Linux on a well maintained and clean server.
+If you get a warning message or if Subsurface is blocked by your anti virus (AV) software, that is almost certainly a false positive. Subsurface is not built on a Windows machine, it is cross built from source on Linux on a well maintained and clean server.
 
-Most/all Windows AV software packages support an "add exception" feature, which skips an executable from being scanned. Try adding Subsurface to the list of non-harmful software. If the Subsurface installer download is detected as malware, please temporary disable your AV software until Subsurface is installed
+Most/all Windows Anti-Virus software packages support an "add exception" feature, which skips an executable from being scanned. Try adding Subsurface to the list of non-harmful software. If the Subsurface installer download is detected as malware, please temporary disable your AV software until Subsurface is installed
 
 In either case, please inform your AV software vendor of a "false positive" as we assure your that Subsurface is not malware.
 
@@ -260,7 +260,7 @@ If you disconnect and reconnect your DC it should now get the correct access per
 
 &nbsp;
 
-[/et_pb_accordion_item][et_pb_accordion_item title="Why is my IRDA based dive computer not working on a MAC?"]
+[/et_pb_accordion_item][et_pb_accordion_item title="Why is my IRDA (infrared) based dive computer not working on a MAC?"]
 
 &nbsp;
 
