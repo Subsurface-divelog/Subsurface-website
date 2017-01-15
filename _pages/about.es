@@ -21,7 +21,7 @@ Por favor, visita <a href="https://subsurface-divelog.org/es/2017/01/anuncio-sub
 
 [et_pb_slide heading="Multiplataforma" background_position="default" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/OS-logos1.png" alignment="center" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
-Subsurface es un programa de registro de inmersiones, de código abierto, que funciona en Windows, Mac y Linux
+Subsurface es un programa de registro de inmersiones, de código abierto, que funciona en Windows, Mac y Linux. Está enfocado a buceadores recreativos, técnicos y en apnea.
 
 [/et_pb_slide][et_pb_slide heading="Registra todos tus buceos" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Screenshot.png" alignment="center" image_alt="Captura de pantalla de una inmersión recreativa" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
