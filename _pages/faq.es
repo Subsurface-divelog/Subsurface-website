@@ -71,12 +71,12 @@ Una vez que has accedido a Facebook puedes cerrar las preferencias. Ahora aparec
 
 Actualmente Subsurface se integra con dos diarios de buceo online: <a href="http://divelogs.de">divelogs.de</a> y <a href="http://dive-share.appspot.com/">DiveShare</a>. Puedes exportar inmersiones a cualquiera de estos dos servicios desde el menú Archivo➝Exportar.
 
-[/et_pb_accordion_item][et_pb_accordion_item title="¿Como utilizo las apps companion?"]
+[/et_pb_accordion_item][et_pb_accordion_item title="¿Como utilizo las apps companion para guardar lugares de buceo?"]
 
 Hay apps companion disponibles para Android e IOS. Se pueden encontrar en sus respectivos stores. Una vez que se han instalado en tu dispositivo movil, puedes marcar los puntos de buceo y nombrarlos (por ejemplo, justo antes o justo después de bucear), o puedes ejecutar un servicio en segundo plano que graba periodicamente tu posición. No olvides apagar el servicio cuando termines ya que puede incrementar el consumo de batería.
 Una vez que hayas subido los datos del punto de buceo a nuestro servicio web, se pueden descargar dichos datos desde Subsurface. Haz esto <em>despues</em> de que hayas descargado las inmersiones de ese día desde tu ordenador (o añadido manualmente los buceos) para que Subsurface pueda casar los datos horarios de las inmersiones con los guardados por la app companion. Subsurface añadirá, entonces, los datos GPS a aquellas inmersiones que no tengan información de coordenadas y sean suficientemente cercanas en el tiempo a las marcas guardadas por la app companion.
 
-Por favor, fíjate en que las apps companion por sí mismas <em>no</em> añaden inmersiones a tu diario. Es necesario que las inmersiones existan antes de que los datos GPS les sean añadidos.
+Por favor, fíjate en que las apps companion por sí mismas <em>no</em> añaden inmersiones a tu diario. Es necesario que las inmersiones existan antes de que los datos GPS les sean añadidos. Las apps companion son diferentes de las apps Subsurface-mobile. Las apps Subsurface-mobile permitev visualizar tu divelog y gestionarlo. Las apps companion son únicamente para grabar y gestionar puntos de buceo. Muchos usuarios elegiran disponer de ambas, la app Subsurface-companion y la app Subsurface-mobile en sus teléfonos/tablets.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="¿Como puedo usar más de una botella con el mismo gas?"]
 
