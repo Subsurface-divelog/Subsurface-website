@@ -18,6 +18,10 @@ published: true
 
 Subsurface se puede ejecutar en Windows (32 y 64bit, Windows XP en adelante), MacOS (Intel, 10.7 en adelante) y muchas variantes de Linux. Proporcionamos paquetes para Ubuntu, Linux Mint, Debian, openSUSE y Fedora. Se pueden hallar detalles acerca de como encontrar Subsurface para tu SO en nuestra página <a title="Downloads" href="http://subsurface-divelog.org/download/">Descargas</a>.
 
+[/et_pb_accordion_item][et_pb_accordion_item title="¿ Por qué debería usar Subsurface?"]
+
+Subsurface está dirigido a buceadores recreativos, técnicos y profesionales del buceo, con una interfaz facil de usar para planificar, registrar y guardar inmersiones. Las inmersiones se pueden introducir manualmente, a través de hojas de cálculo, directamente desde otros softwares de divelogs, y principalmente, desde muchos ordenadores de buceo. ¿ Que pasa si cambio de ordenador ? Esto no es un problema con Subsurface, ya que no está vinculado a un fabricante concreto de ordenadores. Subsurface es gratuito y está disponible en diversas plataformas, haciendo de él el software perfecto para un amplio abanico de buceadores.
+
 [/et_pb_accordion_item][et_pb_accordion_item title="¿Como instalo Subsurface en Windows?"]
 
 <a href="/download/">Descarga el instalador</a> y haz doble clic izquierdo en él. Recibirás un aviso de que el instalador es de un proveedor desconocido. Haz clic en "Si" para permitir la instalación. A continuación se presenta la licencia de Subsurface, después puedes elegir donde te gustaría instalar Subsurface (las carpetas por defecto deberían ser razonables en la mayoría de los casos) y la carpeta del <em>Menú Inicio</em> donde se instalarán un atajo para lanzar Subsurface y una entrada para desinstalarlo.
@@ -46,6 +50,10 @@ Asegurate de que te estás instalando una versión actualizada con todas sus dep
 [/et_pb_accordion_item][et_pb_accordion_item title="¿Como instalo Subsurface en openSUSE?"]
 
 Ves a <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">nuestra página del servicio de compilación del proyecto</a> y sigue las instrucciones de allí -- es tan simple como dos clics.
+
+[/et_pb_accordion_item][et_pb_accordion_item title="¿ Como sé si tengo la última versión de Subsurface ?"]
+Desde el menú principal, selecciona "Ayuda -> Comprobar si hay actualizaciones".
+Tambine puedes dirigirte a <a href="https://subsurface-divelog.org/category/news/"> la sección de noticias </a> de la web de Subusrface para anuncios sobre nuevas versiones.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Los atajos de teclado no funcionan en Ubuntu"]
 
@@ -111,6 +119,8 @@ Si recibes un mensaje de aviso o si Subsurface es bloqueado por tu software anti
 El historial de buceo es diferente de los perfiles de inmersión del registro. El historial solo conserva rastro del total de inmersiones y el tiempo total pasado bajo el agua. Los registros, por otra parte, conservan el perfil de inmersión, pero disponen de una cantidad limitada de memoria para hacerlo.
 
 La cantidad exacta de perfiles que pueden guardarse en un dispositivo dependen del intervalo de las muestras y de la duración de los buceos. Una vez que la memoria se ha llenado se sobrescriben las inmersiones más antiguas con nuevas. De esta forma, solo podemos descargar las últimas 13, 30 o 199 inmersiones.
+
+Si has decargado tus inmersiones a otro software de divelog antes de que se sobreescribieran hay muchas posibilidades de que Subsurface pueda importarlas. Sin embargo, si los registros solo estaban en el ordenador de buceo, no pueden ser recuperados despues de haber sido sobreescritos por nuevas inmersiones.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="¿Como descargo inmersiones desde mi Shearwater Petrel 2 (u otro ordenador de buceo con Bluetooth) en Linux?"]
 
