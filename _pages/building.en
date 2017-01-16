@@ -62,7 +62,7 @@ On Debian, Ubuntu, and Linux Mint this seems to work
         libusb-1.0-0-dev libgit2-dev \
         qt5-default qt5-qmake qtchooser qttools5-dev-tools libqt5svg5-dev \
         libqt5webkit5-dev libqt5qml5 libqt5quick5 libqt5declarative5 \
-        qtscript5-dev libssh2-1-dev libcurl4-openssl-dev qttools5-dev \
+        qtscript5-dev libssh2-1-dev qttools5-dev \
         qtconnectivity5-dev</code></pre>
 In order to build Subsurface, use the supplied build script. This should work on most systems that have all the prerequisite packages installed. Start by checking out the Subsurface sources in a sane place, something like this:
 <pre><code>mkdir -p ~/src
