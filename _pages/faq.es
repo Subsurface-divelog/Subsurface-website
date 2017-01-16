@@ -289,8 +289,8 @@ Esto es causado probablemente por una instalación anterior de Subsurface en el 
 
 Si hiciste cambios intencionadamente a las plantillas, re-edita las plantillas y asegurate de que <tt>dive.notes</tt> está referenciado como <tt>dive.notes|secure</tt>. Para la mayoría de usuarios que nunca han editado sus plantillas, sin embargo, la solución más simple es borrar las copias locales. En un terminal ejecuta:
 <code>
-mv ~/Library/Application\ Support/Subsurface/printing_templates \
-     ~/Library/Application\ Support/Subsurface/printing_templates.bak
+mv ~/Library/Application Support/Subsurface/printing_templates 
+     ~/Library/Application Support/Subsurface/printing_templates.bak
 </code>
 
 [/et_pb_accordion_item]</pre></pre>
