@@ -1,0 +1,86 @@
+---
+ID: 2761
+post_title: Announcing Subsurface 4.6
+author: hohndel
+post_date: 2017-01-15 17:20:42
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/fr/2017/01/announcing-subsurface-4-6/
+published: true
+---
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" global_module="1887" saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+
+
+[/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+<p>The Subsurface development team proudly announces the release 4.6 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.<p>
+
+<p>Some of the changes since Subsurface 4.5.6:</p>
+<p>&nbsp;</p>
+
+[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+<dl><dt>User interface changes</dt>
+<dd style="display: list-item; list-style-type: disc;">Heatmap visualization of deco tissue loading</dd>
+<dd style="display: list-item; list-style-type: disc;">Re-designed Facebook access from Subsurface</dd>
+<dd style="display: list-item; list-style-type: disc;">Improved handling and visualisation of dive computer events in dive profile (grouping them into info, warning and alert - best supported on Suunto EON Steel)</dd>
+<dd style="display: list-item; list-style-type: disc;">Display surface interval as well as dive runtime prominently in planner</dd>
+<dd style="display: list-item; list-style-type: disc;">Dive list indicates whether dives have associated photos</dd>
+<dd style="display: list-item; list-style-type: disc;">Add --user= command line argument that allows switching between different users from the command line</dd>
+<dd style="display: list-item; list-style-type: disc;">Add --cloud-timeout= command line argument that allows to wait longer (or shorter, for that matter) before we time out waiting for cloud storage. Very useful when in areas with poor internet connectivity</dd>
+<dd style="display: list-item; list-style-type: disc;">Separate deco models for log and planner</dd>
+<dd style="display: list-item; list-style-type: disc;">Many translation updates</dd>
+<dd>&nbsp;</dd>
+<dt>Imports and exports</dt>
+<dd style="display: list-item; list-style-type: disc;">Add support for importing Underwater Technologies AV1 log files</dd>
+<dd style="display: list-item; list-style-type: disc;">Add DAN DL7 import</dd>
+<dd style="display: list-item; list-style-type: disc;">Many fixes and improvements to CVS importer</dd>
+<dd style="display: list-item; list-style-type: disc;">Bugfix for parsing AP Divesight dive log</dd>
+<dd style="display: list-item; list-style-type: disc;">Fixes to Divelogs.de import and export</dd>
+<dd style="display: list-item; list-style-type: disc;">Fixes to UDDF exporter</dd>
+<dd style="display: list-item; list-style-type: disc;">SmartTrack .slg import (not available through the main application - a custom importer can be built using the Subsurface sources)</dd>
+<dd>&nbsp;</dd>
+<dt>Errors resolved</dt>
+<dd style="display: list-item; list-style-type: disc;">Fixed problems opening pictures from picture tab</dd>
+<dd style="display: list-item; list-style-type: disc;">Fixed spurious errors when saving to cloud storage</dd>
+<dd style="display: list-item; list-style-type: disc;">Better handling of slow network connections when using cloud storage</dd>
+<dd style="display: list-item; list-style-type: disc;">Many small fixes to the dive planner</dd>
+<dd style="display: list-item; list-style-type: disc;">Many other fixes for various errors reported since 4.5</dd>
+<dd>&nbsp;</dd>
+<dt>Other</dt>
+<dd style="display: list-item; list-style-type: disc;">Many updates and improvements to the user manual</dd>
+<dd style="display: list-item; list-style-type: disc;">Updated Windows and Mac binaries to Qt 5.7.1 (and newer versions of several other support libraries).</dd>
+</dl>
+
+[/et_pb_text][/et_pb_column][et_pb_column type="1_2"][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2016/12/Screen-Shot-2016-12-26-at-11.36.38-AM.png" alt="Subsurface 4.6 with the heat map shown" show_in_lightbox="off" url_new_window="off" use_overlay="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+
+
+[/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+<dl>
+<dt>Dive computer support</dt>
+<dd style="display: list-item; list-style-type: disc;">Improved OSTC 4 support</dd>
+<dd style="display: list-item; list-style-type: disc;">Improvements to OSTC firmware update handling</dd>
+<dd style="display: list-item; list-style-type: disc;">Small fix to Uemis downloader for yet another corner case (Uemis downloader is known to be broken for some users - it is no longer actively maintained)</dd>
+<dd style="display: list-item; list-style-type: disc;">Added support for additional divecomputers (through the great work of the <a href="http://libdivecomputer.org">libdivecomputer</a> project)
+<ul style="list-style-type:circle">
+<li>aqualand: Citizen Hyper Aqualand</li>
+<li>meridian: Scubapro Mantis</li>
+<li>nitekq: Dive Rite NiTek Q, NikTek Trio</li>
+<li>Aeris: 500 AI, XR-1 NX</li>
+<li>Aqualung: i300, i550T</li>
+<li>Beuchat: Mundial 2, Mundial 3, Voyager 2G</li>
+<li>Cressi: Giotto</li>
+<li>Hollis: TX1</li>
+<li>Mares: Airlab, Smart Apnea, Puck 2</li>
+<li>Oceanic: OCi</li>
+<li>Scubapro: XTender 5</li>
+<li>Sherwood: Amphos, Amphos Air, Vision</li>
+<li>Subgear: XP-3G, XP-Air</li>
+<li>Uwatec: Aladin 2G</li>
+</ul></dd></dl>
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
