@@ -83,4 +83,19 @@ published: true
 <li>Uwatec: Aladin 2G</li>
 </ul></dd></dl>
 
+[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+Hay disponibles binarios para Windows, Mac y una AppImage para Linux (además de binarios específicos para varias distribuciones de Linux como Ubuntu, Debian, Linux Mint, Fedora y OpenSUSE). Se puede descargar Subsurface 4.6 desde las siguientes ubicaciones:
+<strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.6.0.exe">https://subsurface-divelog.org/downloads/subsurface-4.6.0.exe</a>
+
+<strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.0.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.6.0.dmg</a>
+
+<strong>Linux:</strong> Disponible para descarga una AppImage genérica en <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.0-x86_64.AppImage">Subsurface-4.6.0-x86_64.AppImage</a>. Descarga este archivo y hazlo ejecutable
+<code>chmod +x Subsurface-4.6.0-x86_64.AppImage</code> y luego simplemente ejecútalo. 
+<strong>Linux: Ubuntu: </strong>Añade <code>ppa:subsurface/subsurface</code>a tus fuentes de software; los archivos .deb del PPA también pueden instalarse en versiones suficientemente actualizadas de <strong>Debian</strong> y <strong>LinuxMint</strong>; visita la página de  <a href="https://subsurface-divelog.org/es/download/">Descargas</a> y usa <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> para conseguir nuestra última versión.
+
+<strong>Linux: openSUSE / Fedora:</strong> Visita nuestro <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">página open build service release</a>
+
+Por favor envía preguntas o problemas al <a href="https://subsurface-divelog.org/user-forum/">Foro de Usuarios</a> o registra un fallo en nuestro <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>. Como nota al marge, despues de muchos problemas con nuestro viejo bugtracker, hemos cambiado a utilizar las "issues" de GitHub, por tanto, sigue el link indicado antes, no el viejo link que puedas tener guardado en tus marcadores.
+
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
