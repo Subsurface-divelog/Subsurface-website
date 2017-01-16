@@ -68,7 +68,7 @@ git checkout v[s-var slug="latest"]
 cd ..
 ./subsurface/scripts/build.sh </code></pre>
 Y ahora podrías ejecutar Subsurface como sigue:
-<pre><code>cd ~/src/subsurface
+<pre><code>cd ~/src/subsurface/build
 ./subsurface</code></pre>
 <h2>Compilar Subsurface en MacOS X</h2>
 0) Es necesario tener instalado XCode. La primera vez (y posiblemente tras actualizar OSX) se necesita ejecutar
