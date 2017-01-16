@@ -13,7 +13,9 @@ published: true
 
 License: GPLv2
 
-Se pueden conseguir las fuentes de la última versión de desarrollo en nuestro <a href="http://git.subsurface-divelog.org/index.cgi?p=subsurface.git;a=summary">repositorio git</a> o se puede descargar [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] desde nuestro sitio web. Subsurface utiliza algunas librerías y entornos de código abierto para hacer su trabajo. Las principales incluyen libdivecomputer, Qt, Marble (más concretamente libmarblewidget), libxml2, libxslt, libsqlite3, libzip, libgrantlee5 y libgit2.
+Se pueden conseguir las fuentes de la última versión de desarrollo en nuestro <a href="http://github.com/Subsurface-divelog/subsurface.git">repositorio git</a> o se puede descargar [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] desde nuestro sitio web.
+
+Subsurface utiliza algunas librerías y entornos de código abierto para hacer su trabajo. Las principales incluyen libdivecomputer, Qt, Marble (más concretamente libmarblewidget), libxml2, libxslt, libsqlite3, libzip, libgrantlee5 y libgit2.
 
 A continuación, se proporcionan instrucciones para compilar Subsurface en algunas distribuciones populares de Linux, para compilarlo en un Mac utilizando Homebrew, y para hacer compilación cruzada para Windows. La falta de un sistema de paquetes para Windows hace que sea realmente difícil compilar Subsurface nativamente en este S.O.; simplemente no tenemos capacidad de dar soporte para ello.
 
@@ -35,33 +37,32 @@ El archivo Makefile que se creó usando cmake puede ser forzado a ser más locua
 <pre><code>make VERBOSE=1</code></pre>
 <h2>Compilar Subsurface en Linux</h2>
 En Fedora se puede hacer
-<pre><code>sudo yum install git gcc-c++ make autoconf automake libtool cmake 
-        libzip-devel libxml2-devel libxslt-devel libsqlite3x-devel 
-        libgit2-devel libudev-devel libusbx-devel 
-        qt5-qtbase-devel qt5-qtdeclarative-devel qt5-qtscript-devel 
-        qt5-qtwebkit-devel qt5-qtsvg-devel qt5-qttools-devel 
-        qt5-qtconnectivity-devel</code></pre>
-Notese que, a partir de Fedora 22, debería utilizarse el comando dnf en lugar de yum, ya que este ha sido declarado obsoleto.
+<pre><code>sudo dnf install git gcc-c++ make autoconf automake libtool cmake \
+        libzip-devel libxml2-devel libxslt-devel libsqlite3x-devel \
+        libgit2-devel libudev-devel libusbx-devel libcurl-devel libssh2-devel \
+        qt5-qtbase-devel qt5-qtdeclarative-devel qt5-qtscript-devel \
+        qt5-qtwebkit-devel qt5-qtsvg-devel qt5-qttools-devel \
+        qt5-qtconnectivity-devel qt5-qtlocation-devel</code></pre>
 
 Tristemente, en OpenSUSE los nombres de paquetes son distintos
-<pre><code>sudo zypper install git gcc-c++ make autoconf automake libtool cmake libzip-devel 
-        libxml2-devel libxslt-devel sqlite3-devel libgit2-devel libusb-1_0-devel 
-        libqt5-linguist-devel libqt5-qttools-devel libQt5WebKitWidgets-devel 
-        libqt5-qtbase-devel libQt5WebKit5-devel libqt5-qtsvg-devel 
-        libqt5-qtscript-devel libqt5-qtdeclarative-devel 
-        libqt5-qtconnectivity-devel</code></pre>
-En Debian Jessie, lo siguiente parece funcionar
-<pre><code>sudo apt-get install git g++ make autoconf libtool cmake pkg-config 
-        libxml2-dev libxslt1-dev libzip-dev libsqlite3-dev 
-        libusb-1.0-0-dev libgit2-dev 
-        qt5-default qt5-qmake qtchooser qttools5-dev-tools libqt5svg5-dev 
-        libqt5webkit5-dev libqt5qml5 libqt5quick5 libqt5declarative5 
-        qtscript5-dev libssh2-1-dev libcurl4-openssl-dev qttools5-dev 
-        qtconnectivity5-dev</code></pre>
+<pre><code>sudo zypper install git gcc-c++ make autoconf automake libtool cmake libzip-devel \
+        libxml2-devel libxslt-devel sqlite3-devel libgit2-devel libusb-1_0-devel \
+        libqt5-linguist-devel libqt5-qttools-devel libQt5WebKitWidgets-devel \
+        libqt5-qtbase-devel libQt5WebKit5-devel libqt5-qtsvg-devel \
+        libqt5-qtscript-devel libqt5-qtdeclarative-devel \
+        libqt5-qtconnectivity-devel libqt5-qtlocation-devel</code></pre>
+En Debian, Ubuntu y Linux Mint, lo siguiente parece funcionar
+<pre><code>sudo apt-get install git g++ make autoconf libtool cmake pkg-config \
+        libxml2-dev libxslt1-dev libzip-dev libsqlite3-dev \
+        automake libusb-1.0-0-dev libgit2-dev libssl-dev \
+        qt5-default qt5-qmake qtchooser qttools5-dev-tools libqt5svg5-dev \
+        libqt5webkit5-dev libqt5qml5 libqt5quick5 libqt5declarative5 \
+        qtscript5-dev libssh2-1-dev qttools5-dev \
+        qtpositioning5-dev qtconnectivity5-dev</code></pre>
 Para construir Subsurface, utiliza el script que se suministra. Esto debería funcionar en la mayoría de sistemas que tengan todos los paquetes requeridos instalados. Comienza por situar los fuentes de Subsurface en un lugar que tenga sentido, algo como:
 <pre><code>mkdir -p ~/src
 cd ~/src
-git clone  git://subsurface-divelog.org/subsurface
+git clone  git://github.com/Subsurface-divelog/subsurface
 cd subsurface
 git checkout v[s-var slug="latest"]
 cd ..
@@ -86,6 +87,7 @@ Tras haber hecho esto, Subsurface.app estará disponible en el directorio subsur
 <pre><code>open subsurface/build/Subsurface.app</code></pre>
 o mover la carpeta a /Applications para instalar Subsurface para todos los usuarios.
 <h2>Subsurface Companion App en Android</h2>
+<h3>Esta app no es Subsurface-mobile (que se compila desde el antedicho repositorio principal). Es una app más antigua que solo se usaba para registrar posiciones GPS de los puntos de buceo.</h3>
 Esta aplicación está disponible en <a href="https://play.google.com/store/apps/details?id=org.subsurface">Google Play Store</a>. También es GPLv2 y los fuentes están en <a href="http://git.subsurface-divelog.org/?p=subsurface-companion.git;a=summary"><code>git://subsurface-divelog.org/subsurface-companion.git</code></a>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
