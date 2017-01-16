@@ -17,7 +17,7 @@ published: true
 
 License: GPLv2
 
-You can get the sources to the latest development version from our <a href="http://git.subsurface-divelog.org/index.cgi?p=subsurface.git;a=summary">git repository</a> or you can download [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] from our website.
+You can get the sources to the latest development version from our <a href="http://github.com/Subsurface-divelog/subsurface.git">git repository</a> or you can download [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] from our website.
 
 Subsurface uses a few open source libraries and frameworks to do its job. The most important ones include libdivecomputer, Qt, Marble (more precisely libmarblewidget), libxml2, libxslt, libsqlite3, libzip, libgrantlee5 and libgit2.
 
@@ -67,7 +67,7 @@ On Debian, Ubuntu, and Linux Mint this seems to work
 In order to build Subsurface, use the supplied build script. This should work on most systems that have all the prerequisite packages installed. Start by checking out the Subsurface sources in a sane place, something like this:
 <pre><code>mkdir -p ~/src
 cd ~/src
-git clone  git://subsurface-divelog.org/subsurface
+git clone  git://github.com/Subsurface-divelog/subsurface
 cd subsurface
 git checkout v[s-var slug="latest"]
 cd ..
@@ -93,6 +93,7 @@ After the above is done, Subsurface.app will be available in the subsurface/buil
 <pre><code>open subsurface/build/Subsurface.app</code></pre>
 or you can move this folder to /Applications to install Subsurface for every user.
 <h2>Subsurface Companion App on Android</h2>
+<h3>This is NOT Subsurface-mobile (which is built from the main repository above). This is an older app that is just used to track GPS locations for dive sites.</h3>
 This application is available in the <a href="https://play.google.com/store/apps/details?id=org.subsurface">Google Play Store</a>. It is also under GPLv2 and sources are at <a href="http://git.subsurface-divelog.org/?p=subsurface-companion.git;a=summary"><code>git://subsurface-divelog.org/subsurface-companion.git</code></a>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
