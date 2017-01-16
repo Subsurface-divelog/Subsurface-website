@@ -1,7 +1,7 @@
 # Subsurface-website
 Wordpress to GitHub integration of the full Subsurface website, including all translations
 
-.de: Deutch (occasionally, dirkhh)
+.de: Deutsch (occasionally, dirkhh)
 
 .en: English (dirkhh, h2sk1, fezzington)
 
