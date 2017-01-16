@@ -20,7 +20,7 @@ published: true
 <h2>Mac</h2>
 [s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] es una imagen Mac que puede instalarse en Macs Intel de 64 bits bajo MacOs 10.7 o posterior, arrastrando Subsurface.app a tu carpeta <code>/Applications</code> .
 <h2>Linux</h2>
-El equipo de Subsurface está empezando a hacer disponibles nuestros propios binarios para varias versiones de Linux.
+El equipo de Subsurface estamos empezando a hacer disponibles nuestros propios binarios para varias versiones de Linux y también una "AppImage" genérica que debería funcionar en la mayoría de distribuciones.
 <h2>Ubuntu (14.04, 15.04, 15.10 y 16.04), LinuxMint (17), y Debian Jessie</h2>
 Para utilizar estos binarios en Ubuntu, simplemente añade el siguiente PPA a tu sistema:
 <pre><code>ppa:subsurface/subsurface</code></pre>
@@ -38,6 +38,9 @@ Ahora puedes instalar desde este repositorio.
 Asegúrate de que te estás bajando una versión actualizada con todas sus dependencias de QT5.
 <h2>OpenSUSE 13.1 / 13.2 / Tumbleweed y Fedora 22 / 23</h2>
 Para instalar el paquete oficial de Subsurface en OpenSUSE 13.1, 13.2, o Tumbleweed y también en Fedora 22, 23, dirígete a la <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">página del servicio de compilación del proyecto</a> y sigue las instrucciones (es tan fácil como hacer dos clics).
+<h2>Resto de versiones de Linux de 64bits</h2>
+Está disponible para descargar una AppImage genérica en [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"]. Descarga este archivo y hazlo ejecutable con <code>chmod +x [s-var slug="appimage"]</code>. Luego, simplemente ejecuta el archivo. Estamos muy interesados en recibir feedback en relación a esta forma de distribuir binarios de Linux.
+
 <h2>Paquetes obsoletos mantenidos por las distribuciones</h2>
 Diversas variantes de Linux permiten instalar Subsurface desde el SO. Aunque esto es muy conveniente, recomendamos la utilización de los paquetes oficiales tal como se ha descrito con anterioridad.
 <h2>Fuentes</h2>
