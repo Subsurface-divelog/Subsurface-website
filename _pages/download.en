@@ -21,7 +21,7 @@ published: true
 [s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] is a Mac image that can be installed on 64bit Intel Macs running MacOS 10.9 or later by dragging the Subsurface.app to your <tt>/Applications</tt> folder.
 <h2>Linux</h2>
 The Subsurface team is making our own dedicated binaries available for a number of Linux versions as well as a generic "AppImage" that should work on most any Linux distribution.
-<h2>Ubuntu (14.04, 15.10, 16.04, 16.10), LinuxMint (17), and Debian Jessie</h2>
+<h2>Ubuntu (14.04, 15.10, 16.04, 16.10), LinuxMint (17, 18), and Debian Jessie</h2>
 To use these binaries in Ubuntu, simply add the following PPA to your system:
 <pre><code>ppa:subsurface/subsurface</code></pre>
 On LinuxMint you have to add this on the command line and explicitly request the PPA version of Subsurface, otherwise the outdated Subsurface 4.0 would have been installed:
@@ -43,6 +43,6 @@ A generic AppImage is available for download as [s-var slug="appimageurl"][s-var
 <h2>Deprecated distribution maintained packages</h2>
 Some flavors of Linux allow an install of Subsurface from within the OS. While this is very convenient, we recommend that you use the official packages as described above.
 <h2>Sources</h2>
-Sources are of course available via <a href="http://git.subsurface-divelog.org/index.cgi?p=subsurface.git;a=summary">git</a> or as a release tar-ball [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"]. The sources of the GPL and LGPL components shipped with the Mac and Windows binaries can be found at <a href="http://www.macports.org/">MacPorts</a> and <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.
+Sources are of course available via <a href="http://github.com/Subsurface-divelog/subsurface.git">git</a> or as a release tar-ball [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"]. The sources of the GPL and LGPL components shipped with the Mac and Windows binaries can be found at <a href="http://www.macports.org/">MacPorts</a> and <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
