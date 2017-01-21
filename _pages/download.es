@@ -21,7 +21,7 @@ published: true
 [s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] es una imagen Mac que puede instalarse en Macs Intel de 64 bits bajo MacOs 10.7 o posterior, arrastrando Subsurface.app a tu carpeta <code>/Applications</code> .
 <h2>Linux</h2>
 El equipo de Subsurface estamos empezando a hacer disponibles nuestros propios binarios para varias versiones de Linux y también una "AppImage" genérica que debería funcionar en la mayoría de distribuciones.
-<h2>Ubuntu (14.04, 15.04, 15.10 y 16.04), LinuxMint (17), y Debian Jessie</h2>
+<h2>Ubuntu (14.04, 15.04, 15.10 y 16.04), LinuxMint (17, 18), y Debian Jessie</h2>
 Para utilizar estos binarios en Ubuntu, simplemente añade el siguiente PPA a tu sistema:
 <pre><code>ppa:subsurface/subsurface</code></pre>
 Parece que en LinuxMint tienes que añadirlo en linea de comandos y, explícitamente, pedir la versión PPA de Subsurface, de otra forma se instalaría la anticuada versión 4.0 de Subsurface. Así pues los pasos serían
@@ -44,6 +44,6 @@ Está disponible para descargar una AppImage genérica en [s-var slug="appimageu
 <h2>Paquetes obsoletos mantenidos por las distribuciones</h2>
 Diversas variantes de Linux permiten instalar Subsurface desde el SO. Aunque esto es muy conveniente, recomendamos la utilización de los paquetes oficiales tal como se ha descrito con anterioridad.
 <h2>Fuentes</h2>
-El código fuente, por supuesto, está disponible vía <a href="http://git.subsurface-divelog.org/index.cgi?p=subsurface.git;a=summary">git</a> o como tar-ball [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] Las fuentes de los componentes GPL y LGPL distribuidos con los ejecutables de Mac y Windows pueden encontrarse en <a href="http://www.macports.org/">MacPorts</a> y <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.
+El código fuente, por supuesto, está disponible vía <a href="http://github.com/Subsurface-divelog/subsurface.git">git</a> o como tar-ball [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] Las fuentes de los componentes GPL y LGPL distribuidos con los ejecutables de Mac y Windows pueden encontrarse en <a href="http://www.macports.org/">MacPorts</a> y <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
