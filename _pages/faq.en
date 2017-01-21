@@ -272,6 +272,12 @@ For Android and iOS you can simply install the Subsurface-mobile apps that are a
 
 From all other devices (including tablets and phones with OSs that we don't support with Subsurface-mobile), you can open our <a href="https://cloud.subsurface-divelog.org">cloud website</a> and log in with the same email address / password. This allows you to access your dive data from any device with a web browser.
 
+[/et_pb_accordion_item][et_pb_accordion_item title="What to do when authentication to cloud storage fails?"]
+
+If you have configured your correct user credentials to Subsurface and cloud authentication still fails, try to change the password on Subsurface preferences. There has been a change in the cloud service that can cause an error on sync, but password change with correct credentials fixes the issue.
+
+If your credentials are still not working or there is something else wrong, contact Dirk to sort it out.
+
 [/et_pb_accordion_item][et_pb_accordion_item title="When printing on a Mac, line breaks in the notes are shown as <br>"]
 
 This is likely caused by an earlier install of Subsurface on the same computer. For some reason Subsurface may have decided to store a personal copy of the print template and is using that instead of the one shipped with Subsurface.
