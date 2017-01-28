@@ -83,4 +83,20 @@ published: true
 <li>Uwatec: Aladin 2G</li>
 </ul></dd></dl>
 
+[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+Binaries sind für Windows, Mac, und Linux verfügbar. Für Linux habben wir sowohl ein AppImage als auch Distributions specifizifische Versionen für eine Anzahl beliebter Linux Distributionen wie Ubuntu, Debian, Linux Mint, Fedora und openSUSE). Du kannst Subsurface 4.6 hier herunterladen:
+
+<strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.6.0.exe">https://subsurface-divelog.org/downloads/subsurface-4.6.0.exe</a>
+
+<strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.0.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.6.0.dmg</a>
+
+<strong>Linux:</strong> Ein AppImage, das auf den meisten x86 Linux Distributionen laufen sollte: <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.0-x86_64.AppImage">Subsurface-4.6.0-x86_64.AppImage</a>. Einfach diese Datei herunterladen, ausführbar machen mit
+<code>chmod +x Subsurface-4.6.0-x86_64.AppImage</code> und dann diese Datei aufrufen. 
+<strong>Linux: Ubuntu: </strong>Bitte füg <code>ppa:subsurface/subsurface</code> zu Deinen "software sources" hinzu; die .deb Dateien in diesem PPA können auch in hinreichend neuen <strong>Debian</strong> und <strong>LinuxMint</strong> Versionen benutzt werden; bitte folge der Beschreibung auf der <a href="https://subsurface-divelog.org/download/">Downloads</a> Seite und benutze <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> fur unsere aktuelle Version.
+
+<strong>Linux: openSUSE / Fedora:</strong> bitte von unserer <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">Open Build Service Seite</a> installieren.
+
+Fragen und Probleme können am besten in unserem <a href="https://subsurface-divelog.org/user-forum/">Anwender Forum</a> gestellt werden, oder Du kannst ein Problem auf unserem <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a> posten.
+
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
