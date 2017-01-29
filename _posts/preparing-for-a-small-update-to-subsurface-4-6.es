@@ -11,10 +11,10 @@ permalink: >
   https://subsurface-divelog.org/es/2017/01/preparing-for-a-small-update-to-subsurface-4-6/
 published: true
 ---
-Two weeks after the release of Subsurface 4.6 we have not received a lot of bug reports - which is quite encouraging. 
+Dos semanas despues del lanzamiento de Subsurface 4.6, no se han recibido muchos informes de errores, lo que resulta alentador.
 
-One strange bug affected the initial Mac DMG where a broken support library caused crashes in some rare circumstances. This that bug was entirely in a support library, we decided to simply replace the Mac DMG without doing a new Subsurface release.
+Un fallo extraño afectaba a la DMG inicial para Mac; en él, una librería de soporte defectuosa provocaba que la aplicación fallara en extrañas circustancias. El hecho de que el fallo estuviera en una librería de apoyo ha hecho que decidieramos, simplemente, sustituir el DMG sin hacer una nueva versión.
 
-Besides that, we have fixed a few random other bugs that have been reported and are planning to do a new release in the not too distant future.
+Además de eso, hemos solucionado algún otro fallo aleatorio que había sido reportado anteriormente y estamos planeando lanzar una nueva versión en un futuro no muy lejano.
 
-If you ran into a problem with Subsurface 4.6, now would be a great time to post it to our <a href="https://github.com/Subsurface-divelog/subsurface/issues">issue tracker</a>, just so we can try to fix it before the next release.
+Si encuentras problemas con Subsurface 4.6, ahora sería un buen momento para comunicarnoslo en nuestro <a href="https://github.com/Subsurface-divelog/subsurface/issues">control de errores</a>, simplemente para que intentemos solucionarlo antes de sacar la próxima versión.
