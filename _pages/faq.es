@@ -10,9 +10,13 @@ published: true
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" global_module="1887" saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_line_height="1.3em" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
+[/et_pb_post_title]
 
+[et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+<h2 id="general">General</h2>
+[/et_pb_text]
 
-[/et_pb_post_title][et_pb_accordion admin_label="Accordion" use_border_color="off" border_color="#ffffff" border_style="solid"]
+[et_pb_accordion admin_label="Info" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
 [et_pb_accordion_item title="¿Que sistemas operativos soporta Subsurface?"]
 
@@ -22,7 +26,18 @@ Subsurface se puede ejecutar en Windows (32 y 64bit, Windows XP en adelante), Ma
 
 Subsurface está dirigido a buceadores recreativos, técnicos y profesionales del buceo, con una interfaz facil de usar para planificar, registrar y guardar inmersiones. Las inmersiones se pueden introducir manualmente, a través de hojas de cálculo, directamente desde otros softwares de divelogs, y principalmente, desde muchos ordenadores de buceo. ¿ Que pasa si cambio de ordenador ? Esto no es un problema con Subsurface, ya que no está vinculado a un fabricante concreto de ordenadores. Subsurface es gratuito y está disponible en diversas plataformas, haciendo de él el software perfecto para un amplio abanico de buceadores.
 
-[/et_pb_accordion_item][et_pb_accordion_item title="¿Como instalo Subsurface en Windows?"]
+[/et_pb_accordion_item]
+
+
+[/et_pb_accordion]
+
+[et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+<h2 id="install">Instalación</h2>
+[/et_pb_text]
+
+[et_pb_accordion admin_label="Install" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+[et_pb_accordion_item title="¿Como instalo Subsurface en Windows?"]
 
 <a href="/download/">Descarga el instalador</a> y haz doble clic izquierdo en él. Recibirás un aviso de que el instalador es de un proveedor desconocido. Haz clic en "Si" para permitir la instalación. A continuación se presenta la licencia de Subsurface, después puedes elegir donde te gustaría instalar Subsurface (las carpetas por defecto deberían ser razonables en la mayoría de los casos) y la carpeta del <em>Menú Inicio</em> donde se instalarán un atajo para lanzar Subsurface y una entrada para desinstalarlo.
 
@@ -51,15 +66,47 @@ Asegurate de que te estás instalando una versión actualizada con todas sus dep
 
 Ves a <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">nuestra página del servicio de compilación del proyecto</a> y sigue las instrucciones de allí -- es tan simple como dos clics.
 
-[/et_pb_accordion_item][et_pb_accordion_item title="¿ Como sé si tengo la última versión de Subsurface ?"]
+[/et_pb_accordion_item][et_pb_accordion_item title="¿Como puedo ver mis inmersiones en mi teléfono/tablet?"]
+
+Para Android e iOS puedes, simplemente, instalar las apps Subsurface-mobile que estan disponibles en sus respectivos appstores. Activa el almacenamiento en la nube en Subsurface y guarda allí tu información de buceo. Las inmersiones estarán disponibles ahora también en tu dispositivo móvil.
+
+Para el resto de dispositivos (incluyento tablets y teléfonos con OSs que no soportamos en Subsurface-mobile) puedes abrir <a href="https://cloud.subsurface-divelog.org">nuestra nube</a> y regístrarte con los mismos e-mail y password. Con esto podrás acceder a tus datos desde cualquier dispositivo con un navegador web.
+
+[/et_pb_accordion_item]
+
+[/et_pb_accordion]
+
+
+[et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+<h2 id="utilización">Usage</h2>
+[/et_pb_text]
+
+
+[et_pb_accordion admin_label="Use" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+[et_pb_accordion_item title="¿ Como sé si tengo la última versión de Subsurface ?"]
+
 Desde el menú principal, selecciona "Ayuda -> Comprobar si hay actualizaciones".
-Tambine puedes dirigirte a <a href="https://subsurface-divelog.org/category/news/"> la sección de noticias </a> de la web de Subusrface para anuncios sobre nuevas versiones.
+También puedes dirigirte a <a href="https://subsurface-divelog.org/category/news/"> la sección de noticias </a> de la web de Subusrface para anuncios sobre nuevas versiones.
 
-[/et_pb_accordion_item][et_pb_accordion_item title="Los atajos de teclado no funcionan en Ubuntu"]
+[/et_pb_accordion_item][et_pb_accordion_item title="¿ Como puedo importar mis inmersiones a Subsurface ?"]
 
-Desinstala
-<code>appmenu-qt5</code>
-y los atajos de teclado funcionarán
+Hay varias formas de importar datos a Subsurface. Del manual de usuario:
+
+Para inmersiones registradas manualmente:
+<blockquote>Para añadir una inmersión a un registro de buceo, selecciona <em>Registro → Añadir Inmersión</em> en el menú principal. El programa muestra entonces tres paneles para introducir información: Dos pestañas en el panel <strong>Información (Notas y Equipo)</strong>, así como el panel <strong>perfil</strong> que muestra un perfil gráfico de cada buceo,</blockquote>
+
+Para importar desde un ordenador de buceo:
+<blockquote>Ahora es el momento de conectar el ordenador de buceo al PC del usuario, para lo que hay que seguir estos pasos:
+<ol>
+	<li>Conectar el cable de conexión a un puerto USB libre (o activar la conexión infrarroja o bluetooth como describiremos más adelante en este manual).</li>
+	<li>Poner el ordenador de buceo en modo de comunicación con PC. Consulta el manual de tu ordenador de buceo en concreto.</li>
+	<li>En Subsurface, desde el Menú principal, seleccionar <em>Importar → Importar del ordenador de buceo</em>.</li>
+</ol>
+</blockquote>
+Luego, sigue las instrucciones para seleccionar tu ordenador en particular. Puedes encontrar información más detallada en el Manual de Usuario.
+
+También existe la posibilidad de añadir inmersiones desde otro software o páginas web. Consulta el Manual de Usuario para la información más actualizada sobre este punto; puedes encontrarla en la sección 5.3.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="¿Como puedo subir mi inmersión a Facebook?"]
 
@@ -94,6 +141,8 @@ La importación de CSV requiere un par de advertencias. Se deben evitar algunos 
 
 Guarda los diarios de diferentes usuarios en diferentes archivos. Desde Subsurface se pueden abrir archivos individuales para diferentes buceadores y múltiples usuarios también están bastante bien soportados.
 
+Estamos considerando un soporte multiusuario más completo para versiones futuras. Si deseas darnos idéas sobre nuevas características, por favor, contáctanos a través de foro de usuarios o la lista de correo electrónico.
+
 [/et_pb_accordion_item][et_pb_accordion_item title="¿Como puedo cargar fotografías y asociarlas con mi inmersión?"]
 
 Elige las inmersiones a las que deseas asociar las fotografías. Haz clic derecho en una de las inmersiones elegidas y selecciona "Cargar imágenes" del menú desplegable. Esto abrirá un diálogo de selección de archivos donde puedes elegir una o varias imágenes. Cuando hayas terminado pulsa "Abrir", obtendrás un nuevo diálogo donde podrás desplazar las horas de la imágenes. Esto se describe con más detalle en el manual de usuario.
@@ -110,9 +159,6 @@ Soportamos ya un gran número de ordenadores de buceo y siempre estamos encantad
 
 Un buen punto de inicio suele ser enviarnos un volcado y un registro de libdivecomputer (puedes seleccionarlos en el diálogo de descarga del ordenador de buceo) cuando conectes al ordenador un modelo existente similar (si es posible).
 
-[/et_pb_accordion_item][et_pb_accordion_item title="¿Hay un virus en el instalador de Subsurface?"]
-
-Si recibes un mensaje de aviso o si Subsurface es bloqueado por tu software antivirus, es casi seguro un falso positivo. Subsurface no se compila en una máquina con Windows, se hace por compilación cruzada sobre Linux en un servidor limpio y bien mantenido. La mayoría de (casi todos) los paquetes de software antivirus en Windows tienen una capacidad "añadir excepciones", que evita que un ejecutable sea escaneado. Intenta añadir Subsurface a la lista de software no dañino. Si el instalador fuera detectado como malware, por favor, desactiva temporalmente el antivirus hasta que Subsurface esté instalado. En ambos casos, informa al fabricante del software antivirus del "falso positivo" ya que te garantizamos que Subsurface no es malware.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="No consigo descargar todas mis inmersiones, solo las más recientes, aunque el manual de mi ordenador de buceo afirma que guarda el historial de, por ejemplo, 999 buceos"]
 
@@ -121,6 +167,31 @@ El historial de buceo es diferente de los perfiles de inmersión del registro. E
 La cantidad exacta de perfiles que pueden guardarse en un dispositivo dependen del intervalo de las muestras y de la duración de los buceos. Una vez que la memoria se ha llenado se sobrescriben las inmersiones más antiguas con nuevas. De esta forma, solo podemos descargar las últimas 13, 30 o 199 inmersiones.
 
 Si has decargado tus inmersiones a otro software de divelog antes de que se sobreescribieran hay muchas posibilidades de que Subsurface pueda importarlas. Sin embargo, si los registros solo estaban en el ordenador de buceo, no pueden ser recuperados despues de haber sido sobreescritos por nuevas inmersiones.
+
+[/et_pb_accordion_item][et_pb_accordion_item title="¿ Que hacer cuando falla la autenticación con el almacenamiento en la nube ?"]
+
+Si has configurado correctamente tus credenciales de Subsurface y el almacenamiento en la nube aún falla, intenta cambiar la password en las preferencias de Subsurface. Ha habido un cambio en el servicio en la nube que puede provocar un fallo de sincronzación, pero un cambio de password lo soluciona.
+
+Si tus credenciales siguen sin funcionar, o hay alguna otra cosa mal, contacta con Dirk para solucionarlo.
+
+[/et_pb_accordion_item]
+
+[/et_pb_accordion]
+
+
+[et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+<h2 id="os">Cuestiones relativas a Sistemas Operativos concretos</h2>
+
+<br>
+
+<h3 id="linux">Linux</h3>
+[/et_pb_text]
+
+[et_pb_accordion admin_label="Linux" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+[et_pb_accordion_item title="Los atajos de teclado no funcionan en Ubuntu"]
+
+Desinstala <code>appmenu-qt5</code> y los atajos de teclado funcionarán
 
 [/et_pb_accordion_item][et_pb_accordion_item title="¿Como descargo inmersiones desde mi Shearwater Petrel 2 (u otro ordenador de buceo con Bluetooth) en Linux?"]
 
@@ -255,13 +326,15 @@ Channel: 5
 </code>
 En el caso de ordenadores de buceo Bluetooth que no estén incluidos en la lista anterior, por favor, informa a los desarrolladores de Subsurface a través del foro de usuarios o de la lista de correo _subsurface@subsurface-divelog.org_.
 
+Si tienes un error de permisos, probablemente necesites añadir el usuario a la grupo dialout, cierra sesión e iníciala de nuevo.
+
 [/et_pb_accordion_item][et_pb_accordion_item title="¿ Como soluciono los errores de permisos al intentar descargar desde mi Atomics Aquatics Cobalt en Linux?"]
 
 Tristemente, es un proceso, por decirlo de alguna manera, complicado en algunas versiones de Linux. Por defecto, a los nuevos dispositivos se les dan, en ocasiones, permisos que evitan que un usuario normal pueda acceder a ellos. Si recibes un error por permisos cuando intentas descargar desde un Cobalt o Cobalt2, intenta estos pasos, por favor.
 
 Esto debería funcionar en la mayoría de versiones de Linux. Agradeceríamos tu feedback si no te funciona. Abre un terminal y "copia y pega" la siguiente línea de comando. Puede que te requiera la introducción de tu password para conseguir acceso como super usuario (lo cual es necesario para ajustar la regla de udev que cambia los permisos del dispositivo al conectar tu Cobalt).
-<pre><code>(MYGRP=$(id | sed "s/^.*gid=.*((.*)) .*$/1/") ; 
-echo -n 'SUBSYSTEM=="usb", ATTR{idVendor}=="0471", ATTR{idProduct}=="0888", MODE="0660", GROUP="' ; 
+<pre><code style="font-size: 8pt;">(MYGRP=$(id | sed "s/^.*gid=.*((.*)) .*$/1/") ;
+echo -n 'SUBSYSTEM=="usb", ATTR{idVendor}=="0471", ATTR{idProduct}=="0888", MODE="0660", GROUP="' ;
 echo -n $MYGRP ; echo '"') | sudo tee /etc/udev/rules.d/99-cobalt.rules </code></pre>
 Si desenchufas y vuelves a conectar tu Cobalt, debería tomar los permisos correctos.
 
@@ -270,18 +343,23 @@ Si desenchufas y vuelves a conectar tu Cobalt, debería tomar los permisos corre
 Por defecto, a los nuevos dispositivos se les dan, en ocasiones, permisos que evitan que un usuario normal pueda acceder a ellos. Si recibes un error por permisos cuando intentas descargar desde un EON Steel, intenta estos pasos, por favor.
 
 Esto debería funcionar en la mayoría de versiones de Linux. Agradeceríamos tu feedback si no te funciona. Abre un terminal y "copia y pega" la siguiente línea de comando. Puede que te requiera la introducción de tu password para conseguir acceso como super usuario (lo cual es necesario para ajustar la regla de udev que cambia los permisos del dispositivo al conectar tu EON Steel).
-<pre><code>echo 'SUBSYSTEM=="usb",ATTR{idVendor}=="1493",ATTR{idProduct}=="0030", MODE="0666"' |
+<pre><code style="font-size: 8pt;">echo 'SUBSYSTEM=="usb",ATTR{idVendor}=="1493",ATTR{idProduct}=="0030", MODE="0666"' |
 sudo tee /etc/udev/rules.d/99-cobalt.rules</code><pre>Si desconectas y vuelves a conectar tu ordenador de buceo, debería tomar los permisos de acceso correctos.
 
-[/et_pb_accordion_item][et_pb_accordion_item title="¿Porque no funciona mi ordenador de buceo con infrarrojos en un Mac ?"]
+[/et_pb_accordion_item]
+
+[/et_pb_accordion]
+
+[et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+<h3 id="mac">macOS</h3>
+[/et_pb_text]
+
+[et_pb_accordion admin_label="macOS" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+[et_pb_accordion_item title="¿Porque no funciona mi ordenador de buceo con infrarrojos en un Mac ?"]
 
 Subsurface en Mac no soporta actualmente ordenadores de buceo basados en IRDA. Es un problema de falta de librerías que podamos utilizar (otro software de registro de inmersiones puede haber implementado su propia stack para IRDA en Mac, nosotros no lo hemos hecho). En Windows y Linux los ordenadores de buceo basados en infrarrojos se soportan perfectamente.
 
-[/et_pb_accordion_item][et_pb_accordion_item title="¿Como puedo ver mis inmersiones en mi teléfono/tablet?"]
-
-Para Android e iOS puedes, simplemente, instalar las apps Subsurface-mobile que estan disponibles en sus respectivos appstores. Activa el almacenamiento en la nube en Subsurface y guarda allí tu información de buceo. Las inmersiones estarán disponibles ahora también en tu dispositivo móvil.
-
-Para el resto de dispositivos (incluyento tablets y teléfonos con OSs que no soportamos en Subsurface-mobile) puedes abrir <a href="https://cloud.subsurface-divelog.org">nuestra nube</a> y regístrarte con los mismos e-mail y password. Con esto podrás acceder a tus datos desde cualquier dispositivo con un navegador web.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Al imprimir en un Mac, los saltos de línea en las notas se muestran como <br>"]
 
@@ -293,6 +371,36 @@ mv ~/Library/Application Support/Subsurface/printing_templates
      ~/Library/Application Support/Subsurface/printing_templates.bak
 </code>
 
-[/et_pb_accordion_item]</pre></pre>
+[/et_pb_accordion_item]
+
+[/et_pb_accordion]
+
+[et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+<h3 id="mobile">Mobile</h3>
+[/et_pb_text]
+
+[et_pb_accordion admin_label="mobile" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+[et_pb_accordion_item title="What is the difference between the Subsurface-mobile and Subsurface apps?"]
+
+Existen dos versiones de Subsurface en la app store. La app <em>Subsurface-mobile</em> es la conversión de la aplicación de ordenador a Android e iOS. Te permite conectarte a la nube de Subsurface y visualizar inmersiones, editarlas o añadir nuevas. La app <em>Subsurface companion</em> es una aplicación complementaria, diseñada para permitirnos registrar datos GPS mientras buceamos. Actualmente es innecesaria en Android (y no se soportará en adelante), ya que su funcionalidad se ha añadido a <em>Subsurface-mobile</em>. En iOS, <em>Subsurface companion</em> aún es necesaria para efectuar la recogida de posiciones GPS.
+
+[/et_pb_accordion_item]
+
+
+[/et_pb_accordion]
+
+[et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+<h3 id="windows">Windows</h3>
+[/et_pb_text]
+
+[et_pb_accordion admin_label="windows" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+[et_pb_accordion_item title="¿Hay un virus en el instalador de Subsurface?"]
+
+Si recibes un mensaje de aviso o si Subsurface es bloqueado por tu software antivirus, es casi seguro un falso positivo. Subsurface no se compila en una máquina con Windows, se hace por compilación cruzada sobre Linux en un servidor limpio y bien mantenido. La mayoría de (casi todos) los paquetes de software antivirus en Windows tienen una capacidad "añadir excepciones", que evita que un ejecutable sea escaneado. Intenta añadir Subsurface a la lista de software no dañino. Si el instalador fuera detectado como malware, por favor, desactiva temporalmente el antivirus hasta que Subsurface esté instalado. En ambos casos, informa al fabricante del software antivirus del "falso positivo" ya que te garantizamos que Subsurface no es malware.
+
+[/et_pb_accordion_item]
+
 
 [/et_pb_accordion][/et_pb_column][/et_pb_row][/et_pb_section]
