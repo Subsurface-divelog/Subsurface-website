@@ -1,5 +1,5 @@
 ---
-ID: 2910
+ID: 2922
 post_title: >
   Preparing for a small update to
   Subsurface 4.6
@@ -8,7 +8,7 @@ post_date: 2017-01-28 21:46:17
 post_excerpt: ""
 layout: post
 permalink: >
-  https://subsurface-divelog.org/2017/01/preparing-for-a-small-update-to-subsurface-4-6/
+  https://subsurface-divelog.org/ru/2017/01/preparing-for-a-small-update-to-subsurface-4-6/
 published: true
 ---
 Two weeks after the release of Subsurface 4.6 we have not received a lot of bug reports - which is quite encouraging. 
