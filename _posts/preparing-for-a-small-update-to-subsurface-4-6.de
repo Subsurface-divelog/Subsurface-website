@@ -15,6 +15,6 @@ In den gut zwei Wochen, seit wir Subsurface 4.6 freigegeben haben, wurden nur re
 
 Ein etwas seltsamer Fehler sorgte im Original-DMG für Macs dafür, dass in seltenen Situationen Subsurface abstürzte. Es stellte sich heraus, dass dies ein Fehler in einer Bibliothek war, die wir in Subsurface benutzen. Wir haben diese Bibliothek jetzt im Subsurface DMG ersetzt und das Problem sollte behoben sein.
 
-Darüberhinaus haben wir ein paar andere kleinere Fehler behoben, die uns berichtet wurden und planen in Kürze eine neue Version von Subsurface freizugeben.
+Darüberhinaus haben wir ein paar andere kleinere Fehler behoben, die uns berichtet wurden, und planen in Kürze eine neue Version von Subsurface freizugeben.
 
 Falls Du Probleme mit Subsurface 4.6 hast, wäre es toll, diese jetzt in unserem <a href="https://github.com/Subsurface-divelog/subsurface/issues">Issue Tracker</a> einzutragen, so dass wir versuchen können, sie für diese nächste Version zu behben.
