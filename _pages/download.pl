@@ -16,7 +16,7 @@ published: true
 
 [himage][s-var slug="exeurl"]<img src="/wp-content/uploads/2011/10/en-button-win.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-win-hover.png" alt="" height="54" width="288">[/himage] [himage][s-var slug="dmgurl"]<img src="/wp-content/uploads/2011/10/en-button-mac.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-mac-hover.png" alt="" height="54" width="288">[/himage]
 <h2>Windows</h2>
-[s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] jest programem 64bitowym, testowanym zarówno na 32/64 bitowych wersjach Windows, w tym XP, Windows 7 i Windows 8.<p></p>
+[s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] jest programem 64bitowym, testowanym zarówno na 32/64 bitowych wersjach Windows, w tym Windows XP, Windows 8 i Windows 10.<p></p>
 <h2>Mac</h2>
 [s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] może być zainstalowany na komputerach Mac z procesorami Intel 64bit działającymi pod kontrolą&nbsp; MacOS 10.7 lub nowszym poprzez przeciągniecie Subsurface.app do katalogu <code>/Applications</code>.<p></p>
 <h2>Linux</h2>
