@@ -15,9 +15,50 @@ published: true
 
 [/et_pb_post_title][et_pb_text admin_label="Text"]
 
-<p>Die Entwicklung findet auf Englisch statt. Es ist sicher eine gute Idee, zunächst sich auf unserer <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">Mailing-Liste</a> einzutragen.</p>
+<p>Es ist sicher eine gute Idee, zunächst sich auf unserer <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">Mailing-Liste</a> einzutragen. Die Umganssprache dort ist Englisch, auch wenn diese Webseite (und Subsurface selbst) in vielen Sprachen verf&uuml;gbar ist. Das Englisch braucht nicht perfekt zu sein "Broken English" reicht vollkommen aus.</p>
+
 <p>Normalerweise findet man auch stets einige der Entwickler im <code>#subsurface</code> Chat auf <a href="http://freenode.net/">Freenode</a>.</p>
-<p>Alle Beiträge zu Subsurface, egal ob Programm-Code oder Dokumentation, müssen stets mit einem "Signed-off-by:" versehen sein. Details dazu finden sich auf der englischen <a href="https://subsurface-divelog.org/contributing/">Contributing</a> Seite.</p>
-</p>
+
+Es gibt viele Wege zu Subsurface beizutragen. Wir suchen immer nach Testern, die den Code w&auml;hrend der Entwicklung testen. Insbesondere brauchen wir Tester mit Windows-PCs uns Macs (da der Gro&szlig;teil der Entwickler auf Linux arbeiten). Wir brauchen auch immer Helferinnen und Helfer, die die Dokumentation &uuml;berpr&uuml;fen und verbessern. Insbesondere brauchen wir auch &Uuml;bersetzerinnen und &Uuml;bersetzer, die das Programm in andere Sprechen &uuml;bersetzen. Die &Uuml;bersetzungen werden zentral auf <a href="https://www.transifex.com/">Transifex</a> verwaltet. Dort kann man sich einen Account anlegen und dann den Beitritt zum <a href="https://www.transifex.com/projects/p/subsurface/">Subsurface-Team</a> beantragen.
+
+Patches, die Fehler beheben und Features hinzuf&uuml;gen sind selbstredend besonders wilkommen. Inspiration, was zu tun ist, findet sich im <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug-Tracker</a>.
+
+Hier ist eine kurze Einf&uuml;hrung, wie man Patches erstellt, die entweder als <a href="https://github.com/Subsurface-divelog/subsurface/pulls">Pull-Requests</a> im zentralen Git-Repository oder als Emails an die Mailingliste geschickt werden k&ouml;nnen. Umfangreiche Informationen zum Umgang mit Git findet man im <a href="https://git-scm.com/book/de/v1">Git online-Buch</a>.
+
+Am besten beginnt man mit dem aktuellen Source-Code (siehe  <a href="https://subsurface-divelog.org/building/">Subsurface bauen</a>).
+<code>cd subsurface
+git checkout master
+git pull</code>
+Nun hast du die aktuelle Version. Erzeuge einen Branch, in dem du Ver&auml;nderungen vornehmen kannst:
+<code>git checkout -b devel</code>
+Bearbeite den Quellcode (oder die Dokumentation), kompiliere, teste... Wenn alles gut aussieht, erzeuge einen Commit:
+<code>git commit -sa</code>
+Abh&auml;ngig vom Betriebssystem &ouml;ffnet sich ein Editor (in der Umgebungsvariablesn <tt>GIT_EDITOR</tt> kannst du einstellen, welcher). Gib eine Commit-Nachricht ein. Die erste Zeile ist der Titel des Commits, dieser soll kurz sein, und sagen, worin die &Auml;nderung besteht. Dann folgt eine ausf&uuml;hrlichere Erkl&auml;hrung (genaueres dazu und dass wir auf einer Signed-off-by: Zeile bestehen weiter unten).
+
+Wenn du die Commit-Nachricht ver&auml;ndern willst, kannst du dies mittels <code>git commit --amend</code> tun. Oft ist es gut, ein Commit in kleinere, unabh&auml;ngige Teile zu teilen. Anschlie&szlig;end gibt es zwei M&ouml;glichkeiten, welche einfacher ist, h&auml;ngt davon ab, wie gut und gerne du GitHub benutzt. Entweder "push"t du deinen Branch zu GitHub und erzeugst einen <a href="https://github.com/Subsurface-divelog/subsurface/pulls">Pull Requests</a> oder du tippst
+<code>git format-patch master..devel</code>
+Dies erzeugt ein File pro Commit mit Namen wie 0001-Commit-titel.patch, die du an unsere Developer-Mailingliste schicken kannst.
+
+Wenn du uns Code schickst, muss jedes Patch oder jeder Commit eine Signed-off-by: Name Zeile haben, sonst k&ouml;nnen wir ihn nicht annehmen. Mit dieser Zeile erkl&auml;rst du, dass du Urheber des Codes bist und ihn als Open Souce weiter gibst.
+
+Bitte verfasse auch aussagestarke Commit-Nachrichten. Eine gute sieht in etwa so aus:
+
+Header line: explaining the commit in one line
+
+Body of commit message is a few lines of text, explaining things
+in more detail, possibly giving some background about the issue
+being fixed, etc etc.
+
+The body of the commit message can be several paragrahps, and
+please do proper word-wrap and keep columns shorter than about
+74 characters or so. That way "git log" will show things
+nicely even when it's indented.
+
+Reported-by: whoever-reported-it
+Signed-off-by: Your Name
+
+Die Titelzeile soll den Inhalt des Commits verst&auml;ndlich zusammenfassen und darf nur eine Zeile umfassen.
+
+[caption id="attachment_42" align="aligncenter" width="761"]<img class="size-full wp-image-42" title="gitk-Beispiel" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Screenshot-gitk-subsurface-1.png" alt="gitk sample" width="761" height="757">gitk-Beispiel[/caption]
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
