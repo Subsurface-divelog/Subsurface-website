@@ -16,7 +16,7 @@ published: true
 
 [himage][s-var slug="exeurl"]<img src="/wp-content/uploads/2011/10/en-button-win.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-win-hover.png" alt="" height="54" width="288">[/himage] [himage][s-var slug="dmgurl"]<img src="/wp-content/uploads/2011/10/en-button-mac.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-mac-hover.png" alt="" height="54" width="288">[/himage]
 <h2>Windows</h2>
-[s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] es un archivo binario de 64 bits que ha sido probado en varias versiones de 64 bits de Windows, entre ellas XP, Windows 7 y Windows 8.
+[s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] es un archivo binario de 64 bits que ha sido probado en varias versiones de 64 bits de Windows, entre ellas Windows 7, Windows 8 y Windows 10.
 <h2>Mac</h2>
 [s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] es una imagen Mac que puede instalarse en Macs Intel de 64 bits bajo MacOs 10.7 o posterior, arrastrando Subsurface.app a tu carpeta <code>/Applications</code> .
 <h2>Linux</h2>
