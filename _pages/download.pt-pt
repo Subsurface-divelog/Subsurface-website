@@ -16,7 +16,7 @@ published: true
 
 [himage][s-var slug="exeurl"]<img src="/wp-content/uploads/2011/10/en-button-win.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-win-hover.png" alt="" height="54" width="288">[/himage] [himage][s-var slug="dmgurl"]<img src="/wp-content/uploads/2011/10/en-button-mac.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-mac-hover.png" alt="" height="54" width="288">[/himage]
 <h2>Windows</h2>
-[s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] é a versão oficial para as versões 32/64bits do Windows (Windows XP, Windows 7 e Windows 8).
+[s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] é a versão oficial para as versões 32/64bits do Windows (Windows 7, Windows 8 e Windows 10).
 <h2>Mac</h2>
 [s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] é a aplicação para máquinas Intel Mac 64 bits, que corram a versão MacOS 10.7 ou superior. Pode ser instalado por arrasto de Subsurface.app para a sua pasta local <code>/Applications</code>.
 <h2>Linux</h2>
