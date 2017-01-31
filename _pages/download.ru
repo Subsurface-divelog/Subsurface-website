@@ -16,7 +16,7 @@ published: true
 
 <div style="margin-bottom: 2em;">[himage][s-var slug="exeurl"]<img src="/wp-content/uploads/2011/10/en-button-win.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-win-hover.png" alt="" height="54" width="288">[/himage] [himage][s-var slug="dmgurl"]<img src="/wp-content/uploads/2011/10/en-button-mac.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-mac-hover.png" alt="" height="54" width="288">[/himage]</div>
 <h2>Windows</h2>
-[s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"]&nbsp;был протестирован на различных версиях 32 и 64-битных систем, включая &nbsp;Windows XP, Windows 7, Windows 8 и&nbsp;Windows 10.
+[s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"]&nbsp;был протестирован на различных версиях 32 и 64-битных систем, включая &nbsp;Windows 7, Windows 8 и&nbsp;Windows 10.
 <h2>Mac</h2>
 [s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"]&nbsp;этот образ можно установить на 64-битные Mac Intel системы под управлением MacOS 10.7 и старше, просто перетащив Subsurface.app в папку&nbsp;<code>/Applications</code>.
 <h2>Linux</h2>
