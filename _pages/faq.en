@@ -176,6 +176,25 @@ If you have configured your correct user credentials to Subsurface and cloud aut
 
 If your credentials are still not working or there is something else wrong, contact Dirk to sort it out.
 
+[/et_pb_accordion_item][et_pb_accordion_item title="When printing, line breaks in the notes are shown as <br>"]
+
+This is likely caused by an earlier install of Subsurface on the same computer. For some reason Subsurface may have decided to store a personal copy of the print template and is using that instead of the one shipped with Subsurface.
+
+If you intentionally made specific changes to the templates, re-edit the templates and ensure that <tt>dive.notes</tt> is referenced as <tt>dive.notes|secure</tt>).
+
+For most users who never edited the templates, however, the easiest fix is to just delete the local copies.
+
+For macOS,In a terminal window execute
+<code>mv ~/Library/Application Support/Subsurface/printing_templates 
+     ~/Library/Application Support/Subsurface/printing_templates.bak
+</code>
+
+For Linux,
+<code>mv ~/.subsurface/printing_templates
+      ~/.subsurface/printing_templates.bak
+</code>
+
+
 [/et_pb_accordion_item]
 
 [/et_pb_accordion]
@@ -334,18 +353,6 @@ If you disconnect and reconnect your DC it should now get the correct access per
 [et_pb_accordion_item title="Why is my IRDA (infrared) based dive computer not working on a Mac?"]
 
 Subsurface on the Mac does not currently support IRDA based dive computers. This is an issue of missing support libraries for us to use - other dive log software may have implemented their own IRDA stack on the Mac, we have not. Subsurface on Windows and Linux does support IRDA based dive computers just fine.
-
-[/et_pb_accordion_item][et_pb_accordion_item title="When printing on a Mac, line breaks in the notes are shown as <br>"]
-
-This is likely caused by an earlier install of Subsurface on the same computer. For some reason Subsurface may have decided to store a personal copy of the print template and is using that instead of the one shipped with Subsurface.
-
-If you intentionally made specific changes to the templates, re-edit the templates and ensure that <tt>dive.notes</tt> is referenced as <tt>dive.notes|secure</tt>).
-
-For most users who never edited the templates, however, the easiest fix is to just delete the local copies. In a terminal window execute
-<code>
-mv ~/Library/Application Support/Subsurface/printing_templates 
-     ~/Library/Application Support/Subsurface/printing_templates.bak
-</code>
 
 [/et_pb_accordion_item]
 

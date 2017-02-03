@@ -174,6 +174,23 @@ Si has configurado correctamente tus credenciales de Subsurface y el almacenamie
 
 Si tus credenciales siguen sin funcionar, o hay alguna otra cosa mal, contacta con Dirk para solucionarlo.
 
+[/et_pb_accordion_item][et_pb_accordion_item title="Al imprimir, los saltos de línea en las notas se muestran como <br>"]
+
+Esto es causado probablemente por una instalación anterior de Subsurface en el mismo ordenador. Por algún motivo Subsurface puede haber decidido guardar una copia personal de la plantilla de impresión y esta ytilizando esta en lugar de la entregada con Subsurface.
+
+Si hiciste cambios intencionadamente a las plantillas, re-edita las plantillas y asegurate de que <tt>dive.notes</tt> está referenciado como <tt>dive.notes|secure</tt>. Para la mayoría de usuarios que nunca han editado sus plantillas, sin embargo, la solución más simple es borrar las copias locales.
+
+En un Mac, en el terminal ejecuta:
+<code>
+mv ~/Library/Application Support/Subsurface/printing_templates 
+     ~/Library/Application Support/Subsurface/printing_templates.bak
+</code>
+
+En Linux,
+<code>mv ~/.subsurface/printing_templates
+      ~/.subsurface/printing_templates.bak
+</code>
+
 [/et_pb_accordion_item]
 
 [/et_pb_accordion]
@@ -360,16 +377,6 @@ sudo tee /etc/udev/rules.d/99-cobalt.rules</code><pre>Si desconectas y vuelves a
 
 Subsurface en Mac no soporta actualmente ordenadores de buceo basados en IRDA. Es un problema de falta de librerías que podamos utilizar (otro software de registro de inmersiones puede haber implementado su propia stack para IRDA en Mac, nosotros no lo hemos hecho). En Windows y Linux los ordenadores de buceo basados en infrarrojos se soportan perfectamente.
 
-
-[/et_pb_accordion_item][et_pb_accordion_item title="Al imprimir en un Mac, los saltos de línea en las notas se muestran como <br>"]
-
-Esto es causado probablemente por una instalación anterior de Subsurface en el mismo ordenador. Por algún motivo Subsurface puede haber decidido guardar una copia personal de la plantilla de impresión y esta ytilizando esta en lugar de la entregada con Subsurface.
-
-Si hiciste cambios intencionadamente a las plantillas, re-edita las plantillas y asegurate de que <tt>dive.notes</tt> está referenciado como <tt>dive.notes|secure</tt>. Para la mayoría de usuarios que nunca han editado sus plantillas, sin embargo, la solución más simple es borrar las copias locales. En un terminal ejecuta:
-<code>
-mv ~/Library/Application Support/Subsurface/printing_templates 
-     ~/Library/Application Support/Subsurface/printing_templates.bak
-</code>
 
 [/et_pb_accordion_item]
 
