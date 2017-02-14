@@ -78,7 +78,7 @@ Para el resto de dispositivos (incluyento tablets y teléfonos con OSs que no so
 
 
 [et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
-<h2 id="utilización">Usage</h2>
+<h2 id="usage">Uso habitual</h2>
 [/et_pb_text]
 
 
@@ -388,7 +388,7 @@ Subsurface en Mac no soporta actualmente ordenadores de buceo basados en IRDA. E
 
 [et_pb_accordion admin_label="mobile" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-[et_pb_accordion_item title="What is the difference between the Subsurface-mobile and Subsurface apps?"]
+[et_pb_accordion_item title="¿ Cual es la diferencia entre las apps Subsurface-mobile y Subsurface-companion ?"]
 
 Existen dos versiones de Subsurface en la app store. La app <em>Subsurface-mobile</em> es la conversión de la aplicación de ordenador a Android e iOS. Te permite conectarte a la nube de Subsurface y visualizar inmersiones, editarlas o añadir nuevas. La app <em>Subsurface companion</em> es una aplicación complementaria, diseñada para permitirnos registrar datos GPS mientras buceamos. Actualmente es innecesaria en Android (y no se soportará en adelante), ya que su funcionalidad se ha añadido a <em>Subsurface-mobile</em>. En iOS, <em>Subsurface companion</em> aún es necesaria para efectuar la recogida de posiciones GPS.
 
