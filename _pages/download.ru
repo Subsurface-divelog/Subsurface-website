@@ -21,7 +21,7 @@ published: true
 [s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] этот образ можно установить на 64-битные Mac Intel системы под управлением MacOS 10.9 и старше, просто перетащив Subsurface.app в папку&nbsp;<code>/Applications</code>.
 <h2>Linux</h2>
 Команда Subsurface подготовила собственные бинарные сборки для некоторых Linux-дистрибутивов, а также сборку "AppImage", которая должна работать практически в любом Linux-дстрибутиве.
-<h2>Ubuntu (14.04, 15.10, 16.04, 16/10), LinuxMint (17? 18) и Debian Jessie</h2>
+<h2>Ubuntu (14.04, 15.10, 16.04, 16/10), LinuxMint (17, 18) и Debian Jessie</h2>
 Для использования бинарных сборок в Ubuntu, просто добавьте следующий PPA-репозиторий в систему:
 <pre><code>ppa:subsurface/subsurface</code></pre>
 В LinuxMint вам придется добавить его из командной строки и явно указать версию Subsurface, иначе будет установлена устаревшая версия Subsurface 4.0:
