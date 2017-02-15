@@ -15,6 +15,6 @@ published: true
 
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Хотя мы готовы принимать сообщения об ошибках (и исправления!) в&nbsp;нашем&nbsp;<a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">списке рассылки</a>, у нас также есть <a href="https://github.com/Subsurface-divelog/subsurface/issues">система отслеживания ошибок</a>,&nbsp;которая предназначена именно для этого.
+Мы готовы принимать сообщения об ошибках (и исправления!) в нашем <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">списке рассылки</a>, но вы также можете зарегистрировать свою проблему в <a href="https://github.com/Subsurface-divelog/subsurface/issues">репозитории Subsurface на GitHub</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
