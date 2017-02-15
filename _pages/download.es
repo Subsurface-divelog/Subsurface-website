@@ -35,11 +35,11 @@ gpg -a --export A8BC9756EE61D9C6 | sudo apt-key add -
 sudo apt-get update</code></pre>
 Ahora puedes instalar desde este repositorio.
 <pre><code style="font-size: 10px;">sudo apt-get install subsurface</code></pre>
-Asegúrate de que te estás bajando una versión actualizada con todas sus dependencias de QT5.
+Asegúrate de que te estás bajando una versión actualizada con todas las dependencias de QT5.
 <h2>OpenSUSE 13.1 / 13.2 / Tumbleweed y Fedora 22 / 23</h2>
 Para instalar el paquete oficial de Subsurface en OpenSUSE 13.1, 13.2, o Tumbleweed y también en Fedora 22, 23, dirígete a la <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">página del servicio de compilación del proyecto</a> y sigue las instrucciones (es tan fácil como hacer dos clics).
 <h2>Resto de versiones de Linux de 64bits</h2>
-Está disponible para descargar una AppImage genérica en [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"]. Descarga este archivo y hazlo ejecutable con <code>chmod +x [s-var slug="appimage"]</code>. Luego, simplemente ejecuta el archivo. Estamos muy interesados en recibir feedback en relación a esta forma de distribuir binarios de Linux.
+Está disponible para descargar una AppImage genérica en [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"]. Descarga este archivo y hazlo ejecutable con <code>chmod +x [s-var slug="appimage"]</code>. Luego, simplemente ejecuta el archivo. Estamos muy interesados en recibir feedback en relación a esta forma de distribuir binarios en Linux.
 
 <h2>Paquetes obsoletos mantenidos por las distribuciones</h2>
 Diversas variantes de Linux permiten instalar Subsurface desde el SO. Aunque esto es muy conveniente, recomendamos la utilización de los paquetes oficiales tal como se ha descrito con anterioridad.

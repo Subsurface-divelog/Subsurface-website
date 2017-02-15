@@ -11,13 +11,13 @@ published: true
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-License: GPLv2
+Licencia: GPLv2
 
-Se pueden conseguir las fuentes de la última versión de desarrollo en nuestro <a href="http://github.com/Subsurface-divelog/subsurface.git">repositorio git</a> o se puede descargar [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] desde nuestro sitio web.
+Se puede conseguir el código fuente de la última versión de desarrollo en nuestro <a href="http://github.com/Subsurface-divelog/subsurface.git">repositorio git</a> o se puede descargar [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] desde nuestro sitio web.
 
 Subsurface utiliza algunas librerías y entornos de código abierto para hacer su trabajo. Las principales incluyen libdivecomputer, Qt, Marble (más concretamente libmarblewidget), libxml2, libxslt, libsqlite3, libzip, libgrantlee5 y libgit2.
 
-A continuación, se proporcionan instrucciones para compilar Subsurface en algunas distribuciones populares de Linux, para compilarlo en un Mac utilizando Homebrew, y para hacer compilación cruzada para Windows. La falta de un sistema de paquetes para Windows hace que sea realmente difícil compilar Subsurface nativamente en este S.O.; simplemente no tenemos capacidad de dar soporte para ello.
+A continuación, se proporcionan instrucciones para compilar Subsurface en algunas distribuciones populares de Linux, para compilarlo en un Mac utilizando Homebrew, y para hacer compilación cruzada para Windows. La falta de un sistema de paquetes para Windows hace que sea realmente difícil compilar Subsurface nativamente en este SO; simplemente no tenemos la capacidad para soportarlo.
 
 Todos los binarios precompilados que proporcionamos (actualmente, Windows, Mac, Ubuntu/Debian/LinuxMint and OpenSUSE/Fedora) se han construido usando nuestros propios "sabores" de libdivecomputer y libmarblewidget. Puedes obtenerlos del servidor git de Subsurface
 <pre><code>git://git.subsurface-divelog.org/marble (in the Subsurface-branch branch)
@@ -44,7 +44,7 @@ En Fedora se puede hacer
         qt5-qtwebkit-devel qt5-qtsvg-devel qt5-qttools-devel \
         qt5-qtconnectivity-devel qt5-qtlocation-devel</code></pre>
 
-Tristemente, en OpenSUSE los nombres de paquetes son distintos
+Lamentablemente, en OpenSUSE los nombres de paquetes son distintos
 <pre><code>sudo zypper install git gcc-c++ make autoconf automake libtool cmake libzip-devel \
         libxml2-devel libxslt-devel sqlite3-devel libgit2-devel libusb-1_0-devel \
         libqt5-linguist-devel libqt5-qttools-devel libQt5WebKitWidgets-devel \
@@ -59,7 +59,7 @@ En Debian, Ubuntu y Linux Mint, lo siguiente parece funcionar
         libqt5webkit5-dev libqt5qml5 libqt5quick5 libqt5declarative5 \
         qtscript5-dev libssh2-1-dev qttools5-dev \
         qtpositioning5-dev qtconnectivity5-dev</code></pre>
-Para construir Subsurface, utiliza el script que se suministra. Esto debería funcionar en la mayoría de sistemas que tengan todos los paquetes requeridos instalados. Comienza por situar los fuentes de Subsurface en un lugar que tenga sentido, algo como:
+Para compilar Subsurface, utiliza el script que se suministra. Esto debería funcionar en la mayoría de sistemas que tengan todos los paquetes requeridos ya instalados. Comienza por descargar el código fuente de Subsurface en un lugar que tenga sentido, algo como:
 <pre><code>mkdir -p ~/src
 cd ~/src
 git clone  git://github.com/Subsurface-divelog/subsurface
@@ -76,10 +76,11 @@ Y ahora podrías ejecutar Subsurface como sigue:
 1) Instalar Homebrew.
 <pre><code>$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></pre>
 2) Instalar las dependencias necesarias.
-<pre><code>$ brew install automake autoconf libtool asciidoc libzip sqlite cmake libusb libssh2 pkg-config hidapi</code></pre>
+<pre><code>$ brew install automake autoconf libtool asciidoc libzip sqlite cmake \
+        libusb libssh2 pkg-config hidapi</code></pre>
 3) Hacer que la versión "brew" de sqlite sea la versión por defecto
 <pre><code>$ brew link --force sqlite</code></pre>
-4) Descargar Qt desde <a href="http://www.qt.io/download-open-source/">http://www.qt.io/download-open-source/</a> En el instalador, se selecciona una carpeta de instalación, p.e. <code>/home/username/Qt5</code>en "Seleccionar componentes" se selecciona la versión más reciente y se deseleccionan los paquetes Android e IOS, así como QtWebEngine, Qt3D, Qt Canvas 3D y los Qt Extras.
+4) Descargar Qt desde <a href="http://www.qt.io/download-open-source/">http://www.qt.io/download-open-source/</a> En el instalador, selecciona un directorio de instalación, p.e. <code>/home/username/Qt5</code>en "Seleccionar componentes" selecciona la versión más reciente y deseleccionar los paquetes Android y iOS, así como QtWebEngine, Qt3D, Qt Canvas 3D y los Qt Extras.
 5) ejecuta el script "build"
 <pre><code>cd ~/src
 bash subsurface/scripts/build.sh</code></pre>
@@ -87,7 +88,7 @@ Tras haber hecho esto, Subsurface.app estará disponible en el directorio subsur
 <pre><code>open subsurface/build/Subsurface.app</code></pre>
 o mover la carpeta a /Applications para instalar Subsurface para todos los usuarios.
 <h2>Subsurface Companion App en Android</h2>
-<h3>Esta app no es Subsurface-mobile (que se compila desde el antedicho repositorio principal). Es una app más antigua que solo se usaba para registrar posiciones GPS de los puntos de buceo.</h3>
-Esta aplicación está disponible en <a href="https://play.google.com/store/apps/details?id=org.subsurface">Google Play Store</a>. También es GPLv2 y los fuentes están en <a href="http://git.subsurface-divelog.org/?p=subsurface-companion.git;a=summary"><code>git://subsurface-divelog.org/subsurface-companion.git</code></a>
+<h3>Esta app no es Subsurface-mobile (que se compila desde el antedicho repositorio principal). Es una app más antigua que solo se usaba para registrar posiciones GPS de los sitios de buceo.</h3>
+Esta aplicación está disponible en <a href="https://play.google.com/store/apps/details?id=org.subsurface">Google Play Store</a>. También es GPLv2 y el código fuente está en <a href="http://git.subsurface-divelog.org/?p=subsurface-companion.git;a=summary"><code>git://subsurface-divelog.org/subsurface-companion.git</code></a>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
