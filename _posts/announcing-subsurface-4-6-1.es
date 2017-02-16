@@ -1,6 +1,6 @@
 ---
 ID: 3010
-post_title: Announcing Subsurface 4.6.1
+post_title: Anuncio de Subsurface 4.6.1
 author: hohndel
 post_date: 2017-02-12 12:52:37
 post_excerpt: ""
@@ -15,44 +15,44 @@ published: true
 
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-The Subsurface development team proudly announces the release 4.6.1 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+El equipo de desarrolladores de Subsurface se complace en anunciar la versión 4.6.1 de Subsurface, un divelog y planificador de inmersiones de código abierto para Windows, Mac y Linux.
 
-Some of the changes since Subsurface 4.6:
+Algunos de los cambios desde Subsurface 4.6:
 
-<ul><li> Fix problems with incomplete localization in Windows builds</li>
-<li> Fix Seabear import issues</li>
-<li> Prevent double click on dive number in dive list from (temporarily) editing dive number</li>
-<li> Improve cylinder handling when merging dives
-<li> Store a few more preferences in the cloud storage so we can match certain aspects of the profile configuration in Subsurface-mobile</li>
-<li> Fix scaling issue that prevent the visual dive editor from reaching certain dive durations</li>
-<li> Many fixes and improvements in the dive planner:
-<ul><li> Fix uninitialized variable that could cause odd problems in the planner when the dive list was empty</li>
-<li> Changed VPM-B calculation for repetitive dives: Resets the maximum crushing pressures and the maximal ambient pressure between repetitive dives to prevent anomalies that a dive produces a shorter deco when following another one than without</li>
-<li> Allow the user to disable tanks while planning dives (this makes it much easier to evaluate different scenarios)</li>
-<li> Re-enable ctrl-click to remove remaining dive points in planner</li>
-<li> Improve printed dive plan (no more 0-length segments at gas changes)</li>
-<li> Print additional information with the dive plan (assumed SAC values, altiude)</li></ul></li>
-<li> Fixes for dive computer support and new dive computer support (through the great work of libdivecomputer)<ul>
-<li> add support for Aqualung i450T, i550, and i750TC</li>
-<li> add support for Cressi Drake</li>
-<li> add support for Hollis DG02</li>
-<li> add support for Oceanic F10</li>
-<li> fixes for Hollis DG03</li></ul></li></ul>
+<ul><li> Solucionados problemas de localización en los binarios de Windows</li>
+<li> Solucionados problemas de importación en Seabear</li>
+<li> Evitar que un doble clic en el número de la lista de inmersiones permita editarlo</li>
+<li> Mejorada la gestión de botellas al mezclar inmersiones</li>
+<li> Guarda unas cuantas preferencias más en el almacenamiento en la nube para que se puedan conservar algunos aspectos de la configuración del perfil en subsurface-mobile</li>
+<li> Solucionado un problema de escalado que impedia alcanzar ciertas duraciones en el editor manual de inmersiones</li>
+<li> Varios arreglos y mejoras en el planificador:
+<ul><li> Solucionada variable no inicializada que podía causar extraños problemas en el planificador cuando la lista de inmersiones estaba vacía</li>
+<li> Modificado el calculo de inmersiones repetitivas en VPM-B: Se reinician las presiones máximas de aplastamiento y ambiente entre inmersiones repetitivas para evitar anomalías como que una inmersión tenga la deco más corta si es la segunda que si es la primera</li>
+<li> Permitir al usuario desactivar botellas mientras planifica inmersiones (esto facilita evaluar diferentes escenarios)</li>
+<li> Vuelve a activar ctrl-clic para borrar puntos de paso en el planificador</li>
+<li> Se mejora la impresión del plan de buceo (no más segmentos en blanco en los cambios de gas)</li>
+<li> Se imprime información adicional con el plan de buceo (valor de CAS supuesto, altitud)</li></ul></li>
+<li> Mejoras en el soporte de ordenadores de buceo y añadidos nuevos ordenadores (a través del gran trabajo de libdivecomputer)<ul>
+<li> Añadido soporte para Aqualung i450T, i550, e i750TC</li>
+<li> Añadido soporte para Cressi Drake</li>
+<li> Añadido soporte para Hollis DG02</li>
+<li> Añadido soporte para Oceanic F10</li>
+<li> Solucionados problemas en Hollis DG03</li></ul></li></ul>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Binaries are available for Windows, Mac, and an AppImage for Linux (plus distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE). You can get Subsurface 4.6.1 from these locations:
+Hay disponibles binarios para Windows, Mac, y una AppImage para Linux (y binarios especificos para varias versiones de Linux, incluidas Ubuntu, Debian, Minux Mint, Fedora y OpenSUSE). Se puede descargar Subsurface 4.6.1. desde estos links:
 
 <strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.6.1.exe">https://subsurface-divelog.org/downloads/subsurface-4.6.1.exe</a>
 
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.1.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.6.1.dmg</a>
 
-<strong>Linux:</strong> A generic AppImage is available for download as <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.1-x86_64.AppImage">Subsurface-4.6.1-x86_64.AppImage</a>. Download this file, make it executable
-<code>chmod +x Subsurface-4.6.1-x86_64.AppImage</code> and then simply run this file.
-<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
+<strong>Linux:</strong> Una AppImage genérica está disponible para descarga en <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.1-x86_64.AppImage">Subsurface-4.6.1-x86_64.AppImage</a>. Descarga el archivo y hazlo ejecutable
+<code>chmod +x Subsurface-4.6.1-x86_64.AppImage</code> y luego, simplemente, ejecútalo.
+<strong>Linux: Ubuntu: </strong>Añade <code>ppa:subsurface/subsurface</code> a tus fuentes de software; Los archivos .deb de esta PPA tambien pueden instalarse en versiones actualizadas de <strong>Debian</strong> y <strong>LinuxMint</strong>; visita la página <a href="https://subsurface-divelog.org/download/">Descargas</a> y utiliza <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> para descargar la última versión.
 
-<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
+<strong>linux: opensuse / fedora:</strong> visita nuestro <a href="http://software.opensuse.org/download.html?project=home:subsurface-divelog&amp;package=subsurface">página del servicio de compilación abierta</a>.
 
-Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
+Por favor, describe preguntas o problemas en el <a href="https://subsurface-divelog.org/user-forum/">Foro de usuarios</a> o cuelga un informe de error en nuestro <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
