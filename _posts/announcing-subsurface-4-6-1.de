@@ -15,15 +15,15 @@ published: true
 
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-The Subsurface development team proudly announces the release 4.6.1 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+Die Subsurface Entwickler freuen sich, dass Version 4.6.1 unseres quell-offenen Tauchlogbuchs und Tauchplaners für Windows, Mac und Linux jetzt verfügbar ist.
 
-Some of the changes since Subsurface 4.6:
+Hier sind einige der wichtigen Neuerungen seit Subsurface 4.6:
 
 <ul><li> Fix problems with incomplete localization in Windows builds</li>
 <li> Fix Seabear import issues</li>
 <li> Prevent double click on dive number in dive list from (temporarily) editing dive number</li>
 <li> Improve cylinder handling when merging dives
-<li> Store a few more preferences in the cloud storage so we can match certain aspects of the profile configuration in Subsurface-mobile</li>
+</li><li> Store a few more preferences in the cloud storage so we can match certain aspects of the profile configuration in Subsurface-mobile</li>
 <li> Fix scaling issue that prevent the visual dive editor from reaching certain dive durations</li>
 <li> Many fixes and improvements in the dive planner:
 <ul><li> Fix uninitialized variable that could cause odd problems in the planner when the dive list was empty</li>
