@@ -15,6 +15,6 @@ published: true
 
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Wij ontvangen graag fout rapportages en nog liever oplossingen hiervoor op onze <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">mailing lijst</a>. Je kunt ook een "issues" aanmaken op onze <a href="https://github.com/Subsurface-divelog/subsurface/issues">Subsurface repository op GitHub</a>.
+Wij ontvangen graag fout rapportages en nog liever oplossingen hiervoor op onze <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">mailing lijst</a>. Je kunt ook een "issue" aanmaken op onze <a href="https://github.com/Subsurface-divelog/subsurface/issues">Subsurface repository op GitHub</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
