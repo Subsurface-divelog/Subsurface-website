@@ -40,9 +40,9 @@ Sla je logboek op in de cloud, en dan kun je je logboek delen tussen meerdere co
 
 [/et_pb_slider][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="on" gutter_width="4" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" column_padding_mobile="on"][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurface kan <strong>plannen</strong> en <strong>werken met</strong> 1 of meer cilinders met lucht, nitrox of trimix. Duiklocaties kunnen beschreven worden, met onder meer de GPS locaties (die ook via een kaart kunnen worden ingevoerd), gebruikte apparatuur, buddy's, en een waardering van de duik, en natuurlijk extra aantekeningen.
+Subsurface kan <strong>plannen</strong> en <strong>werken</strong> met &eacute;&eacute;n of meer cilinders met lucht, nitrox of trimix. Duiklocaties kunnen worden beschreven, met onder meer de GPS locaties (die ook via een kaart kunnen worden ingevoerd), gebruikte apparatuur, buddy's, en een waardering van de duik, en natuurlijk extra aantekeningen.
 
-Je kunt duiken labelen en <strong>filteren</strong> om een duiklijst op basis van criteria, waaronder labels, locaties en buddy's te maken. Je kunt de duiken groeperen in (bijvoorbeeld) reizen, en meerdere duiken bewerken op hetzelfde moment, waardoor het gemakkelijk is om een groot aantal duiken te bij houden.
+Je kunt duiken labelen en <strong>filteren</strong> om een duiklijst op basis van criteria, waaronder labels, locaties en buddy's te maken. Je kunt duiken groeperen in (bijvoorbeeld) reizen, en meerdere duiken bewerken op hetzelfde moment, waardoor het gemakkelijk is om een groot aantal duiken te bij houden.
 
 [/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/TagsAndRating1.png" alt="Screenshot of rating, tags and other data fields" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
 
@@ -50,17 +50,17 @@ Je kunt duiken labelen en <strong>filteren</strong> om een duiklijst op basis va
 
 [/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurface berekent ook een breed scala aan <strong>statistieken</strong> van de duiken van de gebruiker en berekend allerlei gegevens, zoals de SAC rate, partiële O2-, N2- en He-drukken, berekende deco-informatie, en nog veel meer.
+Subsurface berekent ook een breed scala aan <strong>statistieken</strong> van de duiken van de gebruiker en berekent allerlei gegevens, zoals de SAC rate, partiële O2-, N2- en He-drukken, berekende deco-informatie, en nog veel meer.
 
-<strong>Meerdere duikers</strong> kunnen 1 installatie van Subsurface gebruiken met verschillende instellingen.
+<strong>Meerdere duikers</strong> kunnen &eacute;&eacute;n installatie van Subsurface gebruiken met verschillende instellingen.
 
 Het programma is vertaald in ongeveer <strong>20 talen</strong>, en wordt ondersteund door een actieve groep ontwikkelaars.
 
 [/et_pb_text][/et_pb_column][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Een van de belangrijkste troeven van Subsurface is de ondersteuning van een breed scala aan <strong>duik computers</strong>(zie <a href="documentation/supported-dive-computers/">Supported Dive Computers</a> Subsurface kan ook bestaande duik logs te importeren uit diverse bronnen, waaronder MacDive, Suunto DM3, DM4 &amp; DM5, JDiveLog en divelogs.de.
+Een van de belangrijkste troeven van Subsurface is de ondersteuning van een breed scala aan <strong>duik computers</strong> (zie <a href="documentation/supported-dive-computers/">Supported Dive Computers</a>). Subsurface kan ook bestaande duiklogs te importeren uit diverse bronnen, waaronder MacDive, Suunto DM3, DM4 &amp; DM5, JDiveLog en divelogs.de.
 
-Een ander sterk punt is de <strong>visualisatie</strong> van diepte profiel (en, indien beschikbaar, de tankdruk curve) op een innovatieve manier die de gebruiker aanvullende informatie over de relatieve snelheid en kortstondige luchtverbruik geeft. Gebruikers die duiken met meerdere duikcomputers maken kunnen de gegevens uit elk van hun duikcomputers combineren in 1 profiel.
+Een ander sterk punt is de <strong>visualisatie</strong> van diepteprofiel (en, indien beschikbaar, de tankdruk grafiek) op een innovatieve manier die de gebruiker aanvullende informatie over de relatieve snelheid en kortstondige luchtverbruik geeft. Gebruikers die duiken met meerdere duikcomputers maken kunnen de gegevens uit elk van hun duikcomputers combineren in &eacute;&eacute;n profiel.
 
 [/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Profile.png" alt="Screenshot of dive profile" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
 
