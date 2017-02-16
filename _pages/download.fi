@@ -5,7 +5,8 @@ author: hohndel
 post_date: 2011-10-12 20:59:58
 post_excerpt: ""
 layout: page
-permalink: https://subsurface-divelog.org/download/
+permalink: >
+  https://subsurface-divelog.org/fi/download/
 published: true
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" global_module="1887" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid" saved_tabs="all" title_font="|on|||" title_font_size="31px" title_text_color="#204a87"]
@@ -16,12 +17,12 @@ published: true
 
 <div style="margin-bottom: 2em;">[himage][s-var slug="exeurl"]<img src="/wp-content/uploads/2011/10/en-button-win.png" alt="" width="288" height="54">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-win-hover.png" alt="" width="288" height="54">[/himage] [himage][s-var slug="dmgurl"]<img src="/wp-content/uploads/2011/10/en-button-mac.png" alt="" width="288" height="54">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-mac-hover.png" alt="" width="288" height="54">[/himage]</div>
 <h2>Windows</h2>
-[s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] has been tested on a number of 32 and 64 bit versions of Windows, including XP, Windows 7, Windows 8 and Windows 10.
+[s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] has been tested on a number of 32 and 64 bit versions of Windows, including Windows 7, Windows 8 and Windows 10.
 <h2>Mac</h2>
 [s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] is a Mac image that can be installed on 64bit Intel Macs running MacOS 10.9 or later by dragging the Subsurface.app to your <tt>/Applications</tt> folder.
 <h2>Linux</h2>
 The Subsurface team is making our own dedicated binaries available for a number of Linux versions as well as a generic "AppImage" that should work on most any Linux distribution.
-<h2>Ubuntu (14.04, 15.10, 16.04, 16.10), LinuxMint (17), and Debian Jessie</h2>
+<h2>Ubuntu (14.04, 15.10, 16.04, 16.10), LinuxMint (17, 18), and Debian Jessie</h2>
 To use these binaries in Ubuntu, simply add the following PPA to your system:
 <pre><code>ppa:subsurface/subsurface</code></pre>
 On LinuxMint you have to add this on the command line and explicitly request the PPA version of Subsurface, otherwise the outdated Subsurface 4.0 would have been installed:
@@ -43,6 +44,6 @@ A generic AppImage is available for download as [s-var slug="appimageurl"][s-var
 <h2>Deprecated distribution maintained packages</h2>
 Some flavors of Linux allow an install of Subsurface from within the OS. While this is very convenient, we recommend that you use the official packages as described above.
 <h2>Sources</h2>
-Sources are of course available via <a href="http://git.subsurface-divelog.org/index.cgi?p=subsurface.git;a=summary">git</a> or as a release tar-ball [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"]. The sources of the GPL and LGPL components shipped with the Mac and Windows binaries can be found at <a href="http://www.macports.org/">MacPorts</a> and <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.
+Sources are of course available via <a href="http://github.com/Subsurface-divelog/subsurface.git">git</a> or as a release tar-ball [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"]. The sources of the GPL and LGPL components shipped with the Mac and Windows binaries can be found at <a href="http://www.macports.org/">MacPorts</a> and <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
