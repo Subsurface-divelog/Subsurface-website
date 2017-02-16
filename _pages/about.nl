@@ -2,16 +2,6 @@
 ID: 3039
 post_title: Subsurface
 author: hohndel
-post_date: 2017-02-15 21:59:11
-post_excerpt: ""
-layout: page
-permalink: https://subsurface-divelog.org/nl/
-published: true
----
----
-ID: 3039
-post_title: Subsurface
-author: hohndel
 post_date: 2011-10-06 02:48:17
 post_excerpt: ""
 layout: page
