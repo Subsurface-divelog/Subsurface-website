@@ -22,14 +22,14 @@ De belangrijkste wijzigingen sinds Subsurface 4.6:
 
 <ul><li> Probleem van incomplete lokalisatie voor Windows opgelost</li>
 <li> Seabear import problemen opgelost</li>
-<li> Voorkom "(tijdelijk) wijzig duiknummer" door dubbel klikken op duiknummer in duiklijst</li>
+<li> Voorkom "(tijdelijk) wijzig duiknummer" door dubbelklikken op duiknummer in duiklijst</li>
 <li> Verbeter cylinder samenvoeging bij samenvoeging van duiken
 <li> Sla enkele extra voorkeuren op in de cloudopslag ter verbetering van de profiel weergave in Subsurface-mobile</li>
 <li> Schaling probleem in de duikplanner opgelost waardoor de editor bepaalde duikduur niet kon bereiken</li>
 <li> Vele opgeloste problemen en verbeteringen in de duikplanner:
-<ul><li> Niet-geinitialiseerde variabele welke voor vreemde problemen in de planner zorgde als de duiklijst leeg was</li>
-<li> VPM-B berekening voor hehalingsduiken aangepast: Reset de maximum crushing pressures en de maximale ambient pressure tussen herhalingsduiken ter voorkoming van het vreemde effect dat een duik een kortere deco verplichting heeft als deze voorafgegaan wordt door een eerdere duik</li>
-<li> Maak plannen zonder cylinders mogelijk (dit maakt het vergelijken van verschillende scenarios veel eenvoudiger)</li>
+<ul><li> Niet-ge&iuml;nitialiseerde variabele welke voor vreemde problemen in de planner zorgde als de duiklijst leeg was</li>
+<li> VPM-B berekening voor herhalingsduiken aangepast: Reset de maximum crushing pressures en de maximale ambient pressure tussen herhalingsduiken ter voorkoming van het vreemde effect dat een duik een kortere deco verplichting heeft als deze voorafgegaan wordt door een eerdere duik</li>
+<li> Maak plannen zonder cylinders mogelijk (dit maakt het vergelijken van verschillende scenario's veel eenvoudiger)</li>
 <li> Maak ctrl-click om planning profiel punten te verwijderen weer mogelijk</li>
 <li> Verbeter afgedrukt duikplan (geen 0-lengte segmenten meer bij gaswissels)</li>
 <li> Druk extra informatie af in het duikplan (ingestelde SAC waarden, hoogte)</li></ul></li>
@@ -42,7 +42,7 @@ De belangrijkste wijzigingen sinds Subsurface 4.6:
 
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-De software is beschikbaar voor Windows, Mac, en een AppImage voor Linux (en daarnaast distributie speecifieke software voor een aantal Linux smaken waaronder Ubuntu, Debian, Linux Mint, Fedora, and openSUSE). Je kunt Subsurface 4.6.1 ophalen van de volgende locaties:
+De software is beschikbaar voor Windows, Mac, en een AppImage voor Linux (en daarnaast distributie specifieke software voor een aantal Linux smaken waaronder Ubuntu, Debian, Linux Mint, Fedora, and openSUSE). Je kunt Subsurface 4.6.1 ophalen van de volgende locaties:
 
 <strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.6.1.exe">https://subsurface-divelog.org/downloads/subsurface-4.6.1.exe</a>
 

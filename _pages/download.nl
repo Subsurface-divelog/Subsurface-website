@@ -1,6 +1,6 @@
 ---
 ID: 3036
-post_title: Downloads
+post_title: Downloaden
 author: hohndel
 post_date: 2011-10-12 20:59:58
 post_excerpt: ""
@@ -35,14 +35,14 @@ gpg -a --export A8BC9756EE61D9C6 | sudo apt-key add -
 sudo apt-get update</code></pre>
 Nu kan je de geselecteerde versie van Subsurface uit de repository installeren:
 <pre><code>sudo apt-get install subsurface</code></pre>
-Controleer dat je huidige versie met alle Qt5 afhangkelijkheden installeert.
+Controleer dat je huidige versie met alle Qt5 afhankelijkheden installeert.
 <h2>OpenSUSE 13.1, 13.2, Leap 42.1, Leap 42.2, Tumbleweed en Fedora 22, 23, 24, 25</h2>
-Ga naar het officiele Subsurface pakket voor deze OpenSUSE or Fedora versies, op <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">our build service project page</a>  en volg de instructies. - 2x klikken en klaar.
+Ga naar het offici&euml;le Subsurface pakket voor deze OpenSUSE or Fedora versies, op <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">our build service project page</a>  en volg de instructies. - 2x klikken en klaar.
 <h2>Alle andere 64 bit Linux versies</h2>
-Een generieke AppImage is beschikbaar als [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"]. Maak de file executable na download <code>chmod +x [s-var slug="appimage"]</code> gevolgd door het executeren van de file. Wij zijn bijzinder geinteresseerd in ervaringen met deze wijze van distrubutie van Linux software.
+Een generieke AppImage is beschikbaar als [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"]. Maak de file executable na download <code>chmod +x [s-var slug="appimage"]</code> gevolgd door het executeren van de file. Wij zijn bijzonder ge&iuml;nteresseerd in ervaringen met deze wijze van distributie van Linux software.
 <h2>Verouderde Subsurface versies door Linux distributies</h2>
-Enkele Linux distributies maken installatie van Subsurface mogelijk vanuit de eigen distributie. Hoewel dit erg handig lijkt, raden wij de officiele versies zoals hierboven beschreven aan.
+Enkele Linux distributies maken installatie van Subsurface mogelijk vanuit de eigen distributie. Hoewel dit erg handig lijkt, raden wij de offici&euml;le versies zoals hierboven beschreven aan.
 <h2>Broncode</h2>
-De volledige broncode van Subsurface is natuurlijk beschikbaar op <a href="http://github.com/Subsurface-divelog/subsurface.git">git</a> of als een release tar-ball [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"]. De code van de GPL en LGPL componenten zoals gebruikt in de Mac and Windows binaries vesies staan op  <a href="http://www.macports.org/">MacPorts</a> en <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.
+De volledige broncode van Subsurface is natuurlijk beschikbaar op <a href="http://github.com/Subsurface-divelog/subsurface.git">git</a> of als een release tar-ball [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"]. De code van de GPL en LGPL componenten zoals gebruikt in de Mac and Windows binaries versies staan op  <a href="http://www.macports.org/">MacPorts</a> en <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
