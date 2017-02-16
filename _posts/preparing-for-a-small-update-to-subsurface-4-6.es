@@ -1,8 +1,8 @@
 ---
 ID: 2923
 post_title: >
-  Preparando una pequeña actualización de
-  Subsurface 4.6
+  Preparando una pequeña actualización
+  de Subsurface 4.6
 author: hohndel
 post_date: 2017-01-28 21:46:17
 post_excerpt: ""
