@@ -2,7 +2,7 @@
 ID: 3041
 post_title: Aankondiging Subsurface 4.6.1
 author: hohndel
-post_date: 2017-02-15 22:05:55
+post_date: 2017-02-12 12:52:37
 post_excerpt: ""
 layout: post
 permalink: >
@@ -32,12 +32,12 @@ De belangrijkste wijzigingen sinds Subsurface 4.6:
 <li> Maak ctrl-click om planning profiel punten te verwijderen weer mogelijk</li>
 <li> Verbeter afgedrukt duikplan (geen 0-lengte segmenten meer bij gaswissels)</li>
 <li> Druk extra informatie af in het duikplan (ingestelde SAC waarden, hoogte)</li></ul></li>
-<li> Reparaties voor ondersteunde duikcomputer en nieuw ondersteunde duikcomputers (door de geweldige ondersteuning vanuitlibdivecomputer)<ul>
+<li> Reparaties voor ondersteunde duikcomputer en nieuw ondersteunde duikcomputers (door de geweldige ondersteuning vanuit libdivecomputer)<ul>
 <li> ondersteuning toegevoegd voor Aqualung i450T, i550, en i750TC</li>
 <li> ondersteuning toegevoegd voor Cressi Drake</li>
 <li> ondersteuning toegevoegd voor Hollis DG02</li>
 <li> ondersteuning toegevoegd voor Oceanic F10</li>
-<li> Reparaties voor Hollis DG03</li></ul></li></ul>
+<li> reparaties voor Hollis DG03</li></ul></li></ul>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
@@ -47,12 +47,12 @@ De software is beschikbaar voor Windows, Mac, en een AppImage voor Linux (en daa
 
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.1.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.6.1.dmg</a>
 
-<strong>Linux:</strong> Een generieke AppImage is beschikbaar als <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.1-x86_64.AppImage">Subsurface-4.6.1-x86_64.AppImage</a>. Download deze file, maak hem executable
+<strong>Linux:</strong> Een generieke AppImage is beschikbaar als <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.1-x86_64.AppImage">Subsurface-4.6.1-x86_64.AppImage</a>. Download deze file en maak hem executable
 <code>chmod +x Subsurface-4.6.1-x86_64.AppImage</code> en executeer deze file.
-<strong>Linux: Ubuntu: </strong>Voeg <code>ppa:subsurface/subsurface</code> toe aan je software bronnen; de .deb files in deze PPA kunnen ook op redelijke recenter versies van <strong>Debian</strong> en <strong>LinuxMint</strong>; zie de <a href="https://subsurface-divelog.org/download/">Downloads</a> pagina en gebruik <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> om de laatste versie te downloaden.
+<strong>Linux: Ubuntu: </strong>Voeg <code>ppa:subsurface/subsurface</code> toe aan je software bronnen; de .deb files in deze PPA kunnen ook op redelijk recente versies van <strong>Debian</strong> en <strong>LinuxMint</strong>; zie de <a href="https://subsurface-divelog.org/download/">Downloads</a> pagina en gebruik <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> om de laatste versie te downloaden.
 
 <strong>Linux: openSUSE / Fedora:</strong> ga naar onze <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release pagina</a>
 
-Post vragen of problemen op het <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> of rapporteer een foutin onze <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
+Post vragen of problemen op het <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> of rapporteer een fout in onze <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
