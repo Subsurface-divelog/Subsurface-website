@@ -15,7 +15,7 @@ published: true
 
 [/et_pb_post_title][et_pb_text admin_label="Text"]
 
-<p>Esta es la lista de ordenadores de buceo soportados (a través de libdivecomputer) desde el Beta 2 de versión 4.6 (Enero 2017)</p>
+<p>Esta es la lista de computadores de buceo soportados (a través de libdivecomputer) en la versión 4.6 Beta 2 (Enero 2017)</p>
 <dl><dt>Aeris</dt><dd><ul>
             <li>500AI, A300, A300 AI, A300CS, Atmos 2, Atmos AI, Atmos AI 2, Compumask, Elite, Elite T3, Elite T3, Epic, Epic, F10, F11, Manta, XR-1 NX, XR-2</li></ul>
     </dd>
@@ -96,7 +96,7 @@ published: true
         </ul>
     </dd>
 </dl><hr />
-<p>Subsurface también puede leer los ficheros XML que se pueden exportar desde:</p>
+<p>Subsurface también puede leer los archivos XML que se pueden exportar desde:</p>
 <ul>
 <li><a href="http://divinglog.de/">Divinglog</a></li>
 <li><a href="http://www.jdivelog.org/">JDivelog</a></li>

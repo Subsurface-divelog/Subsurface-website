@@ -1,7 +1,7 @@
 ---
-ID: 1773
-post_title: Agradecimientos
-author: hohndel
+ID: 241
+post_title: Благодарности
+author: Sergey Starosek
 post_date: 2012-12-31 09:49:22
 post_excerpt: ""
 layout: page
@@ -15,13 +15,13 @@ published: true
 
 [/et_pb_post_title][et_pb_text admin_label="Text"]
 
-El equipo de Subsurface desea expresar su agradecimiento a algunas personas y empresas por su ayuda, tanto con la documentación como mediante donaciones o préstamos de equipos y dispositivos:
+Команда Subsurface выражает благодарность компаниям и людям, предоставившим документацию и оборудование:
 <ul>
 	<li><a href="http://www.uemis.com/">Uemis</a></li>
 	<li><a href="http://www.heinrichsweikamp.com/">heinrichs weikamp</a></li>
 	<li><a href="http://www.shearwaterresearch.com/">Shearwater Research</a></li>
-<li><a href="http://www.atomicaquatics.com/computer.html">Atomics Aquatics</a></li>
-<li><a href="http://www.mares.com/products/computers/wrist-dive-computer/?region=eu">Mares</a></li>
+	<li><a href="http://www.atomicaquatics.com/computer.html">Atomics Aquatics</a></li>
+	<li><a href="http://www.mares.com/products/computers/wrist-dive-computer/?region=eu">Mares</a></li>
         <li><a href="http://www.seabear-diving.com/touch-dive-computer">Sea Bear</a></li>
 	<li>Oleg Mazurov</li>
 	<li>Andy Clements</li>

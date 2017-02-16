@@ -97,7 +97,7 @@ This is the list of supported dive computers (through libdivecomputer) as of Bet
         </ul>
     </dd>
 </dl>
-Subsurface can also read the XML files that can be exported by
+Subsurface can also read the XML files that can be exported by:
 <ul>
 	<li><a href="http://divinglog.de/">Divinglog</a></li>
 	<li><a href="http://www.jdivelog.org/">JDivelog</a></li>

@@ -1,6 +1,6 @@
 ---
 ID: 1762
-post_title: Miscelanea
+post_title: Varios
 author: hohndel
 post_date: 2014-09-09 20:51:56
 post_excerpt: ""
