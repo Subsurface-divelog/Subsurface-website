@@ -44,7 +44,7 @@ Subsurface kan <strong>plannen</strong> en <strong>werken met</strong> 1 of meer
 
 Je kunt duiken labelen en <strong>filteren</strong> om een duiklijst op basis van criteria, waaronder labels, locaties en buddy's te maken. Je kunt de duiken groeperen in (bijvoorbeeld) reizen, en meerdere duiken bewerken op hetzelfde moment, waardoor het gemakkelijk is om een groot aantal duiken te bij houden.
 
-[/et_pb_text][et_pb_image admin_label="Image" sec="https://subsurface-divelog.org/wp-content/uploads/2011/10/TagsAndRating1.png" alt="Screenshot of rating, tags and other data fields" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
+[/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/TagsAndRating1.png" alt="Screenshot of rating, tags and other data fields" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
 
 
 
