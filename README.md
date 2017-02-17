@@ -11,6 +11,8 @@ Wordpress to GitHub integration of the full Subsurface website, including all tr
 
 .it: Italiano
 
+.nl: Nederlands (janmulder)
+
 .pl: Polski
 
 .pt-pt: Português
