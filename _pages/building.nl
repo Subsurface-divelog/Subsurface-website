@@ -19,7 +19,7 @@ Licentie: GPLv2
 
 De broncode van de laatste ontwikkelversie is beschikbaar via onze GitHub respository: <a href="http://github.com/Subsurface-divelog/subsurface.git">git repository</a>. Je kunt de code ook laden als [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] van onze website.
 
-Subsurface gebruikt een aantal (open source) bibliotheken en frameworks. De belangrijkste zijn libdivecomputer, Qt, Marble (exacter: libmarblewidget), libxml2, libxslt, libsqlite3, libzip, libgrantlee5 en libgit2.
+Subsurface gebruikt een aantal (open source) bibliotheken en framewerken. De belangrijkste zijn libdivecomputer, Qt, Marble (exacter: libmarblewidget), libxml2, libxslt, libsqlite3, libzip, libgrantlee5 en libgit2.
 
 Hieronder staan instructies om Subsurface zelf te compileren op een aantal populaire Linux distributies, compileren met behulp van Homebrew op een Mac, en voor cross-compilatie van Subsurface voor Windows. Het bouwen van Subsurface onder Windows wordt niet ondersteund. Het gebrek aan een werkend  package management systeem maakt het te moeizaam.
 
@@ -32,11 +32,10 @@ Daarnaast, om onze cloudsopslag volledig te kunnen laten werken is libgit2 0.23 
 
 Tot slot, vanaf versie 4.5 van Subsurface gebruiken we cmake als compilatie framewerk. Compileren via qmake is niet langer ondersteund.
 <h2>Compilatie opties voor Subsurface</h2>
-Met cmake is het zeer eenvoudig de compilatie opties voor Subsurface aan te passen. Nadat je eenmaal door het compilatie process bent gegaan (zie hieronder) kan je eenvoudigweg
+Met cmake is het zeer eenvoudig de compilatie opties voor Subsurface aan te passen. Nadat je eenmaal door het compilatie proces bent gegaan (zie hieronder) kan je eenvoudigweg
 <pre><code>ccmake .</code></pre>
 gebruiken in de Subsurface build directory en dat toont alle belangrijke opties en de huidige instelling ervan.
 
-The Makefile that was created using cmake can be forced into a much more verbose mode by calling
 De  Makefile die is aangemaakt door cmake kan meer uitvoer (voor debugging bijvoorbeeld) leveren door
 <pre><code>make VERBOSE=1</code></pre>
 in te tikken.
@@ -77,7 +76,7 @@ Als build.sh klaar is (en succesvol natuurlijk) kan je Subsurface executeren:
 <pre><code>cd ~/src/subsurface/build
 ./subsurface</code></pre>
 <h2>Subsurface compileren op MacOS X</h2>
-0) XCode dient ge&iuml;nstalleerd te zijn. De eerste keer (and mogelijk na een update van OSX) dien je het volgende commando uit te voeren
+0) XCode dient ge&iuml;nstalleerd te zijn. De eerste keer (en mogelijk na een update van OSX) dien je het volgende commando uit te voeren
 <pre><code>xcode-select --install</code></pre>
 1) Installeer Homebrew
 <pre><code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></pre>
@@ -85,16 +84,15 @@ Als build.sh klaar is (en succesvol natuurlijk) kan je Subsurface executeren:
 <pre><code>brew install automake autoconf libtool asciidoc libzip sqlite cmake libusb libssh2 pkg-config hidapi</code></pre>
 3) Maak de brew versie van sqlite de standaard
 <pre><code>brew link --force sqlite</code></pre>
-4) Laad Qt van <a href="http://www.qt.io/download-open-source/">http://www.qt.io/download-open-source/</a>
-In de installer, kies een installatie map (e.g.) <code>/home/username/Qt</code>, in "Select components" selecteer de meest recente versie, verwijder de selectie van Android en IOS packages en QtWebEngine, Qt3D, Qt Canvas 3D en Qt Extras.
+4) Laad Qt van <a href="http://www.qt.io/download-open-source/">http://www.qt.io/download-open-source/</a>. In de installer, kies een installatie map (e.g.) <code>/home/username/Qt</code>In "Select components" selecteer de meest recente versie, verwijder de selectie van Android en IOS packages, QtWebEngine, Qt3D, Qt Canvas 3D en Qt Extras.
 5) draai het build script
 <pre><code>cd ~/src
 bash subsurface/scripts/build.sh</code></pre>
 Als het build script (succesvol) eindigt, is Subsurface.app beschikbaar in de subsurface/build directory. Je kunt Subsurface executeren met het volgende commando
 <pre><code>open subsurface/build/Subsurface.app</code></pre>
-Ook kan je deze map naar /Applications verplaatsen om Subsurface voor alle gebruikers beschikbara te maken.
+Ook kan je deze map naar /Applications verplaatsen om Subsurface voor alle gebruikers beschikbaar te maken.
 <h2>Subsurface Companion App op Android</h2>
-<h3>Dit is NIET Subsurface-mobile (deze komt uit de hoofd respository hierboven). Dit is een oudere (Java) app die GPS coordinaten van duikplekken kan vastleggen.</h3>
-Deze applicatie is beschibaar in de <a href="https://play.google.com/store/apps/details?id=org.subsurface">Google Play Store</a>. Ook hier is de licentie GPLv2 en de broncode staat op <a href="http://git.subsurface-divelog.org/?p=subsurface-companion.git;a=summary"><code>git://subsurface-divelog.org/subsurface-companion.git</code></a>
+<h3>Dit is NIET Subsurface-mobile (deze komt uit de hoofd repository hierboven). Dit is een oudere (Java) app die GPS coordinaten van duikplekken kan vastleggen.</h3>
+Deze applicatie is beschikbaar in de <a href="https://play.google.com/store/apps/details?id=org.subsurface">Google Play Store</a>. Ook hier is de licentie GPLv2 en de broncode staat op <a href="http://git.subsurface-divelog.org/?p=subsurface-companion.git;a=summary"><code>git://subsurface-divelog.org/subsurface-companion.git</code></a>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

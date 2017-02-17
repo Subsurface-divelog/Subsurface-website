@@ -15,7 +15,7 @@ published: true
 
 [/et_pb_post_title][et_pb_text admin_label="Text"]
 
-Dit is de lijst van ondersteunde duikcomputers (via libdivecomputer) per versie Beta 2 van Version 4.6 (January 2017).
+Dit is de lijst van ondersteunde duikcomputers (via libdivecomputer) per versie Beta 2 van versie 4.6 (Januari 2017).
 
 <dl><dt>Aeris</dt><dd><ul>
             <li>500AI, A300, A300 AI, A300CS, Atmos 2, Atmos AI, Atmos AI 2, Compumask, Elite, Elite T3, Elite T3, Epic, Epic, F10, F11, Manta, XR-1 NX, XR-2</li></ul>
