@@ -48,8 +48,8 @@ Ausführbare Programme sind für Windows, Mac und Linux verfügbar. Für Linux s
 
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.1.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.6.1.dmg</a>
 
-<strong>Linux:</strong> A generic AppImage is available for download as <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.1-x86_64.AppImage">Subsurface-4.6.1-x86_64.AppImage</a>. Download this file, make it executable
-<code>chmod +x Subsurface-4.6.1-x86_64.AppImage</code> and then simply run this file.
+<strong>Linux:</strong> Ein generisches AppImage kann als <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.1-x86_64.AppImage">Subsurface-4.6.1-x86_64.AppImage</a> heruntergeladen. Anschliessend kann es mittels
+<code>chmod +x Subsurface-4.6.1-x86_64.AppImage</code> ausführbar gemacht werden und direkt aufgerufen werden.
 <strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
 
 <strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
