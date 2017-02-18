@@ -42,7 +42,7 @@ Hier sind einige der wichtigsten Neuerungen seit Subsurface 4.6:
 
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Binaries are available for Windows, Mac, and an AppImage for Linux (plus distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE). You can get Subsurface 4.6.1 from these locations:
+Ausführbare Programme sind für Windows, Mac und Linux verfügbar. Für Linux stellen wir sowohl ein AppImage bereit, das auf den meisten Distributionen laufen sollten, als auch Distributions-spezifische Pakete für Ubuntu, Debian, Linux Mint, Fedora, und openSUSE). Du kannst Subsurface 4.6.1 hier finden:
 
 <strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.6.1.exe">https://subsurface-divelog.org/downloads/subsurface-4.6.1.exe</a>
 
