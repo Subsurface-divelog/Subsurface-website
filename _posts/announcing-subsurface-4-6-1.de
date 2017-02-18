@@ -21,7 +21,7 @@ Die Subsurface Entwickler freuen sich, dass Version 4.6.1 unseres quell-offenen 
 Hier sind einige der wichtigsten Neuerungen seit Subsurface 4.6:
 
 <ul><li> Mehrere Probleme mit unvollständigen Übersetzungen der Windows Version wurden behoben</li>
-<li> Fix Seabear import issues</li>
+<li> Ein Problem beim Importieren von Seabear wurde behoben</li>
 <li> Prevent double click on dive number in dive list from (temporarily) editing dive number</li>
 <li> Improve cylinder handling when merging dives
 </li><li> Store a few more preferences in the cloud storage so we can match certain aspects of the profile configuration in Subsurface-mobile</li>
