@@ -18,7 +18,7 @@ category: [ ]
 
 Die Subsurface Entwickler freuen sich, dass Version 4.6.1 unseres quell-offenen Tauchlogbuchs und Tauchplaners für Windows, Mac und Linux jetzt verfügbar ist.
 
-Hier sind einige der wichtigen Neuerungen seit Subsurface 4.6:
+Hier sind einige der wichtigsten Neuerungen seit Subsurface 4.6:
 
 <ul><li> Fix problems with incomplete localization in Windows builds</li>
 <li> Fix Seabear import issues</li>
