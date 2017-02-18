@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2014/05/subsurface-4-1-has-been-released/
+post_language: pl
 published: true
 ---
 Ekipa Subsurface z przyjemnością ogłasza udostępnienie kolejnej wersji Subsurface.

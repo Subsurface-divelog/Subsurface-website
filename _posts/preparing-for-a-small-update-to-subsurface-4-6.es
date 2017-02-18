@@ -9,6 +9,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/es/2017/01/preparing-for-a-small-update-to-subsurface-4-6/
+post_language: es
 published: true
 ---
 Dos semanas despues del lanzamiento de Subsurface 4.6, no se han recibido muchos informes de errores, lo que resulta alentador.

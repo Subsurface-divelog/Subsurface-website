@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2015/02/announcing-subsurface-4-4/
+post_language: pt-pt
 published: true
 ---
 A equipa do desenvolvimento tem o prazer de anunciar a versão 4.4 do Subsurface. Este é uma aplicação de registo e gestão de mergulhos, de código aberto e livre (open source), para ambientes Windows, Mac e Linux.

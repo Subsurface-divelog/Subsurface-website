@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2014/11/subsurface-4-2-1-windows-only/
+post_language: pt-pt
 published: true
 ---
 <p>Correcção para permitir transferir os registos de mergulhos dos computadores Atomics Aquatics Cobalt and Cobalt 2.</p>

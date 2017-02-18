@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2012/10/whats-happening-with-subsurface-2-0/
+post_language: en
 published: true
 ---
 <!--:en--><p>Those who look at the git tree or the mailing list will have noticed that we did tagged a 2.0 (and 2.0.1) release - but we then decided not to announce this and instead go straight for a Subsurface 2.1 release.</p>

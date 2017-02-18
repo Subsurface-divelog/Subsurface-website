@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2011/10/progress/
+post_language: en
 published: true
 ---
 <!--:en--><p>Over the last few days subsurface has made quite a bit of progress. I haven't had a chance to update the binaries so you'll need to get it from git but I think we've come a long way.</p> 

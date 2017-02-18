@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2015/10/announcing-subsurface-4-5-beta-3/
+post_language: es
 published: true
 ---
 Se supone que esta va a ser la última Beta antes del próximo lanzamiento. El ciclo de pruebas dela Beta ha sido muy tranquilo con poca gente testeando, pero bueno, tampoco se ha recibido una tonelada de informes de errores. Beta 3 añade una nueva funcionalidad (muy inusual en una fase tan tardía del ciclo, pero era una excelente idea y fácil de implementar) y algunas soluciones.

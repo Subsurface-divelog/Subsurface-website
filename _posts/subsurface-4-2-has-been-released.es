@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2014/08/subsurface-4-2-has-been-released/
+post_language: es
 published: true
 ---
 El equipo de desarrollo de Subsurface se enorgullece de anunaciar el lanzamiento de la última versión de Subsurface. La versión 4.2 soluciona unos cuantos errores e incluye mejoras en relación a 4.1. Resumidamente incluye:

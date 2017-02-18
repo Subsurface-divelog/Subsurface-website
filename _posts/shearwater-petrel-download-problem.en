@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2013/03/shearwater-petrel-download-problem/
+post_language: en
 published: true
 ---
 <!--:en-->We are working with <a href="http://www.shearwaterresearch.com/">Shearwater Research</a> on a slightly odd problem when downloading data from their Shearwater Petrel dive computer. From what we have been able to analyze (with generous help and support from Shearwater Research) it appears that the current firmware version of the Petrel causes a strange interaction with the libdivecomputer routines used to download divelog information from the Petrel.

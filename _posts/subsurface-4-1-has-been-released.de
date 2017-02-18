@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2014/05/subsurface-4-1-has-been-released/
+post_language: de
 published: true
 ---
 <p>Das Subsurface Entwickler Team verkündet stolz die Veröffentlichung der neuesten Version von Subsurface: Version 4.1 hat eine deutlich verbesserte Optik gegenüber Version 4.0. Das Tauchgangsprofil wurde komplett überarbeitet und verfügt nun über animierte Effekte, eine signifikant verbesserte Informationseinblendung und eine verbesserte Aktualisierungslogik. Eine zusätzliche Werkzeugleiste erlaubt das An- und Abschalten vieler Profildarstellungsoptionen, ohne das Voreinstellungsmenü öffnen zu müssen. </p>

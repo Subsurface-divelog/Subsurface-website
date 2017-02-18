@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2015/09/announcing-subsurface-4-5-beta-2/
+post_language: en
 published: true
 ---
 Because of all the new features we were taking things rather slowly with the Beta, but frankly, there haven't been a lot of issues reported. We have a couple of bugs that are still not fixed but they are mostly minor annoyances. Overall 4.5 looks to be pretty solid. But of course so far fewer than 1% of our user base have tested, so who knows...

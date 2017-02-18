@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2015/02/announcing-subsurface-4-4/
+post_language: en
 published: true
 ---
 The Subsurface development team proudly announces release 4.4 of Subsurface, an open source divelog and dive planning program for Windows, Mac and Linux.

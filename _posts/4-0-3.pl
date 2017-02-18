@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2014/02/4-0-3/
+post_language: pl
 published: true
 ---
 Jesteśmy w trakcie prac nad wersją 4.1 ale w międzyczasie natrafiliśmy na irytujący błąd w 4.0.2 który wymagał natychmiastowego poprawienia.Subsurface 4.0.2 miał losowe problemy z pobieraniem danych z komputerów nurkowych.

@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2013/12/subsurface-4-0-has-been-released/
+post_language: es
 published: true
 ---
 El equipo de desarrollo de Subsurface se enorgullece de anunciar el lanzamiento de su próxima versión.

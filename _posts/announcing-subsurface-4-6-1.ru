@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/ru/2017/02/announcing-subsurface-4-6-1/
+post_language: ru
 published: true
 category: null
 ---

@@ -9,6 +9,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2015/04/if-you-are-using-divelogs-de-and-subsurface-on-windows/
+post_language: pt-pt
 published: true
 ---
 Se usar um nome de utilizador com caracteres não ascii, então o Subsurface terá problemas de ligação ao serviço web da Divelogs.de.

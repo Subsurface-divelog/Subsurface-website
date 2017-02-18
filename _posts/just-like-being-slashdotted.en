@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2011/10/just-like-being-slashdotted/
+post_language: en
 published: true
 ---
 <!--:en--><p>This site just moved to a new server - a much beefier 4-way Intel Xeon server with 8G of memory and a reasonably well performing RAID array for storage.</p>

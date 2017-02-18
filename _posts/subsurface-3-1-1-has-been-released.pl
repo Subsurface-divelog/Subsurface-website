@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2013/06/subsurface-3-1-1-has-been-released/
+post_language: pl
 published: true
 ---
 Ekipa Subsurface z przyjemnością ogłasza udostępnienie najnowszej wersji Subsurface.

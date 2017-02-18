@@ -7,6 +7,7 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2014/12/announcing-subsurface-4-3/
+post_language: es
 published: true
 ---
 <div class="sectionbody">
