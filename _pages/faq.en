@@ -22,7 +22,7 @@ published: true
 
 [et_pb_accordion_item title="What operating systems does Subsurface support?"]
 
-Subsurface runs on Windows (32 and 64bit, Windows XP and newer), MacOS (Intel, 10.7 and newer) and many flavors of Linux. We provide Linux packages for Ubuntu, Linux Mint, Debian, openSUSE and Fedora. Details on where to find Subsurface for your OS are on our <a title="Downloads" href="/download/">Downloads</a> page.
+Subsurface runs on Windows (32 and 64bit, Windows 7 and newer), MacOS (Intel, 10.7 and newer) and many flavors of Linux. We provide Linux packages for Ubuntu, Linux Mint, Debian, openSUSE and Fedora. Details on where to find Subsurface for your OS are on our <a title="Downloads" href="/download/">Downloads</a> page. As of version 4.6, Windows XP is not supported anymore.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Why Should I Use Subsurface?"]
 　
