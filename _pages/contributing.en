@@ -60,5 +60,5 @@ Signed-off-by: Your Name
 
 That header line really should be meaningful, and really should be just one line. The header line is what is shown by tools like gitk and shortlog, and should summarize the change in one readable line of text, independently of the longer explanation.
 
-[caption id="attachment_42" align="aligncenter" width="761"]<img class="size-full wp-image-42" title="Exemple avec gitk" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Screenshot-gitk-subsurface-1.png" alt="gitk sample" width="761" height="757"> Example with gitk[/caption]
+[caption id="attachment_42" align="aligncenter" width="761"]<img class="size-full wp-image-42" title="Example with gitk" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Screenshot-gitk-subsurface-1.png" alt="gitk sample" width="761" height="757"> Example with gitk[/caption]
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
