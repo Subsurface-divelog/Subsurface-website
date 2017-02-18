@@ -34,7 +34,7 @@ Hier sind einige der wichtigsten Neuerungen seit Subsurface 4.6:
 <li> Improve printed dive plan (no more 0-length segments at gas changes)</li>
 <li> Print additional information with the dive plan (assumed SAC values, altiude)</li></ul></li>
 <li> Fixes for dive computer support and new dive computer support (through the great work of libdivecomputer)<ul>
-<li> add support for Aqualung i450T, i550, and i750TC</li>
+<li> Unterstützung für Aqualung i450T, i550, and i750TC</li>
 <li> add support for Cressi Drake</li>
 <li> add support for Hollis DG02</li>
 <li> add support for Oceanic F10</li>
