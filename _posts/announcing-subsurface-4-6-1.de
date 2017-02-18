@@ -36,7 +36,7 @@ Hier sind einige der wichtigsten Neuerungen seit Subsurface 4.6:
 <li> Fixes for dive computer support and new dive computer support (through the great work of libdivecomputer)<ul>
 <li> Unterstützung für Aqualung i450T, i550, and i750TC</li>
 <li> Unterstützung für Cressi Drake</li>
-<li> add support for Hollis DG02</li>
+<li> Unterstützung für Hollis DG02</li>
 <li> add support for Oceanic F10</li>
 <li> fixes for Hollis DG03</li></ul></li></ul>
 
