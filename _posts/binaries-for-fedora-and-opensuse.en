@@ -1,0 +1,15 @@
+---
+ID: 77
+post_title: '<!--:en-->Binaries for Fedora and OpenSUSE<!--:-->'
+author: hohndel
+post_date: 2011-10-12 21:04:26
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2011/10/binaries-for-fedora-and-opensuse/
+published: true
+---
+<!--:en--><p>Since some people prefer not to create their applications from source I am starting to make some binaries available. For now I have packaged Fedora 14&amp;15 and OpenSUSE 11.4 (the version of cairo in OpenSUSE 11.3 appears to be too old for subsurface).</p>
+<p>I looked into doing Debian based versions but decided that the anal retentiveness and excessive redundantness of the Debian packaging rules was more than I was willing to put up with. If someone else wants to maintain these, please provide the various control files so I can build these on OBS and I'll be happy to put them up here as well.</p>
+<p>The same goes for Mac or Windows binaries (except for the request to provide OBS build configuration files... you'll have to provide actual binaries for that).</p>
+<p>For now go to <a href="https://subsurface-divelog.org/downloads/">Downloads</a> to get the repos. And a special thanks to the <a href="https://build.opensuse.org/">OpenSUSE Build Service</a> for providing a really easy way to making these files available.</p><!--:-->
