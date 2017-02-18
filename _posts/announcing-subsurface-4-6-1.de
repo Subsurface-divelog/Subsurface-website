@@ -23,8 +23,8 @@ Hier sind einige der wichtigsten Neuerungen seit Subsurface 4.6:
 <ul><li> Mehrere Probleme mit unvollständigen Übersetzungen der Windows Version wurden behoben</li>
 <li> Ein Problem beim Importieren von Seabear wurde behoben</li>
 <li> Ein Doppelklick auf die Tauchgangnummer in der Tauchgangliste führt nicht mehr zu einem Dialog, der den Eindruck erweckt, man könne so die Tauchgangnummer bearbeiten</li>
-<li> Improve cylinder handling when merging dives
-</li><li> Store a few more preferences in the cloud storage so we can match certain aspects of the profile configuration in Subsurface-mobile</li>
+<li> Verbessertes Unterstützung von mehreren Flaschen bei der Kombination von mehreren Tauchgängen in einen Tauchgang</li>
+<li> Store a few more preferences in the cloud storage so we can match certain aspects of the profile configuration in Subsurface-mobile</li>
 <li> Fix scaling issue that prevent the visual dive editor from reaching certain dive durations</li>
 <li> Many fixes and improvements in the dive planner:
 <ul><li> Fix uninitialized variable that could cause odd problems in the planner when the dive list was empty</li>
