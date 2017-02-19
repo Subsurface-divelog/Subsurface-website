@@ -11,7 +11,7 @@ permalink: >
   https://subsurface-divelog.org/de/2017/02/announcing-subsurface-4-6-1/
 published: true
 category:
-  - 'a:0:{}'
+  - 'a:1:{i:0;s:6:"a:0:{}";}'
 post_language: de
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" global_module="1887" saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid"]
@@ -37,7 +37,7 @@ Hier sind einige der wichtigsten Neuerungen seit Subsurface 4.6:
 <li> Re-enable ctrl-click to remove remaining dive points in planner</li>
 <li> Improve printed dive plan (no more 0-length segments at gas changes)</li>
 <li> Print additional information with the dive plan (assumed SAC values, altiude)</li></ul></li>
-<li> Fixes for dive computer support and new dive computer support (through the great work of libdivecomputer)<ul>
+<li> Verbesserungen in der Unterstützung einiger Tauchcomputer sowie Unterstützung weiterer Tauchcomputer (dank der hervorragenden Arbeit des libdivecomputer Teams)<ul>
 <li> Unterstützung für Aqualung i450T, i550, and i750TC</li>
 <li> Unterstützung für Cressi Drake</li>
 <li> Unterstützung für Hollis DG02</li>
