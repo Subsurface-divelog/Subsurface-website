@@ -12,11 +12,17 @@ published: true
 
 
 
-[/et_pb_post_title][et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
+[/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+<h2>Our latest version has been released</h2>
+Please check out <a
+href="https://subsurface-divelog.org/2017/02/announcing-subsurface-4-6-2/">the announcement of Subsurface 4-6-2</a>.
+
+[/et_pb_text][et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
 
 [et_pb_slide heading="Multiplatform" background_position="default" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/OS-logos1.png" alignment="center" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
-Subsurface is an open source divelog program that runs on Windows, Mac and Linux
+Subsurface is an open source divelog program for recreational, tech, and free-divers that runs on Windows, Mac and Linux
 
 [/et_pb_slide][et_pb_slide heading="Log all your dives" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Screenshot.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
@@ -34,9 +40,9 @@ Store your logbook data in the cloud. Work with your data from different compute
 
 [/et_pb_slider][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="on" gutter_width="4" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" column_padding_mobile="on"][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurface can <strong>track</strong> single- and multi-tank <strong>dives</strong> using air, Nitrox or TriMix. It allows tracking of dive locations including GPS coordinates (which can also conveniently be entered using a map interface), logging of equipment used and names of other divers, and lets users rate dives and provide additional notes. 
+Subsurface can <strong>plan</strong> and <strong>track</strong> single- and multi-tank <strong>dives</strong> using air, Nitrox or TriMix. It allows tracking of dive locations including GPS coordinates (which can also conveniently be entered using a map interface), logging of equipment used and names of other divers, and lets users rate dives and provide additional notes. 
 
-Users can tag dives and <strong>filter a dive list</strong> based on criteria including tags, locations and people with whom you were diving.
+You can tag dives and <strong>filter a dive list</strong> based on criteria including tags, locations and people with whom you were diving. You can group the dive list into trips, and edit multiple dives at the same time, making it easy to support a large number of dives.
 
 [/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/TagsAndRating1.png" alt="Screenshot of rating, tags and other data fields" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
 
@@ -46,15 +52,17 @@ Users can tag dives and <strong>filter a dive list</strong> based on criteria in
 
 Subsurface also calculates a wide variety of <strong>statistics</strong> of the user’s diving and tracks information like the SAC rate, partial pressures of O2, N2 and He, calculated deco information, and many more.
 
+<strong>Multiple divers</strong> can share one instance of Subsurface using different preferences and settings.
+
 The program is localized in about <strong>20 languages</strong> and well supported by an active developer community.
 
 [/et_pb_text][/et_pb_column][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-One of the major strengths of Subsurface is its support of a wide range of <strong>dive computers</strong> (see the list of supported dive computers). Subsurface can also import existing dive logs from several sources including MacDive, Suunto DM3, DM4 &amp; DM5, JDiveLog and divelogs.de. 
+One of the major strengths of Subsurface is its support of a wide range of <strong>dive computers</strong> (see the <a href="documentation/supported-dive-computers/">list of supported dive computers</a>). Subsurface can also import existing dive logs from several sources including MacDive, Suunto DM3, DM4 &amp; DM5, JDiveLog and divelogs.de. 
 
-Another strength is its ability to <strong>visualize</strong> the depth profile (and, if available, the tank pressure curve) in innovative ways that give the user additional information on relative velocity, and momentary air consumption, during a dive.
+Another strength is its ability to <strong>visualize</strong> the depth profile (and, if available, the tank pressure curve) in innovative ways that give the user additional information on relative velocity, and momentary air consumption, during a dive. Users who dive with <strong>multiple dive computers</strong> can combine the data from each of their dive computers into one dive – allowing visualization of the data collected from multiple sources.
 
-[/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-metric.png" alt="Screenshot of dive profile" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
+[/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Profile.png" alt="Screenshot of dive profile" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
 
 
 
