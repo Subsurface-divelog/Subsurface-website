@@ -10,7 +10,7 @@ permalink: >
 published: true
 post_language: nl
 ---
-Subsurface zelf is open source software onder de <a href="https://github.com/Subsurface-divelog/subsurface/blob/master/LICENSE">GPLv2</a> licentie &#45; en maakt gebruik van vele andere open source software biblioteken.
+Subsurface zelf is open source software onder de <a href="https://github.com/Subsurface-divelog/subsurface/blob/master/LICENSE">GPLv2</a> licentie &#45; en maakt gebruik van vele andere open source software bibliotheken.
 
 <ul>
 <li><strong>libdivecomputer</strong>: <a href="http://libdivecomputer.org">Homepage</a> <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">Licentie</a></li>
