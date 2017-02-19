@@ -29,5 +29,5 @@ published: true
 </p>
 <p><a href="http://archive.org/download/Subsurface_v4_Tutorial/subsurface_v4_tut_1080p_2500kbps.mp4">http://archive.org/download/Subsurface_v4_Tutorial/subsurface_v4_tut_1080p_2500kbps.mp4</a>
 <p><a href="http://archive.org/download/Subsurface_v4_Tutorial/subsurface_v4_tut_720p_1500kbps.webm">http://archive.org/download/Subsurface_v4_Tutorial/subsurface_v4_tut_720p_1500kbps.webm</a>
-<p>... or any other of the links at <a href="https://archive.org/details/Subsurface_v4_Tutorial">https://archive.org/details/Subsurface_v4_Tutorial</a></p>
+<p>... of &eacute;&eacute;n van de links op <a href="https://archive.org/details/Subsurface_v4_Tutorial">https://archive.org/details/Subsurface_v4_Tutorial</a></p>
 <p>... en bekijk hem met een video speler (bijvoorbeeld: <a href="http://www.videolan.org/vlc/">VLC</a>).</p>

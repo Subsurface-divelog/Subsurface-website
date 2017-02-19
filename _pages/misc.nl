@@ -14,10 +14,10 @@ published: true
 
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<h5>Willekerige andere content:</h5>
+<h5>Diverse andere content:</h5>
 <ul>
 	<li><a title="Dankwoord" href="https://subsurface-divelog.org/thanks/">Thanks</a></li>
-	<li><a title="Credits" href="https://subsurface-divelog.org/misc/credits/">Credits</a></li>
+	<li><a title="Erkenningen" href="https://subsurface-divelog.org/misc/credits/">Erkenningen</a></li>
 	<li><a href="/documentation/dive-computer-ramblings/linus-dive-computer-ramblings/">Linus’ duikcomputer overpeinzingen</a></li>
 	<li><a href="/documentation/dive-computer-ramblings/dirks-dive-computer-ramblings/">Dirk’s duikcomputer overpeinzingen</a></li>
 </ul>

@@ -37,7 +37,7 @@ Nu kan je de geselecteerde versie van Subsurface uit de repository installeren:
 <pre><code>sudo apt-get install subsurface</code></pre>
 Controleer dat je huidige versie met alle Qt5 afhankelijkheden installeert.
 <h2>OpenSUSE 13.1, 13.2, Leap 42.1, Leap 42.2, Tumbleweed en Fedora 22, 23, 24, 25</h2>
-Ga naar het offici&euml;le Subsurface pakket voor deze OpenSUSE or Fedora versies, op <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">our build service project page</a>  en volg de instructies. - 2x klikken en klaar.
+Ga naar het offici&euml;le Subsurface pakket voor deze OpenSUSE or Fedora versies, op <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">onze build service project pagina</a>  en volg de instructies. - 2x klikken en klaar.
 <h2>Alle andere 64 bit Linux versies</h2>
 Een generieke AppImage is beschikbaar als [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"]. Maak de file executable na download <code>chmod +x [s-var slug="appimage"]</code> gevolgd door het executeren van de file. Wij zijn bijzonder ge&iuml;nteresseerd in ervaringen met deze wijze van distributie van Linux software.
 <h2>Verouderde Subsurface versies door Linux distributies</h2>
