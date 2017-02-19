@@ -33,7 +33,7 @@ Hier sind einige der wichtigsten Neuerungen seit Subsurface 4.6:
 <li> Many fixes and improvements in the dive planner:
 <ul><li> Fix uninitialized variable that could cause odd problems in the planner when the dive list was empty</li>
 <li> Changed VPM-B calculation for repetitive dives: Resets the maximum crushing pressures and the maximal ambient pressure between repetitive dives to prevent anomalies that a dive produces a shorter deco when following another one than without</li>
-<li> Allow the user to disable tanks while planning dives (this makes it much easier to evaluate different scenarios)</li>
+<li> Der Benutzer kann jetzt im Tauchplaner Flaschen deaktivieren (this makes it much easier to evaluate different scenarios)</li>
 <li> Strg-Klick löscht wieder alle verbleibenden Wegpunkte im Tauchplaner</li>
 <li> Verbesserter Ausdruck des Tauchplans (keine Segmente mit Dauer 0 beim Gas Wechsel)</li>
 <li> Weitere Informationen im Ausdruck eines Tauchplans (angenommene AMV Werte, Meereshöhe)</li></ul></li>
