@@ -1,14 +1,14 @@
 ---
-ID: 3319
+ID: 3334
 post_title: Credits
 author: hohndel
 post_date: 2017-02-18 16:07:25
 post_excerpt: ""
 layout: page
 permalink: >
-  https://subsurface-divelog.org/misc/credits/
+  https://subsurface-divelog.org/de/misc/credits/
 published: true
-post_language: en
+post_language: de
 ---
 Subsurface selbst ist Open-Source-Software und wird mit einer <a href="https://github.com/Subsurface-divelog/subsurface/blob/master/LICENSE">GPLv2</a>-Lizenz ver&ouml;ffentlicht - und basiert auf einer Vielzahl anderer Open-Source Software.
 
