@@ -36,7 +36,7 @@ Hier sind einige der wichtigsten Neuerungen seit Subsurface 4.6:
 <li> Allow the user to disable tanks while planning dives (this makes it much easier to evaluate different scenarios)</li>
 <li> Re-enable ctrl-click to remove remaining dive points in planner</li>
 <li> Improve printed dive plan (no more 0-length segments at gas changes)</li>
-<li> Print additional information with the dive plan (assumed SAC values, altiude)</li></ul></li>
+<li> Weitere Informationen im Ausdruck eines Tauchplans (angenommene AMV Werte, Meereshöhe)</li></ul></li>
 <li> Verbesserungen in der Unterstützung einiger Tauchcomputer sowie Unterstützung weiterer Tauchcomputer (dank der hervorragenden Arbeit des libdivecomputer Teams)<ul>
 <li> Unterstützung für Aqualung i450T, i550, and i750TC</li>
 <li> Unterstützung für Cressi Drake</li>
