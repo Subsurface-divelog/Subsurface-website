@@ -17,6 +17,7 @@ published: true
 <h5>Willekerige andere content:</h5>
 <ul>
 	<li><a title="Dankwoord" href="https://subsurface-divelog.org/thanks/">Thanks</a></li>
+	<li><a title="Credits" href="https://subsurface-divelog.org/misc/credits/">Credits</a></li>
 	<li><a href="/documentation/dive-computer-ramblings/linus-dive-computer-ramblings/">Linus’ duikcomputer overpeinzingen</a></li>
 	<li><a href="/documentation/dive-computer-ramblings/dirks-dive-computer-ramblings/">Dirk’s duikcomputer overpeinzingen</a></li>
 </ul>

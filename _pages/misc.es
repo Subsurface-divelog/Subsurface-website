@@ -17,6 +17,7 @@ published: true
 <h5>Documentos diversos:</h5>
 <ul>
 <li><a title="Agradecimentos" href="/es/thanks/">Agradecimentos</a></li>
+<li><a title="Credits" href="https://subsurface-divelog.org/misc/credits/">Credits (en inglés)</a></li>
 <li><a href="/documentation/dive-computer-ramblings/linus-dive-computer-ramblings/">Desvaríos de Linus sobre ordenadores de buceo (en inglés)</a></li>
 <li><a href="/documentation/dive-computer-ramblings/dirks-dive-computer-ramblings/">Desvaríos de Dirk sobre ordenadores de buceo (en inglés)</a></li>
 </ul>

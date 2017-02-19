@@ -15,6 +15,7 @@ published: true
 Всякое разное:
 <ul>
 	<li><a title="Thanks" href="https://subsurface-divelog.org/thanks/">Благодарности</a></li>
+	<li><a title="Credits" href="https://subsurface-divelog.org/misc/credits/">Credits</a></li>
 	<li><a href="/documentation/dive-computer-ramblings/linus-dive-computer-ramblings/">Линус о дайв-компьютерах</a></li>
 	<li><a href="/documentation/dive-computer-ramblings/dirks-dive-computer-ramblings/">Дирк о дайв-компьютерах</a></li>
 </ul>

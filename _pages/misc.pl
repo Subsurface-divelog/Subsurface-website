@@ -17,6 +17,7 @@ published: true
 <h5>Różne inne rzeczy:</h5>
 <ul>
 	<li><a title="Podziękowania" href="/pl/misc/thanks/">Podziekowania</a></li>
+	<li><a title="Credits" href="https://subsurface-divelog.org/misc/credits/">Credits</a></li>
 	<li><a href="/documentation/dive-computer-ramblings/linus-dive-computer-ramblings/">Linus mówi o komputerach nurkowych</a></li>
 	<li><a href="/documentation/dive-computer-ramblings/dirks-dive-computer-ramblings/">Dirk mówi o komputerach nurkowych</a></li>
 </ul>
