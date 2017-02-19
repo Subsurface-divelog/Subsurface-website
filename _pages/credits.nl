@@ -24,6 +24,7 @@ Subsurface zelf is open source software onder de <a href="https://github.com/Sub
 <li><strong>libcurl</strong>: <a href="https://curl.haxx.se/libcurl/">Homepage</a> <a href="https://curl.haxx.se/docs/copyright.html">Licentie</a></li>
 <li><strong>libssh</strong>: <a href="https://www.libssh.org/">Homepage</a> <a href="https://git.libssh.org/projects/libssh.git/tree/COPYING">Licentie</a></li>
 <li><strong>Grantlee</strong>: <a href="https://github.com/steveire/grantlee">Homepage</a> <a href="https://github.com/steveire/grantlee/blob/master/COPYING.LIB">Licentie</a></li>
+<li><strong>easyexif</strong>: <a href="https://github.com/mayanklahiri/easyexif">Homepage</a> <a href="://github.com/mayanklahiri/easyexif/blob/master/LICENSE">Licentie</a></li>
 
 </ul>
 
