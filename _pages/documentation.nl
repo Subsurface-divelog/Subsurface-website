@@ -17,9 +17,9 @@ published: true
 
 Hier staat alle relevante documentatie van het Subsurface project.
 <ul>
-<li><a href="/documentation/faq/">FAQ</a></li>
+<li><a href="/nl/documentation/faq/">FAQ</a></li>
 <li><a href="/nl/documentation/supported-dive-computers/">Ondersteunde duikcomputers</a></li>
-<li><a href="/documentation/tutorial-video/">Video handleiding</a></li>
+<li><a href="/nl/documentation/tutorial-video/">Video handleiding</a></li>
 <li><a href="/documentation/subsurface-4-user-manual/">Subsurface gebruikershandleiding</a></li>
 <li><a href="/documentation/subsurface-mobile-user-manual/">Subsurface-mobile gebruikershandleiding</a></li>
 <li><a href="/nl/documentation/building">Subsurface zelf compileren</a></li>
