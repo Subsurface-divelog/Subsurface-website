@@ -35,7 +35,7 @@ Hier sind einige der wichtigsten Neuerungen seit Subsurface 4.6:
 <li> Changed VPM-B calculation for repetitive dives: Resets the maximum crushing pressures and the maximal ambient pressure between repetitive dives to prevent anomalies that a dive produces a shorter deco when following another one than without</li>
 <li> Allow the user to disable tanks while planning dives (this makes it much easier to evaluate different scenarios)</li>
 <li> Re-enable ctrl-click to remove remaining dive points in planner</li>
-<li> Improve printed dive plan (no more 0-length segments at gas changes)</li>
+<li> Verbesserter Ausdruck des Tauchplans (keine Segmente mit Dauer 0 beim Gas Wechsel)</li>
 <li> Weitere Informationen im Ausdruck eines Tauchplans (angenommene AMV Werte, Meereshöhe)</li></ul></li>
 <li> Verbesserungen in der Unterstützung einiger Tauchcomputer sowie Unterstützung weiterer Tauchcomputer (dank der hervorragenden Arbeit des libdivecomputer Teams)<ul>
 <li> Unterstützung für Aqualung i450T, i550, and i750TC</li>
