@@ -23,6 +23,8 @@ Subsurface is itself open source software released under the <a href="https://gi
 <li><strong>libcurl</strong>: <a href="https://curl.haxx.se/libcurl/">Homepage</a> <a href="https://curl.haxx.se/docs/copyright.html">License</a></li>
 <li><strong>libssh</strong>: <a href="https://www.libssh.org/">Homepage</a> <a href="https://git.libssh.org/projects/libssh.git/tree/COPYING">License</a></li>
 <li><strong>Grantlee</strong>: <a href="https://github.com/steveire/grantlee">Homepage</a> <a href="https://github.com/steveire/grantlee/blob/master/COPYING.LIB">License</a></li>
+<li><strong>easyexif</strong>: <a href="https://github.com/mayanklahiri/easyexif">Homepage</a> <a href="://github.com/mayanklahiri/easyexif/blob/master/LICENSE">License</a></li>
+<li><strong>mdbtools</strong>: <a href="https://github.com/brianb/mdbtools">Homepage</a> <a href="https://github.com/brianb/mdbtools/blob/master/COPYING">License</a></li>
 
 </ul>
 

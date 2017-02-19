@@ -23,6 +23,8 @@ Subsurface - свободное программное обеспечение и
 <li><strong>libcurl</strong>: <a href="https://curl.haxx.se/libcurl/">Домашняя страница</a> <a href="https://curl.haxx.se/docs/copyright.html">Лицензия</a></li>
 <li><strong>libssh</strong>: <a href="https://www.libssh.org/">Домашняя страница</a> <a href="https://git.libssh.org/projects/libssh.git/tree/COPYING">Лицензия</a></li>
 <li><strong>Grantlee</strong>: <a href="https://github.com/steveire/grantlee">Домашняя страница</a> <a href="https://github.com/steveire/grantlee/blob/master/COPYING.LIB">Лицензия</a></li>
+<li><strong>easyexif</strong>: <a href="https://github.com/mayanklahiri/easyexif">Домашняя страница</a> <a href="://github.com/mayanklahiri/easyexif/blob/master/LICENSE">Лицензия</a></li>
+<li><strong>mdbtools</strong>: <a href="https://github.com/brianb/mdbtools">Домашняя страница</a> <a href="https://github.com/brianb/mdbtools/blob/master/COPYING">Лицензия</a></li>
 
 </ul>
 
