@@ -1,6 +1,6 @@
 ---
 ID: 3384
-post_title: Announcing Subsurface 4.6.2
+post_title: Aankondiging Subsurface 4.6.2
 author: hohndel
 post_date: 2017-02-19 14:05:53
 post_excerpt: ""
@@ -16,31 +16,31 @@ post_language: nl
 
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-The Subsurface development team proudly announces the release 4.6.2 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+Het Subsurface ontwikkelteam presenteert met trots versie 4.6.2 van Subsurface, een open source duiklog en duikplan programma beschikbaar voor Windows, Mac en Linux.
 
-Some of the changes since Subsurface 4.6.1:
+De belangrijkste wijzigingen sinds Subsurface 4.6.1:
 
-<ul><li> Planner: update altitude limits with unit change</li>
-<li> Fix potential crash when merging dives</li>
-<li> Handle dive dates before 1970 correctly</li>
-<li> Include geo location when exporting to divelogs.de</li>
-<li> Add credits button to about screen</li>
-<li> Many updated translations (and add Greek as partially supported language)</li></ul>
+<ul><li> Planner: pas de hoogte limiet aan bij aanpassen eenheid (m. vs feet)</li>
+<li> Potenti&euml;le software crash bij samenvoegen van duiken</li>
+<li> Behandel duik datum voor 1970 op de juiste wijze</li>
+<li> Voeg geo locatie toe bij export naar divelogs.de</li>
+<li> Credits/Erkenningen knop toegevoegd in 'over' scherm</li>
+<li> Vele verbeterde vertalingen (en Grieks is toegevoegd als deels ondersteunde taal)</li></ul>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Binaries are available for Windows, Mac, and an AppImage for Linux (plus distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE). You can get Subsurface 4.6.2 from these locations:
+De software is beschikbaar voor Windows, Mac, en een AppImage voor Linux (en daarnaast distributie specifieke software voor een aantal Linux smaken waaronder Ubuntu, Debian, Linux Mint, Fedora, and openSUSE). Je kunt Subsurface 4.6.2 ophalen van de volgende locaties:
 
 <strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.6.2.exe">https://subsurface-divelog.org/downloads/subsurface-4.6.2.exe</a>
 
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.2.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.6.2.dmg</a>
 
-<strong>Linux:</strong> A generic AppImage is available for download as <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.2-x86_64.AppImage">Subsurface-4.6.2-x86_64.AppImage</a>. Download this file, make it executable
-<code>chmod +x Subsurface-4.6.2-x86_64.AppImage</code> and then simply run this file.
-<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
+<strong>Linux:</strong> Een generieke AppImage is beschikbaar als <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.2-x86_64.AppImage">Subsurface-4.6.2-x86_64.AppImage</a>. Download deze file en maak hem executable
+<code>chmod +x Subsurface-4.6.2-x86_64.AppImage</code> en executeer deze file.
+<strong>Linux: Ubuntu: </strong>Voeg <code>ppa:subsurface/subsurface</code> toe aan je software bronnen; de .deb files in deze PPA kunnen ook op redelijk recente versies van <strong>Debian</strong> en <strong>LinuxMint</strong>; zie de <a href="https://subsurface-divelog.org/download/">Downloads</a> pagina en gebruik <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> om de laatste versie te downloaden.
 
-<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
+<strong>Linux: openSUSE / Fedora:</strong> ga naar onze <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release pagina</a>
 
-Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
+Post vragen of problemen op het <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> of rapporteer een fout in onze <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
