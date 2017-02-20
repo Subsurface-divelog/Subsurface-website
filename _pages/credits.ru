@@ -7,7 +7,7 @@ post_excerpt: ""
 layout: page
 permalink: 'https://subsurface-divelog.org/%d1%80%d0%b0%d0%b7%d0%bd%d0%be%d0%b5/credits/'
 published: true
-post_language: null
+post_language: ru
 ---
 Subsurface - свободное программное обеспечение и распространяется под лицензией <a href="https://github.com/Subsurface-divelog/subsurface/blob/master/LICENSE">GPLv2</a>. Помимо этого Subsurface использует другие проекты:
 

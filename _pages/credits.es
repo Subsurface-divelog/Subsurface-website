@@ -8,7 +8,7 @@ layout: page
 permalink: >
   https://subsurface-divelog.org/es/credits/
 published: true
-post_language: null
+post_language: es
 ---
 Subsurface mismo es un software de código abierto amparado en la licencia <a href="https://github.com/Subsurface-divelog/subsurface/blob/master/LICENSE">GPLv2</a> - y está basado en muchos otros softwares de código abierto.
 

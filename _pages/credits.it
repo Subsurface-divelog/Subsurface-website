@@ -7,7 +7,7 @@ post_excerpt: ""
 layout: page
 permalink: https://subsurface-divelog.org/credits/
 published: true
-post_language: null
+post_language: it
 ---
 Subsurface is itself open source software released under the <a href="https://github.com/Subsurface-divelog/subsurface/blob/master/LICENSE">GPLv2</a> - and it is based on many pieces of open source software.
 
