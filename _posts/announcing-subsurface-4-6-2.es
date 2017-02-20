@@ -6,7 +6,7 @@ post_date: 2017-02-19 14:09:03
 post_excerpt: ""
 layout: post
 permalink: >
-  https://subsurface-divelog.org/2017/02/announcing-subsurface-4-6-2/
+  https://subsurface-divelog.org/es/2017/02/announcing-subsurface-4-6-2/
 published: true
 post_language: es
 ---
