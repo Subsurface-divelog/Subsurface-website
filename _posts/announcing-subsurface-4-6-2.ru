@@ -1,6 +1,6 @@
 ---
 ID: 3400
-post_title: Announcing Subsurface 4.6.2
+post_title: Обновление Subsurface 4.6.2
 author: hohndel
 post_date: 2017-02-19 14:41:42
 post_excerpt: ""
