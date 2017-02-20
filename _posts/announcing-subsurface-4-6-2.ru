@@ -16,31 +16,31 @@ post_language: ru
 
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-The Subsurface development team proudly announces the release 4.6.2 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+Команда разработчиков рада представить вам обновленную версию Subsurface 4.6.2. Subsurface - журнал погружений и планировщик для платформ Windows, Mac и Linux. 
 
-Some of the changes since Subsurface 4.6.1:
+Список изменений после версии Subsurface 4.6.1:
 
-<ul><li> Planner: update altitude limits with unit change</li>
-<li> Fix potential crash when merging dives</li>
-<li> Handle dive dates before 1970 correctly</li>
-<li> Include geo location when exporting to divelogs.de</li>
-<li> Add credits button to about screen</li>
-<li> Many updated translations (and add Greek as partially supported language)</li></ul>
+<ul> <li> Планировщик: обновление пределов высоты при изменении единиц измерения</li>
+<li> Исправлен потенциальный сбой при объединении погружений</li>
+<li> Корректная обработка дат погружений ранее 1970 года</li>
+<li> Передача координат погружения при экспорте на сайт divelogs.de</li>
+<li> В диалог "О программе" добавлена кнопка "Благодарности"</li>
+<li> Множественные обновления переводов, добавлен перевод на греческий язык</li> </ul>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Binaries are available for Windows, Mac, and an AppImage for Linux (plus distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE). You can get Subsurface 4.6.2 from these locations:
+Установочные образы доступны для Windows, Mac и для Linux в виде AppImage (а также пакеты для популярных дистрибутивов Linux, включая Ubuntu, Debian, Linux Mint, Fedora и openSUSE). Вы можете загрузить Subsurface 4.6.2 по ссылкам ниже:
 
 <strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.6.2.exe">https://subsurface-divelog.org/downloads/subsurface-4.6.2.exe</a>
 
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.2.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.6.2.dmg</a>
 
-<strong>Linux:</strong> A generic AppImage is available for download as <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.2-x86_64.AppImage">Subsurface-4.6.2-x86_64.AppImage</a>. Download this file, make it executable
-<code>chmod +x Subsurface-4.6.2-x86_64.AppImage</code> and then simply run this file.
-<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
+<strong>Linux:</strong> Универсальный образ AppImage доступен для загрузки <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.2-x86_64.AppImage">Subsurface-4.6.2-x86_64.AppImage</a>. Загрузите этот файл и сделайте его исполняемым
+<code>chmod +x Subsurface-4.6.2-x86_64.AppImage</code> и затем просто запустите его.
+<strong>Linux: Ubuntu: </strong>Добавьте репозиторий <code>ppa:subsurface/subsurface</code> к своим источникам ПО; .deb файлы их этого PPA-репозитория могут быть также установлены на достаточно "свежих" версиях <strong>Debian</strong> и <strong>LinuxMint</strong>; перейдите на страницу <a href="https://subsurface-divelog.org/download/">Загрузки</a> и подключите репозиторий <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> чтобы получить актуальную версию Subsurface.
 
-<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
+<strong>Linux: openSUSE / Fedora:</strong> перейдите на страницу <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">нашего сервиса сборки</a>.
 
-Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
+Вы можете задать свои вопросы или сообщить о проблеме на нашем <a href="https://subsurface-divelog.org/user-forum/">форуме пользователей</a> или зарегистрировать проблему в <a href="https://github.com/Subsurface-divelog/subsurface/issues">системе отслеживания ошибок</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
