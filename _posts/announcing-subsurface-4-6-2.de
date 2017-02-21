@@ -19,7 +19,7 @@ Hier sind die wichtigsten Neuerungen seit Subsurface 4.6.1:
 <ul><li> Tauchplaner: die Maxima für die Tauchplatzhöhe werden nun korrekt zusammen mit den Einheiten angepasst</li>
 <li> Ein potentieller Absturz beim Kombinieren mehrerer Tauchgänge ist behoben</li>
 <li> Tauchdaten vor 1970 werden nun korrekt verarbeitet</li>
-<li> GPS-abhängige Geo-Informationen werden beim Export auf divelogs.de korrekt übertragen</li>
+<li> GPS-abhängige Geo-Informationen werden beim Export korrekt zu divelogs.de übertragen</li>
 <li> Der "Info zu Subsurface Dialog enthält nun eine Schaltfläche, über die die Nachweise zu den enthaltenen open Source Projekten angezeigt werden können</li>
 <li> Viele Übersetzungen wurden verbessert (und erstmals Griechisch als teil-übersetzte Sprache unterstützt)</li></ul>
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
