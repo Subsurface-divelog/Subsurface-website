@@ -14,7 +14,7 @@ post_language: de
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 Die Subsurface Entwickler freuen sich, dass Version 4.6.2 unseres quell-offenen Tauchlogbuchs und Tauchplaners für Windows, Mac und Linux jetzt verfügbar ist.
 
-Hier sind einige der wichtigsten Neuerungen seit Subsurface 4.6.1:
+Hier sind die Neuerungen seit Subsurface 4.6.1:
 
 <ul><li> Tauchplaner: die Maxima für die Tauchplatzhöhe werden nun korrekt zusammen mit den Einheiten angepasst</li>
 <li> Ein potentieller Absturz beim Kombinieren mehrerer Tauchgänge ist behoben</li>
