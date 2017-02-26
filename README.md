@@ -17,4 +17,4 @@ Wordpress to GitHub integration of the full Subsurface website, including all tr
 
 .pt-pt: Português
 
-This is still very fragile and doesn't always sync correctly
+This is still very fragile and doesn't always sync correctly - mostly caused by timeouts on the WP side
