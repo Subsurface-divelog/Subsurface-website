@@ -17,6 +17,4 @@ Wordpress to GitHub integration of the full Subsurface website, including all tr
 
 .pt-pt: Português
 
-This is still very fragile and doesn't always sync correctly.
-Especially if a user is logged into the website in a language other than English, 
-things seem to be going wrong when changes are pushed from Wordpress to Github.
+This is still very fragile and doesn't always sync correctly
