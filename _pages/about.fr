@@ -34,9 +34,9 @@ Enregistrez vos données de carnet de plongée dans le cloud. Travaillez avec vo
 
 [/et_pb_slider][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="on" gutter_width="4" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" column_padding_mobile="on"][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurface can <strong>track</strong> single- and multi-tank <strong>dives</strong> using air, Nitrox or TriMix. It allows tracking of dive locations including GPS coordinates (which can also conveniently be entered using a map interface), logging of equipment used and names of other divers, and lets users rate dives and provide additional notes. 
+Subsurface permet le <strong>suivi</strong> de <strong>plongées</strong> a l'air, au Nitrox ou au TriMix pour une ou plusieurs bouteilles. Il donne la possibilité d'enregistrer les sites de plongées ainsi que leur position GPS (cette dernière peut aussi être facilement saisie a l'aide d'une carte), l'équipement utilisé, le nom des autres plongeurs, des informations supplémentaires ainsi que de noter les plongées.
 
-Users can tag dives and <strong>filter a dive list</strong> based on criteria including tags, locations and people with whom you were diving.
+Les utilisateurs peuvent étiqueter les plongées et <strong>filtrer la liste de plongées</strong> a l'aide de différents critères incluant les étiquettes, les lieux et personnes avec qui vous avez plongé.
 
 [/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/TagsAndRating1.png" alt="Screenshot of rating, tags and other data fields" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
 
@@ -44,15 +44,15 @@ Users can tag dives and <strong>filter a dive list</strong> based on criteria in
 
 [/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurface also calculates a wide variety of <strong>statistics</strong> of the user’s diving and tracks information like the SAC rate, partial pressures of O2, N2 and He, calculated deco information, and many more.
+Subsurface calcule également un grand nombre de <strong>statistiques</strong> sur les plongées de l'utilisateur. Il permet le suivit de la consommation d'air (SAC), de la pression partielle d'O2, de N2 et d'He, des calculs d'information de déco, ainsi que beaucoup d'autres valeurs.
 
-The program is localized in about <strong>20 languages</strong> and well supported by an active developer community.
+Le programme est traduit en à peu près <strong>20 langues</strong> et est très bien maintenu par une communauté active de développeurs.
 
 [/et_pb_text][/et_pb_column][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-One of the major strengths of Subsurface is its support of a wide range of <strong>dive computers</strong> (see the list of supported dive computers). Subsurface can also import existing dive logs from several sources including MacDive, Suunto DM3, DM4 &amp; DM5, JDiveLog and divelogs.de. 
+Une des importances majeures de Subsurface est sa compatibilité avec un très grand nombre d'<strong>ordinateurs de plongée</strong> (voire la liste d'ordinateurs pris en charge). Subsurface peut également importer le journal de plongées de plusieurs sources tels que MacDive, Suunto DM3, DM4 &amp; DM5, JDiveLog et divelogs.de.
 
-Another strength is its ability to <strong>visualize</strong> the depth profile (and, if available, the tank pressure curve) in innovative ways that give the user additional information on relative velocity, and momentary air consumption, during a dive.
+Un autre atout est sa capacité a <strong>visualiser</strong> le profil de profondeur (et, si disponible, la courbe de pression des bouteilles) de manière innovante, qui donne à l'utilisateur les informations de vitesse relative, et la consomation d'air momentané pendant une plongée.
 
 [/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-metric.png" alt="Screenshot of dive profile" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
 
@@ -60,14 +60,13 @@ Another strength is its ability to <strong>visualize</strong> the depth profile 
 
 [/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurface lets the user <strong>print</strong> out a detailed log book including dive profiles and other important information.
+Subsurface permet à l'utilisateur d'<strong>imprimer</strong> un carnet de plongées incluant les profils de plongée et autres informations importantes.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid" custom_margin="2em|||"]
 
-<h5>A bit of background:</h5>
+<h5>Un petit historique:</h5>
 
-In fall of 2011, when a forced lull in kernel development gave him a chance to start a new project, Linux creator Linus Torvalds decided to tackle his frustration with the lack of decent divelog software on Linux.
-Linus worked with a team of developers, and Subsurface is the result.  It now supports Linux, Windows and MacOS and allows data import from many dive computers and several existing divelog programs. It provides a quick and easy way to see the key information provided by a modern dive computer and lets  users track a wide variety of data about their dives. In fall of 2012 Dirk Hohndel took over as Subsurface maintainer.
+A l'automne 2011, lorsque qu'une accalmie forcée dans le développement du noyau lui donna la possibilité de démarrer un nouveau projet, le créateur de Linux, Linus Torvalds, décida de s'attaquer à sa frustration causée par le manque d'un programme de journal de plongées décent supportant Linux. Linus travailla avec une équipe de développeurs, et Subsurface en est le résultat. Il supporte actuellement Linux, Windows et MacOS. Il permet l'import depuis un grand nombre d'ordinateurs de plongée ainsi que plusieurs programmes de journal de plongées existants. Il donne un accès facile et rapide à la visualisation des informations fournies par les ordinateurs de plongée modernes et permet aux utilisateurs de suivre un grand nombre de données au sujet de leurs plongées. En automne 2012 Dirk Hohndel a pris en charge le rôle de Mainteneur de Subsurface.
 License: GPLv2
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
