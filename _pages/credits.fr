@@ -9,33 +9,33 @@ permalink: https://subsurface-divelog.org/credits/
 published: true
 post_language: fr
 ---
-Subsurface is itself open source software released under the <a href="https://github.com/Subsurface-divelog/subsurface/blob/master/LICENSE">GPLv2</a> - and it is based on many pieces of open source software.
+Subsurface est en lui-même un logiciel libre délivré sous licence <a href="https://github.com/Subsurface-divelog/subsurface/blob/master/LICENSE">GPLv2</a> - et utilise d'autres logiciels libres.
 
 <ul>
-<li><strong>libdivecomputer</strong>: <a href="http://libdivecomputer.org">Homepage</a> <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">License</a></li>
-<li><strong>Qt</strong>: <a href="http://qt.io">Homepage</a> <a href="https://github.com/qt/qtbase/blob/dev/LICENSE.LGPLv3">License</a></li>
-<li><strong>libxml2</strong>: <a href="http://xmlsoft.org/">Homepage</a> <a href="https://opensource.org/licenses/mit-license.html">License</a></li>
-<li><strong>libxslt</strong>: <a href="http://xmlsoft.org/">Homepage</a> <a href="https://opensource.org/licenses/mit-license.html">License</a></li>
-<li><strong>libgit2</strong>: <a href="https://libgit2.github.com/">Homepage</a> <a href="https://github.com/libgit2/libgit2/blob/master/COPYING">License</a></li>
-<li><strong>libzip</strong>: <a href="https://nih.at/libzip/">Homepage</a> <a href="https://nih.at/libzip/LICENSE.html">License</a></li>
-<li><strong>libsqlite</strong>: <a href="https://www.sqlite.org/">Homepage</a> <a href="https://www.sqlite.org/copyright.html">License</a></li>
-<li><strong>libusb</strong>: <a href="http://libusb.info/">Homepage</a> <a href="https://github.com/libusb/libusb/blob/master/COPYING">License</a></li>
-<li><strong>libcurl</strong>: <a href="https://curl.haxx.se/libcurl/">Homepage</a> <a href="https://curl.haxx.se/docs/copyright.html">License</a></li>
-<li><strong>libssh</strong>: <a href="https://www.libssh.org/">Homepage</a> <a href="https://git.libssh.org/projects/libssh.git/tree/COPYING">License</a></li>
-<li><strong>Grantlee</strong>: <a href="https://github.com/steveire/grantlee">Homepage</a> <a href="https://github.com/steveire/grantlee/blob/master/COPYING.LIB">License</a></li>
-<li><strong>easyexif</strong>: <a href="https://github.com/mayanklahiri/easyexif">Homepage</a> <a href="://github.com/mayanklahiri/easyexif/blob/master/LICENSE">License</a></li>
-<li><strong>mdbtools</strong>: <a href="https://github.com/brianb/mdbtools">Homepage</a> <a href="https://github.com/brianb/mdbtools/blob/master/COPYING">License</a></li>
+<li><strong>libdivecomputer</strong>: <a href="http://libdivecomputer.org">Homepage</a> <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">Licence</a></li>
+<li><strong>Qt</strong>: <a href="http://qt.io">Homepage</a> <a href="https://github.com/qt/qtbase/blob/dev/LICENSE.LGPLv3">Licence</a></li>
+<li><strong>libxml2</strong>: <a href="http://xmlsoft.org/">Homepage</a> <a href="https://opensource.org/licenses/mit-license.html">Licence</a></li>
+<li><strong>libxslt</strong>: <a href="http://xmlsoft.org/">Homepage</a> <a href="https://opensource.org/licenses/mit-license.html">Licence</a></li>
+<li><strong>libgit2</strong>: <a href="https://libgit2.github.com/">Homepage</a> <a href="https://github.com/libgit2/libgit2/blob/master/COPYING">Licence</a></li>
+<li><strong>libzip</strong>: <a href="https://nih.at/libzip/">Homepage</a> <a href="https://nih.at/libzip/LICENSE.html">Licence</a></li>
+<li><strong>libsqlite</strong>: <a href="https://www.sqlite.org/">Homepage</a> <a href="https://www.sqlite.org/copyright.html">Licence</a></li>
+<li><strong>libusb</strong>: <a href="http://libusb.info/">Homepage</a> <a href="https://github.com/libusb/libusb/blob/master/COPYING">Licence</a></li>
+<li><strong>libcurl</strong>: <a href="https://curl.haxx.se/libcurl/">Homepage</a> <a href="https://curl.haxx.se/docs/copyright.html">Licence</a></li>
+<li><strong>libssh</strong>: <a href="https://www.libssh.org/">Homepage</a> <a href="https://git.libssh.org/projects/libssh.git/tree/COPYING">Licence</a></li>
+<li><strong>Grantlee</strong>: <a href="https://github.com/steveire/grantlee">Homepage</a> <a href="https://github.com/steveire/grantlee/blob/master/COPYING.LIB">Licence</a></li>
+<li><strong>easyexif</strong>: <a href="https://github.com/mayanklahiri/easyexif">Homepage</a> <a href="://github.com/mayanklahiri/easyexif/blob/master/LICENSE">Licence</a></li>
+<li><strong>mdbtools</strong>: <a href="https://github.com/brianb/mdbtools">Homepage</a> <a href="https://github.com/brianb/mdbtools/blob/master/COPYING">Licence</a></li>
 
 </ul>
 
-Subsurface-mobile additionally uses
+Subsurface-mobile utilise également
 <ul>
-<li><strong>Kirigami</strong>: <a href="https://github.com/KDE/kirigami">Homepage</a> <a href="https://github.com/KDE/kirigami/blob/master/LICENSE.LGPL-2">License</a></li>
-<li><strong>breeze icons</strong>: <a href="https://github.com/KDE/breeze-icons">Homepage</a> <a href="https://github.com/KDE/breeze-icons/blob/master/COPYING-ICONS">License</a></li>
+<li><strong>Kirigami</strong>: <a href="https://github.com/KDE/kirigami">Homepage</a> <a href="https://github.com/KDE/kirigami/blob/master/LICENSE.LGPL-2">Licence</a></li>
+<li><strong>breeze icons</strong>: <a href="https://github.com/KDE/breeze-icons">Homepage</a> <a href="https://github.com/KDE/breeze-icons/blob/master/COPYING-ICONS">Licence</a></li>
 </ul>
 
-The Windows binaries are built using <a href="http://mxe.cc/">MXE</a>.
+Les binaires pour Windows sont compilés à l'aide de <a href="http://mxe.cc/">MXE</a>.
 
-The Mac binaries are built using the Apple toolchain and <a href="https://brew.sh/">Homebrew</a>.
+Les binaires pour Mac sont compilés à l'aide de l'Apple toolchain et <a href="https://brew.sh/">Homebrew</a>.
 
-If you are aware of open source components that we are using but not listing here, please let us know so we can add them!
+Si vous êtes au courant de composants libres que nous utilisons mais ne sont pas listés ici, merci de nous le faire savoir pour que nous puissions les ajouter!
