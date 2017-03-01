@@ -44,7 +44,7 @@ Les utilisateurs peuvent étiqueter les plongées et <strong>filtrer la liste de
 
 [/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurface calcule également un grand nombre de <strong>statistiques</strong> sur les plongées de l'utilisateur. Il permet le suivit de la consommation d'air (SAC), de la pression partielle d'O2, de N2 et d'He, des calculs d'information de déco, ainsi que beaucoup d'autres valeurs.
+Subsurface calcule également un grand nombre de <strong>statistiques</strong> sur les plongées de l'utilisateur. Il permet le suivit de la consommation d'air (SAC), de la pression partielle d'O2, de N2 et d'He, des calculs d'informations de déco, ainsi que beaucoup d'autres valeurs.
 
 Le programme est traduit en à peu près <strong>20 langues</strong> et est très bien maintenu par une communauté active de développeurs.
 
@@ -52,7 +52,7 @@ Le programme est traduit en à peu près <strong>20 langues</strong> et est trè
 
 Une des importances majeures de Subsurface est sa compatibilité avec un très grand nombre d'<strong>ordinateurs de plongée</strong> (voire la liste d'ordinateurs pris en charge). Subsurface peut également importer le journal de plongées de plusieurs sources tels que MacDive, Suunto DM3, DM4 &amp; DM5, JDiveLog et divelogs.de.
 
-Un autre atout est sa capacité a <strong>visualiser</strong> le profil de profondeur (et, si disponible, la courbe de pression des bouteilles) de manière innovante, qui donne à l'utilisateur les informations de vitesse relative, et la consomation d'air momentané pendant une plongée.
+Un autre atout est sa capacité a <strong>visualiser</strong> le profil de profondeur (et, si disponible, la courbe de pression des bouteilles) de manière innovante, qui donne à l'utilisateur les informations de vitesse relative, et la consomation d'air momentanée pendant une plongée.
 
 [/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-metric.png" alt="Screenshot of dive profile" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
 
