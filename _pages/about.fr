@@ -44,7 +44,7 @@ Les utilisateurs peuvent étiqueter les plongées et <strong>filtrer la liste de
 
 [/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurface calcule également un grand nombre de <strong>statistiques</strong> sur les plongées de l'utilisateur. Il permet le suivit de la consommation d'air (SAC), de la pression partielle d'O2, de N2 et d'He, des calculs d'informations de déco, ainsi que beaucoup d'autres valeurs.
+Subsurface calcule également un grand nombre de <strong>statistiques</strong> sur les plongées de l'utilisateur. Il permet le suivi de la consommation d'air (SAC), de la pression partielle d'O2, de N2 et d'He, des calculs d'informations de déco, ainsi que beaucoup d'autres valeurs.
 
 Le programme est traduit en à peu près <strong>20 langues</strong> et est très bien maintenu par une communauté active de développeurs.
 
