@@ -29,7 +29,8 @@ Some of the changes since Subsurface 4.6.2:
 <li> Improve some icons used in Preferences dialog</li>
 <li> Fix CSV export of weights in lbs</li>
 <li> Various small fixes</li>
-<li> Massive improvements for several of the translations (including completing Italian and Greek)</li> Update Russian user manual
+<li> Massive improvements for several of the translations (including completing Italian and Greek)</li>
+<li> Update Russian user manual</li>
 <li> Add Catalan translation</li></ul>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
