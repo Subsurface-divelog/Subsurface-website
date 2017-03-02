@@ -24,10 +24,10 @@ De belangrijkste wijzigingen sinds Subsurface 4.6.2:
 <li> Cloudopslag toegang gerepareerd voor gebruikers met niet-ASCII karakters in het pad (Windows)</li>
 <li> Sta gebruik van ctrl-scrollwheel toe om lettergrootte aan te passen in duikplan notities zowel op scherm als bij printen</li>
 <li> Zorg dat sneltoetsen via Ctrl/Cmd ook werken in vertaalde versies van Subsurface</li>
-<li> Verbeter een aan UI teksten op gebied van consistentie en typefouten</li>
+<li> Verbeter een aantal UI teksten op gebied van consistentie en typefouten</li>
 <li> Zorg dat de kolom koppen van de cilinder tabel juist vertaald worden</li>
 <li> Verbeter samenvoegen van duiken: corrigeer watertemperatuur, betere behanding van duikplekken</li>
-<li> Typefout gerepareerd bij saturatie/desaturatie waarden in decompressie modellen</li>
+<li> Typefout gerepareerd bij saturatie/desaturatie waarden in decompressie modellen; dit heeft een kleine invloed op sommige geplande decompressie tijden</li>
 <li> Berekeningen; dit heeft een klein gevolg voor sommige geplande deco tijden</li>
 <li> Aantal iconen verbeterd in Voorkeuren scherm</li>
 <li> CSV export van gewichten in lbs gerepareerd</li>
