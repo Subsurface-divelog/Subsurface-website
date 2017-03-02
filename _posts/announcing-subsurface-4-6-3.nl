@@ -27,7 +27,7 @@ De belangrijkste wijzigingen sinds Subsurface 4.6.2:
 <li> Verbeter een aan UI teksten op gebied van consistentie en typefouten</li>
 <li> Zorg dat de kolom koppen van de cilinder tabel juist vertaald worden</li>
 <li> Verbeter samenvoegen van duiken: corrigeer watertemperatuur, betere behanding van duikplekken</li>
-<li> Typefout gerepareerd bij  saturatie / desaturatie waarden in Bühlmann model</li>
+<li> Typefout gerepareerd bij saturatie/desaturatie waarden in decompressie modellen</li>
 <li> Berekeningen; dit heeft een klein gevolg voor sommige geplande deco tijden</li>
 <li> Aantal iconen verbeterd in Voorkeuren scherm</li>
 <li> CSV export van gewichten in lbs gerepareerd</li>
