@@ -25,7 +25,7 @@ published: true
 Subsurface draait op Windows (32 en 64bit, Windows 7 en nieuwer), MacOS (Intel, 10.7 en nieuwer) en vele Linux distributies. Wij bieden Linux installaties aan voor Ubuntu, Linux Mint, Debian, openSUSE en Fedora. Details waar een versie voor jouw besturingssysteem te downloaden staan op <a title="Downloads" href="/download/">Downloaden</a> pagina. Vanaf versie 4.6 wordt Windows XP niet meer ondersteund.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Waarom zou ik Subsurface moeten gebruiken?"]
-　
+
 Subsurface richt zich op recreatieve, technische, professionele duikers met een eenvoudige gebruikersinterface om duiken te loggen en te plannen. Duiken kunnen manueel, via spreadsheet, direct vanuit andere duiklog software, en, meest belangrijk, uit vele duikcomputers geladen worden. Wat als je van duikcomputer wijzigt? Dit is geen probleem omdat Subsurface niet gekoppeld is aan welke duikcomputer leverancier dan ook. Subsurface is gratis en beschikbaar op diverse besturingssystemen waardoor het perfect is voor vele duikers.
 
 [/et_pb_accordion_item]
@@ -41,7 +41,7 @@ Subsurface richt zich op recreatieve, technische, professionele duikers met een 
 
 [et_pb_accordion_item title="Hoe installeer ik Subsurface op Windows?"]
 
-<a href="/download/">Download de installer</a> en dubbelklik deze. Je krijgt een waarschuwing dat de installer van een onbekende software leverancier is. Klik Ja om door te gaan met de installatie. Nu krijg te de licentie gepresenteerd, en na acceptatie kan je kiezen waar je Subsurface op je disk wil installeren (de standaardinstellingen zijn geschikt in de meeste gevallen) en de <em>Start Menu Folder&nbsp;</em>waar een snelkoppeling om Subsurface aan te roepen en een koppeling naar de de-installatie voor Subsurface zal worden geplaatst.
+<a href="/download/">Download de installer</a> en dubbelklik deze. Je krijgt een waarschuwing dat de installer van een onbekende software leverancier is. Klik Ja om door te gaan met de installatie. Nu krijg je de licentie gepresenteerd, en na acceptatie kan je kiezen waar je Subsurface op je disk wil installeren (de standaardinstellingen zijn geschikt in de meeste gevallen) en de <em>Start Menu Folder&nbsp;</em>waar een snelkoppeling om Subsurface aan te roepen en een koppeling naar de de-installatie voor Subsurface zal worden geplaatst.
 
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Hoe installeer ik Subsurface op MacOS?"]
@@ -56,7 +56,7 @@ Voeg de volgende PPA toe aan je systeem:
 [/et_pb_accordion_item][et_pb_accordion_item title="Hoe installeer ik Subsurface op Debian?"]
 
 Op dit moment ondersteunen we alleen Debian Jessie. Je dient de volgende Ubuntu repository toe te voegen:
-<pre><code style="font-size: 8pt;">echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main" 
+<pre><code style="font-size: 8pt;">echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main"
         | sudo tee /etc/apt/sources.lists.d/subsurface.list
 gpg --keyserver subkeys.pgp.net --recv-keys A8BC9756EE61D9C6
 gpg -a --export A8BC9756EE61D9C6 | sudo apt-key add -
@@ -70,7 +70,7 @@ Verzeker je ervan dat je de huidige versie inclusief Qt5 afhankelijkheden hebt.
 Ga naar <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">onze build service project pagina</a>&nbsp;en volg de instructies &#45; 2x klikken en klaar.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Hoe installeer ik Subsurface op mijn telefoon of tablet?"]
-Voor Android en iOS kan je de Subsurface-mobile apps uit de respectievelijke app stores installeren. Zet cloudopslag op de desktop aan, en sla je duiken op in de cloud. Je kunt de duiken nu ook op je mobiele apparaat bekijken. 
+Voor Android en iOS kan je de Subsurface-mobile apps uit de respectievelijke app stores installeren. Zet cloudopslag op de desktop aan, en sla je duiken op in de cloud. Je kunt de duiken nu ook op je mobiele apparaat bekijken.
 
 Voor alle andere apparatuur (inclusief telefoons met een besturingssysteem dat wij niet ondersteunen), kan je naar onze <a href="https://cloud.subsurface-divelog.org">cloud website</a> gaan en inloggen met de zelfde email/wachtwoord combinatie. Hiermee kan je dus met een webbrouwser naar je duiklogboek kijken.
 
@@ -89,7 +89,7 @@ Voor alle andere apparatuur (inclusief telefoons met een besturingssysteem dat w
 [et_pb_accordion_item title="Hoe weet ik dat ik de laatste versie van Subsurface heb?"]
 
 Selecteer "Controleer op updates" uit het Help menu.
-Kijk ook op de <a href="https://subsurface-divelog.org/category/news/">Nieuws</a> sectie van de Subsurface website voor aankondigingen van nieuwe versies. 
+Kijk ook op de <a href="https://subsurface-divelog.org/category/news/">Nieuws</a> sectie van de Subsurface website voor aankondigingen van nieuwe versies.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Hoe kan ik mijn duiken in Subsurface importeren?"]
 
@@ -132,7 +132,7 @@ Dit is een typische vraag van sidemount of technische duikers. Subsurface onders
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Waarom kan Subsurface mijn duiken niet laden?"]
 
-Maak de contacten schoon. Maak de contacten nogmaals schoon. Verzeker je ervan dat de contacten stevig zijn aangesloten. Wiebel met het contact. Ja, serieus, dit verhelpt het merendeel van de problemen. Natuurlijk controleer je ook of de duikcomputer wel in de juiste mode staat. En misschien heb je ook andere software waarmee je kan kijken of het wel lukt. Ook nog even een andere kabel proberen misschien. Kijk verder in de gebruikershandleiding voor bijvoorbeeld Bluetooth paring en andere speciale gevallen.
+Maak de contacten schoon. Maak de contacten nogmaals schoon. Verzeker je ervan dat de contacten stevig zijn aangesloten. Wiebel met het contact. Ja, serieus, dit verhelpt het merendeel van de problemen. Natuurlijk controleer je ook of de duikcomputer wel in de juiste mode staat. En misschien heb je ook andere software waarmee je kan kijken of het wel lukt. Ook nog even een andere kabel proberen misschien. Kijk verder in de gebruikershandleiding voor bijvoorbeeld Bluetooth koppeling en andere speciale gevallen.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Waarom faalt de CSV import?"]
 
@@ -156,20 +156,20 @@ Veel gebruikte programma's worden op dit moment al ondersteund, en we zijn altij
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Kunnen jullie ondersteuning toevoegen voor computer X?"]
 
-Wij ondersteunen reeds een flink aantal duikcomputers en zijn altijd bereid nieuwe toe te voegen. Neem contact met ons op, en we kijken wat er mogelijk is. Sommige leveranciers helpen ons actief, andere zijn neutraler, en sommigen zijn actief vijandig. Zonder hulp van leveranciers kan het ontcijferen van overdracht protocol en duik codering ingewikkeld zijn, maar vaak is het mogelijk. 
+Wij ondersteunen reeds een flink aantal duikcomputers en zijn altijd bereid nieuwe toe te voegen. Neem contact met ons op, en we kijken wat er mogelijk is. Sommige leveranciers helpen ons actief, andere zijn neutraler, en sommigen zijn actief vijandig. Zonder hulp van leveranciers kan het ontcijferen van overdracht protocol en duik codering ingewikkeld zijn, maar vaak is het mogelijk.
 
 Een goed startpunt is meestal een libdivecomputer log en dump (deze kan je selecteren in het duikcomputer download scherm).  Gewoon een vergelijkbaar model kiezen (indien mogelijk).
 
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Ik kan minder duiken downloaden dan de handleiding van mijn duikcomputer aangeeft?"]
 
-Duik historie is iets anders dan duikprofiel data beschikbaar. De historie bevat bijvoorbeeld alleen maximum diepte, duiktijd, en datum van de duik. Voor een gedetailleerd profiel zijn echter diverse metingen per minuut noodzakelijk. De meeste duikcomputers verwijderen de oudste profiel data op moment dat het geheugen vol is. Hoeveel duiken dat precies zijn is natuurlijk ook afhankelijk van de duiktijd en meetfrequentie. 
+Duik historie is iets anders dan duikprofiel data beschikbaar. De historie bevat bijvoorbeeld alleen maximum diepte, duiktijd, en datum van de duik. Voor een gedetailleerd profiel zijn echter diverse metingen per minuut noodzakelijk. De meeste duikcomputers verwijderen de oudste profiel data op moment dat het geheugen vol is. Hoeveel duiken dat precies zijn is natuurlijk ook afhankelijk van de duiktijd en meetfrequentie.
 
 Als je duiken met andere logboek software gedownload hebt, is er goede kans dat je deze data alsnog in Subsurface kan importeren. Natuurlijk alleen als deze nog niet zijn overschreven door nieuwere duiken.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Wat moet ik doen als ik niet in kan loggen op de cloud?"]
 
-Als je correcte email/wachtwoord data invoert en inloggen faalt nog steeds, probeer dan het wachtwoord opnieuw in te stellen. Er is een software wijziging geweest waardoor dit probleem op kan treden, en op deze wijze opgelost kan worden. 
+Als je correcte email/wachtwoord data invoert en inloggen faalt nog steeds, probeer dan het wachtwoord opnieuw in te stellen. Er is een software wijziging geweest waardoor dit probleem op kan treden, en op deze wijze opgelost kan worden.
 
 Als inloggen nog steeds niet werkt, neem dan contact op met Dirk.
 
@@ -181,8 +181,8 @@ Als je bewust persoonlijke aanpassingen in de template hebt gemaakt, bewerk dan 
 
 Voor gebruikers die nooit templates hebben aangepast, is verwijderen van de oude versies het eenvoudigst.
 
-Op macOS, in een terminal scherm voer het volgende commando uit 
-<code>mv ~/Library/Application Support/Subsurface/printing_templates 
+Op macOS, in een terminal scherm voer het volgende commando uit
+<code>mv ~/Library/Application Support/Subsurface/printing_templates
      ~/Library/Application Support/Subsurface/printing_templates.bak
 </code>
 
@@ -228,7 +228,7 @@ Om een verbinding initieel op te zetten zijn beheerdersrechten nodig via sudo of
 <pre><code style="font-size: 8pt;">sudo usermod -a -G dialout username</code></pre>
 Uit en weer inloggen voor het juiste effect.
 
-<em>Bluetooth controller activeren en het paren van de duikcomputer</em>
+<em>Bluetooth controller activeren en het koppelen van de duikcomputer</em>
 Mogelijk kan je Bluetooth controller en paar operatie uitvoeren via de grafische interface van je Linux distributie. Zet je duikcomputer in upload mode, selecteer het Bluetooth icoon op je scherm, en selecteer 'Apparaat toevoegen'. Je duikcomputer dient te verschijnen, en als om een wachtwoord wordt gevraagd, probeer 0000. Schrijf (of kopieer) het MAC adres van de duikcomputer, je hebt dit later nodig. Een MAC adres heeft de volgende vorm: 00:11:22:33:44:55.
 
 Als de grafische methode niet werkt, dien je de paar operatie vanaf de commandline te doen. Open een terminal en gebruik hciconfig om de Bluetooth controller toestand te bekijken
@@ -252,7 +252,7 @@ Controleer nu dat de status 'UP', 'RUNNING' AND 'AUTH' bevat.
 Als er meerdere controllers draaien, is het het eenvoudigst om de ongebruikte uit te zetten:
 <pre><code style="font-size: 8pt;">sudo hciconfig hci1 down</code></pre>
 
-De volgende stap is paren en vertrouwen van de duikcomputer. Op Linux distributies met Bluez 5, zoals Fedora 22, kan je de tool blutootctl gebruiken die zijn eigen commandline heeft.
+De volgende stap is koppelen en vertrouwen van de duikcomputer. Op Linux distributies met Bluez 5, zoals Fedora 22, kan je de tool blutootctl gebruiken die zijn eigen commandline heeft.
 <pre><code style="font-size: 8pt;">bluetoothctl
 [NEW] Controller 01:23:45:67:89:AB localhost.localdomain [default]
 [bluetooth]# agent on
@@ -314,10 +314,10 @@ Protocol Descriptor List:
   "L2CAP" (0x0100)
   "RFCOMM" (0x0003)
     Channel: 5</code></pre>
-Als je Bluetooth duikcomputer niet in de lijst staat, of het beschreven kanaal is onjuist, meld het aan de ontwikkelaars via het gebruikersforum, of de mailinglijst (subsurface@subsurface-divelog.org) 
+Als je Bluetooth duikcomputer niet in de lijst staat, of het beschreven kanaal is onjuist, meld het aan de ontwikkelaars via het gebruikersforum, of de mailinglijst (subsurface@subsurface-divelog.org)
 
 <em>Download the dives with Subsurface</em>
-Met een actieve RFCOMM verbinding en de duikcomputer nog steeds in upload mode, ga in Subsurface naar 'Importeren'-&gt;'Importeren uit duikcomputer', kies juiste merk en type duikcomputer, het juiste device of mountpoint en klik downloaden. 
+Met een actieve RFCOMM verbinding en de duikcomputer nog steeds in upload mode, ga in Subsurface naar 'Importeren'-&gt;'Importeren uit duikcomputer', kies juiste merk en type duikcomputer, het juiste device of mountpoint en klik downloaden.
 
 Als je een rechten fout krijgt, zit je waarschijnlijk niet in de dialout groep. Voeg je toe, log uit en log in, en probeer opnieuw.
 
@@ -327,8 +327,8 @@ Helaas is dit een lastig probleem in een aantal Linux versies. Standaard krijgt 
 
 Dit zou moeten werken op vrijwel alle Linux distributies. We stellen reacties op prijs als het voor jouw niet werkt. Open een terminal en plak het onderstaande commando in de terminal. Mogelijk vraagt het om het wachtwoord van de beheerder, want die is nodig om de udev regel in te stellen die de permissies zet op moment dat je de computer inplugt.
 
-<pre><code style="font-size: 8pt;">(MYGRP=$(id | sed "s/^.*gid=.*((.*)) .*$/1/") ; 
-echo -n 'SUBSYSTEM=="usb", ATTR{idVendor}=="0471", ATTR{idProduct}=="0888", MODE="0660", GROUP="' ; 
+<pre><code style="font-size: 8pt;">(MYGRP=$(id | sed "s/^.*gid=.*((.*)) .*$/1/") ;
+echo -n 'SUBSYSTEM=="usb", ATTR{idVendor}=="0471", ATTR{idProduct}=="0888", MODE="0660", GROUP="' ;
 echo -n $MYGRP ; echo '"') | sudo tee /etc/udev/rules.d/99-cobalt.rules </code></pre>
 Als je nu je Cobalt los en weer weer vast maakt, staan de rechten juist.
 
@@ -382,9 +382,9 @@ Er zijn twee versies van Subsurface in de app store. De <em>Subsurface-mobile</e
 
 [et_pb_accordion_item title="Zit er een virus in de Subsurface installer?"]
 
-Als je een waarschuwing krijgt van je anti virus (AV) software, dan is dat vrijwel zeker een onterechte melding. Subsurface wordt niet op een Windows machine gebouwd, maar via cross compilatie vanaf een zeer strikt beheerde en schone Linux machine. 
+Als je een waarschuwing krijgt van je anti virus (AV) software, dan is dat vrijwel zeker een onterechte melding. Subsurface wordt niet op een Windows machine gebouwd, maar via cross compilatie vanaf een zeer strikt beheerde en schone Linux machine.
 
-Vrijwel alle anti virus (AV) software kan uitzonderingen toestaan van software die niet gescand dient te worden. Probeer dit als je Subsurface probeert te installeren (en virus melding krijgt). 
+Vrijwel alle anti virus (AV) software kan uitzonderingen toestaan van software die niet gescand dient te worden. Probeer dit als je Subsurface probeert te installeren (en virus melding krijgt).
 
 Meld in ieder geval bij je leverancier van je anti virus (AV) software dat er sprake is van een onterechte melding, want Subsurface is gegarandeerd virusvrij. Natuurlijk horen de ontwikkelaars ook graag dit soort ervaringen.
 

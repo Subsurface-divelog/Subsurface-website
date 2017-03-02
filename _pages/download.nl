@@ -28,7 +28,7 @@ Op LinuxMint dien je de volgende commando's uit te voeren, en expliciet de PPA v
 <pre><code>sudo apt-repository ppa:subsurface/subsurface
 sudo apt-get install subsurface=[s-var slug="latest"]-1~trusty</code></pre>
 Voor Debian Jessie dien je de volgende Ubuntu repository toe te voegen:
-<pre><code>echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main" 
+<pre><code>echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main"
         | sudo tee /etc/apt/sources.list.d/subsurface.list
 gpg --keyserver subkeys.pgp.net --recv-keys A8BC9756EE61D9C6
 gpg -a --export A8BC9756EE61D9C6 | sudo apt-key add -
@@ -43,6 +43,6 @@ Een generieke AppImage is beschikbaar als [s-var slug="appimageurl"][s-var slug=
 <h2>Verouderde Subsurface versies door Linux distributies</h2>
 Enkele Linux distributies maken installatie van Subsurface mogelijk vanuit de eigen distributie. Hoewel dit erg handig lijkt, raden wij de offici&euml;le versies zoals hierboven beschreven aan.
 <h2>Broncode</h2>
-De volledige broncode van Subsurface is natuurlijk beschikbaar op <a href="http://github.com/Subsurface-divelog/subsurface.git">git</a> of als een release tar-ball [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"]. De code van de GPL en LGPL componenten zoals gebruikt in de Mac and Windows binaries versies staan op  <a href="http://www.macports.org/">MacPorts</a> en <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.
+De volledige broncode van Subsurface is natuurlijk beschikbaar op <a href="http://github.com/Subsurface-divelog/subsurface.git">github</a> of als een release tar-ball [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"]. De code van de GPL en LGPL componenten zoals gebruikt in de Mac and Windows binaries versies staan op  <a href="http://www.macports.org/">MacPorts</a> en <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
