@@ -16,22 +16,22 @@ post_language: null
 
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-The Subsurface development team proudly announces the release 4.6.3 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+Das Subsurface-Entwicklings-Team freut sich, die Version 4.6.3 von Subsurface, dem Open Source Tauchlogbuch und Tauchgangsplanungsprogramm f&uuml;r Windows, Mac und Linux, ank&uuml;ndigen zu k&ouml;nnen.
 
-Some of the changes since Subsurface 4.6.2:
+Einige der Verbesserungen seit Subsurface 4.6.2:
 
-<ul><li> Allow using ctrl-scrollwheel to scale the font size of dive plan notes both in the UI and when printing</li>
-<li> Ensure that keyboard shortcuts via Ctrl/Cmd work in localized versions of Subsurface</li>
-<li> Improve a number of UI strings for consistency and typos</li>
-<li> Make sure column labels for cylinder table get translated</li>
-<li> Improve dive merging: deal with water temperature, better handling of dive sites</li>
-<li> Fix typo in saturation / desaturation rates used in Buehlmann calculations; this has a small impact on some dive plan deco times</li>
-<li> Improve some icons used in Preferences dialog</li>
-<li> Fix CSV export of weights in lbs</li>
-<li> Various small fixes</li>
-<li> Massive improvements for several of the translations (including completing Italian and Greek)</li>
-<li> Update Russian user manual</li>
-<li> Add Catalan translation</li></ul>
+<ul><li> Strg-Scrollrad &auml;ndert die Schriftgr&ouml;&szlig;e im Tauchgangsplan sowohl auf dem Bildschirm als auch im Ausdruck</li>
+<li> Tastatur-Shortcuts mit Strg/Cmd funktionieren auch in &uuml;bersetzten Versionen von Subsurface</li>
+<li> Verbesserung von Orthographie und Konsistenz im Userinterface</li>
+<li> &Uuml;berschriften in der Tauchflaschentabelle werden &uuml;bersetzt.</li>
+<li> Verbesserte Tauchgangszusammenf&uuml;hrung: Behandlung der Wassertemperatur und Tauchpl&auml;tzen</li>
+<li> Eliminieren eines Tippfehlers in den S&auml;ttigungs- und Ents&auml;ttigungsraten; dies hat einen kleinen Einfluss auf einige berechnete Dekopl&auml;ne</li>
+<li> Verbesserung einiger Icons im Einstellungen-Dialog</li>
+<li> Fehler im CSV-Export bei Gewichten in Pfund behoben</li>
+<li> Einige kleine Fehlerbehebungen</li>
+<li> Wesentliche Verbesserungen bei einigen &Uuml;bersetzungen (insbesondere Vervollst&auml;ndigung von Italienisch und Griechisch)</li>
+<li> Update des russischen Benutzerhandbuchs</li>
+<li> Katalanische &Uuml;bersetzung</li></ul>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 

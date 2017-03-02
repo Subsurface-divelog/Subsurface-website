@@ -25,7 +25,7 @@ Some of the changes since Subsurface 4.6.2:
 <li> Improve a number of UI strings for consistency and typos</li>
 <li> Make sure column labels for cylinder table get translated</li>
 <li> Improve dive merging: deal with water temperature, better handling of dive sites</li>
-<li> Fix typo in saturation / desaturation rates used in Buehlmann calculations; this has a small impact on some dive plan deco times</li>
+<li> Fix typo in saturation / desaturation rates used in decompression calculations; this has a small impact on some dive plan deco times</li>
 <li> Improve some icons used in Preferences dialog</li>
 <li> Fix CSV export of weights in lbs</li>
 <li> Various small fixes</li>
