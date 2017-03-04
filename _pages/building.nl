@@ -56,7 +56,8 @@ Package namen zijn helaas anders op OpenSUSE
         libqt5-qtscript-devel libqt5-qtdeclarative-devel \
         libqt5-qtconnectivity-devel libqt5-qtlocation-devel</code></pre>
 
-On Debian, Ubuntu, and Linux Mint lijkt dit te werken
+On Debian, Ubuntu, and Linux Mint lijkt dit te werken (op recente Debian en Ubuntu kan je echter libqt5declarative5 weglaten wanneer deze niet wordt gevonden).
+
 <pre><code>sudo apt-get install git g++ make autoconf libtool cmake pkg-config \
         libxml2-dev libxslt1-dev libzip-dev libsqlite3-dev \
         automake libusb-1.0-0-dev libgit2-dev libssl-dev \
