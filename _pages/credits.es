@@ -25,7 +25,7 @@ Subsurface mismo es un software de código abierto amparado en la licencia <a hr
 <li><strong>libssh</strong>: <a href="https://www.libssh.org/">Página web</a> <a href="https://git.libssh.org/projects/libssh.git/tree/COPYING">Licencia</a></li>
 <li><strong>Grantlee</strong>: <a href="https://github.com/steveire/grantlee">Página web</a> <a href="https://github.com/steveire/grantlee/blob/master/COPYING.LIB">Licencia</a></li>
 <li><strong>easyexif</strong>: <a href="https://github.com/mayanklahiri/easyexif">Página web</a> <a href="://github.com/mayanklahiri/easyexif/blob/master/LICENSE">Licencia</a></li>
-<li><strong>easyexif</strong>: <a href="https://github.com/brianb/mdbtools">Página web</a> <a href="https://github.com/brianb/mdbtools/blob/master/COPYING">Licencia</a></li>
+<li><strong>mdbtools</strong>: <a href="https://github.com/brianb/mdbtools">Página web</a> <a href="https://github.com/brianb/mdbtools/blob/master/COPYING">Licencia</a></li>
 
 </ul>
 
