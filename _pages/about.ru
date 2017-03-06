@@ -15,7 +15,7 @@ published: true
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
 <h2>Выпущена новая версия</h2>
-Ознакомьтесь с <a href="https://subsurface-divelog.org/2017/02/announcing-subsurface-4-6-3/">анонсом версии Subsurface 4.6.3</a>.
+Ознакомьтесь с <a href="https://subsurface-divelog.org/2017/03/announcing-subsurface-4-6-3/">анонсом версии Subsurface 4.6.3</a>.
 
 [/et_pb_text][et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
 
