@@ -22,11 +22,15 @@ published: true
 
 [et_pb_accordion_item title="What operating systems does Subsurface support?"]
 
-Subsurface runs on Windows (32 and 64bit, Windows 7 and newer), MacOS (Intel, 10.7 and newer) and many flavors of Linux. We provide Linux packages for Ubuntu, Linux Mint, Debian, openSUSE and Fedora. Details on where to find Subsurface for your OS are on our <a title="Downloads" href="/download/">Downloads</a> page. As of version 4.6, Windows XP is not supported anymore.
+Subsurface runs on Windows (32 and 64bit, Windows 7 and newer), MacOS (Intel, 10.7 and newer) and many flavors of Linux. Mobile versions of Subsurface are available for Android and iOS allow a portable platform for viewing your dive log and performing minor edits. 
+
+We provide Linux packages for Ubuntu, Linux Mint, Debian, openSUSE and Fedora. Details on where to find Subsurface for your OS are on our <a title="Downloads" href="/download/">Downloads</a> page. As of version 4.6, Windows XP is not supported anymore.
+
+Subsurface-mobile is available on Google Play and the iTunes App Store.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Why Should I Use Subsurface?"]
 　
-Subsurface profiles recreational scuba divers, tech divers, and diving professionals with an easy to use interface for planning and logging and organizing dives.  Dives can be entered manually, via spreadsheets, directly from some other dive logging software, and most importantly from many dive computers.   What if you change dive computers?  This is no problem with Subsurface as it is not tied to a specific dive computer manufacturer.  Subsurface is free and available on multiple platforms making it the perfect software for a wide range of scuba divers.   
+Subsurface profiles recreational scuba divers, tech divers, and diving professionals with an easy to use interface for planning and logging and organizing dives.  Dives can be entered manually, via spreadsheets, directly from some other dive logging software, and most importantly from many dive computers.   What if you change dive computers?  This is no problem with Subsurface as it is not tied to a specific dive computer manufacturer.  Tech divers will appreciate the dive planner which allows you to plan using VPM-B or Bühlmann ZH-L16. Testing bailout gases, comparing different gas mixes and gradient factors, and finally printing the plan is made easy. Subsurface is free and available on multiple platforms making it the perfect software for a wide range of scuba divers.   
 
 [/et_pb_accordion_item]
 
@@ -70,7 +74,7 @@ Go to <a href="http://software.opensuse.org/download.html?project=home:Subsurfac
 
 [/et_pb_accordion_item][et_pb_accordion_item title="How do I install Subsurface-mobile on my phone / tablet?"]
 
-For Android and iOS you can simply install the Subsurface-mobile apps that are available in the respective app stores. Enable cloud storage in Subsurface from your PC and store your dive information in the Subsurface cloud. The dives will now be available on your mobile device as well.
+For Android and iOS you can simply install the Subsurface-mobile apps that are available in the respective app stores. Enable cloud storage in Subsurface from your PC and store your dive information in the Subsurface cloud. The dives will now be available on your mobile device as well. Subsurface-mobile does not support all the features of the desktop version Subsurface. For example dive planning is not available in Subsurface-mobile. Dives cannot be downloaded directly from dive computers into Subsurface-mobile, however dives can be manually added to your dive log. 
 
 From all other devices (including tablets and phones with OSs that we don't support with Subsurface-mobile), you can open our <a href="https://cloud.subsurface-divelog.org">cloud website</a> and log in with the same email address / password. This allows you to access your dive data from any device with a web browser.
 
