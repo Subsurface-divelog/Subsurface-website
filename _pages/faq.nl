@@ -22,11 +22,15 @@ published: true
 
 [et_pb_accordion_item title="Welke besturingssystemen ondersteunt Subsurface?"]
 
-Subsurface draait op Windows (32 en 64bit, Windows 7 en nieuwer), MacOS (Intel, 10.7 en nieuwer) en vele Linux distributies. Wij bieden Linux installaties aan voor Ubuntu, Linux Mint, Debian, openSUSE en Fedora. Details waar een versie voor jouw besturingssysteem te downloaden staan op <a title="Downloads" href="/download/">Downloaden</a> pagina. Vanaf versie 4.6 wordt Windows XP niet meer ondersteund.
+Subsurface draait op Windows (32 en 64bit, Windows 7 en nieuwer), MacOS (Intel, 10.7 en nieuwer) en vele Linux distributies. Voor Android en iOS zijn mobiele versies van Subsurface beschikbaar waarmee de duiklog bekeken kan worden, en beperkte wijzigingen mogelijk zijn.
+
+Wij bieden Linux installaties aan voor Ubuntu, Linux Mint, Debian, openSUSE en Fedora. Details waar een versie voor jouw besturingssysteem te downloaden staan op <a title="Downloads" href="/download/">Downloaden</a> pagina. Vanaf versie 4.6 wordt Windows XP niet meer ondersteund.
+
+Subsurface-mobile is beschikbaar op Google Play en de iTunes App Store.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Waarom zou ik Subsurface moeten gebruiken?"]
 
-Subsurface richt zich op recreatieve, technische, professionele duikers met een eenvoudige gebruikersinterface om duiken te loggen en te plannen. Duiken kunnen manueel, via spreadsheet, direct vanuit andere duiklog software, en, meest belangrijk, uit vele duikcomputers geladen worden. Wat als je van duikcomputer wijzigt? Dit is geen probleem omdat Subsurface niet gekoppeld is aan welke duikcomputer leverancier dan ook. Subsurface is gratis en beschikbaar op diverse besturingssystemen waardoor het perfect is voor vele duikers.
+Subsurface richt zich op recreatieve, technische, professionele duikers met een eenvoudige gebruikersinterface om duiken te loggen en te plannen. Duiken kunnen manueel, via spreadsheet, direct vanuit andere duiklog software, en, meest belangrijk, uit vele duikcomputers geladen worden. Wat als je van duikcomputer wijzigt? Dit is geen probleem omdat Subsurface niet gekoppeld is aan welke duikcomputer leverancier dan ook. Technische duikers zullen de duikplanner waarderen, welke gebruikt kan worden met VPM-B of Bühlmann ZH-L16. Het maakt proberen van een bailout strategie mogelijk, het proberen van verschillende gaskeuzes of instellingen van het decompressiemodel, en tot slot kan het plan worden afgedrukt. Subsurface is gratis en beschikbaar op diverse besturingssystemen waardoor het perfect is voor vele duikers.
 
 [/et_pb_accordion_item]
 
@@ -70,7 +74,8 @@ Verzeker je ervan dat je de huidige versie inclusief Qt5 afhankelijkheden hebt.
 Ga naar <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">onze build service project pagina</a>&nbsp;en volg de instructies &#45; 2x klikken en klaar.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Hoe installeer ik Subsurface op mijn telefoon of tablet?"]
-Voor Android en iOS kan je de Subsurface-mobile apps uit de respectievelijke app stores installeren. Zet cloudopslag op de desktop aan, en sla je duiken op in de cloud. Je kunt de duiken nu ook op je mobiele apparaat bekijken.
+
+Voor Android en iOS kan je de Subsurface-mobile apps uit de respectievelijke app stores installeren. Zet cloudopslag op de desktop aan, en sla je duiken op in de cloud. Je kunt de duiken nu ook op je mobiele apparaat bekijken. Subsurface-mobile ondersteund niet alle mogelijkheden van de desktop versie van Subsurface. Zo is bijvoorbeeld de duikplanner niet beschikbaar, en kunnen duiken (nog) niet direct uit een duikcomputer worden geladen. Handmatig toevoegen van duiken is echter wel mogelijk.
 
 Voor alle andere apparatuur (inclusief telefoons met een besturingssysteem dat wij niet ondersteunen), kan je naar onze <a href="https://cloud.subsurface-divelog.org">cloud website</a> gaan en inloggen met de zelfde email/wachtwoord combinatie. Hiermee kan je dus met een webbrouwser naar je duiklogboek kijken.
 
