@@ -38,7 +38,7 @@ Sla je logboek op in de cloud, en dan kun je je logboek delen tussen meerdere co
 
 [/et_pb_slide][et_pb_slide heading="Subsurface-mobile" background_position="default" background_size="default" background_color="#ffffff" use_bg_overlay="off" use_text_overlay="off" alignment="center" background_layout="light" allow_player_pause="off" text_border_radius="3" header_font_select="default" header_font="||||" body_font_select="default" body_font="||||" custom_button="off" button_font_select="default" button_font="||||" button_use_icon="default" button_icon_placement="right" button_on_hover="on" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRF-Website-Mobile.png" image_alt="Subsurface-mobil on Android and iOS" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
-Using Subsurface-mobile on your Android or iOS device you can access your dive log anywhere
+Met de Subsurface-mobile app op uw Android of iOS apparaat kunt u uw logboek overal benaderen.
 
 [/et_pb_slide]
 
@@ -79,7 +79,7 @@ Subsurface kan een gedetailleerd logboek <strong>afdrukken</strong> inclusief du
 <h5>Enige historie en achtergrond</h5>
 
 In het najaar van 2011, gaf een gedwongen pauze in de kernel ontwikkeling Linux bedenker Linus Torvalds de gelegenheid een nieuw project te starten, om zijn frustratie over het gebrek aan een fatsoenlijk duiklog programma onder Linux op te pakken.
-Linus werkte samen met een team van ontwikkelaars, en Subsurface is het resultaat. Het biedt nu ondersteuning voor Linux, Windows en MacOS en maakt het mogelijk gegevens te importeren uit vele duikcomputers en een aantal bestaande duikprogramma's. Het biedt een snelle en gemakkelijke manier om de belangrijkste informatie die door een moderne duikcomputer vastgelegd worden te laten zien en bewerken. In het najaar van 2012 nam Dirk Hohndel de rol als Subsurface verantwoordelijke over. 
+Linus werkte samen met een team van ontwikkelaars, en Subsurface is het resultaat. Het biedt nu ondersteuning voor Linux, Windows en MacOS en maakt het mogelijk gegevens te importeren uit vele duikcomputers en een aantal bestaande duikprogramma's. Het biedt een snelle en gemakkelijke manier om de belangrijkste informatie die door een moderne duikcomputer vastgelegd worden te laten zien en bewerken. In het najaar van 2012 nam Dirk Hohndel de rol als Subsurface verantwoordelijke over.
 Licentie: GPLv2
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

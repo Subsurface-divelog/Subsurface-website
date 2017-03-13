@@ -20,13 +20,9 @@ Subsurface è un diario delle immersioni, open source, per Windows, Mac e Linux
 
 [/et_pb_slide][et_pb_slide heading="Registra tuttte le tue immersioni" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Screenshot.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
-Download your dives from your dive computer. Import them from other dive log programs or dive log websites. Manually enter them directly in Subsurface or via a simple spreadsheet.
-
 Scarica le tue immersioni dal computer subacqueo. Importale da altri programmi o da siti web. Inseriscile a mano usando direttamente Subsurface o tramite semplici tabelle.
 
 [/et_pb_slide][et_pb_slide heading="Pianifica le tue immersioni" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Planner.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
-
-The planner module makes it simple to visually plan dives either based on Bühlmann ZH-16 or VPM-B
 
 Il pianificatore consente in modo semplice e visualedi programmare immersioni basate sugli algoritmi Bühlmann ZH-16 o VPM-B
 
@@ -36,7 +32,7 @@ Store your logbook data in the cloud. Work with your data from different compute
 
 [/et_pb_slide][et_pb_slide heading="Subsurface-mobile" background_position="default" background_size="default" background_color="#ffffff" use_bg_overlay="off" use_text_overlay="off" alignment="center" background_layout="light" allow_player_pause="off" text_border_radius="3" header_font_select="default" header_font="||||" body_font_select="default" body_font="||||" custom_button="off" button_font_select="default" button_font="||||" button_use_icon="default" button_icon_placement="right" button_on_hover="on" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRF-Website-Mobile.png" image_alt="Subsurface-mobil on Android and iOS" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
-Using Subsurface-mobile on your Android or iOS device you can access your dive log anywhere
+Usando Subsurface-mobile sul tuo dispositivo Android o iOS potrai accedere alle tue immersioni ovunque
 
 [/et_pb_slide]
 
