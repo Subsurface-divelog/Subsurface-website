@@ -37,7 +37,7 @@ Guarda los datos de tu divelog en la nube. Trabaja con tus datos desde diferente
 
 [/et_pb_slide][et_pb_slide heading="Subsurface-mobile" background_position="default" background_size="default" background_color="#ffffff" use_bg_overlay="off" use_text_overlay="off" alignment="center" background_layout="light" allow_player_pause="off" text_border_radius="3" header_font_select="default" header_font="||||" body_font_select="default" body_font="||||" custom_button="off" button_font_select="default" button_font="||||" button_use_icon="default" button_icon_placement="right" button_on_hover="on" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRF-Website-Mobile.png" image_alt="Subsurface-mobil on Android and iOS" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
-Using Subsurface-mobile on your Android or iOS device you can access your dive log anywhere
+Utilizando Subsurface-mobile en tu dispositivo Android o iOS puedes acceder a tu divelog desde cualquier parte
 
 [/et_pb_slide]
 
