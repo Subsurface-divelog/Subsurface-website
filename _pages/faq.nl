@@ -159,6 +159,16 @@ Als je problemen hebt met het laden van foto's, controleer dan of de Exif data D
 
 Veel gebruikte programma's worden op dit moment al ondersteund, en we zijn altijd bereid om nieuwe toe te voegen. Als de oude software een export mogelijkheid heeft naar bijvoorbeeld CSV of UDDF formaat, is de kans groot dat wij dit kunnen importeren. Dit gezegd hebbende, importeren van het oorspronkelijke file formaat levert meestal een vollediger beeld op. Om een nieuwe import te ondersteunen hebben we een voorbeeld log file nodig. Daarnaast is een screendump van de gebruikte originele software van de voorbeeld duik zeer nuttig. 2 voorbeeld duiken is nog veel nuttiger. 1 eenvoudige, en 1 die zoveel mogelijk eigenschappen van de software laat zien. Post deze informatie op het gebruikersforum of stuur het naar de mailinglijst (subsurface@subsurface-divelog.org). Helaas kunnen we sommige log formaten niet ontcijferen, sommige leveranciers passen zelfs versleuteling toe als middel tot klantenbinding. Er is dus geen garantie dat alle oude formaten leesbaar zijn, maar het altijd nuttig om het te proberen.
 
+[/et_pb_accordion_item][et_pb_accordion_item title="Hoe kan ik duiken van mijn Bluetooth duikcomputer (zoals Shearwater Petrel 2, of Heinrichs-Weikamp OSTC) laden?"]
+
+Het downloaden van duiken via een Bluetooth verbinding vindt plaats door het kiezen van de "Kies Bluetooth download mode" tijdens de dowload actie. Dit wordt verder toegelicht in de <a href="https://subsurface-divelog.org/nl/documentation-nl/subsurface-4-gebruikershandleiding/">Subsurface gebruikershandleiding</a>.
+
+Voorgaande versies van Subsurface vereisten het opzetten van een RFCOMM verbinding voorafgaande aan het werkelijk downloaden van de duiken uit een Bluetooth duikcomputer. Dit is niet langer het geval.
+
+[/et_pb_accordion_item][et_pb_accordion_item title="Hoe download ik duiken uit mijn Bluetooth LowEnergy, BTLE, Bluetooth Smart dive computer (zoals Shearwater Perdix AI, Shearwater Perdix (laatste modellen), Suunto EON Steel)?"]
+
+Op dit moment (April 2017, Subsurface 4.6.3) ondersteund Subsurface geen verbinding over BTLE. De ontwikkelaars zijn bezig ondersteuning hiervoor toe te voegen, maar lopen tegen enige technische problemen op (hetgeen betekent dat er geen ETA wordt afgegeven wanneer deze ondersteuning gereed is).
+
 [/et_pb_accordion_item][et_pb_accordion_item title="Kunnen jullie ondersteuning toevoegen voor computer X?"]
 
 Wij ondersteunen reeds een flink aantal duikcomputers en zijn altijd bereid nieuwe toe te voegen. Neem contact met ons op, en we kijken wat er mogelijk is. Sommige leveranciers helpen ons actief, andere zijn neutraler, en sommigen zijn actief vijandig. Zonder hulp van leveranciers kan het ontcijferen van overdracht protocol en duik codering ingewikkeld zijn, maar vaak is het mogelijk.
@@ -214,118 +224,6 @@ Op Linux,
 [et_pb_accordion_item title="Sneltoetsen werken niet in Ubuntu"]
 
 Verwijder <code style="font-size: 9pt;">appmenu-qt5</code> en de sneltoetsen werken weer.
-
-[/et_pb_accordion_item][et_pb_accordion_item title="Hoe kan ik duiken van mijn Shearwater Petrel 2 laden (of andere Bluetooth duikcomputers) onder Linux?"]
-
-Het opzetten van een verbinding met een Bluetooth duikcomputer, zoals een Shearwater Petrel 2, is nog geen geautomatiseerd proces en vereist gebruik van de commando regel. Het is in essentie een 3-staps proces.
-
-<ol>
-	<li>Activeer je Bluetooth controller en koppel je duikcomputer</li>
-	<li>Zet de RFCOMM verbinding op</li>
-	<li>Laad de duiken met Subsurface</li>
-</ol>
-
-Enkele gebruikers hebben verbindingsproblemen met sommige Bluetooth controllers gemeld. Probeer, indien beschikbaar, eerst de interne Bluetooth controllers. Het loskoppelen van alle externe USB Bluetooth dongles is verstandig. Als je duikcomputer is geleverd met een USB dongle, probeer deze dan als eerste.
-
-Kijk in de handleiding van je duikcomputer hoe deze in upload mode te zetten. Bijvoorbeeld de Shearwater Petrel and Petrel 2, Selecteer 'Dive Log', dan 'Upload Log'. Het scherm toont 'Initializing', gevolgd door 'Wait PC 3:00'  en begint met aftellen. Op moment dat de verbinding tot stand is gekomen toont het scherm 'Wait CMD ...' en het aftellen gaat door. Als de werkelijke download begint toont het scherm 'Sending' gevolgd door 'Sent Dive'.
-
-Om een verbinding initieel op te zetten zijn beheerdersrechten nodig via sudo of su. De gebruiker die Subsurface draait dient de juiste rechten te hebben. Op Fedora 22, en vele andere Linux distributies betekent dit dat de gebruiker in de dailout groep dient te zitten. In een aantal distributies kan dit via de grafische interface, of anders via de commando regel:
-<pre><code style="font-size: 8pt;">sudo usermod -a -G dialout username</code></pre>
-Uit en weer inloggen voor het juiste effect.
-
-<em>Bluetooth controller activeren en het koppelen van de duikcomputer</em>
-Mogelijk kan je de instelling van de Bluetooth controller en koppel operatie uitvoeren via de grafische interface van je Linux distributie. Zet je duikcomputer in upload mode, selecteer het Bluetooth icoon op je scherm, en selecteer 'Apparaat toevoegen'. Je duikcomputer dient te verschijnen, en als om een wachtwoord wordt gevraagd, probeer 0000. Schrijf (of kopieer) het MAC adres van de duikcomputer, je hebt dit later nodig. Een MAC adres heeft de volgende vorm: 00:11:22:33:44:55.
-
-Als de grafische methode niet werkt, dien je de koppel operatie vanaf de commando regel te doen. Open een terminal en gebruik hciconfig om de Bluetooth controller toestand te bekijken
-<pre><code style="font-size: 8pt;">hciconfig
-hci0:   Type: BR/EDR  Bus: USB
-        BD Address: 01:23:45:67:89:AB  ACL MTU: 310:10  SCO MTU: 64:8
-        DOWN
-        RX bytes:504 acl:0 sco:0 events:22 errors:0
-        TX bytes:92 acl:0 sco:0 commands:21 errors:0</code></pre>
-Dit laat zien dat je 1 controller hebt, met MAC adres 01:23:45:67:89:AB, verbonden als hci0. De status is 'DOWN', hetgeen betekent dat hij uit staat. Meer dan 1 controller zal verschijnen als hci1, enzovoort. Als je geen Bluetooth USB dongle had ingeplugd toen je je desktop computer aanzette, is hci0 zeer waarschijnlijk je interne Bluetooth controller. Nu dient de controller te worden aangezet, en authenticatie dient te worden geactiveerd:
-<pre><code style="font-size: 8pt;">sudo hciconfig hci0 up auth
-(beheerderswachtwoord wanneer gevraagd)
-hciconfig
-hci0:   Type: BR/EDR  Bus: USB
-        BD Address: 01:23:45:67:89:AB  ACL MTU: 310:10  SCO MTU: 64:8
-        UP RUNNING PSCAN AUTH
-        RX bytes:1026 acl:0 sco:0 events:47 errors:0
-        TX bytes:449 acl:0 sco:0 commands:46 errors:0</code></pre>
-Controleer nu dat de status 'UP', 'RUNNING' AND 'AUTH' bevat.
-
-Als er meerdere controllers draaien, is het het eenvoudigst om de ongebruikte uit te zetten:
-<pre><code style="font-size: 8pt;">sudo hciconfig hci1 down</code></pre>
-
-De volgende stap is koppelen en vertrouwen van de duikcomputer. Op Linux distributies met Bluez 5, zoals Fedora 22, kan je de tool blutootctl gebruiken die zijn eigen commando regel heeft.
-<pre><code style="font-size: 8pt;">bluetoothctl
-[NEW] Controller 01:23:45:67:89:AB localhost.localdomain [default]
-[bluetooth]# agent on
-Agent registered
-[bluetooth]# default-agent
-Default agent request successful
-[bluetooth]# scan on                        &lt;----zet je duikcomputer nu in upload mode
-Discovery started
-[CHG] Controller 01:23:45:67:89:AB Discovering: yes
-[NEW] Device 00:11:22:33:44:55 Petrel
-[bluetooth]# trust 00:11:22:33:44:55        &lt;----met de tab toets kan je autocomplete doen van het MAC adres
-[CHG] Device 00:11:22:33:44:55 Trusted: yes
-Changing 00:11:22:33:44:55 trust succeeded
-[bluetooth]# pair 00:11:22:33:44:55
-Attempting to pair with 00:11:22:33:44:55
-[CHG] Device 00:11:22:33:44:55 Connected: yes
-[CHG] Device 00:11:22:33:44:55 UUIDs: 00001101-0000-1000-8000-0089abc12345
-[CHG] Device 00:11:22:33:44:55 Paired: yes
-Pairing successful
-[CHG] Device 00:11:22:33:44:55 Connected: no</code></pre>
-Als er een wachtwoord wordt gevraagd, probeer 0000. Het is geen probleem als de laatste regel 'Connected: no' toont. De regel erboven 'Pairing successful' is de belangrijke.
-
-Als je systeem  Bluez version 4 (bijvoorbeeld Ubuntu 12.04 tot en met 15.04) heeft, heb je vermoedelijk geen bluetoothctl, maar heb je een script genaamd  bluez-simple-agent of gewoon simple-agent.
-<pre><code style="font-size: 8pt;">hcitool -i hci0 scanning
-Scanning ...
-        00:11:22:33:44:55       Petrel
-bluez-simple-agent hci0 00:11:22:33:44:55</code></pre>
-Als je je duikcomputer gekoppeld hebt, kan je achtereenvogens de RFCOMM verbinding opzetten.
-
-<em>De RFCOMM verbinding opzetten</em>
-Het commando om de RFCOMM verbinding op te zetten is:
-<pre><code style="font-size: 8pt;">sudo rfcomm -i &lt;controller&gt; connect &lt;dev&gt; &lt;bdaddr&gt; [channel]</code></pre>
-&lt;controller&gt; is de Bluetooth controller, hci0
-&lt;dev&gt; is het RFCOMM device bestand, rfcomm0
-&lt;bdaddr&gt; is het MAC adres van de duikcomputer, 00:11:22:33:44:55
-[channel] is het Bluetooth kanaal van de duikcomputer waarmee we willen verbinden. Als je dit weg laat, wordt kanaal 1 aangenomen. Op basis van een beperkt aantal rapporten lijken de volgende kanalen in gebruik te zijn:
-<ul>
-	<li>Shearwater Petrel 2: kanaal 5</li>
-	<li>Shearwater Petrel 1: kanaal 1</li>
-  <li>Shearwater Nerd: kanaal 5</li>
-	<li>Heinrichs-Weikamp OSTC Sport: kanaal 1</li>
-</ul>
-Dus om een Shearwater Petrel 2 te verbinden, zet de duikcomputer in upload mode en doe:
-<pre><code style="font-size: 8pt;">sudo rfcomm -i hci0 connect rfcomm0 00:11:22:33:44:55 5
-(beheerderswachtwoord wanneer gevraagd)
-Connected /dev/rfcomm0 to 00:11:22:33:44:55 on channel 5
-Press CTRL-C for hangup</code></pre>
-En om een Shearwater Petrel 1 of OSTC Sport te verbinden, zet de duikcomputer in upload mode en doe:
-<pre><code style="font-size: 8pt;">sudo rfcomm -i hci0 connect rfcomm0 00:11:22:33:44:55
-(beheerderswachtwoord wanneer gevraagd)
-Connected /dev/rfcomm0 to 00:11:22:33:44:55 on channel 1
-Press CTRL-C for hangup</code></pre>
-Als je het juiste kanaal dat de duikcomputer gebruikt niet weet, en bovenstaande werkt niet, kan je met het commando 'sdptool records' mogelijk het juiste kanaal bepalen. De uitvoer hieronder is van een Shearwater Petrel 2.
-<pre><code style="font-size: 8pt;">sdptool -i hci0 records 00:11:22:33:44:55
-Service Name: Serial Port
-Service RecHandle: 0x10000
-Service Class ID List:
-  "Serial Port" (0x1101)
-Protocol Descriptor List:
-  "L2CAP" (0x0100)
-  "RFCOMM" (0x0003)
-    Channel: 5</code></pre>
-Als je Bluetooth duikcomputer niet in de lijst staat, of het beschreven kanaal onjuist is, meld het aan de ontwikkelaars via het gebruikersforum, of de mailinglijst (subsurface@subsurface-divelog.org)
-
-<em>Download de duiken met Subsurface</em>
-Met een actieve RFCOMM verbinding en de duikcomputer nog steeds in upload mode, ga in Subsurface naar 'Importeren'-&gt;'Importeren uit duikcomputer', kies juiste merk en type duikcomputer, het juiste device of mountpoint en klik downloaden.
-
-Als je een rechten fout krijgt, zit je waarschijnlijk niet in de dialout groep. Voeg je toe, log uit en log in, en probeer opnieuw.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Hoe kan ik rechten problemen oplossen bij het downloaden van mijn Atomics Aquatics Cobalt op Linux?"]
 
