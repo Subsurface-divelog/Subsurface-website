@@ -162,6 +162,16 @@ DateTime. We take the time from these fields to detect if the image was shot dur
 
 Many common programs are already supported and we are always happy to try to add new ones. If your old log software supports exporting the log book, we might well be able to import that (for example via CSV files or UDDF). However, usually support for importing the native format will help you to get more complete information into Subsurface. To implement support for the log format, we will need a sample log file. It would be great to have also a screenshot from the original log software or description of the dive that is shown on the sample log. Preferably we would like to have a reasonably simple dive to get basic support and another dive that has as many features enabled as possible (e.g. gas changes during the dive). Please post this information to the user forum or send it to the developer mailing list subsurface@subsurface-divelog.org. Unfortunately some of the log formats we have not been able to decipher (as some vendors have decided to encrypt their log files to increase the degree of lock-in of their customers), so there are no guarantees that this will bring support for your old log software, but it is worth a try.
 
+[/et_pb_accordion_item][et_pb_accordion_item title="How do I download dives from my Bluetooth dive computer (e.g., Shearwater, OSTC)?"]
+
+Downloading dives over Bluetooth on all platforms is done using the "Choose Bluetooth download mode" option when downloading dives, and pairing with the detected dive computer. This is further explained in the <a href="https://subsurface-divelog.org/documentation/subsurface-4-user-manual/">Subsurface User Manual</a>.
+
+Previous versions of Subsurface required setting up an RFCOMM connection from the command line before downloading dives from a Bluetooth enabled dive computer. This is no longer the case.
+
+[/et_pb_accordion_item][et_pb_accordion_item title="How do I download dives from my Bluetooth LowEnergy, BTLE, Bluetooth Smart dive computer (e.g., Shearwater Perdix AI, Shearwater Perdix (latest models), Suunto EON Steel)?"]
+
+At this point (April 2017, Subsurface 4.6.3) Subsurface doesn't support connecting to dive computers over BTLE. We are looking into adding support for this, but so far are running into problems (which means we have no ETA for when this feature will be available).
+
 [/et_pb_accordion_item][et_pb_accordion_item title="Can you add support for dive computer X?"]
 
 We support a large number of dive computers already and are always happy to add support for more. Please contact us via the user forums so we can try to help. Some vendors have actively helped us in our work and adding support for new models from those vendors is usually easy. Other vendors are more neutral, some are actively hostile. Without help from the vendor it can be rather challenging to reverse engineer the transfer protocol and the dive encoding, but with sufficient help from you it is often possible to do so.
@@ -217,16 +227,6 @@ For Linux,
 [et_pb_accordion_item title="The shortcut keys don't work on Ubuntu"]
 
 Please uninstall <code style="font-size: 9pt;">appmenu-qt5</code> and the shortcuts will work.
-
-[/et_pb_accordion_item][et_pb_accordion_item title="How do I download dives from my Bluetooth dive computer (e.g., Shearwater, OSTC) on Linux?"]
-
-Downloading dives over Bluetooth on all platforms is done using the "Choose Bluetooth download mode" option when downloading dives, and pairing with the detected dive computer. This is further explained in the <a href="https://subsurface-divelog.org/documentation/subsurface-4-user-manual/">Subsurface User Manual</a>.
-
-Previous versions of Subsurface required setting up an RFCOMM connection from the command line before downloading dives from a Bluetooth enabled dive computer. This is no longer the case.
-
-[/et_pb_accordion_item][et_pb_accordion_item title="How do I download dives from my Bluetooth LowEnergy, BTLE, Bluetooth Smart dive computer (e.g., Shearwater Perdix AI, Shearwater Perdix (latest models), Suunto EON Steel)?"]
-
-At this point (April 2017, Subsurface 4.6.3) Subsurface doesn't support connecting to dive computers over BTLE. We are looking into adding support for this, but so far are running into problems (which means we have no ETA for when this feature will be available).
 
 [/et_pb_accordion_item][et_pb_accordion_item title="How do I fix permission errors when trying to download from my Atomics Aquatics Cobalt under Linux?"]
 
