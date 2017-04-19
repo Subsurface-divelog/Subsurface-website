@@ -153,6 +153,16 @@ Si tienes problemas al cargar las imágenes, verifica que tienen, al menos, una 
 
 Muchos programas comunes ya están soportados, y estamos siempre encantados de intentar añadir otros. Si tu antiguo software de registro soporta exportar el diario, es muy probable que podamos importarlo fácilmente (por ejemplo vía archivos CSV o UDDF). Sin embargo, habitualmente el soporte del formato nativo ayudará a tener información más completa en Subsurface. Para implementar soporte para el formato nativo necesitaremos un archivo de muestra. También sería estupendo disponer de una captura de pantalla del software original o una descripción de la inmersión que se muestra en el archivode ejemplo. Preferiblemente, preferimos tener un buceo razonablemente simple para iniciar un soporte básico y otro buceo que tenga activadas tantas características como sea posible (por ejemplo cambios de gas durante la inmersión). Por favor, publica esta información en el foro de usuarios o envíala a la lista de correo de desarrollo subsurface@subsurface-divelog.org. Desafortunadamente hay algunos formatos que no hemos podido descifrar (ya que algunos vendedores han decidido encriptar los diarios para incrementar el nivel de dependencia de sus clientes), por tanto no hay garantías de que podamos soportar tu antiguo software, pero vale la pena intentarlo.
 
+[/et_pb_accordion_item][et_pb_accordion_item title="¿Como descargo inmersiones desde mi ordenador de buceo con Bluetooth (p.e., Shearwater, OSTC)?"]
+
+La descarga de inmersiones a través de Bluetooth, en todas las plataformas, se efectua utilizando la opción "Elegir modo de descarga Bluetooth" al descagar inmersiones, y emparejando con el ordenador de buceo detectado. Se explica con más detalle en el <a href="https://subsurface-divelog.org/documentation/subsurface-4-user-manual/">Manual de usuario de Subsurface</a>.
+
+Las versiones anteriores de Subsurface requerían ajustar una conexión RFCOMM desde línea de comandos antes de poder descargar inmersiones desde el ordenador de buceo con Bluetooth. Este ya no es el caso.
+
+[/et_pb_accordion_item][et_pb_accordion_item title="¿Como descargo inmersiones desde mi ordenador de buceo con Bluetooth LowEnergy, BTLE, Bluetooth Smart (p.e., Shearwater Perdix AI, Shearwater Perdix (último modelo), Suunto EON Steel)?"]
+
+En estos momentos (Abril de 2017, Subsurface 4.6.3) Subsurface no soporta conexiones con ordenadores de buceo con BTLE. Estamos intentando añadir soporte para este, pero estamos teniendo problemas (lo cual significa que no tenemos una estimación del tiempo que puede tardar en estar disponible esta caracacterística).
+
 [/et_pb_accordion_item][et_pb_accordion_item title="¿Se puede añadir soporte para el computador de buceo X?"]
 
 Soportamos ya un gran número de computadores de buceo y siempre estamos encantados de soportar más. Contáctanos, por favor, a través del foro de usuarios para que podamos intentar ayudar. Algunos fabricantes nos han ayudado activamente en nuestro trabajo y añadir soporte para los nuevos modelos de estos fabricantes es sencillo, normalmente. Otros fabricantes son más neutrales y algunos son abiertamente hostiles. Sin ayuda del fabricante puede ser un gran reto aplicar técnicas de ingeniería inversa al protocolo de transferencia y la codificación de la inmersión, pero, con suficiente ayuda por tu parte, a menudo es posible hacerlo.
@@ -209,140 +219,6 @@ En Linux,
 [et_pb_accordion_item title="Los atajos de teclado no funcionan en Ubuntu"]
 
 Desinstala <code>appmenu-qt5</code> y los atajos de teclado funcionarán
-
-[/et_pb_accordion_item][et_pb_accordion_item title="¿Cómo descargo inmersiones desde mi Shearwater Petrel 2 (u otro computador de buceo con Bluetooth) en Linux?"]
-
-Ajustar una conexión para descargar inmersiones desde tu dispositivo con Bluetooth, como el Shearwater Petrel, no es todavía un proceso automático y requerirá, en general, la línea de comandos. Es esencialmente un proceso de tres pasos.
-<ul>
-	<li>Activar el controlador Bluetooth y emparejar tu computador de buceo</li>
-	<li>Establecer una conexión RFCOMM</li>
-	<li>Descargar las inmersiones con Subsurface</li>
-</ul>
-Algunos usuarios han reportado dificultades con varios controladores Bluetooth. Si dispones de un controlador interno, prueba primero con él. Es más fácil si retiras otros receptores Bluetooth USB. Si dispones de un receptor USB que viniera con tu computador de buceo, inténtalo con este antes que con los otros.
-
-Asegúrate de que sabes como poner el computador de buceo en modo descarga. En el Shearwater Petrel y Petrel 2, navega a través del menú, selecciona 'Dive Log', luego 'Upload Log'. La pantalla mostrará 'Initializing', luego 'Wait PC 3:00' e iniciará una cuenta atrás. Una vez se establezca la conexión, la pantalla mostrará 'Wait CMD ...' y la cuenta atrás continuará. Mientras se descarga la inmersión desde Subsurface, la pantalla mostrará 'Sending' y luego 'Sent Dive'.
-
-Para establecer la conexión necesitas tener acceso como root vía sudo o su, y necesitarás tener los permisos correctos en tu sistema para descargar las inmersiones. En Fedora 22 y probablemente la mayoría de otros sistemas, esto supondrá convertirse en miembro del grupo 'dialout' si todavía no lo eres. Esto puede hacerse gráficamente o tecleando en la línea de comandos del terminal:
-<code>sudo usermod -a -G dialout username</code>
-Luego reiniciar la sesion de usuario en el computador personal para que tenga efecto la modificación.
-
-<em>Activar el controlador Bluetooth y emparejar el computador de buceo</em>
-
-Intenta configurar el controlador Bluetooth y emparejar tu computador de buceo utilizando el entorno gráfico del sistema operativo. Tras configurar el computador de buceo en modo "upload", haz clic en el icono Bluetooth en la barra del sistema y selecciona 'Añadir nuevo dispositivo'. El computador de buceo debería aparecer. Si se pide una contraseña, introduce 0000. Anótate o copia la dirección MAC de tu computador de buceo, que necesitaremos más adelante, y debería ser de la forma 00:11:22:33:44:55.
-
-Si el método gráfico no funcionó, empareja el dispositivo desde la línea de comandos. Abre un terminal y usa <em>hciconfig</em> para comprobar el estado del controlador Bluetooth
-<code>
-$ hciconfig
-hci0: Type: BR/EDR Bus: USB
-BD Address: 01:23:45:67:89:AB ACL MTU: 310:10 SCO MTU: 64:8
-*DOWN*
-RX bytes:504 acl:0 sco:0 events:22 errors:0
-TX bytes:92 acl:0 sco:0 commands:21 errors:0
-</code>
-Esto indica un controlador Bluetooth con dirección MAC 01:23:45:67:89:AB, conectado como hci0. Su estado es DOWN, es decir no est aencendido. Otros controladores adicionales aparecerían como hci1, etc. Si no había un receptor Bluetooth conectado al PC en el momento del arranque, hci0 es, probablemente, el receptor interno.
-
-Ahora conectemos el controlador y activemos la autenticación:
-<code>
-sudo hciconfig hci0 up auth (enter password when prompted)
-hciconfig
-hci0: Type: BR/EDR Bus: USB
-BD Address: 01:23:45:67:89:AB ACL MTU: 310:10 SCO MTU: 64:8
-*UP RUNNING PSCAN AUTH*
-RX bytes:1026 acl:0 sco:0 events:47 errors:0
-TX bytes:449 acl:0 sco:0 commands:46 errors:0
-</code>
-Comprueba que el estado ahora incluye <em>'UP', 'RUNNING' y 'AUTH'</em>.
-
-Si se están ejecutando múltiples controladores, lo más simple es desconectar
-los no utilizados, por ejemplo, para <em>hci1</em>:
-<code>
-sudo hciconfig hci1 down
-</code>
-El próximo paso es 'trust' y 'pair' el computador de buceo. En distribuciones con Bluez 5, como Fedora 22, se puede utilizar una herramienta llamada <em>blutoothctl</em>, que lanzará su propia linea de comandos.
-<code>
-bluetoothctl
-[NEW] Controller 01:23:45:67:89:AB localhost.localdomain [default]
-[bluetooth]# agent on
-Agent registered
-[bluetooth]# default-agent
-Default agent request successful
-[bluetooth]# scan on Discovery started
-[CHG] Controller 01:23:45:67:89:AB Discovering: yes
-[NEW] Device 00:11:22:33:44:55 Petrel
-[bluetooth]# trust 00:11:22:33:44:55 [CHG] Device 00:11:22:33:44:55 Trusted: yes
-Changing 00:11:22:33:44:55 trust succeeded
-[bluetooth]# pair 00:11:22:33:44:55
-Attempting to pair with 00:11:22:33:44:55
-[CHG] Device 00:11:22:33:44:55 Connected: yes
-[CHG] Device 00:11:22:33:44:55 UUIDs: 00001101-0000-1000-8000-0089abc12345
-[CHG] Device 00:11:22:33:44:55 Paired: yes
-Pairing successful
-[CHG] Device 00:11:22:33:44:55 Connected: no
-</code>
-Si se solicita una contraseña, introduce 0000. Está bien aunque la última línea diga 'Connected: no'. La parte importante es la anterior <em>Pairing successful</em>.
-Si el sistema tiene Bluez 4 (p.e. Ubuntu 12.04 a 15.04), probablemente no haya
-<em>bluetoothctl</em>, sino un script llamado <em>bluez-simple-agent</em>.
-<code>
-hcitool -i hci0 scanning
-Scanning ...
-00:11:22:33:44:55 Petrel
-bluez-simple-agent hci0 00:11:22:33:44:55
-</code>
-Una vez que el computador esté emparejado, configura la conexión RFCOMM.
-
-<em>Establecer la conexión RFCOMM</em>
-
-El comando para establecer una conexión RFCOMM es:
-<code>
-sudo rfcomm -i (controller) connect (dev) (bdaddr)[channel]
-</code>
-<ul>
-	<li>(controller) es el controlador Bluetooth, +hci0+.</li>
-	<li>(dev) es el dispositivo RFCOMM, +rfcomm0+</li>
-	<li>(bdaddr= es la dirección MAC del computador de buceo, +00:11:22:33:44:55</li>
-	<li>[channel] es el canal Bluetooth al que nos queremos conectar.</li>
-</ul>
-Si se omite el canal, se asume el 1. Basándonos en el número limitado de
-reportes de los usuarios el canal para los computadores de buceo,
-probablemente sea:
-<ul>
-	<li>Shearwater Petrel 2: channel 5</li>
-	<li>Shearwater Petrel 1: channel 1</li>
-	<li>Heinrichs-Weikamp OSTC Sport: channel 1</li>
-</ul>
-P.e. para conectar un Shearwater Petrel 2, ajusta el computador de buceo a
-modo "upload" e introduce:
-<code>
-sudo rfcomm -i hci0 connect rfcomm0 00:11:22:33:44:55 5
-</code>
-(introduce una contraseña, probablemente 0000, cuando se solicite)
-Se obtendrá la respuesta:
-<code>
-Connected /dev/rfcomm0 to 00:11:22:33:44:55 on channel 5
-Press CTRL-C for hangup
-</code>
-Para conectar un <em>Shearwater Petrel 1</em> o <em>H&amp;W OSTC Sport</em>, ajusta el computador
-de buceo a modo "upload" e introduce:
-<code>
-sudo rfcomm -i hci0 connect rfcomm0 00:11:22:33:44:55 (intruduce el password, probablemente 0000, cuando se solicite)
-Connected /dev/rfcomm0 to 00:11:22:33:44:55 on channel 1
-Press CTRL-C for hangup
-</code>
-Si se desconoce el canal específico de un computador de buceo, o el canal de la lista anterior no funciona, el comando <em>sdptool records</em> debería ayudar a dar con el canal apropiado, la salida a continuación es para un Petrel 2:
-<code>
-sdptool -i hci0 records 00:11:22:33:44:55
-Service Name: Serial Port
-Service RecHandle: 0x10000
-Service Class ID List:
-"Serial Port" (0x1101)
-Protocol Descriptor List:
-"L2CAP" (0x0100)
-"RFCOMM" (0x0003)
-Channel: 5
-</code>
-En el caso de computadores de buceo Bluetooth que no estén incluidos en la lista anterior, por favor, informa a los desarrolladores de Subsurface a través del foro de usuarios o de la lista de correo _subsurface@subsurface-divelog.org_.
-
-Si tienes un error de permisos, probablemente necesites añadir el usuario a la grupo dialout, cierra sesión e iníciala de nuevo.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="¿Cómo soluciono los errores de permisos al intentar descargar desde mi Atomics Aquatics Cobalt en Linux?"]
 
