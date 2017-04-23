@@ -75,7 +75,7 @@ Ga naar <a href="http://software.opensuse.org/download.html?project=home:Subsurf
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Hoe installeer ik Subsurface op mijn telefoon of tablet?"]
 
-Voor Android en iOS kan je de Subsurface-mobile apps uit de respectievelijke app stores installeren. Zet cloudopslag op de desktop aan, en sla je duiken op in de cloud. Je kunt de duiken nu ook op je mobiele apparaat bekijken. Subsurface-mobile ondersteund niet alle mogelijkheden van de desktop versie van Subsurface. Zo is bijvoorbeeld de duikplanner niet beschikbaar, en kunnen duiken (nog) niet direct uit een duikcomputer worden geladen. Handmatig toevoegen van duiken is echter wel mogelijk.
+Voor Android en iOS kan je de Subsurface-mobile apps uit de respectievelijke app stores installeren. Zet cloudopslag op de desktop aan, en sla je duiken op in de cloud. Je kunt de duiken nu ook op je mobiele apparaat bekijken. Subsurface-mobile ondersteunt niet alle mogelijkheden van de desktop versie van Subsurface. Zo is bijvoorbeeld de duikplanner niet beschikbaar, en kunnen duiken (nog) niet direct uit een duikcomputer worden geladen. Handmatig toevoegen van duiken is echter wel mogelijk.
 
 Voor alle andere apparatuur (inclusief telefoons met een besturingssysteem dat wij niet ondersteunen), kan je naar onze <a href="https://cloud.subsurface-divelog.org">cloud website</a> gaan en inloggen met de zelfde email/wachtwoord combinatie. Hiermee kan je dus met een webbrouwser naar je duiklogboek kijken.
 
@@ -167,7 +167,7 @@ Voorgaande versies van Subsurface vereisten het opzetten van een RFCOMM verbindi
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Hoe download ik duiken uit mijn Bluetooth LowEnergy, BTLE, Bluetooth Smart dive computer (zoals Shearwater Perdix AI, Shearwater Perdix (laatste modellen), Suunto EON Steel)?"]
 
-Op dit moment (April 2017, Subsurface 4.6.3) ondersteund Subsurface geen verbinding over BTLE. De ontwikkelaars zijn bezig ondersteuning hiervoor toe te voegen, maar lopen tegen enige technische problemen op (hetgeen betekent dat er geen ETA wordt afgegeven wanneer deze ondersteuning gereed is).
+Op dit moment (April 2017, Subsurface 4.6.3) ondersteunt Subsurface geen verbinding over BTLE. De ontwikkelaars zijn bezig ondersteuning hiervoor toe te voegen, maar lopen tegen enige technische problemen op (hetgeen betekent dat er geen ETA wordt afgegeven wanneer deze ondersteuning gereed is).
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Kunnen jullie ondersteuning toevoegen voor computer X?"]
 
@@ -257,7 +257,7 @@ Als je nu je EON Steel los en weer weer vast maakt, staan de rechten juist.
 [et_pb_accordion admin_label="macOS" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
 [et_pb_accordion_item title="Waarom doet mijn IRDA (infrared) gebaseerde duikcomputer het niet op een Mac?"]
-Subsurface op de Mac ondersteund op dit moment geen IRDA gebaseerde duikcomputers. Er ontbreekt een ondersteunende software bibliotheek die wij kunnen gebruiken. Wij hebben geen eigen IRDA stack geschreven zoals andere leveranciers mogelijk wel hebben gedaan. Subsurface op Windows en Linux ondersteund IRDA gebaseerde duikcomputers wel.
+Subsurface op de Mac ondersteunt op dit moment geen IRDA gebaseerde duikcomputers. Er ontbreekt een ondersteunende software bibliotheek die wij kunnen gebruiken. Wij hebben geen eigen IRDA stack geschreven zoals andere leveranciers mogelijk wel hebben gedaan. Subsurface op Windows en Linux ondersteunt IRDA gebaseerde duikcomputers wel.
 
 [/et_pb_accordion_item]
 
