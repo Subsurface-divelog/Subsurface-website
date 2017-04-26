@@ -1,0 +1,49 @@
+---
+ID: 3429
+post_title: Announcing Subsurface 4.6.3
+author: hohndel
+post_date: 2017-03-01 22:29:18
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2017/03/announcing-subsurface-4-6-3/
+published: true
+post_language: de
+---
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" global_module="1887" saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid"]
+[/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+Das Subsurface-Entwicklings-Team freut sich, die Version 4.6.3 von Subsurface, dem Open Source Tauchlogbuch und Tauchgangsplanungsprogramm f&uuml;r Windows, Mac und Linux, ank&uuml;ndigen zu k&ouml;nnen.
+
+Einige der Verbesserungen seit Subsurface 4.6.2:
+
+<ul><li> Strg-Scrollrad &auml;ndert die Schriftgr&ouml;&szlig;e im Tauchgangsplan sowohl auf dem Bildschirm als auch im Ausdruck</li>
+<li> Tastatur-Shortcuts mit Strg/Cmd funktionieren auch in &uuml;bersetzten Versionen von Subsurface</li>
+<li> Verbesserung von Orthographie und Konsistenz im Userinterface</li>
+<li> &Uuml;berschriften in der Tauchflaschentabelle werden &uuml;bersetzt.</li>
+<li> Verbesserte Tauchgangszusammenf&uuml;hrung: Behandlung der Wassertemperatur und Tauchpl&auml;tzen</li>
+<li> Eliminieren eines Tippfehlers in den S&auml;ttigungs- und Ents&auml;ttigungsraten; dies hat einen kleinen Einfluss auf einige berechnete Dekopl&auml;ne</li>
+<li> Verbesserung einiger Icons im Einstellungen-Dialog</li>
+<li> Fehler im CSV-Export bei Gewichten in Pfund behoben</li>
+<li> Einige kleine Fehlerbehebungen</li>
+<li> Wesentliche Verbesserungen bei einigen &Uuml;bersetzungen (insbesondere Vervollst&auml;ndigung von Italienisch und Griechisch)</li>
+<li> Update des russischen Benutzerhandbuchs</li>
+<li> Katalanische &Uuml;bersetzung</li></ul>
+
+[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+Ausführbare Programme sind für Windows, Mac und Linux verfügbar. Für Linux stellen wir sowohl ein AppImage bereit, das auf den meisten Distributionen laufen sollten, als auch Distributions-spezifische Pakete für Ubuntu, Debian, Linux Mint, Fedora, und openSUSE). Du kannst Subsurface 4.6.3 hier finden:
+
+<strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.6.3.exe">https://subsurface-divelog.org/downloads/subsurface-4.6.3.exe</a>
+
+<strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.3.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.6.3.dmg</a>
+
+<strong>Linux:</strong> Ein generisches AppImage kann als <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.3-x86_64.AppImage">Subsurface-4.6.3-x86_64.AppImage</a> heruntergeladen. Anschliessend kann es mittels
+<code>chmod +x Subsurface-4.6.3-x86_64.AppImage</code> ausführbar gemacht und direkt aufgerufen werden.
+<strong>Linux: Ubuntu: </strong>Trage <code>ppa:subsurface/subsurface</code> in Deine software sources ein; die .deb Datei in diesem PPA kann auf hinreichend aktuellen Versionen von <strong>Debian</strong> und <strong>LinuxMint</strong>installiert werden ; siehe die <a href="https://subsurface-divelog.org/download/">Programm herunterladen</a> Seite und <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> für die aktuelle Version.
+
+<strong>Linux: openSUSE / Fedora:</strong> das aktuellste Subsurface Paket kann direkt von unserem <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">Build Service Projekt</a> installiert werden.
+
+Wir freuen uns über Nachrichten zu Fehlern in Subsurface in unserem <a href="https://subsurface-divelog.org/user-forum/">Benutzer Forum</a> (natürlich besonders, wenn Patches mitgeschickt werden), zusätzlich haben wir einen <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bugtracker</a> auf dem solche Berichte eingestellt und weiter bearbeitet werden können.
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
