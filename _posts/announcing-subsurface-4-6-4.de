@@ -16,46 +16,46 @@ post_language: d
 
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-The Subsurface development team proudly announces the release 4.6.4 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+Das Subsurface-Entwicklerteam freut sich, die Version 4.6.4 von Subsurface, dem Open Source Tauchlogbuch- und -planungsprogramm f&uuml;r Windows, Mac und Linux, anzuk&uuml;ndigen.
 
-Some of the changes since Subsurface 4.6.3:
+Einige der &Auml;nderungen seit Subsurface 4.6.3:
 
-<ul><li> Allow direct entry of dive depth and duration for manually added dives</li>
-<li> Improved table labels and tooltips in planner</li>
-<li> Minimum gas calculation mode in planner</li>
-<li> Better handling of notes when replanning dives</li>
-<lil> Many consistency changes for the terms used across the application</li>
-<li> Support border width setting in printing templates</li>
-<li> Fix situations in which cylinder pressures would incorrectly be marked in red</li>
-<li> Many improvemens to CSV export and import</li>
-<li> Small fixes to DivingLog import</li>
-<li> Attempt to parse dive logs as Latin-1 if uft-8 parsing fails</li>
-<li> Add support for importing latest Suunto DM5 format</li>
-<li> Correctly sync unit system between Subsurface and Subsurface-mobile (using cloud storage)</li>
-<li> Fix several rounding related problems</li>
-<li> Fix several potential crashes</li>
-<li> Better handling of Uwatec memomouse tank pressure values</li>
-<li> Better handling of Cobalt imports with unused tanks</li>
+<ul><li> Tiefe und Dauer eines manuell hinzugef&uuml;ten Tauchgangs kann mit der Tastatur eingegeben werden.</li>
+<li> Verbesserung der Tabellenbeschriftung und Tooltips im Planer</li>
+<li> "Minimum-Gas"-Berechnung im Planer</li>
+<li> Verbesserung der Tauchgangsnotizen bei Wieder&ouml;ffnen von Tauchg&auml;ngen im Planer</li>
+<li> Vereinheitlichung der Terminologie</li>
+<li> Unterst&uuml;tzung der Rahmenbreite in Druck-Templates</li>
+<li> Flaschendruck wird nicht mehr f&auml;lschlich rot angezeigt</li>
+<li> Viele Verbesserungen im CSV-Import und -Export</li>
+<li> Verbesserungen im DivingLog-Import</li>
+<li> Versuche Logb&uuml;cher als Latin-1 zu interpretieren, wenn UTF-8 fehlschl&auml;gt</li>
+<li> Import des neusten Suunto DM5 Formats</li>
+<li> Das Einheitensystem wird zwischen der Desktop- und der Mobilversion richtig &uuml;ber die Cloud synchronisiert</li>
+<li> Beseitungung diverser Rundungsfehler</li>
+<li> Beseitigung einiger m&ouml;gliucher Abst&uuml;rze</li>
+<li> Verbesserte Behandlung von Druckangaben aus der Uwatec Memomouse</li>
+<li> Verbesserung des Cobald-Imports bei unbenutzen Flaschen</li>
 <li> libdivecomputer:<ul>
-<li> fix bug in Subsurface version of libdivecomputer that could cause buffer overflow</li>
-<li> several small bugfixes from upstream libdivecomputer</li>
+<li> Bufferoverflow in der Subsurface-Version von libdivecomputer behoben</li>
+<li> Mehrere Fehlerkorrekturen in libdivecomputer</li>
 </ul></li>
 </ul>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Binaries are available for Windows, Mac, and an AppImage for Linux (plus distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE). You can get Subsurface 4.6.4 from these locations:
+Ausf&uuml;hrbare Versionen erh&auml;ltlich f&uuml;r Windows, Mac und ein AppImage f&uuml;r Linux (sowie distributionsspezifische Versionen für eine Reiche von Linux-Systemen, unter anderem Ubuntu, Debian, Linux Mint, Fedora und openSUSE). Subsurface 4.6.4 kann hier heruntergeladen werden:
 
 <strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.6.4.exe">https://subsurface-divelog.org/downloads/subsurface-4.6.4.exe</a>
 
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.4.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.6.4.dmg</a>
 
-<strong>Linux:</strong> A generic AppImage is available for download as <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.4-x86_64.AppImage">Subsurface-4.6.4-x86_64.AppImage</a>. Download this file, make it executable
-<code>chmod +x Subsurface-4.6.4-x86_64.AppImage</code> and then simply run this file.
-<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
+<strong>Linux:</strong> Ein generisches AppImage gibt es hier <a href="https://subsurface-divelog.org/downloads/Subsurface-4.6.4-x86_64.AppImage">Subsurface-4.6.4-x86_64.AppImage</a>. Diese Datei herunterladen, ausführbar machen mittels
+<code>chmod +x Subsurface-4.6.4-x86_64.AppImage</code> und dann einfach ausführen.
+<strong>Linux: Ubuntu: </strong><code>ppa:subsurface/subsurface</code> zu den Sofwarequellen hinzufügen. Die .deb-Dateien in diesem PPA können auch in neueren Versionen von <strong>Debian</strong> und <strong>LinuxMint</strong> installiert werden, siehe <a href="https://subsurface-divelog.org/download/">Downloads</a>-Seite. <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> verwenden, um das neuste Release zu erhalten. 
 
-<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
+<strong>Linux: openSUSE / Fedora:</strong> Bitte zur <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service Seite</a>
 
-Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
+Probleme können in unserem  <a href="https://subsurface-divelog.org/user-forum/">Benutzer Forum</a> oder im <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a> gepostet werden.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
