@@ -67,6 +67,9 @@ Lista obsługiwanych komputerów nurkowych (poprzez bibliotekę libdivecomputer)
     <dt>Scubapro</dt><dd><ul>
             <li>Chromis, Mantis, Mantis 2, Meridian, XTender 5</li></ul>
     </dd>
+    <dt>Seabear</dt><dd><ul>
+            <li>H3</li></ul>
+    </dd>
     <dt>Seemann</dt><dd><ul>
             <li>XP5</li></ul>
     </dd>
