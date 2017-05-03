@@ -68,6 +68,9 @@ Dit is de lijst van ondersteunde duikcomputers (via libdivecomputer) per versie 
     <dt>Scubapro</dt><dd><ul>
             <li>Chromis, Mantis, Mantis 2, Meridian, XTender 5</li></ul>
     </dd>
+    <dt>Seabear</dt><dd><ul>
+            <li>H3</li></ul>
+    </dd>
     <dt>Seemann</dt><dd><ul>
             <li>XP5</li></ul>
     </dd>
