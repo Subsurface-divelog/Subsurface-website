@@ -15,7 +15,70 @@ I decided I should put together a list of computers I've used, with commentary a
 
 I'm going to completely ignore the low end that doesn't even allow downloading of dive data, and quite frankly, I personally have used only a few so the list starts out smallish.
 
-<strong>Aeris A300CS / Oceanic VTX</strong>
+
+<h2>mid-2017 updates</h2>
+
+2017 has been a good year for dive computers finally seeming to standardize on the features I like: good color screen and air integration.  Even the technical community seems to have gotten the message about air integration.
+
+Bluetooth LE also seems to have become the almost standard interface, which has upsides and downsides.  BLE is not well standardized, and everybody seems to use some hacked-up GATT psueod-serial protocol.  It's also <em>slow</em>, but it does have the advantage that it works with your cellphone and you don't need to have a wet connection. 
+
+<h2>Suunto EON Steel update</h2>
+
+Having used the EON Steel for about two and a half years now, it remains my favorite computer to dive. Not much has changed: it is still a fairly big and heavy dive computer, and you probably still need to use the Suunto DM5 program to edit the screen layout to your taste, but it remains a very solid dive computer.
+
+And in the roughly 200 dives I now have on it, I have yet to see a tank pressure sensor failure, so the new pressure monitoring model really does seem to work well - the older Suunto wireless pressure tracking was not nearly as realiable. Still - always have a backup.
+
+The one notable change is that a firmware update during late spring 2017 activated bluetooth downloads. They are particularly slow on the EON Steel due to the nice - but verbose - download format, but while some initial import of lots of dives is annoyingly slow, doing some "download the dives from today" is fine. And the initial import works over a USB too, so you can avoid the ridiculously slow case.
+
+<h2>Scubapro G2</h2>
+
+The Scubapro G2 came out just as I was looking for a new backup dive computer - I always dive two computers, partly because of subsurface, but mostly because I've seen too many computer failures during testing all the dive computers I've had access to.
+
+Why was I looking for a new backup? I had flooded my trusty old Suunto Vyper Air due to a bad battery change. I've done several successful ones, and apprently had been lulled into a false sense of security. One of the reasons I tend to like rechargeable dive computers is that it avoids the whole "open up the dive computer for regular battery changes". Oh well.
+
+And the Scubapro G2 actually impressed me quite favorably. I like the form-factor (slightly smaller and lighter than the EON Steel, and shaped to your arm), and the screen is fine. The USB connector is also simple and well-placed, and doesn't leave any wiggle room. On the whole it seems like a good physical design.
+
+I got the package with the heartrate monitor, and used it once on a recent dive to test - it seemed to work, I just don't personally care that much, but I wanted to verify that the data gets downloaded to subsurface. It does.
+
+Like the EON Steel, the G2 also does transfers over both USB HID and over BLE GATT, and since the data is denser it's faster. Of course, I also don't have nearly the same number of dives on it, so I don't know how well it scales. But on the whole, everything largely works.
+
+<em>However</em>, the G2 definitely gets relegated to "backup dive computer" for me, because of a few notable annoyances when actually using it under water. Which is kind of sad, because it does have a lot going for it. Both annoyances might be fixed in later firmware updates, so they aren't fundamental, but for now they are not avoidable (although they might be dismissed as a matter of taste).
+
+The first annoyance is the screen layout - there are multiple different ones, but none of them are all that great. My favorite (by far) was the "Light" screen, which shows dive time, depth, cylinder pressure and "time remaining". The problem I have is that last one: "time remaining" is not a single time, it ends up being the shorter of NDL or RBT or safety stop, and I absolutely do <i>not</i> want to have to guess which time it is (ok, the safety stop timer is pretty obvious, so that part is fine - but I want to see <i>both</i> remaining non-deco time <i>and</i> remaining air time estimates.
+
+It's not like the screen wasn't good enough that you couldn't show five values at the same time (and some of the other modes show much more), but a lot of the screen real estate is taken up by the boxes around the numbers. 
+
+There are other screen modes that show more numbers (and one graphical mode that shows your current profile too), but they end up being much too cluttered, again partly due to the visual "aid" of the boxes around the numbers.
+
+The second annoyance is the safety stop timer. This is apparently just a continuation of how all the previous Uwatec/Scubapro dive computers have worked: the safety stop timer can be set to either manual or automatic, and the automatic one starts counting once you hit 15 ft. Fine, everybody else does it at 20 ft, but whatever. 
+
+The real annoyance with the automatic safety stop timer is that not only does it stop counting if you go back deeper than 20 ft (everybody does that), but it <em>resets</em>. So if you ever go down below 20 ft, you'll first have to come back up to 15 ft, and then it starts counting from the beginning again.
+
+That's just insane. Completely crazy. I've been in bigger swells that really mean that you might be going up and down quite a bit, and doing the safety stop slightly deeper is much more comfortable (so stay in the 15-20 ft range with less noticeable wave action). And I've been on a ton of dives that just finish shallow, so that you can basically just swaim around and explore, and the safety stop timer just happens automatically during the last five to ten minutes of the dive.
+
+And both of those scenarios are broken by that stupid "reset if you hit 20 ft". Yes, clearly you have to reset at some point if you go deep again, but 20 ft is just much too aggressive. Very annoying.
+
+<em>NOTE!</em> Neither of these two annoyances are in any way fatal to the Scubapro G2 as a dive computer. It's a perfectly fine dive computer, it just won't be a favorite of mine or become my primary dive computer due to those annoyances. 
+
+<h2>Shearwater Perdix AI</h2>
+
+This one is on the list despite the fact that I haven't actually been with it under water.  It's on the list because I own it due to Dirk saying he really enjoyed it, and because I was doing the subsurface BLE code, and Shearwater is known for good dive computers. And it finally does air integration, which previous Shearwaters didn't do.
+
+I'm not enamoured with the piezo-electric buttons that don't have any tactile feedback, and the fact that there are only two of them, which inevitably means that traversing menus is always a bit more cumbersome than if you have three or four buttons.
+
+But.
+
+There really is a big reason to like it: it's got one of the nicest form factors around, and the screen layout is really nice. Like the Scubapro G2, you can change the layout in a few small ways, but unlike the Scubapro G2, the layout really makes sense to me.
+
+Shearwater also uses a nice standard Bühlmann decompression algorithm. No gimmicks, no games (although I think you can pay a bit extra for VPM-B if you really want to). 
+
+It does have the user-replaceable batteries rather than being rechargeable, and many people prefer that. The battery compartment is also pretty straightforward and looks very safe, so hopefully I'll never flood this one.
+
+The Perdix AI <i>only</i> downloads over bluetooth, amd has no connection cable at all since it doesn't need charging. That probably means that downloading a lot of dives is painful, but it's a one-time pain, and the the normal incremental dive download should be fine. There certainly are also lots of reasons to like not having any wet connectors.
+
+The buttons currently still have me a bit anxious about it, but I also have to admit that using them a lot during my bluetooth downloader development made me get fairly used to them. So what seemed to be a big downside originally (I've played with older Shearwater dive computers before, so I've met those piezo-electric buttons before) does feel like it's something you get used to.
+
+<h2>Aeris A300CS / Oceanic VTX</h2>
 
 I don't even know what to say about this one. It looks almost perfect on paper: it's fairly small, doesn't look horrible, and checks all the features I care about: OLED screen, air integration, bluetooth, you name it.
 
@@ -34,8 +97,10 @@ But the A300CS has a battery life of perhaps three days, and because it's not re
 Of course, the fact that the screen is not useful makes all the other issues entirely moot.
 
 They aren't selling the A300CS any more, it's now called the Oceanic VTX. But it seems to be the exact same dive computer, just with a new name.
+
 <h2>Suunto EON Steel</h2>
-The most recent dive computer I've been diving is the new Suunto EON Steel, which was announced in early October 2014, and began shipping in early 2015. I got early access to one, complete with pre-release firmware that got two updates before release. And then after release there was a big firmware update in June 2015 to version 1.1.15 that added support for some core new features.
+
+The most recent dive computer I've been diving is the new Suunto EON Steel, which was announced in early October 2014, and began shipping in early 2015. I got early access to one, complete with pre-release firmware that got two updates before release. And then after release there was a big firmware update in June 2015 to version 1.1.15 that added support for some core new features.
 
 The EON Steel gets its own heading, because it's so different from the other traditional Suunto dive computers. It's clearly a whole new design from the ground up, both inside and out. It does have the same Suunto RGBM (reduced-gradient bubble model) decompression model, but even there Suunto added new less conservative settings, so you have more control over the use of it, and you should be able to avoid the biggest issue with Suunto dive computers, namely the excessive (at times) conservatism.
 
@@ -101,7 +166,7 @@ Commentary on smaller details for previous Suunto divers:
 </ul>
 All in all? I'm very pleased. It is expensive, and it <strong>is</strong> too heavy, and I'd prefer a warm-water version of it, but from a new platform standpoint, I think the EON Steel is a winner. And despite the bulk of it, it has become my new default dive computer, replacing my old Suunto's (which followed me around in my BCD pocket as backups for one trip, and have now gotten entirely left behind).
 
-<strong>Suunto - traditional dive computers</strong>
+<h2>Suunto - traditional dive computers</h2>
 
 All the older Suunto dive computers are fairly similar, although they fall in two classes: the lower-end ones have just three buttons and an old-style LCD display with segments, and the higher end have four buttons and a mostly pixel-based LCD (parts of the LCD is still custom segments, but the bulk of it is pixel-addressable).
 
