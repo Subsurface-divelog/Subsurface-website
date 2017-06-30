@@ -1,0 +1,25 @@
+---
+ID: 3614
+post_title: >
+  Connecting to dive computers from
+  Subsurface-mobile
+author: hohndel
+post_date: 2017-06-29 22:17:42
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2017/06/connecting-to-dive-computers-from-subsurface-mobile/
+published: true
+post_language: null
+---
+[et_pb_section bb_built="1" admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" _builder_version="3.0.51" background_layout="light" text_orientation="left" border_style="solid"]
+
+I don't post to the news section often enough... but this seems worth taking the time.
+
+We are making good progress on Subsurface-mobile being able to download directly from some dive computers. BT/rfcomm seems to work reasonably well on Android (this isn't possible on iOS), and even the first signs of life of BLE support are there. The EON Steel seems to work, the Shearwater Perdix AI is hopefully next.
+
+This isn't ready for broader testing quite yet, but we're getting closer.
+
+Linus managed to download data from a Perdix AI to a Linux system with a few rather invasive hacks that would make it hard to ship this in an app (and of course we won't have BLE support at all on Windows, our largest user base, since Qt doesn't support BLE on Windows). We are working on Mac (with only limited success so far), iOS work hasn't started but is of course on the TODO list.
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
