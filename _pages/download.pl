@@ -26,6 +26,7 @@ published: true
 <pre><code>ppa:subsurface/subsurface</code></pre>
 <p>W przypadku Linux Mint należy wymusić wersję Subsurface, w przeciwnym wypadku zainstalowana zostanie stara wersja 4.0. Należy wiec wykonać następujące komendy:</p>
 <pre><code>sudo apt-add-repository ppa:subsurface/subsurface
+sudo apt-get update
 sudo apt-get install subsurface=[s-var slug="latest"]-1~trusty</code></pre>
 <p>W przypadku Debiana Jessie należy dodać repozytorium Ubuntu:</p>
 <pre><code style="font-size: 10px;">echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main" 

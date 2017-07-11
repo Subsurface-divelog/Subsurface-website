@@ -26,6 +26,7 @@ Gebruikt deze versies in Ubuntu door eenvoudigweg de volgende PPA aan je systeem
 <pre><code>ppa:subsurface/subsurface</code></pre>
 Op LinuxMint dien je de volgende commando's uit te voeren, en expliciet de PPA versie van Subsurface te vragen. Als je dit niet doet, zal de verouderde Subsurface 4.0 worden ge&iuml;nstalleerd:
 <pre><code>sudo apt-repository ppa:subsurface/subsurface
+sudo apt-get update
 sudo apt-get install subsurface=[s-var slug="latest"]-1~trusty</code></pre>
 Voor Debian Jessie dien je de volgende Ubuntu repository toe te voegen:
 <pre><code>echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main"
