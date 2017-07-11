@@ -26,6 +26,7 @@ To use these binaries in Ubuntu, simply add the following PPA to your system:
 <pre><code>ppa:subsurface/subsurface</code></pre>
 On LinuxMint you have to add this on the command line and explicitly request the PPA version of Subsurface, otherwise the outdated Subsurface 4.0 would have been installed:
 <pre><code>sudo apt-add-repository ppa:subsurface/subsurface
+sudo apt-get update
 sudo apt-get install subsurface=[s-var slug="latest"]-1~trusty</code></pre>
 For Debian Jessie you need to add the Ubuntu repository:
 <pre><code>echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main" 
