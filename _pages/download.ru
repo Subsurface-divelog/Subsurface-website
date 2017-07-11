@@ -26,6 +26,7 @@ published: true
 <pre><code>ppa:subsurface/subsurface</code></pre>
 В LinuxMint вам придется добавить его из командной строки и явно указать версию Subsurface, иначе будет установлена устаревшая версия Subsurface 4.0:
 <pre><code>sudo apt-add-repository ppa:subsurface/subsurface
+sudo apt-get update
 sudo apt-get install subsurface=[s-var slug="latest"]-1~trusty</code></pre>
 В Debian Jessie вам необходимо добавить репозиторий Ubuntu:
 <pre><code>echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main" 

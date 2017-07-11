@@ -26,6 +26,7 @@ In Ubuntu reicht es aus, folgendes PPA einzufügen:
 <pre><code>ppa:subsurface/subsurface</code></pre>
 Für LinuxMint muss man scheinbar explizit die PPA Version von Subsurface installieren, ansonsten wird die veraltete  Subsurface installiert:
 <pre><code>sudo apt-add-repository ppa:subsurface/subsurface
+sudo apt-get update
 sudo apt-get install subsurface=[s-var slug="latest"]-1~trusty</code></pre>
 Für Debian Jessie muss das Ubuntu Repository angefordert werden:
 <pre><code style="font-size: 10px;">echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main" 

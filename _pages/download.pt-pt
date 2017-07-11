@@ -27,6 +27,7 @@ Para usar a aplicação em Ubuntu, adicionar o seguinte PPA:
 Em LinuxMint, tem de o adicionar pela linha de comando e explicitamente pedir a versão PPA do Subsurface. Caso contrário a versão mais antiga Subsurface 4.0 será instalada.
 Assim, os passos são
 <pre><code>sudo apt-add-repository ppa:subsurface/subsurface
+sudo apt-get update
 sudo apt-get install subsurface=[s-var slug="latest"]-1~trusty</code></pre>
 Para Debian Jessie precisa de adicionar o repositorio Ubuntu:
 <pre><code style="font-size: 10px;">echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main" 

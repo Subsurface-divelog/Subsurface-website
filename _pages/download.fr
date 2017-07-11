@@ -32,7 +32,8 @@ published: true
 </ul>
 <p>Il semble que sur Linux Mint, il faut utiliser les lignes de commande suivantes, sinon l'ancienne version 4.0 est installée :</p>
 <pre><code>sudo apt-add-repository ppa:subsurface/subsurface
-sudo apt-get install subsurface=[s-var slug="latest"]-1~trust</code></pre>
+sudo apt-get update
+sudo apt-get install subsurface=[s-var slug="latest"]-1~trusty</code></pre>
 <p>Pour Debian Jessie, il faut ajouter le dépôt Ubuntu :</p>
 <pre><code>echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main" 
         | sudo tee /etc/apt/sources.lists.d/subsurface.list
