@@ -20,10 +20,10 @@ post_language: e
 
 [/et_pb_image][/et_pb_column][et_pb_column type="2_3"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Using Subsurface-mobile on your mobile device (running Android or iOS) allows you to review your dive list and (manually) add dives wherever you are. The Android version also allows you to track GPS locations, this feature isn't supported on iOS, yet, please use the separate Subsurface companion app on iOS for that purpose.
+Utilizar Subsurface-mobile en tu dispositivo móvil (tanto Android como iOS) te permite acceder a tu lista de inmersiones y (manualmente) añadir buceos desde donde te encuentres. La versión Android también te permite registrar posiciones GPS. Esta característica aún no está disponible para iOS. Por favor, utiliza Subsurface Companion en iOS para este fin.
 
-We are working on adding the capability to download dives from some dive computers directly into Subsurface-mobile, but that feature is still a little while away.
+Estamos trabajando  en añadir la capacidad de descargar inmersiones desde algunos ordenadores de buceo directamente a Subsurface-mobile, pero aún falta un poco.
 
-The Android version can be found in the <a href="https://play.google.com/store/apps/details?id=org.subsurfacedivelog.mobile">Play Store</a>, the iOS version is in the <a href="https://itunes.apple.com/us/app/subsurface-mobile/id1093217161">iTunes Store</a>
+La versión de Android puede encontrarse en <a href="https://play.google.com/store/apps/details?id=org.subsurfacedivelog.mobile">Play Store</a>, la versión de iOS está en <a href="https://itunes.apple.com/us/app/subsurface-mobile/id1093217161">iTunes Store</a>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
