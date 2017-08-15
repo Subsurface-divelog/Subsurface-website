@@ -34,16 +34,16 @@ Für Debian Jessie muss das Ubuntu Repository angefordert werden:
 gpg --keyserver subkeys.pgp.net --recv-keys A8BC9756EE61D9C6
 gpg -a --export A8BC9756EE61D9C6 | sudo apt-key add -
 sudo apt-get update</code></pre>
-Jetzt kann man Subsurface aus diesem Repository installieren:
+Jetzt lässt sich Subsurface von diesem Repository installieren:
 <pre><code style="font-size: 10px;">sudo apt-get install subsurface</code></pre>
 <h2>OpenSUSE 13.1, 13.2, Leap 42.1, Leap 42.2, Tumbleweed und Fedora 22, 23, 24, 25</h2>
 Die offiziellen Subsurface Pakete für OpenSUSE 13.1, 13.2, oder Tumbleweed sowie Fedora 22, 23, können direkt von <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">unserem Build Service Projekt</a> installiert werden.
 <h2>Alle anderen 64bit Linux Versionen</h2>
-Ein generisches AppImage kann als [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"] heruntergeladen werden. Einfach diese Datei ausfürbar machen <code>chmod +x [s-var slug="appimage"]</code> und dann starten.
+Ein generisches AppImage kann als [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"] heruntergeladen werden. Einfach diese Datei ausführbar machen <code>chmod +x [s-var slug="appimage"]</code> und dann starten.
 <h2>Pakete in den Distributionen</h2>
 Einige Linux Distributionen beinhalten ihre eigenen Subsurface Pakete. Dies ist sehr einfach für die Benutzer, aber leider sind diese Versionen oft veraltet und werden nicht mit unseren Versionen einiger sehr wichtiger Bibliotheken gebaut. Aus diesem Grund empfehlen wir, die von uns bereitgestellten Pakete zu benutzen.
 <h2>Quelltext</h2>
-<p>Der subsurface Quelltext ist verfügbar über die <a href="http://github.com/Subsurface-divelog/subsurface.git">git</a> Quelltextverwaltung oder als komprimiertes tar-Archiv [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] Der Quelltext der GPL und LGPL Komponenten, die mit den ausführbaren Mac und Windows Dateien ausgeliefert werden, findet sich bei <a href="http://www.macports.org/">MacPorts</a> und <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.</p>
+<p>Der Subsurface Quelltext ist verfügbar über die <a href="http://github.com/Subsurface-divelog/subsurface.git">git</a> Quelltextverwaltung oder als komprimiertes tar-Archiv [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] Der Quelltext der GPL und LGPL Komponenten, die mit den ausführbaren Mac und Windows Dateien ausgeliefert werden, findet sich bei <a href="http://www.macports.org/">MacPorts</a> und <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.</p>
 <p></p>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
