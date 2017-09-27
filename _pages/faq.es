@@ -192,8 +192,8 @@ Si hiciste cambios intencionadamente a las plantillas, re-edita las plantillas y
 
 En un Mac, en el terminal ejecuta:
 <code>
-mv ~/Library/Application Support/Subsurface/printing_templates 
-     ~/Library/Application Support/Subsurface/printing_templates.bak
+mv ~/Library/Application\ Support/Subsurface/printing_templates 
+     ~/Library/Application\ Support/Subsurface/printing_templates.bak
 </code>
 
 En Linux,
