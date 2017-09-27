@@ -197,8 +197,8 @@ Als je bewust persoonlijke aanpassingen in de template hebt gemaakt, bewerk dan 
 Voor gebruikers die nooit templates hebben aangepast, is verwijderen van de oude versies het eenvoudigst.
 
 Op macOS, in een terminal scherm voer het volgende commando uit
-<code>mv ~/Library/Application Support/Subsurface/printing_templates
-     ~/Library/Application Support/Subsurface/printing_templates.bak
+<code>mv ~/Library/Application\ Support/Subsurface/printing_templates
+     ~/Library/Application\ Support/Subsurface/printing_templates.bak
 </code>
 
 Op Linux,
