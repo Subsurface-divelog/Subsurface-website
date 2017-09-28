@@ -275,6 +275,10 @@ Subsurface on the Mac does not currently support IRDA based dive computers. This
 
 There are two versions of Subsurface in the app store. The <em>Subsurface-mobile</em> app is the port of the desktop application to Android and iOS. It allows you to connect to the Subsurface Cloud and view dives, or manually add dives. The <em>Subsurface</em> app is a companion app, designed to allow the logging of GPS data while on your dive. It is now unnecessary for use on Android (and no longer supported), as that functionality has been added to the <em>Subsurface-mobile</em> app. On iOS, the <em>Subsurface</em> companion app is still necessary to log GPS data.
 
+[/et_pb_accordion_item][et_pb_accordion_item title="Subsurface-mobile crashes when starting on my Samsung Android device"]
+
+One of the underlying libraries that we use contains a known bug that appears to cause crashes in a certain scenario when "Accessibility" services like LastPass or Bixby Remapper are installed. There is currently no way for us to fix this in Subsurface-mobile, but an easy workaround is to temporarily disable such helper services when running Subsurface-mobile.
+
 [/et_pb_accordion_item]
 
 
