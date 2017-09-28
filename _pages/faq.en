@@ -168,9 +168,9 @@ Downloading dives over Bluetooth on all platforms is done using the "Choose Blue
 
 Previous versions of Subsurface required setting up an RFCOMM connection from the command line before downloading dives from a Bluetooth enabled dive computer. This is no longer the case.
 
-[/et_pb_accordion_item][et_pb_accordion_item title="How do I download dives from my Bluetooth LowEnergy, BTLE, Bluetooth Smart dive computer (e.g., Shearwater Perdix AI, Shearwater Perdix (latest models), Suunto EON Steel)?"]
+[/et_pb_accordion_item][et_pb_accordion_item title="How do I download dives from my Bluetooth LowEnergy, BLE, Bluetooth Smart dive computer (e.g., Shearwater Perdix AI, Shearwater Perdix (latest models), Suunto EON Steel)?"]
 
-At this point (April 2017, Subsurface 4.6.3) Subsurface doesn't support connecting to dive computers over BTLE. We are looking into adding support for this, but so far are running into problems (which means we have no ETA for when this feature will be available).
+At this point (September 2017, Subsurface 4.6.4) the release versions of Subsurface and Subsurface-mobile don't support connecting to dive computers over BLE. We are actively working on this support and have test binaries for Mac (Subsurface) and Android (Subsurface-mobile) that support a hand full of BLE based dive computers. Windows support is a lot further away. While we have plans for a 4.7 version of Subsurface which includes this support, we have no expected release time frame, yet.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Can you add support for dive computer X?"]
 
