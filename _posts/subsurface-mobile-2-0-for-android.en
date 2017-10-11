@@ -1,0 +1,26 @@
+---
+ID: 3729
+post_title: Subsurface-mobile 2.0 for Android
+author: hohndel
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2017/10/subsurface-mobile-2-0-for-android/
+published: true
+post_date: 2017-10-11 10:44:39
+post_language: e
+---
+[et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" /][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid"]
+
+The Subsurface development team proudly announces the release 2.0 of Subsurface-mobile, a full fledged dive log program for Android devices. Subsurface-mobile allows you to access your dive log on your tablet or phone, edit the data and even download new dive information from many Bluetooth dive computers (and even some dive computers that require a download cable - but there things get more complicated). Using a free Subsurface Cloud Storage account you can synchronize your dive data with the Subsurface desktop application (while significantly increasing the usefulness, the cloud account is not required to use Subsurface-mobile).
+
+[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row][et_pb_column type="1_2"][et_pb_image _builder_version="3.0.78" src="https://subsurface-divelog.org/wp-content/uploads/2017/10/Divelist2.jpg" show_in_lightbox="off" url_new_window="off" use_overlay="off" always_center_on_mobile="on" border_style="solid" force_fullwidth="off" show_bottom_space="on" /][/et_pb_column][et_pb_column type="1_2"][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid"]
+
+Now you can easily see your dive lists and details, quickly change those details, and in many cases even download the latest dives from your dive computer - all on a mobile device. Additionally, Subsurface-mobile lets you track GPS fixes during a dive trip and apply those to your dive list. You can also manually add new dives to a dive list.
+
+Please check out the <a href="https://subsurface-divelog.org/documentation/subsurface-mobile-v2-user-manual/">Subsurface-mobile v2 user manual</a>.
+Please report any issues you may run into in our <a href="https://subsurface-divelog.org/user-forum/">user forum</a>
+
+As everything we do, Subsurface-mobile is free and open source. No ads, no commercial anything. And it comes with free cloud storage (if you decide to use that - it's optional). Your data aren't used for anything, nothing gets monetized.
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
