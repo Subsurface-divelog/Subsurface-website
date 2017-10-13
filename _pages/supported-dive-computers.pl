@@ -44,6 +44,9 @@ Lista obsługiwanych komputerów nurkowych (poprzez bibliotekę libdivecomputer)
     <dt>Dive Rite</dt><dd><ul>
 	    <li>NiTek Q, NiTek Trio</li></ul>
     </dd>
+    <dt>Divesoft</dt><dd><ul>
+	    <li>Freedom</li></ul>
+    </dd>
     <dt>DiveSystem</dt><dd><ul>
 	    <li>Orca, iDive DAN, iDive Deep, iDive Easy, iDive Free, iDive Pro, iDive Reb, iDive Stealth, iDive Tech, iDive X3M, iX3M Deep, iX3M Easy, iX3M Reb, iX3M Tec</li></ul>
     </dd>
