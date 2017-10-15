@@ -21,7 +21,7 @@ published: true
 	<li><a href="/documentation/supported-dive-computers/">Поддерживаемые дайв-компьютеры</a></li>
 	<li><a href="/documentation/tutorial-video/">Обучающее видео</a></li>
 	<li><a href="/ru/документация/subsurface-4-user-manual/">Subsurface Руководство пользователя</a></li>
-<li><a href="/documentation/subsurface-mobile-user-manual/">Subsurface-mobile Руководство пользователя</a></li>
+<li><a href="/documentation/subsurface-mobile-v2-user-manual/">Subsurface-mobile Руководство пользователя</a></li>
 	<li><a href="/documentation/building">Сборка Subsurface</a></li>
 	<li><a href="/documentation/contributing">Участие в разработке Subsurface</a></li>
 	<li>Посмотрите <a href="http://lists.subsurface-divelog.org/pipermail/subsurface/">архивы списка рассылки</a></li>

@@ -21,7 +21,7 @@ published: true
 <li><a href="/es/documentation/supported-dive-computers/">Computadores de buceo soportados</a></li>
 <li><a href="/es/documentation/tutorial-video/">Tutorial en vídeo</a></li>
 <li><a href="/es/documentation/subsurface-4-user-manual/">Manual de usuario de Subsurface</a></li>
-<li><a href="/es/documentation/manual-de-usuario-de-subsurface-mobile/">Manual de usuario de Subsurface-mobile</a></li>
+<li><a href="/es/documentation/subsurface-mobile-v2-user-manual/">Manual de usuario de Subsurface-mobile</a></li>
 <li><a href="/es/documentation/building">Compilar Subsurface</a></li>
 <li><a href="/es/documentation/contributing">Contribuir a Subsurface</a></li>
 <li>Prueba también el <a href="http://lists.subsurface-divelog.org/pipermail/subsurface/">Archivo de la lista de correo</a></li></ul>
