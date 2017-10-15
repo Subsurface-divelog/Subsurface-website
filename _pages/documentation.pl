@@ -19,7 +19,7 @@ published: true
 <ul><li><a href="/pl/documentation/supported-dive-computers/">Obsługiwane komputery nurkowe</a></li>
 <li><a href="/pl/documentation/tutorial-video/">Tutorial Video (w języku angielskim)</a></li>
 <li><a href="/documentation/subsurface-4-user-manual/">Subsurface Instrukcja obsługi (w języku angielskim)</a></li>
-<li><a href="/documentation/subsurface-mobile-user-manual/">Subsurface-mobile Instrukcja obsługi (w języku angielskim)</a></li>
+<li><a href="/documentation/subsurface-mobile-v2-user-manual/">Subsurface-mobile Instrukcja obsługi (w języku angielskim)</a></li>
 <li>możesz też zajrzeć do <a href="http://lists.subsurface-divelog.org/pipermail/subsurface/">Archiwum listy mailowej (w języku angielskim)</a></li></ul>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
