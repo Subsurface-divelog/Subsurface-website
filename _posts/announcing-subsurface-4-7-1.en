@@ -1,0 +1,84 @@
+---
+ID: 3737
+post_title: Announcing Subsurface 4.7.1
+author: hohndel
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2017/10/announcing-subsurface-4-7-1/
+published: true
+post_date: 2017-10-23 07:47:44
+post_language: e
+---
+[et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" background_color="rgba(255,255,255,0)" parallax="on" /][/et_pb_column][/et_pb_row][et_pb_row][et_pb_column type="1_2"][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid"]
+
+The Subsurface development team proudly announces the release 4.7.1 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+
+Some of the changes since Subsurface 4.6.4:
+
+<strong>User interface changes</strong>
+
+<ul>
+	<li>New map widget. No more rotating globe, but much better support for the underlying widget - so overall an improvement.</li>
+	<li>Many small bug fixes and tweaks.</li>
+	<li>Green gas change icon when switching to EAN100</li>
+</ul>
+
+<strong>Imports and exports</strong>
+
+<ul>
+	<li>Better support for importing dive data from Shearwater desktop, DL7, Datatrak and other 3rd party formats.</li>
+</ul>
+
+[/et_pb_text][/et_pb_column][et_pb_column type="1_2"][et_pb_image _builder_version="3.0.78" src="https://subsurface-divelog.org/wp-content/uploads/2017/10/Screenshot_20171020_223812.png" show_in_lightbox="off" url_new_window="off" use_overlay="off" always_center_on_mobile="on" border_style="solid" force_fullwidth="off" show_bottom_space="on" /][/et_pb_column][/et_pb_row][et_pb_row][et_pb_column type="4_4"][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid"]
+
+<strong>Dive planner</strong>
+<ul>
+	<li>Improved and more user friendly cylinder handling</li>
+	<li>Print delta pressure for minimum gas calculation in results</li>
+	<li>Identify overlapping dives when calculating dive plan</li>
+	<li>Compute plan variations: How does decompression time change when changing the bottom time by one minute or the depth by one meter?</li>
+	<li>Faster planning for long decompression times</li>
+
+
+</ul>
+
+<strong>Dive computer support</strong>
+
+Early and limited support for Bluetooth LE dive computers. Currently BLE isn't supported at all on Windows due to lack of support for Windows in the underlying toolkit that we use. BLE appears to work reasonably well on Mac and works on Linux if Subsurface is built against Qt 5.9.2 or newer. Older versions of Qt will give you mixed results, depending on the specific dive computer you use. Side note for those on Windows or a Linux distro that doesn't allow BLE support just yet: you can use Subsurface-mobile 2.0 or later on Android and download from your BLE dive computer there and then transfer the dive data via Subsurface cloud storage.
+
+Support for multiple tank sensors reporting pressure at the same time. This is something that we hadn't seen before outside of CCR dives, but some newer dive computers support this for example for side mount divers. We now correctly download these data from the dive computers that support it, store and retrieve the pressure data, and visualize multiple tank pressure readings at the same time.
+
+Add support for the following dive computers:
+<ul>
+	<li><strong>Aqualung</strong> i200</li>
+	<li><strong>Cochran</strong> Commander II, Commander TM</li>
+	<li><strong>Dive Systems/Ratio</strong> iDive2 Deep, iDive2 Easy, iDive2 Free, iDive2 Tech+, iX3M Deep, iX3M Easy, iX3M Pro Deep, iX3M Pro Easy, iX3M Pro Tech+, iX3M Reb, iX3M Tech+</li>
+	<li><strong>Heinrichs Weikamp</strong> OSTC+</li>
+	<li><strong>Shearwater</strong> Perdix AI (only available where BLE is supported)</li>
+	<li><strong>Suunto</strong> D4f</li>
+</ul>
+
+Add support for OSTC 4 configuration.
+
+[/et_pb_text][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid"]
+
+Binaries are available for Windows, Mac, and a few distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE. We usually also provide an AppImage that runs on most Linux distributions, but that still requires some more work and will be released in the next few weeks.
+
+ You can get Subsurface 4.7.1 from these locations:
+
+<strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.7.1.exe">https://subsurface-divelog.org/downloads/subsurface-4.7.1.exe</a>
+
+<strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.7.1.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.7.1.dmg</a>
+ 
+<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
+
+<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
+
+Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>. And as a side note, after too many problems with our old bugtracker, we just switched to using issues on GitHub, so please follow the link above, not the old link to trac you may have bookmarked previously.
+
+[/et_pb_text][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid"]
+
+(and yes, we skipped 4.7 - we were half way through releasing that yesterday when we realized a couple of changes were missing... since at least one build had already uploaded we didn't want to create any confusion and just called this one 4.7.1. You did not miss anything.)
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
