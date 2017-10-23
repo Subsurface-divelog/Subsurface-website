@@ -1,6 +1,6 @@
 ---
 ID: 3750
-post_title: Announcing Subsurface 4.7.1
+post_title: Anuncio de Subsurface 4.7.1
 author: hohndel
 post_excerpt: ""
 layout: post
@@ -12,44 +12,44 @@ post_language: null
 ---
 [et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" background_color="rgba(255,255,255,0)" parallax="on" /][/et_pb_column][/et_pb_row][et_pb_row][et_pb_column type="1_2"][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid"]
 
-The Subsurface development team proudly announces the release 4.7.1 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+El equipo de desarrollo de Subsurface está encantado de poder anunciar el lanzamiento de la versión 4.7.1 de Subsurface, un registro de inmersiones y planificador de código abierto para Windows, Mac y Linux.
 
-Some of the changes since Subsurface 4.6.4:
+Algunos de los cambios desde Subsurface 4.6.4;
 
-<strong>User interface changes</strong>
+<strong>Cambios en la interfaz de usuario</strong>
 
 <ul>
-	<li>New map widget. No more rotating globe, but much better support for the underlying widget - so overall an improvement.</li>
-	<li>Many small bug fixes and tweaks.</li>
-	<li>Green gas change icon when switching to EAN100</li>
+	<li>Nuevo mapa. Se acabó el globo rotatorio, pero el widget subyacente tiene mucho mejor soporte, por tanto, en general, una mejora.</li>
+	<li>Se han solucionado muchos pequeños fallos y efectuado muchos retoques.</li>
+	<li>Se ha añadido un icono verde cuando se cambie de gas a oxígeno puro</li>
 </ul>
 
-<strong>Imports and exports</strong>
+<strong>Importaciones y exportaciones</strong>
 
 <ul>
-	<li>Better support for importing dive data from Shearwater desktop, DL7, Datatrak and other 3rd party formats.</li>
+	<li>Mejor soporte para importar inmersiones desde la aplicación de Shearwater, DL7, Datatrak y otros formatos.</li>
 </ul>
 
 [/et_pb_text][/et_pb_column][et_pb_column type="1_2"][et_pb_image _builder_version="3.0.78" src="https://subsurface-divelog.org/wp-content/uploads/2017/10/Screenshot_20171020_223812.png" show_in_lightbox="off" url_new_window="off" use_overlay="off" always_center_on_mobile="on" border_style="solid" force_fullwidth="off" show_bottom_space="on" /][/et_pb_column][/et_pb_row][et_pb_row][et_pb_column type="4_4"][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid"]
 
-<strong>Dive planner</strong>
+<strong>Planificador de inmersiones</strong>
 <ul>
-	<li>Improved and more user friendly cylinder handling</li>
-	<li>Print delta pressure for minimum gas calculation in results</li>
-	<li>Identify overlapping dives when calculating dive plan</li>
-	<li>Compute plan variations: How does decompression time change when changing the bottom time by one minute or the depth by one meter?</li>
-	<li>Faster planning for long decompression times</li>
+	<li>Se ha mejorado la gestión de las botellas y simplificado su interfaz de usuario</li>
+	<li>Se imprime en los resultados la presión delta para el cálculo de gas mínimo</li>
+	<li>Detecta si las inmersiones se superponen al calcular el plan de buceo</li>
+	<li>Computar variaciones del plan: ¿ Como cambian los tiempos de descompresión al variar el tiempo de fondo en un minuto o la profundidad en un metro ?</li>
+	<li>Planificación más rápida para tiempos de descompresión largos</li>
 
 
 </ul>
 
-<strong>Dive computer support</strong>
+<strong>Soporte de ordenadores de buceo</strong>
 
-Early and limited support for Bluetooth LE dive computers. Currently BLE isn't supported at all on Windows due to lack of support for Windows in the underlying toolkit that we use. BLE appears to work reasonably well on Mac and works on Linux if Subsurface is built against Qt 5.9.2 or newer. Older versions of Qt will give you mixed results, depending on the specific dive computer you use. Side note for those on Windows or a Linux distro that doesn't allow BLE support just yet: you can use Subsurface-mobile 2.0 or later on Android and download from your BLE dive computer there and then transfer the dive data via Subsurface cloud storage.
+Temprano y limitado soporte de ordenadores con Bluetooth LE. Actualmente BLE no está soportado para Windows debido a la falta de soporte para el mismo en las herramientas subyacentes que utilizamos. BLE parece funcionar razonablemente bien en Max y funciona en Linux si se compila Subsurface con Qt 5.9.2 o más reciente. Las versiones más antiguas de Qt te darán resultados variables, dependiendo del ordenador de buceo que utilices. Nota al margen para aquellos que estén en Windows o en una distribución de Linux que no incluya soporte BLE todavía: se puede utilizar Subsurface-mobile 2.0 o posterior en Android y descargar del ordenador de buceo con BLE, y luego transferir los datos de buceo a través del almacenamiento en la nube de Subsurface.
 
-Support for multiple tank sensors reporting pressure at the same time. This is something that we hadn't seen before outside of CCR dives, but some newer dive computers support this for example for side mount divers. We now correctly download these data from the dive computers that support it, store and retrieve the pressure data, and visualize multiple tank pressure readings at the same time.
+Soporte para múltiples sensores de presión reportando presiones al mismo tiempo. Esto es algo que no habíamos visto hasta ahora fuera de las inmersiones con CCR, pero algunos ordenadores de buceo nuevos soportan esta característica para, por ejemplo, inmersiones en lateral. Ahora descargamos estos datos correctamente de los ordenadores de buceo que lo soportan, los guardamos, recogemos los datos de presión y visualizamos al mismo tiempo las diferentes lecturas de presión de las botellas.
 
-Add support for the following dive computers:
+Se añade soporte para los siguientes ordenadores de buceo:
 <ul>
 	<li><strong>Aqualung</strong> i200</li>
 	<li><strong>Cochran</strong> Commander II, Commander TM</li>
@@ -59,26 +59,26 @@ Add support for the following dive computers:
 	<li><strong>Suunto</strong> D4f</li>
 </ul>
 
-Add support for OSTC 4 configuration.
+Se añade soporte para la configuración del OSTC 4
 
 [/et_pb_text][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid"]
 
-Binaries are available for Windows, Mac, and a few distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE. We usually also provide an AppImage that runs on most Linux distributions, but that still requires some more work and will be released in the next few weeks.
+Hay binarios disponibles para Windows, Mac y algunos binarios especificos de varias distribuciones de Linux, entre ellos Ubuntu, Debian, Linux Mint, Fedora y OpenSUSE. Habitualmente tambien proporcionamos una AppImage que se puede ejecutar en la mayoría de las distribuciones de Linux, pero esta necesita algo más de trabajo y no estará lista hasta dentro de unas semanas.
 
- You can get Subsurface 4.7.1 from these locations:
+Puedes obtener Subsurface 4.7.1 desde estas ubicaciones;
 
 <strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.7.1.exe">https://subsurface-divelog.org/downloads/subsurface-4.7.1.exe</a>
 
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.7.1.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.7.1.dmg</a>
- 
-<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
 
-<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
+<strong>Linux: Ubuntu: </strong>Añade <code>ppa:subsurface/subsurface</code> a tus fuentes de software; los archivos .deb de este PPA también se pueden instalar en versiones suficientemente actualizadas de <strong>Debian</strong> y  <strong>LinuxMint</strong>; visita la <a href="https://subsurface-divelog.org/download/">Página de descargas</a> y utiliza <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> para obtener la última versión de nuestro software.
 
-Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>. And as a side note, after too many problems with our old bugtracker, we just switched to using issues on GitHub, so please follow the link above, not the old link to trac you may have bookmarked previously.
+<strong>Linux: openSUSE / Fedora:</strong> visita nuestra <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">página de lanzamiento del servicio de compilación</a>
+
+Por favor, postea dudas y problemas en el <a href="https://subsurface-divelog.org/user-forum/">Foro de usuarios</a> o cuelga un informe de fallo en nuestro <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>. Y recuerda que, tras muchos problemas con nuestro antiguo bugtracker, nos mudamos a utilizar las issues de GitHub, así que utiliza el link anterior no el viejo que quizá tengas guardado de antes en tus bookmarks.
 
 [/et_pb_text][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid"]
 
-(and yes, we skipped 4.7 - we were half way through releasing that yesterday when we realized a couple of changes were missing... since at least one build had already uploaded we didn't want to create any confusion and just called this one 4.7.1. You did not miss anything.)
+(y sí, nos hemos saltado 4.7, ya que mientras preparábamos el lanzamiento ayer, nos dimos cuenta que habiamos olvidado un par de cambios... cuando ya se había subido al menos un binario. Para evitar confusiones, simplemente llamamos a esta 4.7.1. No te has perdido nada.)
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
