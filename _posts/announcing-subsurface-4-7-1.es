@@ -5,7 +5,7 @@ author: hohndel
 post_excerpt: ""
 layout: post
 permalink: >
-  https://subsurface-divelog.org/2017/10/announcing-subsurface-4-7-1/
+  https://subsurface-divelog.org/es/2017/10/anuncio-de-subsurface-4-7-1/
 published: true
 post_date: 2017-10-23 10:32:05
 post_language: null
