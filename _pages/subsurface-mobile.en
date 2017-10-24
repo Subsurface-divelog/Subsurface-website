@@ -22,7 +22,7 @@ post_language: e
 
 Using Subsurface-mobile on your mobile device (running Android or iOS) allows you to review your dive list and (manually) add dives wherever you are. The Android version also allows you to track GPS locations, this feature isn't supported on iOS, yet, please use the separate Subsurface companion app on iOS for that purpose.
 
-We are working on adding the capability to download dives from some dive computers directly into Subsurface-mobile, but that feature is still a little while away.
+Direct dive data downloading from dive computer has been added in V2.0; via Bluetooth, BLE or USB. This feature is only supported on Android devices and is highly related to the mobile device and dive computer capabilities. Please, visit <a href="https://subsurface-divelog.org/2017/10/subsurface-mobile-2-0-for-android/">V2.0 announcement</a>, or <a href"https://subsurface-divelog.org/documentation/subsurface-mobile-v2-user-manual/"> the user manual page</a> for more info.
 
 The Android version can be found in the <a href="https://play.google.com/store/apps/details?id=org.subsurfacedivelog.mobile">Play Store</a>, the iOS version is in the <a href="https://itunes.apple.com/us/app/subsurface-mobile/id1093217161">iTunes Store</a>
 
