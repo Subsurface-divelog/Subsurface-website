@@ -58,8 +58,6 @@ Ondersteuning toegevoegd voor de volgende duikcomputer:
 <li><strong>Suunto</strong> D4f</li>
 </ul>
 
-Add support for OSTC 4 configuration.
-
 Ondersteuning voor OSTC4 configuratie.
 
 [/et_pb_text][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid"]
