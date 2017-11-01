@@ -1,0 +1,48 @@
+---
+ID: 3810
+post_title: Announcing Subsurface 4.7.2
+author: hohndel
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2017/10/announcing-subsurface-4-7-2/
+published: true
+post_date: 2017-10-31 21:20:56
+post_language: null
+---
+[et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" /][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid"]
+
+The Subsurface development team proudly announces the release 4.7.2 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+
+It's only been a little over a week, but we fixed a few annoying issues with Subsurface 4.7.1 and wanted to get this into people's hands as quickly as possible. Some of the changes since Subsurface 4.7.1:
+
+<ul>
+	<li>Fix potential crash when running with French localization and downloading dives from a dive computer</li>
+	<li>Fallback to old behavior if Facebook album creation fails</li>
+	<li>Fix UI issue when adding dives to trip below</li>
+	<li>Fix UI issue when closing filters</li>
+	<li>Add small behavior changes to the map widget</li>
+	<li>Change to a more consistent way to show errors in Subsurface</li>
+	<li>Solve several potential issues with the cloud account authentication flow</li>
+	<li>Fix a potential problem when saving data that was loaded from a git repository into cloud storage</li>
+	<li>Fix error where newly created cloud accounts failed to create the remote repository on Windows</li>
+	<li>Detect and try to work around the fact that the map module requires at least OpenGL 2.1 (previously Subsurface would crash when OpenGL was too old - often on old Win32 versions)</li>
+</ul>
+
+[/et_pb_text][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid"]
+
+Binaries are available for Windows, Mac, and a few distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE. We usually also provide an AppImage that runs on most Linux distributions, but that still requires some more work and will be released in the next few weeks.
+
+You can get Subsurface 4.7.2 from these locations:
+
+<strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.7.2.exe">https://subsurface-divelog.org/downloads/subsurface-4.7.2.exe</a>
+
+<strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.7.2.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.7.2.dmg</a>
+ 
+<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
+
+<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
+
+Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
