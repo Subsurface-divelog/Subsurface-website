@@ -33,7 +33,7 @@ Hace poco más de una semana de la anterior versión, pero hemos solucionado alg
 
 Hay binarios disponibles para Windows, Mac y algunos binarios especificos de varias distribuciones de Linux, entre ellos Ubuntu, Debian, Linux Mint, Fedora y OpenSUSE. Habitualmente tambien proporcionamos una AppImage que se puede ejecutar en la mayoría de las distribuciones de Linux, pero esta necesita algo más de trabajo y no estará lista hasta dentro de unas semanas.
 
-Puedes obtener Subsurface 4.7.1 desde estas ubicaciones;
+Puedes obtener Subsurface 4.7.2 desde estas ubicaciones;
 
 <strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.7.2.exe">https://subsurface-divelog.org/downloads/subsurface-4.7.2.exe</a>
 
