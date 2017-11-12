@@ -1,6 +1,6 @@
 ---
 ID: 3824
-post_title: Announcing Subsurface 4.7.4
+post_title: Anuncio de  Subsurface 4.7.4
 author: hohndel
 post_excerpt: ""
 layout: post
@@ -12,38 +12,39 @@ post_language: e
 ---
 [et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" background_color="rgba(255,255,255,0)" parallax="on" /][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid" parallax_method="off"]
 
-The Subsurface development team proudly announces the release 4.7.4 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+El quipo de desarrollo de Subsurface se alegra de poder anunciar la versión  4.7.4 de Subsurface, un programa de código abierto de registro y planificación de inmersiones para Windows, Mac y Linux.
 
-For those playing along, yes, because of a small maintainer-error we went from 4.7.2 straight to 4.7.4. The only difference from 4.7.3 to 4.7.4 is that 4.7.3 forgot to update to the latest translations.
+Para quien le extrañe, sí, a causa de un pequeño error del mantenedor, hemos pasado directamente de 4.7.2 a 4.7.4. La única diferencia entre 4.7.3 y 4.7.4 es que la primerá no había actualizado las últimas traducciones.
 
-The big news for Linux users is that with Subsurface 4.7.4 the AppImage is back. Not only that, we now offer an automatically created AppImage for our ongoing development work directly from our GitHub releases page.
+La buena noticia para los usuarios de Linux es que con Subsurface 4.7.4 regresa la AppImage. No solo eso, ahora se ofrece una AppInage creada automáticamente para nuestro trabajo de desarrollo diario, desde nustra página de versiones de GitHub.
 
-Some of the other changes since Subsurface 4.7.2:
+Algunos de los cambios desde Subsurface 4.7.2:
 
 <ul>
-	<li>SmallUI fixes</li>
-	<li>Improvement to oxygen breaks code in planner</li>
-	<li>Write log messages into files when not started from a console on Windows</li>
-	<li>Improved detection of OpenGL versions (prevents potential crash on more operating systems with ancient gfx drivers)</li>
-	<li>Improve the map widget editing behavior. Allow updating the location of a marker that is being edited by entering new coordinates in the text field in "real-time". Also, don't place new markers at the 0,0 coordinate and instead place them at the current map center.</li>
+	<li>Pequeños arreglos en la UI</li>
+	<li>Mejora de los "breaks" de oxígeno en el planificador</li>
+	<li>En Windows, escribe a un archivo de regitro los mensajes de depuración, cuando no se inicia desde consola</li>
+	<li>Mejorada la detección de versiones de OpenGL (se evitan problemas en sistemas operativos con drivers gfx antiguos)</li>
+	<li>Mejorado el comportamiento de la edición en el Mapa. Se permite actualizar la ubicación de un marcador qe está siendo editado, introduciendo las coordenadas en el campo de texto en tiempo real. Igualmente, no se sitúa un marcador nuevo en las coordenadas 0,0, sino que se sitúa en el centro del mapa.</li>
 </ul>
 
 [/et_pb_text][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid" parallax_method="off"]
 
-Binaries are available for Windows, Mac, and an AppImage for x86-64 Linux (plus distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE).
+Hay binarios disponibles para Windows, Mac, una AppImage para x86_64 Linux y algunos binarios especificos de varias distribuciones de Linux, entre ellos Ubuntu, Debian, Linux Mint, Fedora y OpenSUSE.
 
-You can get Subsurface 4.7.4 from these locations:
+Puedes obtener Subsurface 4.7.4 desde estas ubicaciones;
 
 <strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.7.4.exe">https://subsurface-divelog.org/downloads/subsurface-4.7.4.exe</a>
 
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.7.4.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.7.4.dmg</a>
  
-<strong>Linux:</strong> A generic AppImage is available for download at the <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.7.4">Subsurface GitHub Release page</a>. Download <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.7.4/Subsurface-a157fa5c6-x86_64.AppImage">Subsurface-a157fa5c6-x86_64.AppImage</a>, make it executable
-<code>chmod +x Subsurface-a157fa5c6-x86_64.AppImage</code> and then simply run this file.
-<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
+<strong>Linux:</strong> Hay disponible una AppImage genérica en la página <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.7.4">Subsurface GitHub Release </a>. Descarga <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.7.4/Subsurface-a157fa5c6-x86_64.AppImage">Subsurface-a157fa5c6-x86_64.AppImage</a>, hazlo ejecutable
+<code>chmod +x Subsurface-a157fa5c6-x86_64.AppImage</code> y luego, simplemente ejecútalo.
 
-<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
+<strong>Linux: Ubuntu: </strong>Añade <code>ppa:subsurface/subsurface</code> a tus fuentes de software; los archivos .deb de este PPA también se pueden instalar en versiones suficientemente actualizadas de <strong>Debian</strong> y  <strong>LinuxMint</strong>; visita la <a href="https://subsurface-divelog.org/download/">Página de descargas</a> y utiliza <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> para obtener la última versión de nuestro software.
 
-Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
+<strong>Linux: openSUSE / Fedora:</strong> visita nuestra <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">página de lanzamiento del servicio de compilación</a>
+
+Por favor, postea dudas y problemas en el <a href="https://subsurface-divelog.org/user-forum/">Foro de usuarios</a> o cuelga un informe de fallo en nuestro <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>. Y recuerda que, tras muchos problemas con nuestro antiguo bugtracker, nos mudamos a utilizar las issues de GitHub, así que utiliza el link anterior no el viejo que quizá tengas guardado de antes en tus bookmarks.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
