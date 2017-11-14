@@ -37,8 +37,8 @@ Je kunt Subsurface 4.7.4 ophalen van de volgende locaties:
 <strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.7.4.exe">https://subsurface-divelog.org/downloads/subsurface-4.7.4.exe</a>
 
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.7.4.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.7.4.dmg</a>
-<strong>Linux:</strong> Een generieke AppImage is beschikbaar als <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.7.4">Subsurface GitHub Release page</a>. Download <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.7.4/Subsurface-a157fa5c6-x86_64.AppImage">Subsurface-a157fa5c6-x86_64.AppImage</a>, Download deze file en maak hem executable
-<code>chmod +x Subsurface-a157fa5c6-x86_64.AppImage</code> en executeer deze file.
+<strong>Linux:</strong> Een generieke AppImage is beschikbaar als <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.7.4">Subsurface GitHub Release page</a>. Download <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.7.4/Subsurface-4.7.4-x86_64.AppImage">Subsurface-4.7.4-x86_64.AppImage</a>, Download deze file en maak hem executable
+<code>chmod +x Subsurface-4.7.4-x86_64.AppImage</code> en executeer deze file.
 <strong>Linux: Ubuntu: </strong>Voeg <code>ppa:subsurface/subsurface</code> toe aan je software bronnen; de .deb files in deze PPA kunnen ook op redelijk recente versies van <strong>Debian</strong> en <strong>LinuxMint</strong>; zie de <a href="https://subsurface-divelog.org/download/">Downloads</a> pagina en gebruik <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> om de laatste versie te downloaden.
 
 <strong>Linux: openSUSE / Fedora:</strong> ga naar onze <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release pagina</a>
