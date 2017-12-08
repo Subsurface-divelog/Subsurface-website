@@ -45,7 +45,7 @@ You can get Subsurface 4.7.5 from these locations:
 <strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.7.5.exe">https://subsurface-divelog.org/downloads/subsurface-4.7.5.exe</a>
 
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.7.5.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.7.5.dmg</a>
- 
+
 <strong>Linux:</strong> A generic AppImage is available for download at the <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.7.5">Subsurface GitHub Release page</a>. Download <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.7.5/Subsurface-4.7.5-x86_64.AppImage">Subsurface-4.7.5-x86_64.AppImage</a>, make it executable
 <code>chmod +x Subsurface-4.7.5-x86_64.AppImage</code> and then simply run this file.
 <strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
@@ -54,4 +54,8 @@ You can get Subsurface 4.7.5 from these locations:
 
 Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
 
+[/et_pb_text][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid" parallax_method="off"]
+Our build system now allows you to download the latest <strong>development version</strong> for testing purposes. You can find the latest test binaries on our <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/continuous">GitHub Release page for continuous builds</a>
+
+NOTE: While these builds will show you our latest features and updates, they may also show you our latest bugs and could potentially be unstable. Please be aware of that when trying them out! Subsurface is generally careful to create backups of your data and to avoid ever losing any dive data. It still seems prudent to be extra-careful when testing these builds.
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
