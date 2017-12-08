@@ -1,0 +1,57 @@
+---
+ID: 3847
+post_title: Announcing Subsurface 4.7.5
+author: hohndel
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/nl/2017/12/announcing-subsurface-4-7-4-2/
+published: true
+post_date: 2017-12-07 16:06:28
+post_language: 'n'
+---
+[et_pb_section bb_built="1"][et_pb_row][/et_pb_row][/et_pb_section][et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" background_color="rgba(255,255,255,0)" parallax="on" /][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid" parallax_method="off"]
+
+The Subsurface development team proudly announces the release 4.7.5 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+
+This version of Subsurface makes a set of improvements in the Bluetooth integration, the planner, the map widget and the dive photo user interface.
+
+Some of the changes in Subsurface 4.7.5:
+<ul>
+	<li>Compute plan variations in background to improve responsiveness</li>
+	<li>Improve profile rescaling in planner</li>
+	<li>Store the gas switch depth of a cylinder from the planner in the logbook file or git storage. No more need to reenter this value on replanning.</li>
+	<li>Improved handling of different information (divemaster, buddy, suit, notes) when merging two dives.</li>
+	<li>Limit min. GFlow to 10 and min. GFhigh to 40 in preferences for profile and planner</li>
+	<li>Fix issues related to debug logging on Windows</li>
+	<li>Add "Bluetooth mode" in the BT selection dialog: Auto, LE, Classical</li>
+	<li>Correct display of cylinder pressures for merged dives</li>
+	<li>Allow user defined cylinders as default in preferences</li>
+	<li>Tag-editing: comma entry shows all tags (again)</li>
+	<li>Printing: the bundled templates are now read-only and are always overwritten by the application. The first time the user runs this update, backup files of the previous templates would be created</li>
+	<li>Fix issues with filters not updating after changes to the dive list</li>
+	<li>Map-widget: allow updating coordinates on the map when the user is editing a dive site by pressing Enter or clicking a "flag" button</li>
+	<li>Map-widget: prevent glitches when the user is interacting with the map while animations are in progress</li>
+	<li>Planner: don't accidentally enable o2breaks option when entering planner in recreational mode</li>
+	<li>Various small improvements in the dive photo UI</li>
+</ul>
+
+[/et_pb_text][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid" parallax_method="off"]
+
+Binaries are available for Windows, Mac, and an AppImage for x86-64 Linux (plus distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE).
+
+You can get Subsurface 4.7.5 from these locations:
+
+<strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.7.5.exe">https://subsurface-divelog.org/downloads/subsurface-4.7.5.exe</a>
+
+<strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.7.5.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.7.5.dmg</a>
+ 
+<strong>Linux:</strong> A generic AppImage is available for download at the <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.7.5">Subsurface GitHub Release page</a>. Download <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.7.5/Subsurface-4.7.5-x86_64.AppImage">Subsurface-4.7.5-x86_64.AppImage</a>, make it executable
+<code>chmod +x Subsurface-4.7.5-x86_64.AppImage</code> and then simply run this file.
+<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
+
+<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
+
+Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
