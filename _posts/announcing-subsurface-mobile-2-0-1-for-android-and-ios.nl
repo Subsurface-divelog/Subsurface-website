@@ -1,0 +1,28 @@
+---
+ID: 3868
+post_title: >
+  Announcing Subsurface-mobile 2.0.1 for
+  Android and iOS
+author: hohndel
+post_excerpt: ""
+layout: post
+permalink: >
+  https://subsurface-divelog.org/2017/12/announcing-subsurface-mobile-2-0-1-for-android-and-ios/
+published: true
+post_date: 2017-12-07 16:45:55
+post_language: null
+---
+[et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" /][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid"]
+
+The Subsurface development team proudly announces the release 2.0.1 of Subsurface-mobile, a full fledged dive log program for iOS and Android devices. Subsurface-mobile allows you to access your dive log on your tablet or phone, edit the data and even download new dive information from many Bluetooth LE dive computers (on iOS) and from many Bluetooth and Bluetooth LE dive computers (and even some dive computers that require a download cable -- but there things get more complicated) on Android. Using a free Subsurface Cloud Storage account you can synchronize your dive data with the Subsurface desktop application (while significantly increasing the usefulness, the cloud account is not required to use Subsurface-mobile).
+
+Subsurface-mobile 2.0.1 brings a few minor improvements in the UI and support for a few additional dive computers on Android when compared to Subsurface-mobile 2.0, but it represents a significant overhaul of the user interface when compared to Subsurface-mobile 1.2, which until today was the latest version on available on iOS. With Subsurface-mobile 2.0.1 you get better structure, better visuals, better menus, better editing… a lot of our focus went into turning this into a better, visually more attractive and easier to use application.
+
+Subsurface-mobile 2.0.1 for iOS also adds the GPS functionality that had always been available in the Android version of Subsurface-mobile. With the exception of the lack (for hardware reasons) of classic Bluetooth and serial dive computer support in iOS, the two applications are now otherwise at feature parity.
+
+You can get Subsurface-mobile in the respective App Stores. Please check out the <a href="https://subsurface-divelog.org/documentation/subsurface-mobile-v2-user-manual/">Subsurface-mobile v2 user manual</a>.
+Please report any issues you may run into in our <a href="https://subsurface-divelog.org/user-forum/">user forum</a>
+
+As everything we do, Subsurface-mobile is free and open source. No ads, no commercial anything. And it comes with free cloud storage (if you decide to use that -- it’s optional). Your data aren’t used for anything, nothing gets monetized.
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
