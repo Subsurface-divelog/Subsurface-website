@@ -5,12 +5,12 @@ author: hohndel
 post_excerpt: ""
 layout: post
 permalink: >
-  https://subsurface-divelog.org/nl/2017/12/announcing-subsurface-4-7-4-2/
+  https://subsurface-divelog.org/nl/2017/12/announcing-subsurface-4-7-5/
 published: true
 post_date: 2017-12-07 16:06:28
 post_language: 'n'
 ---
-[et_pb_section bb_built="1"][et_pb_row][/et_pb_row][/et_pb_section][et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" background_color="rgba(255,255,255,0)" parallax="on" /][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid" parallax_method="off"]
+[et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="off" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" background_color="rgba(255,255,255,0)" parallax="on" /][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid" parallax_method="off"]
 
 The Subsurface development team proudly announces the release 4.7.5 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
 
