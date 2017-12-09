@@ -7,8 +7,9 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2011/10/subsurface-1-1/
-post_language: en
 published: true
+post_language:
+  - en
 ---
 <!--:en--><p>Linus' commit message:
 <code>We've added a fair amount of features since 1.0 (like multi-tank) and

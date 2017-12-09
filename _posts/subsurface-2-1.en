@@ -7,8 +7,9 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2012/10/subsurface-2-1/
-post_language: en
 published: true
+post_language:
+  - en
 ---
 <!--:en--><p>Yes, we skipped versions 2.0 and never released it in public, but it was worth it.</p>
 <p>Subsurface 2.1 is out, we have binaries for Windows and Mac on our <a href="https://subsurface-divelog.org/downloads/">Downloads</a> page and packages for various Linux distributions are under way. And of course it's quite easy to build Subsurface from source - check the <a href="https://subsurface-divelog.org/building/">build page</a> for details.</p>

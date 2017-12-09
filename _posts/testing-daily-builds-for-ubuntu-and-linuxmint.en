@@ -9,7 +9,6 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2014/12/testing-daily-builds-for-ubuntu-and-linuxmint/
-post_language: en
 published: true
 ---
 <!--:en--><p>We are planning to make "official" packages for Ubuntu and LinuxMint available in our own PPA... I just triggered a daily build that should work on Ubuntu Trusty, Utopic, and LinuxMint 17.1. If you would like to help us by testing those, please add the following PPA to your system: <pre><code>ppa:subsurface/subsurface-daily</code></pre>. Once 4.3 is released we'll make that (and future updates) available in <pre><code>ppa:subsurface/subsurface</code></pre></p>

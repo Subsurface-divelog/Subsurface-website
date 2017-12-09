@@ -7,8 +7,9 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2013/02/known-issues-with-imports/
-post_language: en
 published: true
+post_language:
+  - en
 ---
 <!--:en--><p>We are aware of a number of issues with the file import from other divelog software. These problems are most visible with the Windows and Mac binaries, but a couple small issues affect even the Linux binaries or Subsurface when built from Source.</p>
 <p>Subsurface 3.0.1 (which addresses these issues and a couple more bugs that we found since the release) will be released in the next few days.</p><!--:--><!--:de--><p>Die Windows und Mac Versionen von Subsurface 3.0 haben beide Probleme beim Einlesen von Dateien von anderen Divelog Programmen. Ein paar kleinere Probleme betreffen auch die Linux Pakete oder versionen von Subsurface, die selber aus dem Quelltext kompiliert wurden.</p>

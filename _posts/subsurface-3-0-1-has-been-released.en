@@ -7,8 +7,9 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2013/02/subsurface-3-0-1-has-been-released/
-post_language: en
 published: true
+post_language:
+  - en
 ---
 <!--:en--><p>The Subsurface developer team is proud to announce the release of a small update of Subsurface.</p>
 <p>Here are some of the changes since the recently released Subsurface 3.0:<ul>

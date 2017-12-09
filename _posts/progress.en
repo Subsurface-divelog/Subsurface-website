@@ -7,8 +7,9 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2011/10/progress/
-post_language: en
 published: true
+post_language:
+  - en
 ---
 <!--:en--><p>Over the last few days subsurface has made quite a bit of progress. I haven't had a chance to update the binaries so you'll need to get it from git but I think we've come a long way.</p> 
 <p>Input of dive information is hugely improved - Location, Buddy and Dive Master now all have drop down menus but more importantly they search through existing entries by default as you start typing. That's a much nicer interface.</p>

@@ -7,8 +7,9 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2014/02/google-summer-of-code-2014/
-post_language: en
 published: true
+post_language:
+  - en
 ---
 <a href="http://www.google-melange.com/gsoc/org2/google/gsoc2014/subsurface"><img class="aligncenter size-medium wp-image-983" alt="GSoC-2014" src="https://subsurface-divelog.org/wp-content/uploads/2014/02/GoogleSummer_2014logo_avatar-300x300.png" width="300" height="300" /></a>
 For the first time Subsurface has been accepted into the GSoC2014! Check out our <a href="https://github.com/Subsurface-divelog/subsurface/issues/wiki/Subsurface_GSOC_2014_Idea_List">Idea List</a> or come up with your own project. We're looking forward to many student proposals!

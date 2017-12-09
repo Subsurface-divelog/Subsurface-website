@@ -7,7 +7,6 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2012/09/towards-subsurface-2-0/
-post_language: en
 published: true
 ---
 <!--:en-->After a rather long break since the last official version we would like to release Subsurface 2.0 later this month. In preparation for that we'd like to make sure that the code gets a fair bit of testing before then (and that we get ready with the other pieces of the puzzle, too).

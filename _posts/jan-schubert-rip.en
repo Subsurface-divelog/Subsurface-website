@@ -1,14 +1,15 @@
 ---
 ID: 614
-post_title: '<!--:en-->Jan Schubert -- RIP<!--:--><!--:de-->Jan Schubert -- Ruhe in Frieden<!--:--><!--:fr-->Jan Schubert -- RIP<!--:--><!--:es-->Jan Schubert -- RIP<!--:--><!--:pl-->Jan Schubert -- RIP<!--:-->'
+post_title: '<!--:en-->Jan Schubert &#8212; RIP<!--:--><!--:de-->Jan Schubert &#8212; Ruhe in Frieden<!--:--><!--:fr-->Jan Schubert &#8212; RIP<!--:--><!--:es-->Jan Schubert &#8212; RIP<!--:--><!--:pl-->Jan Schubert &#8212; RIP<!--:-->'
 author: hohndel
 post_date: 2013-03-31 13:14:28
 post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2013/03/jan-schubert-rip/
-post_language: en
 published: true
+post_language:
+  - en
 ---
 <!--:en-->It is with great sadness that we say a final "Tschüss" to one of our most active and engaging developers. Without Jan, Subsurface would not support the needs of technical divers the way it does today.
 

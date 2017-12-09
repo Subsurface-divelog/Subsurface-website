@@ -7,8 +7,9 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2013/04/new-shearwater-petrel-firmware-released/
-post_language: en
 published: true
+post_language:
+  - en
 ---
 <!--:en-->Shearwater Research just informed us that they have release V12 of the Petrel Firmware. You can find it at their <a href="http://www.shearwaterresearch.com/downloads/petrel-firmware-downloads/">download site</a>.
 

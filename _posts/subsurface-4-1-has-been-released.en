@@ -7,7 +7,6 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2014/05/subsurface-4-1-has-been-released/
-post_language: en
 published: true
 ---
 The Subsurface developer team is proud to announce the release of the next version of Subsurface. Version 4.1 is a nice visual update from 4.0. The code for the profile has been completely rewritten with animation effects, a significantly improved info overlay and much smarter redraw logic. We also added a toolbar to the main window that easily allows the user to turn on and off many of options for the profile without having to open the preferences window. Here are some of the other highlights:

@@ -7,7 +7,6 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2014/11/subsurface-4-2-1-windows-only/
-post_language: en
 published: true
 ---
 <p>Turns out the initial binaries for Subsurface 4.2 didn't include one library that is necessary to download dives from the Atomics Aquatics Cobalt and Cobalt 2. I had sent one-off test binaries to a number of users who reported the issue and now I finally got around to update the official installers.</p>

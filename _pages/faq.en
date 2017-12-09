@@ -199,8 +199,8 @@ If you intentionally made specific changes to the templates, re-edit the templat
 For most users who never edited the templates, however, the easiest fix is to just delete the local copies.
 
 For macOS,In a terminal window execute
-<code>mv ~/Library/Application\ Support/Subsurface/printing_templates 
-     ~/Library/Application\ Support/Subsurface/printing_templates.bak
+<code>mv ~/Library/Application Support/Subsurface/printing_templates 
+     ~/Library/Application Support/Subsurface/printing_templates.bak
 </code>
 
 For Linux,

@@ -9,7 +9,6 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2014/12/using-the-daily-binaries-on-debian-jessie/
-post_language: en
 published: true
 ---
 <!--:en--><p>While it's pretty much a lost cause to build a current version of Subsurface on Debian Wheezy (the current "stable" as of this writing), it turns out that it's reasonably easy to install our "daily build" on Debian Jessie (and the same should be true for Sid).</p>

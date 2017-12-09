@@ -7,8 +7,9 @@ post_excerpt: ""
 layout: post
 permalink: >
   https://subsurface-divelog.org/2013/03/known-issue-with-measured-po2-reported-by-some-ccr-dive-computers/
-post_language: en
 published: true
+post_language:
+  - en
 ---
 <!--:en-->While this won't affect the majority of our users, for those diving rebreathers with connected dive computers that measure and report pO2 during the dive (e.g. Shearwater Predator and Petrel): there is a bug in the way we store the pO2 in our data files. This bug causes us to corrupt some of the pO2 values in our data file; this often creates odd spikes in the pO2 graph.
 
