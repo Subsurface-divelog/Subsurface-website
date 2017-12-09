@@ -1,6 +1,7 @@
 ---
 ID: 3846
-post_title: Anuncio de Subsurface 4.7.5
+post_title: >
+  Anuncio de Subsurface 4.7.5
 author: hohndel
 post_excerpt: ""
 layout: post
