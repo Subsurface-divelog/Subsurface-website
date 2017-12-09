@@ -1,8 +1,7 @@
 ---
 ID: 3872
 post_title: >
-  Announcing Subsurface-mobile 2.0.1 for
-  Android and iOS
+  Announcing Subsurface-mobile 2.0.1 for Android and iOS
 author: hohndel
 post_excerpt: ""
 layout: post
