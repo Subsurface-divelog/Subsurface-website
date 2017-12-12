@@ -21,23 +21,24 @@ published: true
 [s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] is a Mac image that can be installed on 64bit Intel Macs running MacOS 10.9 or later by dragging the Subsurface.app to your <tt>/Applications</tt> folder.
 <h2>Linux</h2>
 The Subsurface team is making our own dedicated binaries available for a number of Linux versions as well as a generic "AppImage" that should work on most any Linux distribution.
-<h2>Ubuntu (14.04, 15.10, 16.04, 16.10), LinuxMint (17, 18), and Debian Jessie</h2>
+<h2>Ubuntu (14.04 - only up to Subsurface 4.6.4, 16.04, 16.10 (up to 4.6.4), and 17.04), LinuxMint (17 (up to 4.6.4) and 18), and Debian Jessie (up to 4.6.4) and Stretch</h2>
 To use these binaries in Ubuntu, simply add the following PPA to your system:
 <pre><code>ppa:subsurface/subsurface</code></pre>
 On LinuxMint you have to add this on the command line and explicitly request the PPA version of Subsurface, otherwise the outdated Subsurface 4.0 would have been installed:
 <pre><code>sudo apt-add-repository ppa:subsurface/subsurface
 sudo apt-get update
-sudo apt-get install subsurface=[s-var slug="latest"]-1~trusty</code></pre>
+sudo apt-get install subsurface=[s-var slug="latest"]-1~xenial</code></pre>
 For Debian Jessie you need to add the Ubuntu repository:
-<pre><code>echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main" 
+<pre><code>echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu xenial main" 
         | sudo tee /etc/apt/sources.list.d/subsurface.list
 gpg --keyserver subkeys.pgp.net --recv-keys A8BC9756EE61D9C6
 gpg -a --export A8BC9756EE61D9C6 | sudo apt-key add -
 sudo apt-get update</code></pre>
+For distributions who only support the older Subsurface version replace <code>xenial</code> with <code>trusty</code>.
 Now you can install Subsurface from that repository:
 <pre><code>sudo apt-get install subsurface</code></pre>
 Make sure you are getting a current version with all its Qt5 dependencies.
-<h2>OpenSUSE 13.1, 13.2, Leap 42.1, Leap 42.2, Tumbleweed and Fedora 22, 23, 24, 25</h2>
+<h2>OpenSUSE Leap 42.1, Leap 42.2, Leap 42.3, Tumbleweed and Fedora 24, 25, 26, 27</h2>
 To install the official Subsurface package under these OpenSUSE or Fedora versions, go to <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">our build service project page</a> and follow the simple instructions there - it's as easy as two clicks.
 <h2>All other 64bit Linux versions</h2>
 A generic AppImage is available for download as [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"]. You should be able to download this file, make it executable <code>chmod +x [s-var slug="appimage"]</code> and then simply run this file. We are very interested in feedback regarding this way of distributing Linux binaries.

@@ -21,15 +21,15 @@ published: true
 [s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] этот образ можно установить на 64-битные Mac Intel системы под управлением MacOS 10.9 и старше, просто перетащив Subsurface.app в папку&nbsp;<code>/Applications</code>.
 <h2>Linux</h2>
 Команда Subsurface подготовила собственные бинарные сборки для некоторых Linux-дистрибутивов, а также сборку "AppImage", которая должна работать практически в любом Linux-дстрибутиве.
-<h2>Ubuntu (14.04, 15.10, 16.04, 16/10), LinuxMint (17, 18) и Debian Jessie</h2>
+<h2>Ubuntu (14.04 (4.6.4), 16.04, 16.10 (4.6.4), 17.04), LinuxMint (17 (4.6.4), 18) и Debian Jessie (4.6.4), Stretch</h2>
 Для использования бинарных сборок в Ubuntu, просто добавьте следующий PPA-репозиторий в систему:
 <pre><code>ppa:subsurface/subsurface</code></pre>
 В LinuxMint вам придется добавить его из командной строки и явно указать версию Subsurface, иначе будет установлена устаревшая версия Subsurface 4.0:
 <pre><code>sudo apt-add-repository ppa:subsurface/subsurface
 sudo apt-get update
-sudo apt-get install subsurface=[s-var slug="latest"]-1~trusty</code></pre>
+sudo apt-get install subsurface=[s-var slug="latest"]-1~xenial</code></pre>
 В Debian Jessie вам необходимо добавить репозиторий Ubuntu:
-<pre><code>echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main" 
+<pre><code>echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu xenial main" 
         | sudo tee /etc/apt/sources.list.d/subsurface.list
 gpg --keyserver subkeys.pgp.net --recv-keys A8BC9756EE61D9C6
 gpg -a --export A8BC9756EE61D9C6 | sudo apt-key add -
@@ -37,7 +37,7 @@ sudo apt-get update</code></pre>
 После чего вы сможете установить Subsurface из этого репозитория:
 <pre><code>sudo apt-get install subsurface</code></pre>
 Убедитесь, что вы устанавливаете последнюю версию со всеми зависимостями Qt5.
-<h2>OpenSUSE 13.1, 13.2, Leap 42.1, Tumbleweed и Fedora 22, 23, 24, 25</h2>
+<h2>OpenSUSE Leap 42.1, Leap 42.2, Leap 42.3, Tumbleweed и Fedora 24, 25, 26, 27</h2>
 Чтобы установить официальный пакет Subsurface в указанных версиях OpenSUSE или Fedora, перейдите на страницу <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">нашего сервиса сборки</a> и следуйте простым инструкциям, это так же просто, как два щелчка мыши.
 <h2>Другие 64-битные версии Linux</h2>
 Универсальный AppImage доступен для загрузи [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"]. Вам достаточно скачать этот файл себе, слелать его исполняемым <code>chmod +x [s-var slug="appimage"]</code> и затем просто выполнить его. Мы будем благодарны за обратную связь касательно такого способа распространения Subsurface.

@@ -26,9 +26,9 @@ Per usare questi binari in Ubuntu, bisogna aggiungere il PPA al sistema:</p>
 <p>Sembra che su LinuxMint si debba richiedere esplicitamente la versione di Subsurface dal PPA, o si ottiene quella più vecchia dai repository ufficiali. Quindi i passi necessari sono:</p>
 <pre><code>sudo apt-add-repository ppa:subsurface/subsurface
 sudo apt-get update
-sudo apt-get install subsurface=[s-var slug="latest"]-1~trusty</code></pre>
+sudo apt-get install subsurface=[s-var slug="latest"]-1~xenial</code></pre>
 <p>Per Debian Jesse è necessario aggiungere i repository Ubuntu:</p>
-<pre><code style="font-size: 10px;">echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu trusty main" 
+<pre><code style="font-size: 10px;">echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu xenial main" 
         | sudo tee /etc/apt/sources.lists.d/subsurface.list
 gpg --keyserver subkeys.pgp.net --recv-keys A8BC9756EE61D9C6
 gpg -a --export A8BC9756EE61D9C6 | sudo apt-key add -
