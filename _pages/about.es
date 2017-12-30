@@ -15,7 +15,7 @@ published: true
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
 <h2>Acabamos de lanzar nuestra última versión</h2>
-Por favor, visita <a href="https://subsurface-divelog.org/es/2017/12/announcing-subsurface-4-7-5/">el anuncio de Subsurface 4.7.5</a>.
+Por favor, visita <a href="https://subsurface-divelog.org/es/2017/12/announcing-subsurface-4-7-6/">el anuncio de Subsurface 4.7.6</a>.
 
 [/et_pb_text][et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
 
