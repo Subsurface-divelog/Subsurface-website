@@ -18,7 +18,7 @@ published: true
 <h2>Windows</h2>
 [s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] jest programem 64bitowym, testowanym zarówno na 32/64 bitowych wersjach Windows, w tym Windows XP, Windows 8 i Windows 10.<p></p>
 <h2>Mac</h2>
-[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] może być zainstalowany na komputerach Mac z procesorami Intel 64bit działającymi pod kontrolą&nbsp; MacOS 10.7 lub nowszym poprzez przeciągniecie Subsurface.app do katalogu <code>/Applications</code>.<p></p>
+[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] może być zainstalowany na komputerach Mac z procesorami Intel 64bit działającymi pod kontrolą&nbsp; MacOS 10.10 lub nowszym poprzez przeciągniecie Subsurface.app do katalogu <code>/Applications</code>.<p></p>
 <h2>Linux</h2>
 <p>Od pewnego czasu dostarczamy oficjalne pakiety Subsurface dla kilku dystrybucji Linuksa:</p>
 <h2>Ubuntu (14.04 - only up to Subsurface 4.6.4, 16.04, 16.10 (up to 4.6.4), and 17.04), LinuxMint (17 (up to 4.6.4) and 18), and Debian Jessie (up to 4.6.4) and Stretch</h2>

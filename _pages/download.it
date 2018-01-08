@@ -18,7 +18,7 @@ published: true
 <h2>Windows</h2>
 [s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] è una versione a 32/64bit che è stata provata su diverse versioni di Windows, tra cui Windows 7, Windows 8 e Windows 10.<p></p>
 <h2>Mac</h2>
-[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] è una immagine Mac che può essere installata su Mac Intel a 64bit con MacOS 10.7 o successivo , copiando Subsurface.app nella cartella <code>/Applications</code>.<p></p>
+[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] è una immagine Mac che può essere installata su Mac Intel a 64bit con MacOS 10.10 o successivo , copiando Subsurface.app nella cartella <code>/Applications</code>.<p></p>
 <h2>Linux</h2>
 <p>Il team di Subsurface mette a disposizione binari precompilati per alcune distribuzioni Linux. Al momento sono disponibili per Ubuntu (14.04, 15.04, 15.10 e 16.04), LinuxMint (17), e Debian Jessie.<br>
 Per usare questi binari in Ubuntu, bisogna aggiungere il PPA al sistema:</p>

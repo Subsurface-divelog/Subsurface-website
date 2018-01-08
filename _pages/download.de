@@ -18,7 +18,7 @@ published: true
 <h2>Windows</h2>
 [s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] ist ein ausführbares Programm für das Windows Betriebssystem, das unter verschiedenen 32- und 64-bit Windows Versionen getestet ist.<p></p>
 <h2>Mac</h2>
-[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] ist eine Image-Datei für 64-bit Intel Macs unter MacOS 10.9 oder neuer; ein Doppelklick auf diese Datei öffnet den Datenträger. Das dadurch sichtbar werdende Programm "Subsurface.app" kann installiert werden, indem es auf den <code>/Programme</code> Ordner gezogen wird.<p></p>
+[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] ist eine Image-Datei für 64-bit Intel Macs unter MacOS 10.10 oder neuer; ein Doppelklick auf diese Datei öffnet den Datenträger. Das dadurch sichtbar werdende Programm "Subsurface.app" kann installiert werden, indem es auf den <code>/Programme</code> Ordner gezogen wird.<p></p>
 <h2>Linux</h2>
 Das Subsurface Team stellt seine eigenen Binaries für verschiedene Linux Versionen zur Verfügung.
 <h2>Ubuntu (14.04 - nur bis Subsurface 4.6.4, 16.04, 16.10 (bis 4.6.4) und 17.04), LinuxMint (17 (bis 4.6.4) und 18) und Debian Jessie (bis 4.6.4) und Stretch</h2>

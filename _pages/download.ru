@@ -18,7 +18,7 @@ published: true
 <h2>Windows</h2>
 [s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] был протестирован на различных версиях 32 и 64-битных систем, включая Windows 7, Windows 8 и Windows 10.
 <h2>Mac</h2>
-[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] этот образ можно установить на 64-битные Mac Intel системы под управлением MacOS 10.9 и старше, просто перетащив Subsurface.app в папку&nbsp;<code>/Applications</code>.
+[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] этот образ можно установить на 64-битные Mac Intel системы под управлением MacOS 10.10 и старше, просто перетащив Subsurface.app в папку&nbsp;<code>/Applications</code>.
 <h2>Linux</h2>
 Команда Subsurface подготовила собственные бинарные сборки для некоторых Linux-дистрибутивов, а также сборку "AppImage", которая должна работать практически в любом Linux-дстрибутиве.
 <h2>Ubuntu (14.04 (4.6.4), 16.04, 16.10 (4.6.4), 17.04), LinuxMint (17 (4.6.4), 18) и Debian Jessie (4.6.4), Stretch</h2>

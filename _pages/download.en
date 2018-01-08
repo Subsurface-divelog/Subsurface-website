@@ -18,7 +18,7 @@ published: true
 <h2>Windows</h2>
 [s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] has been tested on a number of 32 and 64 bit versions of Windows, including Windows 7, Windows 8 and Windows 10.
 <h2>Mac</h2>
-[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] is a Mac image that can be installed on 64bit Intel Macs running MacOS 10.9 or later by dragging the Subsurface.app to your <tt>/Applications</tt> folder.
+[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] is a Mac image that can be installed on 64bit Intel Macs running MacOS 10.10 or later by dragging the Subsurface.app to your <tt>/Applications</tt> folder.
 <h2>Linux</h2>
 The Subsurface team is making our own dedicated binaries available for a number of Linux versions as well as a generic "AppImage" that should work on most any Linux distribution.
 <h2>Ubuntu (14.04 - only up to Subsurface 4.6.4, 16.04, 16.10 (up to 4.6.4), and 17.04), LinuxMint (17 (up to 4.6.4) and 18), and Debian Jessie (up to 4.6.4) and Stretch</h2>

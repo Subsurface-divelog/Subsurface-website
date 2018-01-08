@@ -18,7 +18,7 @@ published: true
 <h2>Windows</h2>
 [s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] is getest op diverse 32 en 64 bit versies van Windows, waaronder Windows 7, Windows 8 en Windows 10.
 <h2>Mac</h2>
-[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] is een Mac image die ge&iuml;nstalleerd kan worden op 64 bit Intel Macs draaiend onder MacOS 10.9 of later. Sleep de Subsurface.app naar je <tt>/Applications</tt> map.
+[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] is een Mac image die ge&iuml;nstalleerd kan worden op 64 bit Intel Macs draaiend onder MacOS 10.10 of later. Sleep de Subsurface.app naar je <tt>/Applications</tt> map.
 <h2>Linux</h2>
 Het Subsurface team maakt zelf een aantal installaties voor diverse Linux versies. Daarnaast is er een generieke "AppImage" die werkt op vrijwel alle Linux distributies.
 <h2>Ubuntu (14.04 - only up to Subsurface 4.6.4, 16.04, 16.10 (up to 4.6.4), and 17.04), LinuxMint (17 (up to 4.6.4) and 18), and Debian Jessie (up to 4.6.4) and Stretch</h2>

@@ -18,7 +18,7 @@ published: true
 <h2>Windows</h2>
 [s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] é a versão oficial para as versões 32/64bits do Windows (Windows 7, Windows 8 e Windows 10).
 <h2>Mac</h2>
-[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] é a aplicação para máquinas Intel Mac 64 bits, que corram a versão MacOS 10.7 ou superior. Pode ser instalado por arrasto de Subsurface.app para a sua pasta local <code>/Applications</code>.
+[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] é a aplicação para máquinas Intel Mac 64 bits, que corram a versão MacOS 10.10 ou superior. Pode ser instalado por arrasto de Subsurface.app para a sua pasta local <code>/Applications</code>.
 <h2>Linux</h2>
 A equipa começou a disponibilizar binários próprios para algumas das distribuições de Linux.
 <h2>Ubuntu (14.04 - only up to Subsurface 4.6.4, 16.04, 16.10 (up to 4.6.4), and 17.04), LinuxMint (17 (up to 4.6.4) and 18), and Debian Jessie (up to 4.6.4) and Stretch</h2>

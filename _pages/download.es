@@ -18,7 +18,7 @@ published: true
 <h2>Windows</h2>
 [s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] es un archivo binario de 64 bits que ha sido probado en varias versiones de 64 bits de Windows, entre ellas Windows 7, Windows 8 y Windows 10.
 <h2>Mac</h2>
-[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] es una imagen Mac que puede instalarse en Macs Intel de 64 bits bajo MacOs 10.7 o posterior, arrastrando Subsurface.app a tu carpeta <code>/Applications</code> .
+[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] es una imagen Mac que puede instalarse en Macs Intel de 64 bits bajo MacOs 10.10 o posterior, arrastrando Subsurface.app a tu carpeta <code>/Applications</code> .
 <h2>Linux</h2>
 El equipo de Subsurface estamos empezando a hacer disponibles nuestros propios binarios para varias versiones de Linux y también una "AppImage" genérica que debería funcionar en la mayoría de distribuciones.
 <h2>Ubuntu (14.04, 15.04, 15.10 y 16.04), LinuxMint (17, 18), y Debian Jessie</h2>
