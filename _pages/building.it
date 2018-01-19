@@ -13,7 +13,7 @@ published: true
 
 <p><b>These instructions need to be updated for Subsurface [s-var slug="latest"]. Please look at the <a href="https://subsurface-divelog.org/en/documentation/building/">English version of this page</a></b></p>
 <p>Licenza: GPLv2</p>
-<p>È possibile ottenere i sorgenti della versione attualmente in sviluppo dal nostro <a href="http://git.subsurface-divelog.org/index.cgi?p=subsurface.git;a=summary">repository git</a> oppure scaricare <a href="https://subsurface-divelog.org/downloads/Subsurface-4.2.tgz">Subsurface-4.2.tgz</a> dal nostro sito.</p>
+<p>È possibile ottenere i sorgenti della versione attualmente in sviluppo dal nostro <a href="http://github.com/Subsurface-divelog/subsurface">repository git</a> oppure scaricare <a href="https://subsurface-divelog.org/downloads/Subsurface-4.2.tgz">Subsurface-4.2.tgz</a> dal nostro sito.</p>
 <p>Subsurface usa alcune librerie e framework open source. I più importanti sono libdivecomputer, Qt4 o Qt5, Marble ( libmarble), libxml2, libxslt, libsqlite3, e libzip.</p>
 <p>Qui ci sono le istruzioni per compilare Subsurface su alcune distribuzioni Linux, per compilare usando Homebrew su Mac, e per cross-compilare per Windows. L'assenza di un gestore di paccketti nativo per Windows rende difficile compilare nativamente su Windows; abbiamo solo dei suggerimenti su come fare, nel file INSTALL incluso nei sorgenti.</p>
 <h2>Opzioni di compilazione</h2>

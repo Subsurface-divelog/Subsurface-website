@@ -23,10 +23,8 @@ Subsurface gebruikt een aantal (open source) bibliotheken en framewerken. De bel
 
 Hieronder staan instructies om Subsurface zelf te compileren op een aantal populaire Linux distributies, compileren met behulp van Homebrew op een Mac, en voor cross-compilatie van Subsurface voor Windows. Het bouwen van Subsurface onder Windows wordt niet ondersteund. Het gebrek aan een werkend  package management systeem maakt het te moeizaam.
 
-Alle door ons gebouwde versies van Subsurface (nu Windows, Mac, Ubuntu/Debian/LinuxMint, and openSUSE/Fedora) gebruiken onze eigen versies van libdivecomputer en libmarblewidget. Deze zijn beschikbaar via de Subsurface git server:
-<pre><code>git://git.subsurface-divelog.org/marble (in de Subsurface-branch branch)
-git://git.subsurface-divelog.org/libdc (in de Subsurface-branch branch)</code></pre>
-Subsurface vereist Qt5, Qt5.4 of nieuwer wordt aangeraden op de Mac. Voor Bluetooth ondersteuning Qt5.5 is vereist.
+Alle door ons gebouwde versies van Subsurface (nu Windows, Mac, Ubuntu/Debian/LinuxMint, and openSUSE/Fedora) gebruiken onze eigen versies van libdivecomputer. Deze zijn beschikbaar via de GitHub git server.
+Subsurface vereist Qt5, Qt5.8 of nieuwer wordt aangeraden op de Mac. Voor Bluetooth ondersteuning Qt5.5 is vereist.
 
 Daarnaast, om onze cloudsopslag volledig te kunnen laten werken is libgit2 0.23 of nieuwer noodzakelijk.
 

@@ -24,10 +24,8 @@ Subsurface uses a few open source libraries and frameworks to do its job. The mo
 Below are instructions for building Subsurface under some popular Linux distributions, for building Subsurface using Homebrew on a Mac, and for cross-building Subsurface for Windows. The lack of a working package management system for Windows makes it really painful to build Subsurface natively under Windows, so we don't support that at all.
 
 All of the prebuilt binaries that we provide (right now Windows, Mac, Ubuntu/Debian/LinuxMint, and openSUSE/Fedora) are built using our own
-custom "flavors" of libdivecomputer and libmarblewidget. You can get these from the Subsurface git server as
-<pre><code>git://git.subsurface-divelog.org/marble (in the Subsurface-branch branch)
-git://git.subsurface-divelog.org/libdc (in the Subsurface-branch branch)</code></pre>
-Subsurface requires Qt5, Qt5.4 or newer is recommended and on the Mac, in order to get native Bluetooth support, Qt5.5 is necessary.
+custom "flavor" of libdivecomputer. The sources for this are included as git submodule in the Subsurface sources.
+Subsurface requires Qt5, Qt5.8 or newer is recommended and on the Mac, in order to get native Bluetooth support, Qt5.5 is necessary.
 
 Similarly, in order for our cloud storage to be fully functional you need libgit2 0.23 or newer.
 

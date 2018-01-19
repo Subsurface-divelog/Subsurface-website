@@ -43,6 +43,6 @@ Para instalar o pacote oficial do Subsurface em OpenSUSE ou também Fedora, cons
 <h2>Pacotes obsoletos mantidos pelas distribuições</h2>
 Muitas distribuições de Linux permitem a instalação do Subsurface por mecanismos próprios. Apesar de conviniente, estas versões acabam sempre por estar desactualizadas e não usam as versões de bibliotecas privadas mantidas internamente. Por esta razão recomendamos instalar directamente as versões oficiais do Subsurface.
 <h2>Código fonte</h2>
-O código fonte está disponível via <a href="http://git.subsurface-divelog.org/index.cgi?p=subsurface.git;a=summary">git</a> ou em alternativa num pacote <i>release tar-ball</i> [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"]. Código fonte de diversos componentes com licenças GPL e LGPL, incluído nos binários Mac e Windows, pode ser encontrado em <a href="http://www.macports.org/">MacPorts</a> e <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.
+O código fonte está disponível via <a href="http://github.com/Subsurface-divelog/subsurface">git</a> ou em alternativa num pacote <i>release tar-ball</i> [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"]. Código fonte de diversos componentes com licenças GPL e LGPL, incluído nos binários Mac e Windows, pode ser encontrado em <a href="http://www.macports.org/">MacPorts</a> e <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

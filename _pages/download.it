@@ -38,7 +38,7 @@ sudo apt-get update</code></pre>
 <p>Assicurarsi di avere una versione aggiornata delle librerie Qt5.</p>
 <p>In aggiunta, molte distribuzioni consentono l'installazione di Subsurface direttamente dai repository principali. Nonostante questo sia molto comodo, le versioni presenti sono spesso poco aggiornate e non utilizzano le versioni modificate di alcune librerie importanti per Subsurface; quindi i pacchetti ufficiali (ottenuti da questo sito) dovrebbero essere una scelta migliore.</p>
 <h2>Sorgenti</h2>
-<p>I sorgenti sono disponibili via <a href="http://git.subsurface-divelog.org/index.cgi?p=subsurface.git;a=summary">git</a> o sotto forma di release tarball [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] I sorgenti dei componenti sotto licenza GPL e LGPL forniti nei file binari Windows e Mac sono disponibili in <a href="http://www.macports.org/">MacPorts</a> e <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.</p>
+<p>I sorgenti sono disponibili via <a href="http://github.com/Subsurface-divelog/subsurface">git</a> o sotto forma di release tarball [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] I sorgenti dei componenti sotto licenza GPL e LGPL forniti nei file binari Windows e Mac sono disponibili in <a href="http://www.macports.org/">MacPorts</a> e <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.</p>
 <p></p>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

@@ -42,7 +42,7 @@ sudo apt-get update</code></pre>
 <h2>Nieaktualne wersje pakietów</h2>
 <p>Kilka dystrybucji Linuksa umożliwia zainstalowanie Subsurface&nbsp; ze swoich&nbsp; systemowych repozytoriów. Jest to wygodne, ale prowadzi często do zainstalowania nieaktualnej wersji oprogramowania. Ponadto zdarza się, że te pakiety są budowane bez dołączania naszych prywatnych wersji kilku bibliotek kluczowych dla działania Subsurface. Oficjalne pakiety Subsurface - w miarę jak je udostępniamy&nbsp; - z reguły są dużo lepszym wyborem.</p>
 <h2>Kod źródłowy</h2>
-<p>kod źródłowy jest oczywiście dostępny poprzez <a href="http://git.subsurface-divelog.org/index.cgi?p=subsurface.git;a=summary">git</a> oraz jako&nbsp; tar-ball [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] Źródła komponentów na licencjach GPL and LGPL dostarczanych z binarkami dla Mac i&nbsp; Windows można znaleźć na <a href="http://www.macports.org/">MacPorts</a> i na <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.</p>
+<p>kod źródłowy jest oczywiście dostępny poprzez <a href="http://github.com/Subsurface-divelog/subsurface">git</a> oraz jako&nbsp; tar-ball [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] Źródła komponentów na licencjach GPL and LGPL dostarczanych z binarkami dla Mac i&nbsp; Windows można znaleźć na <a href="http://www.macports.org/">MacPorts</a> i na <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.</p>
 <p></p>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

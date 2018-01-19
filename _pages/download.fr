@@ -51,6 +51,6 @@ A generic AppImage is available for download as [s-var slug="appimageurl"][s-var
 </h2><h2>Paquets maintenus par les distributions obsolètes</h2>
 <p>Plusieurs distributions Linux permettent d'installer Subsurface à partir de l'OS. C'est pratique mais les versions offertes sont obsolètes et ne sont pas compilées avec nos propres bibliothèques, donc les paquets officiels de Subsurface (tels qu'ils sont disponibles à présent) devraient être un bien meilleur choix.</p>
 <h2>Sources</h2>
-<p>Les sources de Subsurface sont bien sûr disponibles via <a href="http://git.subsurface-divelog.org/index.cgi?p=subsurface.git;a=summary">git</a> ou sous forme d'une archive : [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] Les sources des composants GPL et LGPL incluses dans les binaires pour Windows et Mac OS peuvent être trouvées via <a href="http://www.macports.org/">MacPorts</a> et <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.</p>
+<p>Les sources de Subsurface sont bien sûr disponibles via <a href="http://github.com/Subsurface-divelog.org/subsurface">git</a> ou sous forme d'une archive : [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"] Les sources des composants GPL et LGPL incluses dans les binaires pour Windows et Mac OS peuvent être trouvées via <a href="http://www.macports.org/">MacPorts</a> et <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.</p>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

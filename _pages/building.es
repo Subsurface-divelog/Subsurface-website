@@ -19,10 +19,8 @@ Subsurface utiliza algunas librerías y entornos de código abierto para hacer s
 
 A continuación, se proporcionan instrucciones para compilar Subsurface en algunas distribuciones populares de Linux, para compilarlo en un Mac utilizando Homebrew, y para hacer compilación cruzada para Windows. La falta de un sistema de paquetes para Windows hace que sea realmente difícil compilar Subsurface nativamente en este SO; simplemente no tenemos la capacidad para soportarlo.
 
-Todos los binarios precompilados que proporcionamos (actualmente, Windows, Mac, Ubuntu/Debian/LinuxMint and OpenSUSE/Fedora) se han construido usando nuestros propios "sabores" de libdivecomputer y libmarblewidget. Puedes obtenerlos del servidor git de Subsurface
-<pre><code>git://git.subsurface-divelog.org/marble (in the Subsurface-branch branch)
-git://git.subsurface-divelog.org/libdc (in the Subsurface-branch branch)</code></pre>
-Subsurface necesita Qt5, en Mac se recomienda Qt5.4 o posterior, para poder tener Bluetooth nativo es necesario Qt5.5.
+Todos los binarios precompilados que proporcionamos (actualmente, Windows, Mac, Ubuntu/Debian/LinuxMint and OpenSUSE/Fedora) se han construido usando nuestros propios "sabores" de libdivecomputer. Puedes obtenerlos del servidor git de Subsurface.
+Subsurface necesita Qt5, en Mac se recomienda Qt5.8 o posterior, para poder tener Bluetooth nativo es necesario Qt5.5.
 
 De igual forma, para poder tener nuestro almacenamiento en la nube completamente funcional, se necesita libgit2 0.23 o posterior.
 
