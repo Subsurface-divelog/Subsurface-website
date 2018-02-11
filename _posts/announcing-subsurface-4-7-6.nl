@@ -33,8 +33,6 @@ De belangrijkste wijzigingen sinds Subsurface 4.7.5:
 
 [/et_pb_text][et_pb_text _builder_version="3.0.78" background_layout="light" border_style="solid"]
 
-Binaries are available for Windows, Mac, and an AppImage for x86-64 Linux (plus distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE).
-
 De software is beschikbaar voor Windows, Mac, en een AppImage voor Linux (en daarnaast distributie specifieke software voor een aantal Linux smaken waaronder Ubuntu, Debian, Linux Mint, Fedora, and openSUSE).
 
 Je kunt Subsurface 4.7.6 ophalen van de volgende locaties:

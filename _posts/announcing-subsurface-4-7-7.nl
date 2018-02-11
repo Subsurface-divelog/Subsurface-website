@@ -1,6 +1,6 @@
 ---
 ID: 3937
-post_title: Announcing Subsurface 4.7.7
+post_title: Aankondiging Subsurface 4.7.7
 author: hohndel
 post_date: 2018-02-10 10:48:43
 post_excerpt: ""
@@ -13,54 +13,53 @@ post_language: nl
 ---
 [et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="off" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" parallax="on" background_color="rgba(255,255,255,0)" /][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
-The Subsurface development team proudly announces the release 4.7.7 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+Het Subsurface ontwikkelteam presenteert met trots versie 4.7.7 van Subsurface, een open source duiklog en duikplan programma beschikbaar voor Windows, Mac en Linux.
 
-This version brings a number of small bug-fixes and a couple of new features.
+Met deze versie worden een aantal kleine fouten verbeterd en enkele functionele wijzigingen aangebracht.
 
-Some of the changes in Subsurface 4.7.7:
-<li> Desktop: Fix bug that alters manually entered dive durations</li>
-<li> Dekstop: fix instability crashes in reverse geo lookup function</li>
-<li> Desktop: automatically sync with cloud when going online</li>
-<li> Desktop: fix missing icon when doing reverse geo lookup</li>
-<li> Desktop: fix bug about progress bars not resizing</li>
-<li> Desktop: fix a bug about dive list auto group when importing dives</li>
-<li> Desktop: clear tags when creating a new logbook</li>
-<li> Planner: implement ICD calculations in planner output</li>
-<li> Planner: recreational dives are now limited to 6 hours</li>
-<li> Planner: initialize cylinder start pressure with working pressure</li>
-<li> Planner: save the last manually-entered point of a dive plan</li>
-<li> Planner: fix bug in cylinder pressure lines</li>
-<li> Profile: fix garbled profiles after visiting the planner</li>
-<li> Profile: warn in case of isobaric counter diffusion if N2 increase is more than 20% of He decrease</li>
-<li> Cloud-storage: automatically sync with cloud when going online</li>
-<li> Cloud-storage: support non-https:// repositories for saving</li>
-<li> Cloud-storage: fix small memory leaks</li>
-<li> Cloud-storage: enter offline mode if sync with cloud failed</li>
-<li> Import: support parsing of DL7 dives</li>
-<li> Uemis: fix possible stall when doing dive sync</li>
-<li> Uemis: speed up synchronization of same dive sites</li>
-<li> Bluetooth: fix a bug when using remembered BT/BLE addresses in the dive computer download dialog</li>
-<li> Bluetooth: do not add duplicate BT/BLE items</li>
-<li> Fix potential download problem with Shearwater Predator</li>
-<li> Add support for Seac Jack</li>
-<li> Add support for Mares Quad Air</li>
+De belangrijkste wijzigingen sinds Subsurface 4.7.6:
+<li> Desktop: probleem opgelost bij het handmatig invoeren van de duiktijd</li>
+<li> Dekstop: onstabiliteit en crash opgelost bij reverse geo lookup functie</li>
+<li> Desktop: ontbrekend icoon bij reverse geo lookup functie toegevoegd</li>
+<li> Desktop: probleem van onjuiste maat van progress bars opgelost</li>
+<li> Desktop: probleem opgelost bij het importeren van duiken in relatie tot automatisch groeperen</li>
+<li> Desktop: maak ook het label veld leeg bij het aanmaken van een nieuw logboek</li>
+<li> Planner: implementeer isobaric counter diffusion (ICD) berekeningen in de planner</li>
+<li> Planner: recreatieve duiken kunnen nu maximaal 6 uur lang zijn</li>
+<li> Planner: initialiseer cilinder begindruk als de werkdruk</li>
+<li> Planner: bewaar ook het laatste handmatig ingevoerde punt van een duikplan</li>
+<li> Planner: repareer probleem in de cilinder druk grafiek</li>
+<li> Profile: repareer stukke profiel grafieken na bezoek aan de planner</li>
+<li> Profile: waarschuw in geval van isobaric counter diffusion (IDC) als N2 toename meer dan 20% van de He afname is</li>
+<li> Cloud-storage: synchroniseer de cloud opslag automatich bij online gaan</li>
+<li> Cloud-storage: ondersteun niet-https:// repositories voor opslag</li>
+<li> Cloud-storage: repareer kleine geheugen lekken</li>
+<li> Cloud-storage: ga naar offline mode als synchronisatie met cloud faalt</li>
+<li> Import: Ondersteuning voor DL7 formaat toegevoegd</li>
+<li> Uemis: repareer mogelijke eindeloze lus bij het synchroniseren van duiken</li>
+<li> Uemis: versnel synchronisatie van gelijke duiklocaties/li>
+<li> Bluetooth: probleem opgelost veroorzaakt door het gebruik van BT/BLE adressen uit de historie in het duikcomputer download scherm</li>
+<li> Bluetooth: dupliceer geen BT/BLE items</li>
+<li> Potentieel download probleem voor Shearwater Predator opgelost</li>
+<li> Ondersteuning voor Seac Jack toegevoegd</li>
+<li> Ondersteuning voor Mares Quad Air toegevoegd</li>
 
 [/et_pb_text][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
-Binaries are available for Windows, Mac, and an AppImage for x86-64 Linux (plus distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE).
+De software is beschikbaar voor Windows, Mac, en een AppImage voor Linux (en daarnaast distributie specifieke software voor een aantal Linux smaken waaronder Ubuntu, Debian, Linux Mint, Fedora, and openSUSE).
 
-You can get Subsurface 4.7.7 from these locations:
+Je kunt Subsurface 4.7.7 ophalen van de volgende locaties:
 
 <strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.7.7.exe">https://subsurface-divelog.org/downloads/subsurface-4.7.7.exe</a>
 
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.7.7.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.7.7.dmg</a>
- 
-<strong>Linux:</strong> A generic AppImage is available for download at the <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.7.7">Subsurface GitHub Release page</a>. Download <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.7.7/Subsurface-4.7.6-x86_64.AppImage">Subsurface-4.7.7-x86_64.AppImage</a>, make it executable
-<code>chmod +x Subsurface-4.7.7-x86_64.AppImage</code> and then simply run this file.
-<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
 
-<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
+<strong>Linux:</strong> Een generieke AppImage is beschikbaar als <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.7.7">Subsurface GitHub Release page</a>. Download <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.7.6/Subsurface-4.7.7-x86_64.AppImage">Subsurface-4.7.7-x86_64.AppImage</a>, en maak hem executable
+<code>chmod +x Subsurface-4.7.7-x86_64.AppImage</code> en voer deze file uit.
+<strong>Linux:Ubuntu: </strong>Voeg <code>ppa:subsurface/subsurface</code> toe aan je software bronnen; de .deb files in deze PPA kunnen ook op redelijk recente versies van <strong>Debian</strong> en <strong>LinuxMint</strong>; zie de <a href="https://subsurface-divelog.org/download/">Downloads</a> pagina en gebruik <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> om de laatste versie te downloaden.
 
-Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
+<strong>Linux:openSUSE / Fedora:</strong> ga naar onze <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release pagina</a>
+
+Post vragen of problemen op het <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> of rapporteer een fout in onze <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
