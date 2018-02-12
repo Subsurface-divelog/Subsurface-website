@@ -1,8 +1,6 @@
 ---
 ID: 3935
-post_title:
-  Ankündigung der Version 4.7.7 von
-  Subsurface
+post_title: ""
 author: hohndel
 post_date: 2018-02-10 10:39:17
 post_excerpt: ""
@@ -13,9 +11,9 @@ published: true
 category: Neuigkeiten
 post_language: de
 ---
-[et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="off" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" parallax="on" background_color="rgba(255,255,255,0)" /][et_pb_text _builder_version="3.0.92" background_layout="light"]
+[et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" parallax="on" background_color="rgba(255,255,255,0)" /][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
-Das Subsurfe-Entwicklingsteam ist stolz, die Version 4.7.1 von Subsurface anzuk&uuml;ndigen, ein Open-Source Tauchlogbuch und -Planungsprogramm f&uuml;r Windows, Mac und Linux.
+Das Subsurfe-Entwicklingsteam ist stolz, die Version 4.7.7 von Subsurface anzukündigen, ein Open-Source Tauchlogbuch und -Planungsprogramm für Windows, Mac und Linux.
 
 Diese Version behebt eine Reihe kleiner Fehler und bringt ausserdem ein paar neu Features.
 
@@ -56,7 +54,7 @@ Du kannst Subsurface 4.7.7 hier finden:
 
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.7.7.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.7.7.dmg</a>
 
-<strong>Linux:</strong> Ein generisches AppImage ist auf unserer <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.7.7">Subsurface GitHub Release Seite</a> verf&uuml;gbar. Klicke auf <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.7.7/Subsurface-4.7.7-x86_64.AppImage">Subsurface-4.7.7-x86_64.AppImage</a>, um es herunterzuladen und mach es mittels
+<strong>Linux:</strong> Ein generisches AppImage ist auf unserer <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.7.7">Subsurface GitHub Release Seite</a> verfügbar. Klicke auf <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.7.7/Subsurface-4.7.7-x86_64.AppImage">Subsurface-4.7.7-x86_64.AppImage</a>, um es herunterzuladen und mach es mittels
 <code>chmod +x Subsurface-4.7.7-x86_64.AppImage</code> ausführbar. Nun kannst Du diese Datei direkt aufgerufen.
 
 <strong>Linux: Ubuntu: </strong>Trage <code>ppa:subsurface/subsurface</code> in Deine software sources ein; die .deb Datei in diesem PPA kann auf hinreichend aktuellen Versionen von <strong>Debian</strong> und <strong>LinuxMint</strong>installiert werden ; siehe die <a href="https://subsurface-divelog.org/download/">Programm herunterladen</a> Seite und <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> für die aktuelle Version.
