@@ -56,7 +56,7 @@ Du kannst Subsurface 4.7.7 hier finden:
 
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.7.7.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.7.7.dmg</a>
 
-<strong>Linux:</strong> Ein generisches AppImage ist auf unserer <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.7.7">Subsurface GitHub Release Seite</a> verf&uuml;gbar. Klicke auf <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.7.7/Subsurface-4.7.6-x86_64.AppImage">Subsurface-4.7.7-x86_64.AppImage</a>, um es herunterzuladen und mach es mittels
+<strong>Linux:</strong> Ein generisches AppImage ist auf unserer <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.7.7">Subsurface GitHub Release Seite</a> verf&uuml;gbar. Klicke auf <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.7.7/Subsurface-4.7.7-x86_64.AppImage">Subsurface-4.7.7-x86_64.AppImage</a>, um es herunterzuladen und mach es mittels
 <code>chmod +x Subsurface-4.7.7-x86_64.AppImage</code> ausführbar. Nun kannst Du diese Datei direkt aufgerufen.
 
 <strong>Linux: Ubuntu: </strong>Trage <code>ppa:subsurface/subsurface</code> in Deine software sources ein; die .deb Datei in diesem PPA kann auf hinreichend aktuellen Versionen von <strong>Debian</strong> und <strong>LinuxMint</strong>installiert werden ; siehe die <a href="https://subsurface-divelog.org/download/">Programm herunterladen</a> Seite und <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> für die aktuelle Version.
