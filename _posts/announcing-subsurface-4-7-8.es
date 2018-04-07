@@ -1,6 +1,6 @@
 ---
 ID: 3962
-post_title: Announcing Subsurface 4.7.8
+post_title: Anuncio de Subsurface 4.7.8
 author: hohndel
 post_date: 2018-04-05 13:12:21
 post_excerpt: ""
@@ -13,24 +13,24 @@ post_language: es
 ---
 [et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" parallax="on" background_color="rgba(255,255,255,0)" /][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
-The Subsurface development team proudly announces the release 4.7.8 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+El equipo de desarrollo de Subsurface se alegra de poder anunciar la versión  4.7.8 de Subsurface, un programa de código abierto de registro y planificación de inmersiones para Windows, Mac y Linux.
 
-This version brings a number of small bug-fixes and a couple of new features.
+Esta versión corrige algunos fallos y añade un par de nuevas características.
 
-Some of the changes in Subsurface 4.7.8:
+Algunos de los cambios en Subsurface 4.7.8:
 <ul>
-	<li> Desktop: Add Tags column in dive list view</li>
-	<li> Desktop: revert change that inadvertantly broke applying GPS coordinates to dives</li>
-	<li> Desktop: Fix format of CSV export for dive list and dive profile</li>
-	<li> Desktop: Change strategy when to allow to delete a cylinder</li>
-	<li> Desktop/Mobile: Format numbers according to selected Subsurface language</li>
-	<li> Desktop: combo box with fresh, sea water and EN 13319 in dive planner</li>
-	<li> Desktop: Changed "salinity" to "water type" at dive planner and dive info</li>
-	<li> Map-widget: try to match the zoom level in Google Maps</li>
-	<li> Map-widget: improve context menu texts</li>
-	<li> Dive pictures: Don't load whole file for parsing EXIF data</li>
-	<li> Dive log import: Add imperial support for UDCF import</li>
-	<li> New dive computers supported:
+	<li> Escritorio: Se añade una columna de etiquetas en la lista de inmersiones</li>
+	<li> Escritorio: Revierte un cambio que inhabilitaba aplicar coordenadas GPS a las inmemrsiones</li>
+	<li> Escritorio: Corrige el formato CVS al exportar la lista de inmersiones y el perfil de inmersion</li>
+	<li> Escritorio: Cambio de estrategia al permitir eliminar una botella</li>
+	<li> Escritorio/Mobile: Formatea los números de acuerdo con el lenguage seleccionado para Subsurface</li>
+	<li> Escritorio: Se añade al planificador un combo para agua dulce, salada o EN 13319 </li>
+	<li> Escritorio: Se cambia el concepto se "salinidad" por el de "tipo de agua" en el planificador y el la información de la inmersión</li>
+	<li> Mapa: Intenta ajustar el nivel de zoom al de Google Maps</li>
+	<li> Mapa: Mejora los textos en el menú contextual</li>
+	<li> Fotografías: No se carga todo el archivo para leer los datos EXIF</li>
+	<li> Importación: Se añaden unidades imperiales para la importación de archivos UDCF</li>
+	<li> Nuevos ordenadores de buceo soportados:
     <ul>
 	<li> Heinrichs Weikamp OSTC 2 TR</li>
 	<li> Scubapro Aladin Sport Matrix, Aladin Square</li>
@@ -42,20 +42,21 @@ Some of the changes in Subsurface 4.7.8:
 
 [/et_pb_text][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
-Binaries are available for Windows, Mac, and an AppImage for x86-64 Linux (plus distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE).
+Hay binarios disponibles para Windows, Mac, una AppImage para x86_64 Linux y algunos binarios específicos de varias distribuciones de Linux, entre ellos Ubuntu, Debian, Linux Mint, Fedora y OpenSUSE.
 
-You can get Subsurface 4.7.8 from these locations:
+Puedes obtener Subsurface 4.7.8 desde estas ubicaciones;
 
 <strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.7.8.exe">https://subsurface-divelog.org/downloads/subsurface-4.7.8.exe</a>
 
 <strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.7.8.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.7.8.dmg</a>
  
-<strong>Linux:</strong> A generic AppImage is available for download at the <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.7.8">Subsurface GitHub Release page</a>. Download <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.7.8/Subsurface-4.7.8-x86_64.AppImage">Subsurface-4.7.8-x86_64.AppImage</a>, make it executable
-<code>chmod +x Subsurface-4.7.8-x86_64.AppImage</code> and then simply run this file.
-<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
+<strong>Linux:</strong> Hay disponible una AppImage genérica en la página <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.7.8">Subsurface GitHub Release </a>. Descarga <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.7.8/Subsurface-4.7.8-x86_64.AppImage">Subsurface-4.7.8-x86_64.AppImage</a>, hazlo ejecutable
+<code>chmod +x Subsurface-4.7.8-x86_64.AppImage</code> y luego, simplemente ejecútalo.
 
-<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
+<strong>Linux: Ubuntu: </strong>Añade <code>ppa:subsurface/subsurface</code> a tus fuentes de software; los archivos .deb de este PPA también se pueden instalar en versiones suficientemente actualizadas de <strong>Debian</strong> y  <strong>LinuxMint</strong>; visita la <a href="https://subsurface-divelog.org/download/">Página de descargas</a> y utiliza <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> para obtener la última versión de nuestro software.
 
-Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
+<strong>Linux: openSUSE / Fedora:</strong> visita nuestra <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">página de lanzamiento del servicio de compilación</a>
+
+Por favor, postea dudas y problemas en el <a href="https://subsurface-divelog.org/user-forum/">Foro de usuarios</a> o cuelga un informe de fallo en nuestro <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>. Y recuerda que, tras muchos problemas con nuestro antiguo bugtracker, nos mudamos a utilizar las issues de GitHub, así que utiliza el link anterior no el viejo que quizá tengas guardado de antes en tus marcadores.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
