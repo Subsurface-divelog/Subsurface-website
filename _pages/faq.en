@@ -126,11 +126,7 @@ Currently Subsurface integrates with two different online logbooks: <a href="htt
 
 [/et_pb_accordion_item][et_pb_accordion_item title="How do I use the companion apps for recording dive sites?"]
 
-There are companion apps available for both Android and IOS which help the user record dive site locations. You can find them in the respective app stores. Once you install them on your mobile device you can either mark dive sites and name them (e.g., right before or after a dive), or you can run a "service" in the background that periodically records your position. Don't forget to turn the service off when you are done as it may increase your battery consumption.
-
-Once you have uploaded the dive site data from the companion app to our web service, you can then download the data from within Subsurface. Do this <em>after</em> you have downloaded the dives from that day from your divecomputer (or manually added the dives) so that Subsurface can match the dive data (and their time stamps) with the data stored by the companion app. Subsurface will then add GPS data to those dives that didn't have GPS information and are reasonably close in time to to markers saved by the companion app.
-
-Please note that the companion apps by themselves do <em>not</em> add dives to your dive list. The dive needs to exist before GPS data is added to it. The companion apps are different than the Subsurface-mobile apps. The Subsurface-mobile apps are for viewing your dive log.  The companion apps are solely for managing and recording dive locations. Many users will choose to have both the Subsurface companion app and the Subsurface-mobile app on their phone/tablet. 
+There used to be companion apps available for both Android and IOS which were used to record dive site locations. They have been replaced by Subsurface-mobile which allows you to record dive site locations.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="How can I use more than one tank with the same gas?"]
 
@@ -170,7 +166,7 @@ Previous versions of Subsurface required setting up an RFCOMM connection from th
 
 [/et_pb_accordion_item][et_pb_accordion_item title="How do I download dives from my Bluetooth LowEnergy, BLE, Bluetooth Smart dive computer (e.g., Shearwater Perdix AI, Shearwater Perdix (latest models), Suunto EON Steel)?"]
 
-At this point (September 2017, Subsurface 4.6.4) the release versions of Subsurface and Subsurface-mobile don't support connecting to dive computers over BLE. We are actively working on this support and have test binaries for Mac (Subsurface) and Android (Subsurface-mobile) that support a hand full of BLE based dive computers. Windows support is a lot further away. While we have plans for a 4.7 version of Subsurface which includes this support, we have no expected release time frame, yet.
+At this point (May 2018, Subsurface 4.7.8) the release versions of Subsurface for Linux and Mac and Subsurface-mobile for iOS and Android support connecting to dive computers over BLE. We are continuing to work on this support for Windows, but don't have a version that supports BLE on Windows, yet. In the meantime we suggest using Subsurface-mobile on iOS or Android to download from your dive computer and then sync the dive data via the Subsurface Cloud.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Can you add support for dive computer X?"]
 
@@ -279,7 +275,11 @@ Subsurface on the Mac does not currently support IRDA based dive computers. This
 
 [et_pb_accordion_item title="What is the difference between the Subsurface-mobile and Subsurface apps?"]
 
-There are two versions of Subsurface in the app store. The <em>Subsurface-mobile</em> app is the port of the desktop application to Android and iOS. It allows you to connect to the Subsurface Cloud and view dives, or manually add dives. The <em>Subsurface</em> app is a companion app, designed to allow the logging of GPS data while on your dive. It is now unnecessary for use on Android (and no longer supported), as that functionality has been added to the <em>Subsurface-mobile</em> app. On iOS, the <em>Subsurface</em> companion app is still necessary to log GPS data.
+There are two versions of Subsurface in the app store. The <em>Subsurface-mobile</em> app is the port of the desktop application to Android and iOS. It allows you to connect to the Subsurface Cloud and view dives, or manually add dives. The <em>Subsurface</em> app is a companion app and has been deprecated. It was designed to only allow the logging of GPS data while on your dive. This functionality has been added to the <em>Subsurface-mobile</em> app.
+
+[/et_pb_accordion_item][et_pb_accordion_item title="Subsurface-mobile on Android and dive computers with FTDI download cables"]
+
+Subsurface-mobile on Android (but not on iOS beacuse of hardware limitations) is designed to be able to download from some dive computers using FTDI based download cables and a USB OTG adapter. Unfortunately, there is an issue with the way in which Subsurface-mobile opens USB devices on Android. We do this from "native code", not from a Java application.  And while many Android phones allow this method of accessing OTG devices, an (apparently increasing) number of devices don't. On these Android devices the attempt to download from divecomputers via the USB OTG adapter always fails. We understand in theory how to work around this problem, but haven't found the right developer who could volunteer their time to help us fix the issue.
 
 [/et_pb_accordion_item][et_pb_accordion_item title="Subsurface-mobile crashes when starting on my Samsung Android device"]
 
