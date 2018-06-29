@@ -1,8 +1,8 @@
 ---
 ID: 3990
 post_title: >
-  Announcing Subsurface 4.8 and
-  Subsurface-mobile 2.1
+  Ank&uuml;ndigung der Versionen 4.8 von Subsurface und
+  2.1 von Subsurface-mobile
 author: hohndel
 post_date: 2018-06-29 11:29:46
 post_excerpt: ""
@@ -15,9 +15,10 @@ post_language: de
 ---
 [et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" parallax="on" background_color="rgba(255,255,255,0)" /][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
-The Subsurface development team proudly announces the release 4.8 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+Die Subsurface Entwickler freuen sich, dass Version 4.8 unseres quell-offenen Tauchlogbuchs und Tauchplaners für Windows, Mac und Linux jetzt verfügbar ist.
 
-Some of the changes in Subsurface 4.8:
+Hier sind einige der wichtigsten Neuerungen in Subsurface 4.8:
+
 <ul>
 	<li>fix crash on manual addition of dive to fresh logbook</li>
 	<li>fix showing of the manual</li>
@@ -58,9 +59,9 @@ Please post questions of problems in the <a href="https://subsurface-divelog.org
 [/et_pb_text][et_pb_text _builder_version="3.0.92" background_layout="light" header_text_align="left" module_alignment="left"]
 
 <h2>Subsurface-mobile</h2>
-At the same time we are also releasing the version 2.1 of Subsurface-mobile, a full fledged dive log program for iOS and Android devices. Subsurface-mobile allows you to access your dive log on your tablet or phone, edit the data and even download new dive information from many Bluetooth LE dive computers (on iOS) and from many Bluetooth and Bluetooth LE dive computers (and even some dive computers that require a download cable — but there things get more complicated) on Android. Using a free Subsurface Cloud Storage account you can synchronize your dive data with the Subsurface desktop application (while significantly increasing the usefulness, the cloud account is not required to use Subsurface-mobile).
+Gleichzeitig geben wir auch Version 2.1 von Subsurface-mobile frei. Subsurface-mobile ist ein komplettes Tauchlogbuch für Android und iOS. Es erlaubt die Tauchgangliste auf einem Tablet oder Handy anzuzeigen, zu bearbeiten und sogar direkt von vielen Tauchcomputern Tauchdaten herunterzuladen. Auf iOS aus technischen Gründen nur über Bluetoot LE, auf Android auch über Bluetooth und sogar auf manchen Android Tablets und Handys mittels FTDI basierten Kabeln.
 
-Some of the changes in Subsurface-mobile 2.1:
+Einige der wichtigsten Neuerungen in Subsurface-mobile 2.1:
 <ul>
 	<li>BLE support: fix several issues with BLE download</li>
 	<li>fix potential crash when editing manually added dives</li>
