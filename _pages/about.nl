@@ -33,12 +33,12 @@ Download je duiken uit je duikcomputer. Importeer duiken uit andere duik log pro
 
 [/et_pb_slide][et_pb_slide heading="Dive planner" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Planner.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
-De plan module maakt eenvoudig visueel plannen van duiken, gebaseerd op Bühlmann ZH-16 of VPM-B, mogelijk.
+De plan module maakt eenvoudig visueel plannen van duiken, gebaseerd op BÃ¼hlmann ZH-16 of VPM-B, mogelijk.
 
 
 [/et_pb_slide][et_pb_slide heading="Cloud storage" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRFCloud.png" alignment="center" image_alt="Cloud storage" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000" use_bg_overlay="off" use_text_overlay="off" text_border_radius="3" header_font="||||" body_font="||||" button_font="||||"]
 
-Sla je logboek op in de cloud, en dan kun je je logboek delen tussen meerdere computers, zelfs als je geen dataverbinding hebt. Geheel geïntegreerd, gratis en eenvoudig te configureren.
+Sla je logboek op in de cloud, en dan kun je je logboek delen tussen meerdere computers, zelfs als je geen dataverbinding hebt. Geheel geÃ¯ntegreerd, gratis en eenvoudig te configureren.
 
 
 [/et_pb_slide][et_pb_slide heading="Subsurface-mobile" background_position="default" background_size="default" background_color="#ffffff" use_bg_overlay="off" use_text_overlay="off" alignment="center" background_layout="light" allow_player_pause="off" text_border_radius="3" header_font_select="default" header_font="||||" body_font_select="default" body_font="||||" custom_button="off" button_font_select="default" button_font="||||" button_use_icon="default" button_icon_placement="right" button_on_hover="on" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRF-Website-Mobile.png" image_alt="Subsurface-mobil on Android and iOS" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
@@ -50,7 +50,7 @@ Met de Subsurface-mobile app op uw Android of iOS apparaat kunt u uw logboek ove
 
 [/et_pb_slider][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="on" gutter_width="4" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" column_padding_mobile="on"][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurface kan <strong>plannen</strong> en <strong>werken</strong> met ��n of meer cilinders met lucht, nitrox of trimix. Duiklocaties kunnen worden beschreven, met onder meer de GPS locaties (die ook via een kaart kunnen worden ingevoerd), gebruikte apparatuur, buddy's, en een waardering van de duik, en natuurlijk extra aantekeningen.
+Subsurface kan <strong>plannen</strong> en <strong>werken</strong> met één of meer cilinders met lucht, nitrox of trimix. Duiklocaties kunnen worden beschreven, met onder meer de GPS locaties (die ook via een kaart kunnen worden ingevoerd), gebruikte apparatuur, buddy's, en een waardering van de duik, en natuurlijk extra aantekeningen.
 
 
 Je kunt duiken labelen en <strong>filteren</strong> om een duiklijst op basis van criteria, waaronder labels, locaties en buddy's te maken. Je kunt duiken groeperen in (bijvoorbeeld) reizen, en meerdere duiken bewerken op hetzelfde moment, waardoor het gemakkelijk is om een groot aantal duiken bij te houden.
@@ -62,10 +62,10 @@ Je kunt duiken labelen en <strong>filteren</strong> om een duiklijst op basis va
 
 [/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurface berekent ook een breed scala aan <strong>statistieken</strong> van de duiken van de gebruiker en berekent allerlei gegevens, zoals de SAC hoeveelheid, partiële O2-, N2- en He-drukken, berekende deco-informatie, en nog veel meer.
+Subsurface berekent ook een breed scala aan <strong>statistieken</strong> van de duiken van de gebruiker en berekent allerlei gegevens, zoals de SAC hoeveelheid, partiÃ«le O2-, N2- en He-drukken, berekende deco-informatie, en nog veel meer.
 
 
-<strong>Meerdere duikers</strong> kunnen ��n installatie van Subsurface gebruiken met verschillende instellingen.
+<strong>Meerdere duikers</strong> kunnen één installatie van Subsurface gebruiken met verschillende instellingen.
 
 
 Het programma is vertaald in ongeveer <strong>20 talen</strong>, en wordt ondersteund door een actieve groep ontwikkelaars.
@@ -76,7 +76,7 @@ Het programma is vertaald in ongeveer <strong>20 talen</strong>, en wordt onders
 Een van de belangrijkste troeven van Subsurface is de ondersteuning van een breed scala aan <strong>duik computers</strong> (zie <a href="documentation/supported-dive-computers/">Ondersteunde computers</a>). Subsurface kan ook bestaande duiklogs importeren uit diverse bronnen, waaronder MacDive, Suunto DM3, DM4 & DM5, JDiveLog en divelogs.de.
 
 
-Een ander sterk punt is de <strong>visualisatie</strong> van diepteprofiel (en, indien beschikbaar, de tankdruk grafiek) op een innovatieve manier die de gebruiker aanvullende informatie over de relatieve snelheid en kortstondige luchtverbruik geeft. Gebruikers die duiken met <strong>meerdere duikcomputers</strong> kunnen de gegevens uit elk van hun duikcomputers combineren in ��n profiel.
+Een ander sterk punt is de <strong>visualisatie</strong> van diepteprofiel (en, indien beschikbaar, de tankdruk grafiek) op een innovatieve manier die de gebruiker aanvullende informatie over de relatieve snelheid en kortstondige luchtverbruik geeft. Gebruikers die duiken met <strong>meerdere duikcomputers</strong> kunnen de gegevens uit elk van hun duikcomputers combineren in één profiel.
 
 
 [/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Profile.png" alt="Screenshot of dive profile" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
