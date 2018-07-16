@@ -6,9 +6,9 @@ post_date: 2014-05-08 11:05:55
 post_excerpt: ""
 layout: post
 permalink: >
-  https://subsurface-divelog.org/2014/05/subsurface-4-1-has-been-released/
-post_language: pl
+  https://subsurface-divelog.org/pl/2014/05/subsurface-4-1-has-been-released/
 published: true
+category: Aktualności
 ---
 Ekipa Subsurface z przyjemnością ogłasza udostępnienie kolejnej wersji Subsurface.
 Wersja 4.1 przynosi odświeżenie wyglądu w stosunku do 4.0. Kod generujący profil nurkowania został całkowicie przepisany, dodano animacje, znacznie poprawiono użyteczność okienka informacyjnego i usprawniono mechanizm rysowania wykresów. Pojawił się także pasek narzędziowy umożliwiający przełączenie wielu opcji profilu z poziomu głównego okna, bez potrzeby wchodzenia w Ustawienia.
