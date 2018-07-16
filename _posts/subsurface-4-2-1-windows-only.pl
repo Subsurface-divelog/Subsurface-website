@@ -6,9 +6,9 @@ post_date: 2014-11-13 11:36:49
 post_excerpt: ""
 layout: post
 permalink: >
-  https://subsurface-divelog.org/2014/11/subsurface-4-2-1-windows-only/
-post_language: pl
+  https://subsurface-divelog.org/pl/2014/11/subsurface-4-2-1-windows-only/
 published: true
+category: Aktualności
 ---
 <p>Okazało się, że binarki dla Subsurface 4.2 nie zawierały biblioteki umożliwiającej pobranie nurkowań z Atomics Aquatics Cobalt and Cobalt 2.
 Instalator został zaktualizowany</p>
