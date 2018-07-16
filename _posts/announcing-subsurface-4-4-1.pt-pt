@@ -6,9 +6,11 @@ post_date: 2015-02-18 14:41:43
 post_excerpt: ""
 layout: post
 permalink: >
-  https://subsurface-divelog.org/2015/02/announcing-subsurface-4-4-1/
-post_language: pt-pt
+  https://subsurface-divelog.org/pt-pt/2015/02/announcing-subsurface-4-4-1/
 published: true
+category: Novidades
+post_language:
+  - pt-pt
 ---
 A equipa de desenvolvimento do Subsurface, tem o prazer de anunciar o lançamento do Subsurface 4.4.1.
 
