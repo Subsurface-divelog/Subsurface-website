@@ -6,9 +6,9 @@ post_date: 2014-01-03 08:49:33
 post_excerpt: ""
 layout: post
 permalink: >
-  https://subsurface-divelog.org/2014/01/subsurface-4-0-1-has-been-released/
-post_language: pl
+  https://subsurface-divelog.org/pl/2014/01/subsurface-4-0-1-has-been-released/
 published: true
+category: Aktualności
 ---
 Ekipa Subsurface z przyjemnością ogłasza udostępnienie najnowszej wersji Subsurface.
 
