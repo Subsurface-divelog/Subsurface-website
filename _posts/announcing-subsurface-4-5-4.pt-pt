@@ -6,9 +6,11 @@ post_date: 2016-03-27 03:18:10
 post_excerpt: ""
 layout: post
 permalink: >
-  https://subsurface-divelog.org/2016/03/announcing-subsurface-4-5-4/
-post_language: pt-pt
+  https://subsurface-divelog.org/pt-pt/2016/03/announcing-subsurface-4-5-4/
 published: true
+category: Novidades
+post_language:
+  - pt-pt
 ---
 [et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_text admin_label="Text"]
 
