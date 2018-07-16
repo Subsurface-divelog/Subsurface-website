@@ -11,7 +11,8 @@ permalink: >
   https://subsurface-divelog.org/nl/2018/06/announcing-subsurface-4-8/
 published: true
 category: Nieuws
-post_language: nl
+post_language:
+  - nl
 ---
 [et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" parallax="on" background_color="rgba(255,255,255,0)" /][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
@@ -33,7 +34,7 @@ De belangrijkste wijzigingen in Subsurface 4.8:
 	<li>fout opgelost die optreedt bij het maximum aantal te gebruiken cilinders</li>
 	<li>Shearwater import: voeg DC gerapporteerd plafond toe</li>
 	<li>Suunto DM import: verbeter de verwerking van temperatuur data in specifieke gevallen</li>
-	<li>CSV import: sta newline ('\n') toe in notities veld</li>
+	<li>CSV import: sta newline ('n') toe in notities veld</li>
 	<li>BLE support: diverse problemen in geval van BLE download opgelost</li>
 </ul>
 
