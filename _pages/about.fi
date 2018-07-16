@@ -8,39 +8,95 @@ layout: page
 permalink: https://subsurface-divelog.org
 published: true
 ---
-[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid" saved_tabs="all" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" global_module="1887" title_line_height="1.3em"] [/et_pb_post_title]
-[et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid" saved_tabs="all" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" global_module="1887"]
 
-<h2>Our latest version has been released</h2>
-Please check out <a href="https://subsurface-divelog.org/2018/07/announcing-subsurface-4-8-1/">the announcement of Subsurface 4.8.1</a>.
 
-[/et_pb_text]
-[et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
-[et_pb_slide heading="Useita käyttöjärjestelmiä" background_position="default" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/OS-logos1.png" alignment="center" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"] Subsurface on vapaan lähdekoodin sukelluslokiohjelmisto, joka toimii useilla eri käyttöjärjestelmillä; Windows, Mac ja Linux. [/et_pb_slide]
-[et_pb_slide heading="Lokita kaikki sukelluksesi" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Screenshot.png" alignment="center" image_alt="Kuvakaappaus harrastesukelluksesta" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"] Lataa sukellukset sukellustietokoneeltasi. Voit tuoda ne myös muista sukelluslokiohjelmista tai on-line sukelluslokeista. Lokien syöttäminen onnistuu myös suoraan Subsurfacen käyttöliittymästä tai yksinkertaisella taulukolla. [/et_pb_slide]
-[et_pb_slide heading="Sukellusten suunnittelu" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Planner.png" alignment="center" image_alt="Kuvakaappaus sukellusten suunnittelusta" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"] Sukellusten suunnittelu -toiminnolla on helppo suunnitella sukellus käyttäen joko Bühlmann ZH-16 tai VPM-B algoritmia. [/et_pb_slide]
-[et_pb_slide heading="Pilvitallennus" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRFCloud.png" alignment="center" image_alt="Kuva pilvitallennuksesta" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"] Voit halutessasi tallentaa lokisi pilveen. Tällöin voit käyttää lokiasi eri tietokoneilla sekä verkossa ollessasi että ilman verkkoa. Ominaisuus on sisäänrakennettu, ilmainen ja helppo ottaa käyttöön.
+
+[/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+<h2>Uusi versio on julkaistu</h2>
+
+Katso <a href="https://subsurface-divelog.org/2018/07/announcing-subsurface-4-8-1/">Subsurfacen 4.8.1 julkistusviesti</a>.
+
+
+[/et_pb_text][et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
+
+[et_pb_slide heading="Multiplatform" background_position="default" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/OS-logos1.png" alignment="center" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
+
+Subsurface on avoimenlähdekoodin sukellusloki-sovellus harraste-, tekniikka- ja vapaasukeltajille. Sovellus toimii Winodws-, Mac- ja Linux-käyttöjärjestelmissä
+
+
+[/et_pb_slide][et_pb_slide heading="Log all your dives" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Screenshot.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
+
+Lataa sukelluksesi sukellustietokoneesta tai tuo ne toisesta sukellusloki-sovelluksesta tai jopa jostakin web-pohjaisesta lokista. Lokit voit myös syöttää käsin suoraan Subsurfaceen yksinkertaisen taulukon avulla.
+
+
+[/et_pb_slide][et_pb_slide heading="Dive planner" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Planner.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
+
+Sukelluksen suunnittelussa voidaan yksinkertaisesti visualisoida suunniteltu sukellus käyttäen Bühlmann ZH-16 tai VPM-B-algoritmeja
+
+
+[/et_pb_slide][et_pb_slide heading="Cloud storage" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRFCloud.png" alignment="center" image_alt="Cloud storage" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000" use_bg_overlay="off" use_text_overlay="off" text_border_radius="3" header_font="||||" body_font="||||" button_font="||||"]
+
+Voit käyttää lokiasi useilla eri tietokoneilla sekä verkossa ollessasi että ilman Internetyhteyttä käyttäen Subsurfacen pilvitallennustilaa. Subsurfacen pilvi on täysin integroitu, ilmainen ja helppo ottaa käyttöön.
+
+
+[/et_pb_slide][et_pb_slide heading="Subsurface-mobile" background_position="default" background_size="default" background_color="#ffffff" use_bg_overlay="off" use_text_overlay="off" alignment="center" background_layout="light" allow_player_pause="off" text_border_radius="3" header_font_select="default" header_font="||||" body_font_select="default" body_font="||||" custom_button="off" button_font_select="default" button_font="||||" button_use_icon="default" button_icon_placement="right" button_on_hover="on" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRF-Website-Mobile.png" image_alt="Subsurface-mobil on Android and iOS" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
+
+Sinulla on sukelluslokisi käytettävissäsi missä tahansa käyttäessäsi Subsurface-mobiilia Android- tai iOS-laitteellasi
+
+
 [/et_pb_slide]
-[et_pb_slide heading="Subsurface-mobile" background_position="default" background_size="default" background_color="#ffffff" use_bg_overlay="off" use_text_overlay="off" alignment="center" background_layout="light" allow_player_pause="off" text_border_radius="3" header_font_select="default" header_font="||||" body_font_select="default" body_font="||||" custom_button="off" button_font_select="default" button_font="||||" button_use_icon="default" button_icon_placement="right" button_on_hover="on" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRF-Website-Mobile.png" image_alt="Subsurface-mobil on Android and iOS" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
-Using Subsurface-mobile on your Android or iOS device you can access your dive log anywhere [/et_pb_slide]
+
 [/et_pb_slider][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="on" gutter_width="4" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" column_padding_mobile="on"][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurfacella voit <strong>seurata</strong> sekä yhden että usean säiliön <strong>sukelluksia</strong> käyttäen paineilmaa, Nitroxia tai TriMixiä. Voit seurata sukelluskohteita GPS -koordinaatteineen (jotka voidaan syöttää kätevästi kartalta), pitää kirjaa käytetyistä välineistä, sukelluskavereidesi nimistä ja tehdä muistiinpanoja.Voit asettaa sukelluksille hakusanoja ja <strong>suodattaa sukelluslokisi</strong> hakusanojen, sijainnin tai sukelluskaverien mukaan.
+Subsurfacella voit <strong>suunnitella</strong> ja <strong>seurata</strong> sekä yhden että usean säiliön <strong>sukelluksia</strong> käyttäen paineilmaa, Nitroxia tai TriMixiä. Voit seurata sukelluskohteita GPS -koordinaatteineen (jotka voidaan syöttää kätevästi kartalta), pitää kirjaa käytetyistä välineistä, sukelluskavereidesi nimistä ja tehdä muistiinpanoja.Voit asettaa sukelluksille hakusanoja ja suodattaa sukelluslokisi hakusanojen, sijainnin tai sukelluskaverien mukaan.
 
-[/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/TagsAndRating1.png" alt="Kuvakaappaus luokituksista, avainsanoista ja muista tiedoista" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"] [/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurface laskee <strong>tilastoja</strong> käyttäjän sukelluksista ja pitää kirjaa tiedoista kuten ilman kulutus (SAC), osapaineet (O2, N2 ja He), laskettu dekompressiotieto ja paljosta muusta. Ohjelma on käännetty noin <strong>20 kielelle</strong> ja on hyvin tuettu aktiivisen kehittäjäyhteisön toimesta.
+Voit "tägätä" sukellukset ja <strong>suodattaa sukelluslistan</strong> käyttäen eri kriteereitä; tägit, sijainnit ja sukelluskaverit. Sukellukset voidaan ryhmitellä retkiksi ja muokata useita sukelluksia kerralla, jolloin toistuvien tietojen syöttö on nopeaa ja tehokasta.
+
+
+[/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/TagsAndRating1.png" alt="Screenshot of rating, tags and other data fields" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
+
+
+
+[/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+Subsurface laskee <strong>tilastoja</strong> käyttäjän sukelluksista ja pitää kirjaa tiedoista kuten ilman kulutus (SAC), osapaineet (O2, N2 ja He), laskettu dekompressiotieto ja paljosta muusta. Ohjelma on käännetty noin 20 kielelle ja on hyvin tuettu aktiivisen kehittäjäyhteisön toimesta.
+
+
+<strong>Useat sukeltajat</strong> voivat jakaa saman Subsurfacen ja käyttää eri asetuksia.
+
+
+Subsurface on käännetty noin <strong>20:lle kielelle</strong> ja sen taustalla on aktiivinen ja avulias kehittäjäyhteisö.
+
 
 [/et_pb_text][/et_pb_column][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Yksi Subsurfacen monista vahvuuksista on tuki laajalle skaalalle <strong>sukellustietokoneita</strong> (<a href="http://subsurface-divelog.org/documentation/supported-dive-computers/">lista tuetuista sukellustietokoneista</a>). Subsurfaceen voi myös tuoda lokitiedot useista eri lähteistä mukaan lukien MacDive, Suunto DM3, DM4 ja DM5, JDiveLog ja divinglogs.de. Toinen vahvuus on visuaalisuus; näytämme sukellusprofiilin (ja ilman kulutuksen, mikäli mahdollista) innovatiivisesti s.e. suhteellisen nousu- ja laskunopeuden sekä hetkellisen ilmankulutuksen näkee sukelluksen ajalta.
+Yksi Subsurfacen monista vahvuuksista on tuki laajalle skaalalle <strong>sukellustietokoneita</strong> (katso <a href="documentation/supported-dive-computers/">lista tuetuista sukellustietokoneista</a>). Subsurfaceen voi myös tuoda lokitiedot useista eri lähteistä mukaan lukien MacDive, Suunto DM3, DM4 ja DM5, JDiveLog ja divinglogs.de.
 
-[/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-metric.png" alt="Kuvakaappaus sukellusprofiilista" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"] [/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Yksityiskohtaisen sukelluslokin voi <strong>tulostaa </strong>paperille joko profiilikuvaajilla tai listana.
+Toinen vahvuus on <strong>visuaalisuus</strong>; näytämme sukellusprofiilin (ja ilman kulutuksen, mikäli mahdollista) innovatiivisesti s.e. suhteellisen nousu- ja laskunopeuden sekä hetkellisen ilmankulutuksen näkee sukelluksen ajalta. Sukeltajat, jotka käyttävät <strong>useampaa sukellustietokonetta</strong>, voivat yhdistää näiden tiedot yhdeksi sukellukseksi – useiden lähteiden tiedot visualisoidaan profiilikuvaan.
+
+
+[/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Profile.png" alt="Screenshot of dive profile" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
+
+
+
+[/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+
+Subsurface mahdollistaa yksityiskohtaisen sukelluslokin <strong>tulostamisen</strong> profiilikuvineen muine oleellisine tietoineen.
+
 
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid" custom_margin="2em|||"]
+
 <h5>Hieman historiaa:</h5>
-Keväällä 2011 oli kernelin kehtyksessä pakollinen tauko, jolloin Linuxin kehittäjällä Linus Torvaldsilla oli mahdollisuus aloittaa uusi projekti. Häntä oli häirinnyt, ettei Linuxille ollut tarjolla kelvollista sukelluslokiohjelmaa, joten hän päätti korjata asian. Linus työskenteli kehittäjätiimin kanssa ja näin syntyi Subsurface. Tuettuja käyttöjärjestelmiä on Linux, Windows ja MacOS ja sukellustietojen lataaminen on mahdollista useista sukellustietokoneista ja muista lokiohjelmista. Subsurfacella näkee nopeasti ja helposti oleellisimmat tiedot mitä nykyaikaiset sukellustietokoneet keräävät ja se antaa käyttäjän kerätä ja seurata monenlaista tietoa sukelluksistaan. Keväällä 2012 Subsurfacen kehtisyvastuu siirtyi Dirk Hohndelille. Lisenssi: GPLv2
+
+Keväällä 2011 oli kernelin kehtyksessä pakollinen tauko, jolloin Linuxin kehittäjällä Linus Torvaldsilla oli mahdollisuus aloittaa uusi projekti. Häntä oli häirinnyt, ettei Linuxille ollut tarjolla kelvollista sukelluslokiohjelmaa, joten hän päätti korjata asian.
+
+Linus työskenteli kehittäjätiimin kanssa ja näin syntyi Subsurface. Tuettuja käyttöjärjestelmiä on Linux, Windows ja MacOS ja sukellustietojen lataaminen on mahdollista useista sukellustietokoneista ja muista lokiohjelmista. Subsurfacella näkee nopeasti ja helposti oleellisimmat tiedot mitä nykyaikaiset sukellustietokoneet keräävät ja se antaa käyttäjän kerätä ja seurata monenlaista tietoa sukelluksistaan. Keväällä 2012 Subsurfacen kehtisyvastuu siirtyi Dirk Hohndelille.
+
+Lisenssi: GPLv2
+
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

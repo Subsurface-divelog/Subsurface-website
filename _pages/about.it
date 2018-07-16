@@ -8,40 +8,50 @@ layout: page
 permalink: https://subsurface-divelog.org
 published: true
 ---
-[et_pb_section admin_label="section" transparent_background="off" allow_player_pause="off" inner_shadow="off" parallax="off" parallax_method="off" padding_mobile="off" make_fullwidth="off" use_custom_width="off" width_unit="on" make_equal="off" use_custom_gutter="off"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid" saved_tabs="all" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" global_module="1887"]
+[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid" saved_tabs="all" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" global_module="1887"]
+
+
+
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
+<h2>E' stata rilasciata la nostra nuova versione.</h2>
 
-<h2>Our latest version has been released</h2>
-Please check out <a href="https://subsurface-divelog.org/2018/07/announcing-subsurface-4-8-1/">the announcement of Subsurface 4.8.1</a>.
+Per favore controlla <a href="https://subsurface-divelog.org/2018/07/announcing-subsurface-4-8-1/">l'annuncio di Subsurface 4.8.1</a>.
 
-[/et_pb_post_text][et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
 
-[et_pb_slide heading="Multi piattaforma" background_position="default" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/OS-logos1.png" alignment="center" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
+[/et_pb_text][et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
 
-Subsurface è un diario delle immersioni, open source, per Windows, Mac e Linux
+[et_pb_slide heading="Multiplatform" background_position="default" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/OS-logos1.png" alignment="center" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
-[/et_pb_slide][et_pb_slide heading="Registra tuttte le tue immersioni" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Screenshot.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
+Subsurface è un diario open source per le immersioni ricreative, tecniche ed apnea, che gira su Windows, Mac e Linux
+
+
+[/et_pb_slide][et_pb_slide heading="Log all your dives" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Screenshot.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
 Scarica le tue immersioni dal computer subacqueo. Importale da altri programmi o da siti web. Inseriscile a mano usando direttamente Subsurface o tramite semplici tabelle.
 
-[/et_pb_slide][et_pb_slide heading="Pianifica le tue immersioni" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Planner.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
+
+[/et_pb_slide][et_pb_slide heading="Dive planner" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Planner.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
 Il pianificatore consente in modo semplice e visualedi programmare immersioni basate sugli algoritmi Bühlmann ZH-16 o VPM-B
 
-[/et_pb_slide][et_pb_slide heading="Archiviazione online" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRFCloud.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
-Store your logbook data in the cloud. Work with your data from different computers, online and offline. Fully integrated, free, and easy to set up.
+[/et_pb_slide][et_pb_slide heading="Cloud storage" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRFCloud.png" alignment="center" image_alt="Cloud storage" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000" use_bg_overlay="off" use_text_overlay="off" text_border_radius="3" header_font="||||" body_font="||||" button_font="||||"]
+
+Salva il tuo logbook nel cloud. Funziona con i tuoi dati da diversi computers, sia offline che online. Pienamente integrato, gratuito e facile da configurare.
+
 
 [/et_pb_slide][et_pb_slide heading="Subsurface-mobile" background_position="default" background_size="default" background_color="#ffffff" use_bg_overlay="off" use_text_overlay="off" alignment="center" background_layout="light" allow_player_pause="off" text_border_radius="3" header_font_select="default" header_font="||||" body_font_select="default" body_font="||||" custom_button="off" button_font_select="default" button_font="||||" button_use_icon="default" button_icon_placement="right" button_on_hover="on" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRF-Website-Mobile.png" image_alt="Subsurface-mobil on Android and iOS" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
 Usando Subsurface-mobile sul tuo dispositivo Android o iOS potrai accedere alle tue immersioni ovunque
+
 
 [/et_pb_slide]
 
 [/et_pb_slider][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="on" gutter_width="4" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" column_padding_mobile="on"][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
 Con Subsurface puoi tenere traccia immersioni con una o più bombole di aria, Nitrox o Trimix. Permette di registrare il sito di immersione, compreso di coordinate GPS inseribili da una mappa, l'attrezzatura usata, l’eventuale dive master e i compagni di immersione, così come classificare le immersioni e aggiungervi delle note personali.
+
 
 Si possono filtrare le immersioni sulla base di criteri ta cui etichette, luoghi o compagni di immersione.
 
@@ -54,17 +64,22 @@ Si possono filtrare le immersioni sulla base di criteri ta cui etichette, luogh
 
 Subsurface è in grado di estrarre dalle immersioni inserite un’ampia gamma di dati statistici e tenere traccia di informazioni come il consumo d’aria in superficie, le pressioni parziali di ossigeno, azoto ed elio, dati sulla decompressione calcolata e tantissime altre informazioni.
 
+
 Il programma è tradotto in circa 20 lingue e ben supportato da una attiva comunità di sviluppatori.
 
-&nbsp;
+
+Il programma è tradotto in circa <strong>20 lingue</strong> ed è ben supportato da una comunità attiva di sviluppatori.
+
 
 [/et_pb_text][/et_pb_column][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Uno dei punti di forza di Subsurface è la capacità di interfacciarsi con tantissimi computer subacquei (guarda la lista dei computer supportati). Subsurface può anche importare libretti di immersione da altri programmi, tra cui: <a href="http://www.mac-dive.com/">MacDive</a>, Suunto DM3 &amp; DM4, <a href="http://jdivelog.org/">JDiveLog</a> e <a href="http://en.divelogs.de/">divelogs.de</a>.
+Uno dei punti di forza di Subsurface è la capacità di interfacciarsi con tantissimi computer subacquei (guarda la lista dei computer supportati). Subsurface può anche importare libretti di immersione da altri programmi, tra cui: <a href="http://www.mac-dive.com/">MacDive</a>, Suunto DM3, DM4 & DM5,<a href="http://jdivelog.org/">JDiveLog</a> e <a href="http://en.divelogs.de/">divelogs.de</a>.
 
-Un altro punto di forza consiste nella capacità di visualizzare in maniera innovativa il profilo di immersione (e, se disponibile, l’andamento della pressione delle bombole) dando all’utente ulteriori informazioni sulla velocità relativa e consumi istantanei durante l’immersione.
 
-[/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-metric.png" alt="Screenshot of dive profile" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
+Un altro punto di forza è la capacità di <strong>visualizzare</strong> il profilo dell'immersione ( e se disponibile, l'andamento della pressione delle bombole) in modi innovativi che diano all'utente informazioni aggiuntive relative alla velocità, al consumo momentaneo di aria, alla durata dell'immersione. Gli utenti che si immergono con <strong>più computer</strong> possono combinare i dati di immersione di ogni singolo computer in un'unica immersione – permettendo la visualizzazione dei dati collezionati da sorgenti multiple.
+
+
+[/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Profile.png" alt="Screenshot of dive profile" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
 
 
 
@@ -72,14 +87,16 @@ Un altro punto di forza consiste nella capacità di visualizzare in maniera inno
 
 Con Subsurface puoi stampare un libretto di immersione dettagliato completo di profili e delle informazioni più importanti.
 
+
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid" custom_margin="2em|||"]
 
-<strong>Un po’ di storia:</strong>
+<h5><strong>Un po’ di storia:</strong></h5>
 
 Nell’autunno del 2011, una pausa forzata nello sviluppo del kernel Linux diede la possibilità a Linus Torvalds di buttarsi in una nuova impresa affrontando la sua frustazione per la mancanza di un libretto di immersioni elettronico decente su Linux.
 
 Subsurface è il risultato del lavoro di Linus e di un team di sviluppatori. Adesso supporta Linux, Windows e MacOs permettendo l’importazione dei dati di immersione da un gran numero di computer e altri programmi. Subsurface fornisce visualizzazioni avanzate delle informazioni chiave fornite dai moderni computer subacquei e permette all’utente di tenere tracia di tantissime informazioni sulle sue immersioni. Nell’autunno del 2012 Dirk Hohndel è diventato il gestore del progetto Subsurface.
 
 Licenza: GPLv2
+
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
