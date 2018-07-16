@@ -87,7 +87,6 @@ Een ander sterk punt is de <strong>visualisatie</strong> van diepteprofiel (en, 
 
 Subsurface kan een gedetailleerd logboek <strong>afdrukken</strong> inclusief duikprofiel en andere belangrijke informatie.
 
-
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid" custom_margin="2em|||"]
 
 <h5>Enige historie en achtergrond:</h5>
@@ -97,6 +96,5 @@ In het najaar van 2011, gaf een gedwongen pauze in de kernel ontwikkeling Linux 
 Linus werkte samen met een team van ontwikkelaars, en Subsurface is het resultaat. Het biedt nu ondersteuning voor Linux, Windows en MacOS en maakt het mogelijk gegevens te importeren uit vele duikcomputers en een aantal bestaande duikprogramma's. Het biedt een snelle en gemakkelijke manier om de belangrijkste informatie die door een moderne duikcomputer vastgelegd worden te laten zien en bewerken. In het najaar van 2012 nam Dirk Hohndel de rol als Subsurface verantwoordelijke over.
 
 Licentie: GPLv2
-
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
