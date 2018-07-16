@@ -6,9 +6,11 @@ post_date: 2015-02-04 09:31:09
 post_excerpt: ""
 layout: post
 permalink: >
-  https://subsurface-divelog.org/2015/02/announcing-subsurface-4-4/
-post_language: pl
+  https://subsurface-divelog.org/pl/2015/02/announcing-subsurface-4-4/
 published: true
+category: Aktualności
+post_language:
+  - pl
 ---
 <p>Ekipa <em>Subsurface</em> z przyjemnością ogłasza udostępnienie kolejnej wersji Subsurface, otwartego oprogramowania do logowania i planowania nurkowań, działającego w systemach Windows, Mac i Linux. Pliki instalacyjne dostępne są dla Windows, Mac i najpopularniejszych dystrybucji Linuksa (Ubuntu, Debian Jessie, Linux Mint, Fedora i openSUSE). Więcej informacji na stronie <a title="Pobierz" href="https://subsurface-divelog.org/pl/download/">Pobierz</a>.</p>
 <h2 id="_some_of_the_changes_since_em_subsurface_em_4_3">Najważniejsze zmiany od wersji Subsurface 4.3</h2>
