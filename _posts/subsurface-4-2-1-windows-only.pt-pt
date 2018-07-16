@@ -6,9 +6,9 @@ post_date: 2014-11-13 11:36:49
 post_excerpt: ""
 layout: post
 permalink: >
-  https://subsurface-divelog.org/2014/11/subsurface-4-2-1-windows-only/
-post_language: pt-pt
+  https://subsurface-divelog.org/pt-pt/2014/11/subsurface-4-2-1-windows-only/
 published: true
+category: Novidades
 ---
 <p>Correcção para permitir transferir os registos de mergulhos dos computadores Atomics Aquatics Cobalt and Cobalt 2.</p>
 <p>Adição do suporte para novos computadores de mergulho (Mares Airlab, Aeris A300CS, Aeris F11, Subgear XP-3G).</p>
