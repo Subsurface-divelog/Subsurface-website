@@ -6,9 +6,11 @@ post_date: 2014-12-17 21:16:46
 post_excerpt: ""
 layout: post
 permalink: >
-  https://subsurface-divelog.org/2014/12/announcing-subsurface-4-3/
-post_language: pl
+  https://subsurface-divelog.org/pl/2014/12/announcing-subsurface-4-3/
 published: true
+category: Aktualności
+post_language:
+  - pl
 ---
 <div class="sectionbody">
 <div class="paragraph">
