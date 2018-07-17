@@ -17,7 +17,7 @@ The Subsurface development team proudly announces the release 4.8.1 of Subsurfac
 
 This version brings a number of small bug-fixes and a couple of new features.
 
-Some of the changes in Subsurface 4.8:
+Some of the changes in Subsurface 4.8.1:
 <ul>
 	<li>Mac: fix crashes when opening the user manual or connecting to Facebook</li>
 	<li>BLE support: fix recognition of Heinrich Weikamp OSTC 2 and OSTC Plus</li>
