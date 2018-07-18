@@ -7,8 +7,7 @@ author: hohndel
 post_date: 2018-06-29 11:29:21
 post_excerpt: ""
 layout: post
-permalink: >
-  https://subsurface-divelog.org/nl/2018/06/announcing-subsurface-4-8/
+permalink: https://subsurface-divelog.org/nl/2018/06/announcing-subsurface-4-8/
 published: true
 category: Nieuws
 post_language:
