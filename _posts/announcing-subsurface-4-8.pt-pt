@@ -1,6 +1,6 @@
 ---
 ID: 4062
-post_title: >
+post_title: Anúncio do Subsurface 4.8. e do Subsurface-mobile 2.1
   Announcing Subsurface 4.8 and
   Subsurface-mobile 2.1
 author: hohndel
@@ -14,33 +14,33 @@ category: Novidades
 ---
 [et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" parallax="on" background_color="rgba(255,255,255,0)" /][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
-The Subsurface development team proudly announces the release 4.8 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+A equipa de desenvolvimento do Subsurface tem o orgulho de anunciar a disponibilização da versão 4.8 do Subsurface, um programa de código livre para registo e planeamento de mergulhos para Windows, Mac e Linux.
 
-Some of the changes in Subsurface 4.8:
+Algumas das alterações no Subsurface 4.8:
 <ul>
-	<li>fix crash on manual addition of dive to fresh logbook</li>
-	<li>fix showing of the manual</li>
-	<li>don't save empty file to cloud</li>
-	<li>allow editing from list-view</li>
-	<li>don't add six seconds to dive duration</li>
+	<li><ul><li>correcção do problema ao adicionar manualmente um mergulho a um logbook novo<li>correcção da falha na apresentação do manual<li>não gravar um ficheiro vazio no armazenamento remoto<li>permitir edições a partir da vista em lista<li>não adicionar 6 segundos à duração do mergulho<li>correcção da edição manual da duração do mergulho<li>implementação de eventos "bailout" no logbook e no planeamento<li>correcção do formato da hora na alheta principal<li>várias correcções de problemas e melhorias na manipulação de imagens do mergulho<li>correcção do output de notas sobre contra-difusão isobárica (ICD) no planeamento<li>adição de informação sobre contra-difusão isobárica<li>correcção de um problema com o número máximo de garrafas permitido<li>Descarga do Shearwater: incluir o tecto de descompressão relatado pelo computador de mergulho<li>Importação do Suunto DM: melhoria do processamento da temperatura em alguns casos especiais<li>Importação de ficheiros .CSV: permitir caracteres de quebra de linha ('\n') no campo das notas<li>Suporte BLE: correcção de vários problemas com a descarga BLE</ul></li>
+	<li>Estão disponíveis ficheiros binários para Windows, Mac, e uma AppImage para arquitectura x86-64 em Linux (bem como binários específicos para várias distribuições de Linux, incluindo Ubuntu, Debian, Linux Mint, Fedora, e openSUSE).</li>
+	<li>Pode obter o Subsurface 4.8 a partir dos seguintes locais:</li>
+	<li><strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.8.0.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.0.exe</a></li>
+	<li><strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.0.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.0.dmg</a></li>
 	<li>fix manual editing of dive duration</li>
-	<li>implement bailout events in logbook and planner</li>
-	<li>fix time format in main tab</li>
-	<li>various bugfixes and improvements for dive picture handling</li>
-	<li>fix output of ICD-notes in planner</li>
-	<li>add information about actual isobaric counter diffusion happening</li>
-	<li>fix bug with the maximum number of allowed tanks</li>
-	<li>Shearwater import: include DC reported ceiling</li>
-	<li>Suunto DM import: improved temperature parsing in special cases</li>
-	<li>CSV import: allow newline ('\n') in notes field</li>
-	<li>BLE support: fix several issues with BLE download</li>
+	<li><strong>Linux:</strong> Está disponível um ficheiro genérico do tipo AppImage na <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.8.0">página do Subsurface no GitHub</a>. Descarregue o ficheiro <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.8.0/Subsurface-4.8.0-x86_64.AppImage">Subsurface-4.8.0-x86_64.AppImage</a>, dê-lhe permissões de execução</li>
+	<li><code>chmod +x Subsurface-4.8.0-x86_64.AppImage</code> e depois corra o ficheiro.</li>
+	<li><strong>Linux: Ubuntu: </strong>Adicione o repositório <code>ppa:subsurface/subsurface</code> às suas fontes de software; os pacotes .deb no PPA podem igualmente ser instalados directamente nas versões mais recentes do <strong>Debian</strong> e<strong>LinuxMint</strong>; veja a <a href="https://subsurface-divelog.org/download/">página de Downloads</a> e use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> para obter a última versão.</li>
+	<li><strong>Linux: openSUSE / Fedora:</strong> visite a página do <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&package=subsurface">open build service</a></li>
+	<li>Por favor, coloque questões sobre problemas no <a href="https://subsurface-divelog.org/user-forum/">Fórum de utilizadores</a> ou preencha um bug no nosso <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.</li>
+	<li><h2>Subsurface-mobile</h2></li>
+	<li>Ao mesmo tempo, foi lançada a versão 2.1 do Subsurface-mobile, uma aplicação completa para registo de mergulhos para dispositivos iOS e Android. O Subsurface-mobile permite-lhe aceder ao seu registo de mergulhos no seu tablet ou telemóvel, editar os dados e inclusivé descarregar novos mergulhos a partir de muitos computadores de mergulho compatíveis com a norma Bluetooth LE dive (no iOS) e de muitos computadores de mergulho compatíveis com as normas Bluetooth e Bluetooth LE (e mesmo de alguns computadores de mergulho que requeiram um cabo para download — embora neste caso as coisas se tornem mais complicadas) em Android. Usando o serviço de armazenamento remoto gratuito do Subsurface pode sincronizar os seus dados de mergulho com o Subsurface no seu computador (embora aumente a utilidade da aplicação, a conta de armazenamento remoto não é necessária para usar o Subsurface-mobile).</li>
+	<li>Algumas das alterações no Subsurface-mobile 2.1:</li>
+	<li><ul><li>Suporte BLE: correcção de vários problemas no download BLE em dispositivos móveis<li>correcção de um potencial problema ao editar um mergulho adicionado manualmente<li>correcção do problema da ausência de perfis ao adicionar mergulhos manualmente ou a editar esses mergulhos<li>manter os mergulhos já guardados no armazenamento local ao passar do modo de armazenamento local para o modo de armazenamento remoto<li>adicionar o nome do utilizador do armazenamento remoto ao "drawer banner" global<li>adição de um botão na página "Sobre" para copiar registos para a área de transferência; isto torna mais simples fornecer informação útil ao relatar problemas<li>ajuste do tamanho da página "Sobre" para ecrãs pequenos (sem scroll)<li>a página de download regista a última ligação utilizada<li>recalcular os valores derivados após a edição de um mergulho<li>mostrar o perfil correcto após adicionar manualmente ou editar um mergulho adicionado manualmente<li>colapsar as viagens de mergulho para melhorar a visualização de listas longas de mergulhos<li>correcção da utilização da posição GPS actual ao editar ou adicionar mergulhos<li>iOS: ajuste da página de lançamento de modo a ficar centrada<li>Android: correcção da falha no download FTDI em dispositivos Android que nos permite aceder ao seu directório /dev (no entanto, muitos dispositivos não suportam o modo como o Subsurface-mobile acede a dispositivos USB através de adaptadores OTG)</ul></li>
+	<li>Pode obter o Subsurface-mobile nas App Stores respectivas. Por favor veja o <a href="/documentation/subsurface-mobile-v2-user-manual/">Manual do utilizador do Subsurface-mobile v2</a>.</li>
 </ul>
 
 [/et_pb_text][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
-Binaries are available for Windows, Mac, and an AppImage for x86-64 Linux (plus distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE).
+Tal como tudo o que fazemos, o Subsurface-mobile é livre e de código aberto. Não tem publicidade nem nenhum aspecto comercial associado. E vem com acesso a um serviço de armazenamento remoto gratuito (se decidir usá-lo — é facultativo). Os seus dados não são usados para nada, nada é comercializado.
 
-You can get Subsurface 4.8 from these locations:
+À semelhança da versão desktop, coloque questões sobre problemas no nosso<a href="https://subsurface-divelog.org/user-forum/">Fórum de utilizadores</a> ou preencha um bug no nosso <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
 
 <strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.8.0.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.0.exe</a>
 

@@ -11,39 +11,33 @@ published: true
 [et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid" saved_tabs="all" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" global_module="1887"]
 
 
+
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
 <h2>A última versão foi lançada</h2>
-
-Por favor veja o <a href="https://subsurface-divelog.org/2018/07/announcing-subsurface-4-8-1/"> anúncio do Subsurface 4.8.1</a>.
-
+Por favor veja o <a href="https://subsurface-divelog.org/pt-pt/2018/07/announcing-subsurface-4-8-1/"> anúncio do Subsurface 4.8.1</a>.
 
 [/et_pb_text][et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
 
-[et_pb_slide heading="Multiplatform" background_position="default" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/OS-logos1.png" alignment="center" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
+[et_pb_slide heading="Multi-plataforma" background_position="default" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/OS-logos1.png" alignment="center" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
 Subsurface é uma aplicação gratuita, livre e de código aberto, que corre em ambientes Windows, Mac e Linux.
 
-
-[/et_pb_slide][et_pb_slide heading="Log all your dives" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Screenshot.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
+[/et_pb_slide][et_pb_slide heading="Registe todos os seus mergulhos" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Screenshot.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
 Transfira os seus mergulhos do seu computador de mergulho. Importe mergulhos de outras aplicações ou de websites. Insira mergulhos manualmente ou via uma folha de cálculo simples.
 
-
-[/et_pb_slide][et_pb_slide heading="Dive planner" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Planner.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
+[/et_pb_slide][et_pb_slide heading="Planeamento de mergulhos" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Planner.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
 A funcionalidade de planeamento de mergulhos, permite verificar visualmente e facilmente, mergulhos baseados nos algoritmos Bühlmann ZH-16 ou VPM-B.
 
-
-[/et_pb_slide][et_pb_slide heading="Cloud storage" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRFCloud.png" alignment="center" image_alt="Cloud storage" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000" use_bg_overlay="off" use_text_overlay="off" text_border_radius="3" header_font="||||" body_font="||||" button_font="||||"]
+[/et_pb_slide][et_pb_slide heading="Armazenamento remoto" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRFCloud.png" alignment="center" image_alt="Cloud storage" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000" use_bg_overlay="off" use_text_overlay="off" text_border_radius="3" header_font="||||" body_font="||||" button_font="||||"]
 
 Guarde o seu registo de mergulhos na Nuvem/Internet. Aceda em qualquer lugar, com qualquer computador. Completamente integrado no Subsurface, gratuito e fácil de configurar.
-
 
 [/et_pb_slide][et_pb_slide heading="Subsurface-mobile" background_position="default" background_size="default" background_color="#ffffff" use_bg_overlay="off" use_text_overlay="off" alignment="center" background_layout="light" allow_player_pause="off" text_border_radius="3" header_font_select="default" header_font="||||" body_font_select="default" body_font="||||" custom_button="off" button_font_select="default" button_font="||||" button_use_icon="default" button_icon_placement="right" button_on_hover="on" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRF-Website-Mobile.png" image_alt="Subsurface-mobil on Android and iOS" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
 Através do Subsurface-mobile no seu dispositivo Android ou iOS, pode aceder ao seu registo de mergulhos em qualquer lugar
-
 
 [/et_pb_slide]
 
@@ -51,9 +45,7 @@ Através do Subsurface-mobile no seu dispositivo Android ou iOS, pode aceder ao 
 
 Subsurface permite <strong>planear</strong> e <strong>registar</strong> <strong>mergulhos</strong> com uma ou mais garrafas, usando ar, Nitrox ou Trimix. Permite registar os locais de mergulho, as suas coordenadas GPS (que também podem ser introduzidas facilmente através do mapa), o equipamento usado, nomes de outros mergulhadores e por fim, classificar os locais de mergulho e adicionar notas.
 
-
 Os utilizadores podem definir e atribuir etiquetas de classificação aos mergulhos. Podem também <strong>filtrar a lista de mergulhos</strong> com base em diversos critérios como etiquetas, locais, ou companheiros de mergulho.
-
 
 [/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/TagsAndRating1.png" alt="Screenshot of rating, tags and other data fields" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
 
@@ -63,20 +55,15 @@ Os utilizadores podem definir e atribuir etiquetas de classificação aos mergul
 
 O Subsurface também permite calcular uma variedade de <strong>estatísticas</strong> com base no registo de mergulhos do utilizador, tais como: taxa de consumo, pressão partial de O2, N2 e He, descompressão e muitas outras.
 
-
 <strong>Vários mergulhadores</strong> podem partilhar uma instalação do Subsurface, usando diferentes preferências e configurações.
 
-
 Esta aplicação está traduzida para <strong>20 línguas</strong> e é suportada por uma comunidade activa de programadores.
-
 
 [/et_pb_text][/et_pb_column][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
 Um dos pontos fortes do Subsurface é o suporte alargado para vários <strong>computadores de mergulho</strong> (consultar a <a href="documentation/supported-dive-computers/">lista</a>). Também pode importar de outras aplicações ou fontes, os seus registos de mergulho existentes, tais como: MacDive, Suunto DM3, DM4, DM5, JDiveLog e da página divelogs.de.
 
-
-Outro ponto forte é a facilidade de <strong>visualizar</strong> o perfil do mergulho (e a variação da pressão da garrafa se disponível). De uma forma inovadora o utilizador pode verificar a velocidade relativa, e o consumo de ar durante o mergulho. Os utilizadores que mergulhem com <strong>vários computadores de mergulho</strong> podem combinar os dados de cada um dos instrumentos num só mergulho – permitindo a visualização de dados obtidos a partir de várias fontes. 
-
+Outro ponto forte é a facilidade de <strong>visualizar</strong> o perfil do mergulho (e a variação da pressão da garrafa se disponível). De uma forma inovadora o utilizador pode verificar a velocidade relativa, e o consumo de ar durante o mergulho. Os utilizadores que mergulhem com <strong>vários computadores de mergulho</strong> podem combinar os dados de cada um dos instrumentos num só mergulho – permitindo a visualização de dados obtidos a partir de várias fontes.
 
 [/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Profile.png" alt="Screenshot of dive profile" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
 
@@ -86,16 +73,11 @@ Outro ponto forte é a facilidade de <strong>visualizar</strong> o perfil do mer
 
 Subsurface permite ao utilizador <strong>imprimir</strong> um "logbook" detalhado.
 
-
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid" custom_margin="2em|||"]
 
 <h5>Um pouco de história:</h5>
-
 No Outono de 2011, Linus Torvalds aproveitou um periodo mais calmo no desenvolvimento do kernel Linux, para começar um novo projecto. Decidiu colmatar a falta de software de registo de mergulhos, no seu ambiente Linux.
-
 Do seu trabalho em conjunto com uma equipa de desenvolvimento, resultou no Subsurface. Este funciona em Linux, Windows e MacOS, permite importar dados de diversos computadores de mergulho e de outras aplicações do género. Disponibiliza uma forma rápida e fácil de consultar esses dados e adicionar mais informações relevantes aos mergulhos. No Outono de 2012, Dirk Hohndel assumiu a manutenção do projecto.
-
 Licença: GPLv2
-
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

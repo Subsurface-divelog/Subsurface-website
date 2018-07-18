@@ -15,46 +15,37 @@ published: true
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
 <h2>Unsere neueste Version ist jetzt verfügbar.</h2>
-
-Bitte lies die <a href="https://subsurface-divelog.org/de/2018/07/announcing-subsurface-4-8-1/">Ankündigung von Subsurface 4.8.1</a>. 
-
+Bitte lies die <a href="https://subsurface-divelog.org/de/2018/07/announcing-subsurface-4-8-1/">Ankündigung von Subsurface 4.8.1</a>.
 
 [/et_pb_text][et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
 
 [et_pb_slide heading="Multiplatform" background_position="default" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/OS-logos1.png" alignment="center" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
-Subsurface ist ein quell-offenes und kostenloses Tauchlogbuch, das auf Windows, Macs und Linux Computern benutzt werden kann. 
-
+Subsurface ist ein quell-offenes und kostenloses Tauchlogbuch, das auf Windows, Macs und Linux Computern benutzt werden kann.
 
 [/et_pb_slide][et_pb_slide heading="Log all your dives" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Screenshot.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
-Tauchdaten können von vielen Tauchcomputern direkt heruntergeladen und aus anderen elektronischen Tauchlogbüchern oder Tauch-Webseiten importiert werden. Natürlich können Tauchdaten auch manuell eingegeben werden. 
-
+Tauchdaten können von vielen Tauchcomputern direkt heruntergeladen und aus anderen elektronischen Tauchlogbüchern oder Tauch-Webseiten importiert werden. Natürlich können Tauchdaten auch manuell eingegeben werden.
 
 [/et_pb_slide][et_pb_slide heading="Dive planner" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/Subsurface-4.5-Planner.png" alignment="center" image_alt="Screenshot of a recreational dive" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
-Das Tauchplan Modul macht es einfach Tauchgänge zu planen. Mit grafischer Eingabe des Tauchprofils und unter Benutzung von entweder Bühlmann ZH-16 oder VPM-B als Dekompressionsalgorithmus. 
-
+Das Tauchplan Modul macht es einfach Tauchgänge zu planen. Mit grafischer Eingabe des Tauchprofils und unter Benutzung von entweder Bühlmann ZH-16 oder VPM-B als Dekompressionsalgorithmus.
 
 [/et_pb_slide][et_pb_slide heading="Cloud storage" background_position="center" background_size="default" background_color="#ffffff" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRFCloud.png" alignment="center" image_alt="Cloud storage" background_layout="light" allow_player_pause="off" header_font_select="default" body_font_select="default" custom_button="off" button_font_select="default" button_use_icon="default" button_icon_placement="right" button_on_hover="on" arrows_custom_color="#000000" dot_nav_custom_color="#000000" use_bg_overlay="off" use_text_overlay="off" text_border_radius="3" header_font="||||" body_font="||||" button_font="||||"]
 
-Die Tauchdaten können auch in der Subsurface Cloud gespeichert werden und sind dann von verschiedenen Computern erreichbar. Voll-integriert, transparent, umsonst und einfach zu konfigurieren. 
-
+Die Tauchdaten können auch in der Subsurface Cloud gespeichert werden und sind dann von verschiedenen Computern erreichbar. Voll-integriert, transparent, umsonst und einfach zu konfigurieren.
 
 [/et_pb_slide][et_pb_slide heading="Subsurface-mobile" background_position="default" background_size="default" background_color="#ffffff" use_bg_overlay="off" use_text_overlay="off" alignment="center" background_layout="light" allow_player_pause="off" text_border_radius="3" header_font_select="default" header_font="||||" body_font_select="default" body_font="||||" custom_button="off" button_font_select="default" button_font="||||" button_use_icon="default" button_icon_placement="right" button_on_hover="on" image="https://subsurface-divelog.org/wp-content/uploads/2011/10/SSRF-Website-Mobile.png" image_alt="Subsurface-mobil on Android and iOS" arrows_custom_color="#000000" dot_nav_custom_color="#000000"]
 
-Mit Subsurface-mobile kann auch von Android oder iOS Geräten auf das Tauchlogbuch zugegriffen werden. 
-
+Mit Subsurface-mobile kann auch von Android oder iOS Geräten auf das Tauchlogbuch zugegriffen werden.
 
 [/et_pb_slide]
 
 [/et_pb_slider][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="on" gutter_width="4" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" column_padding_mobile="on"][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurface ist ein Tauchlogbuch, das es ermöglicht, Tauchgänge zu planen und Tauch-Daten von unterstützten Tauchcomputern herunterzuladen. Subsurface erlaubt eine innovative Visualisierung der Daten, die moderne <strong>Tauchcomputer</strong> während des Tauchgangs aufzeichnen. Eine Fülle weiterer Informationen zu den Tauchgängen können vom Benutzer komfortabel eingetragen und verwaltet werden. So können beispielsweise die verwendeten Atemgase, Ausrüstungsgegenstände oder Tauchpartner ebenso vermerkbar, wie Bewertungen und Notizen den jeweiligen Tauchgängen zugeordnet werden können. Weiterhin können die GPS-Koordinaten von Tauchplätzen verwaltet und auf einfache Weise mittels online-Kartenmaterial eingegeben werden. 
+Subsurface ist ein Tauchlogbuch, das es ermöglicht, Tauchgänge zu planen und Tauch-Daten von unterstützten Tauchcomputern herunterzuladen. Subsurface erlaubt eine innovative Visualisierung der Daten, die moderne <strong>Tauchcomputer</strong> während des Tauchgangs aufzeichnen. Eine Fülle weiterer Informationen zu den Tauchgängen können vom Benutzer komfortabel eingetragen und verwaltet werden. So können beispielsweise die verwendeten Atemgase, Ausrüstungsgegenstände oder Tauchpartner ebenso vermerkbar, wie Bewertungen und Notizen den jeweiligen Tauchgängen zugeordnet werden können. Weiterhin können die GPS-Koordinaten von Tauchplätzen verwaltet und auf einfache Weise mittels online-Kartenmaterial eingegeben werden.
 
-
-Tauchgängen können Stichworte zugewiesen werden und das Tauchlogbuch kann nach verschiedenen Kriterien wie zum Beispiel Stichworten, Tauchplatz oder Personen, die am Tauchgang teilgenommen haben gefiltert werden. Tauchgänge können als Tauchreisen gruppiert werden. Ausserdem können mehrere Tauchgänge zugleich editiert werden, was die Verarbeitung einer grossen Zahl an Tauchgängen erleichtert. 
-
+Tauchgängen können Stichworte zugewiesen werden und das Tauchlogbuch kann nach verschiedenen Kriterien wie zum Beispiel Stichworten, Tauchplatz oder Personen, die am Tauchgang teilgenommen haben gefiltert werden. Tauchgänge können als Tauchreisen gruppiert werden. Ausserdem können mehrere Tauchgänge zugleich editiert werden, was die Verarbeitung einer grossen Zahl an Tauchgängen erleichtert.
 
 [/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/TagsAndRating1.png" alt="Screenshot of rating, tags and other data fields" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
 
@@ -62,22 +53,17 @@ Tauchgängen können Stichworte zugewiesen werden und das Tauchlogbuch kann nach
 
 [/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurface kann mit verschiedenen Gasgemischen wie Luft, Nitrox und TriMix auch bei Gaswechseln innerhalb desselben Tauchgangs umgehen und berechnet auf Basis der aufgezeichneten Daten weitere Werte und <strong>Statistiken</strong> wie etwa das Atemminutenvolumen, Partialdrücke der Atemgase, berechnete Deko-Daten und vieles mehr. 
+Subsurface kann mit verschiedenen Gasgemischen wie Luft, Nitrox und TriMix auch bei Gaswechseln innerhalb desselben Tauchgangs umgehen und berechnet auf Basis der aufgezeichneten Daten weitere Werte und <strong>Statistiken</strong> wie etwa das Atemminutenvolumen, Partialdrücke der Atemgase, berechnete Deko-Daten und vieles mehr.
 
+<strong>Mehrere Taucher</strong> können gemeinsam eine Installation von Subsurface benutzen und unabhängig voneinander Voreinstellungen speichern.
 
-<strong>Mehrere Taucher</strong> können gemeinsam eine Installation von Subsurface benutzen und unabhängig voneinander Voreinstellungen speichern. 
-
-
-Subsurface kann in <strong>20 Sprachen</strong> benutzt werden und wird von einer aktiven Entwicklergemeinde unterstützt. 
-
+Subsurface kann in <strong>20 Sprachen</strong> benutzt werden und wird von einer aktiven Entwicklergemeinde unterstützt.
 
 [/et_pb_text][/et_pb_column][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Wir verwalten eine <a href="https://subsurface-divelog.org/documentation/supported-dive-computers">lange Liste unterstützter Tauchcomputer</a>. Existierende Logbucheinträge können unter anderem aus <a href="http://www.mac-dive.com/">MacDive</a>, Suunto DM3/4/5, <a href="http://jdivelog.org/">JDiveLog</a> und <a href="http://en.divelogs.de/">divelogs.de</a> übernommen werden. 
+Wir verwalten eine <a href="https://subsurface-divelog.org/documentation/supported-dive-computers">lange Liste unterstützter Tauchcomputer</a>. Existierende Logbucheinträge können unter anderem aus <a href="http://www.mac-dive.com/">MacDive</a>, Suunto DM3/4/5, <a href="http://jdivelog.org/">JDiveLog</a> und <a href="http://en.divelogs.de/">divelogs.de</a> übernommen werden.
 
-
-Eine weitere von Subsurfaces ausgeprägten Stärken ist die innovative <strong>Visualisierung</strong> der Daten. So bereitet Subsurface die Tauchprofil-Daten auf eine Weise auf, die dem Benutzer direkt seine momentane vertikal-Geschwindigkeit zeigt. Ebenso wird das momentane Atemvolumen visualisiert. 
-
+Eine weitere von Subsurfaces ausgeprägten Stärken ist die innovative <strong>Visualisierung</strong> der Daten. So bereitet Subsurface die Tauchprofil-Daten auf eine Weise auf, die dem Benutzer direkt seine momentane vertikal-Geschwindigkeit zeigt. Ebenso wird das momentane Atemvolumen visualisiert.
 
 [/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/Profile.png" alt="Screenshot of dive profile" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
 
@@ -85,18 +71,13 @@ Eine weitere von Subsurfaces ausgeprägten Stärken ist die innovative <strong>V
 
 [/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurface ermöglicht dem Benutzer detaillierte Logbuchseiten, inklusive Tiefenprofilen, auszudrucken. 
-
+Subsurface ermöglicht dem Benutzer detaillierte Logbuchseiten, inklusive Tiefenprofilen, auszudrucken.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid" custom_margin="2em|||"]
 
 <h5>Ein bisschen Hintergrund Geschichte zu Subsurface:</h5>
-
-Als im Herbst 2011 eine vorübergehende Flaute bei der Linux-Kernel Weiterentwicklung Gelegenheit dazu gab, entschied sich Linux-Erfinder Linus Torvalds etwas gegen das frustrierende Fehlen einer brauchbaren Software für die Verwaltung von Taucher-Logbucheinträgen unter Linux zu tun. 
-
-Subsurface ist das Resultat der Arbeit, die er und viele andere Entwickler seitdem geleistet haben. Seit Herbst 2012 hat Dirk Hohndel die Betreuung von Subsurface übernommen. 
-
-Lizenz: GPLv2 
-
+Als im Herbst 2011 eine vorübergehende Flaute bei der Linux-Kernel Weiterentwicklung Gelegenheit dazu gab, entschied sich Linux-Erfinder Linus Torvalds etwas gegen das frustrierende Fehlen einer brauchbaren Software für die Verwaltung von Taucher-Logbucheinträgen unter Linux zu tun.
+Subsurface ist das Resultat der Arbeit, die er und viele andere Entwickler seitdem geleistet haben. Seit Herbst 2012 hat Dirk Hohndel die Betreuung von Subsurface übernommen.
+Lizenz: GPLv2
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

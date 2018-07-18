@@ -17,7 +17,7 @@ A equipa de desenvolvimento do Subsurface tem o orgulho de anunciar a disponibil
 
 Esta versão traz um conjunto de correcções e algumas inovações.
 
-Some of the changes in Subsurface 4.8.1:
+Principais alterações na versão 4.8.1 do Subsurface:
 <ul>
 	<li>Mac: correcção do problema ao abrir o manual do utilizador ou ao ligar ao Facebook</li>
 	<li>Suporte BLE: correcção no reconhecimento dos computadores de mergulho Heinrich Weikamp OSTC 2 e OSTC Plus</li>
