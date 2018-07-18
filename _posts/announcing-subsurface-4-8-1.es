@@ -5,8 +5,7 @@ author: hohndel
 post_date: 2018-07-13 16:35:10
 post_excerpt: ""
 layout: post
-permalink: >
-  https://subsurface-divelog.org/es/2018/07/announcing-subsurface-4-8-1/
+permalink: https://subsurface-divelog.org/es/2018/07/announcing-subsurface-4-8-1/
 published: true
 category: Noticias
 post_language:
