@@ -1,11 +1,14 @@
 ---
 ID: 4056
-post_title: Announcing Subsurface 4.8 and Subsurface-mobile 2.1
+post_title: >
+  Announcing Subsurface 4.8 and
+  Subsurface-mobile 2.1
 author: hohndel
 post_date: 2018-07-16 17:04:32
 post_excerpt: ""
 layout: post
-permalink: https://subsurface-divelog.org/fr/2018/07/announcing-subsurface-4-8/
+permalink: >
+  https://subsurface-divelog.org/fr/2018/07/announcing-subsurface-4-8/
 published: true
 category: Actualités
 ---
@@ -29,7 +32,7 @@ Some of the changes in Subsurface 4.8:
 	 <li>fix bug with the maximum number of allowed tanks</li>
 	 <li>Shearwater import: include DC reported ceiling</li>
 	 <li>Suunto DM import: improved temperature parsing in special cases</li>
-	 <li>CSV import: allow newline ('\n') in notes field</li>
+	 <li>CSV import: allow newline ('n') in notes field</li>
 	 <li>BLE support: fix several issues with BLE download</li>
 </ul>
 
