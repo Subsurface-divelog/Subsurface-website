@@ -18,14 +18,14 @@ Esta versão traz um conjunto de correcções e algumas inovações.
 
 Principais alterações na versão 4.8.1 do Subsurface:
 <ul>
-	<li>Mac: correcção do problema ao abrir o manual do utilizador ou ao ligar ao Facebook</li>
-	<li>Suporte BLE: correcção no reconhecimento dos computadores de mergulho Heinrich Weikamp OSTC 2 e OSTC Plus</li>
-	<li>Suporte BT: correcção dos problemas na descarga/configuração de alguns modelos OSTC</li>
-	<li>Armazenamento remoto: correcção de um potencial problema com as credenciais em Linux</li>
-	<li>Perfil: Menu de contexto para dividir manualmente um mergulho</li>
-	<li>Media: suporte para a adição de vídeos</li>
-	<li>Media: localização de ficheiros movidos com base no nome e na sua localização em disco</li>
-	<li>Planeamento: correcção de problema no menu do modo de mergulho e nas nota</li>
+	 <li>Mac: correcção do problema ao abrir o manual do utilizador ou ao ligar ao Facebook</li>
+	 <li>Suporte BLE: correcção no reconhecimento dos computadores de mergulho Heinrich Weikamp OSTC 2 e OSTC Plus</li>
+	 <li>Suporte BT: correcção dos problemas na descarga/configuração de alguns modelos OSTC</li>
+	 <li>Armazenamento remoto: correcção de um potencial problema com as credenciais em Linux</li>
+	 <li>Perfil: Menu de contexto para dividir manualmente um mergulho</li>
+	 <li>Media: suporte para a adição de vídeos</li>
+	 <li>Media: localização de ficheiros movidos com base no nome e na sua localização em disco</li>
+	 <li>Planeamento: correcção de problema no menu do modo de mergulho e nas nota</li>
 </ul>
 
 [/et_pb_text][et_pb_text _builder_version="3.0.92" background_layout="light"]
@@ -34,15 +34,26 @@ Estão disponíveis ficheiros binários para Windows, Mac, e uma AppImage para a
 
 Pode obter o Subsurface 4.8.1 a partir dos seguintes locais:
 
-<strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.8.1.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.1.exe</a>
 
-<strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.1.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.1.dmg</a>
+  <strong>Windows:</strong>
+  <a href="https://subsurface-divelog.org/downloads/subsurface-4.8.1.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.1.exe</a>
  
-<strong>Linux:</strong> Está disponível um ficheiro genérico do tipo AppImage na <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.8.1">página do Subsurface no GitHub</a>. Descarregue o ficheiro <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.8.1/Subsurface-4.8.1-x86_64.AppImage">Subsurface-4.8.1-x86_64.AppImage</a>, dê-lhe permissões de execução
-<code>chmod +x Subsurface-4.8.1-x86_64.AppImage</code> e depois corra o ficheiro.
-<strong>Linux: Ubuntu: </strong>Adicione o repositório <code>ppa:subsurface/subsurface</code> às suas fontes de software; os pacotes .deb no PPA podem igualmente ser instalados directamente nas versões mais recentes do <strong>Debian</strong> e <strong>LinuxMint</strong>; veja a página de <a href="https://subsurface-divelog.org/download/">Downloads</a> e use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> para obter a última versão. Chamamos novamente a sua atenção para o facto das distribuições baseadas no Ubuntu 18.04 não serem ainda suportadas.
 
-<strong>Linux: openSUSE / Fedora:</strong> visite a <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&package=subsurface">página do open build service</a>
+
+  <strong>Mac:</strong>
+  <a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.1.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.1.dmg</a>
+ 
+
+
+  <strong>Linux:</strong> Está disponível um ficheiro genérico do tipo AppImage na <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.8.1">página do Subsurface no GitHub</a>. Descarregue o ficheiro <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.8.1/Subsurface-4.8.1-x86_64.AppImage">Subsurface-4.8.1-x86_64.AppImage</a>, dê-lhe permissões de execução
+
+  <code>chmod +x Subsurface-4.8.1-x86_64.AppImage</code> e depois corra o ficheiro.
+
+  <strong>Linux: Ubuntu: </strong>Adicione o repositório <code>ppa:subsurface/subsurface</code> às suas fontes de software; os pacotes .deb no PPA podem igualmente ser instalados directamente nas versões mais recentes do <strong>Debian</strong> e <strong>LinuxMint</strong>; veja a página de <a href="https://subsurface-divelog.org/download/">Downloads</a> e use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> para obter a última versão.  Chamamos novamente a sua atenção para o facto das distribuições baseadas no Ubuntu 18.04 não serem ainda suportadas.
+
+
+  <strong>Linux: openSUSE / Fedora:</strong> visite a <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">página do open build service</a>
+ 
 
 Por favor, coloque questões sobre problemas no <a href="https://subsurface-divelog.org/user-forum/">Fórum de utilizadores</a> ou preencha um bug no nosso <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
 
