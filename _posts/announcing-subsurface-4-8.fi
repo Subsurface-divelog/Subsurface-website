@@ -1,11 +1,14 @@
 ---
 ID: 4054
-post_title: Julkistamme Subsurface 4.8:n ja Subsurface-mobiili 2.1:n
+post_title: >
+  Julkistamme Subsurface 4.8:n ja
+  Subsurface-mobiili 2.1:n
 author: hohndel
 post_date: 2018-07-16 17:04:03
 post_excerpt: ""
 layout: post
-permalink: https://subsurface-divelog.org/fi/2018/07/announcing-subsurface-4-8/
+permalink: >
+  https://subsurface-divelog.org/fi/2018/07/announcing-subsurface-4-8/
 published: true
 category: Uutiset
 ---
@@ -29,7 +32,7 @@ Joitakin Subsurfacen version 4.8 muutoksista:
 	 <li>korjattu virhe säiliöiden maksimimäärässä</li>
 	 <li>Shearwater: lisätty sukellustietokoneen ilmoittama katto</li>
 	 <li>Suunto DM: parannettu lämpötilojen parsintaa erityistapauksissa</li>
-	 <li>CSV: lisätty tuki rivinvaihdolle ('\n') kommenttikentässä</li>
+	 <li>CSV: lisätty tuki rivinvaihdolle ('n') kommenttikentässä</li>
 	 <li>BLE tuki: korjattu useita ongelmia ladattaessa sukellustiteokoneesta BLE-protokollalla</li>
 </ul>
 
