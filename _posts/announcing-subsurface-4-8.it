@@ -40,16 +40,11 @@ Binaries are available for Windows, Mac, and an AppImage for x86-64 Linux (plus 
 
 You can get Subsurface 4.8 from these locations:
 
-
   <strong>Windows:</strong>
   <a href="https://subsurface-divelog.org/downloads/subsurface-4.8.0.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.0.exe</a>
- 
-
 
   <strong>Mac:</strong>
   <a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.0.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.0.dmg</a>
- 
-
 
   <strong>Linux:</strong> A generic AppImage is available for download at the <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.8.0">Subsurface GitHub Release page</a>. Download <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.8.0/Subsurface-4.8.0-x86_64.AppImage">Subsurface-4.8.0-x86_64.AppImage</a>, make it executable
 
