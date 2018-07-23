@@ -55,13 +55,14 @@ Les utilisateurs peuvent étiqueter les plongées et <strong>filtrer la liste de
 
 Subsurface calcule également un grand nombre de <strong>statistiques</strong> sur les plongées de l'utilisateur. Il permet le suivi de la consommation d'air (SAC), de la pression partielle d'O2, de N2 et d'He, des calculs d'informations de déco, ainsi que beaucoup d'autres valeurs.
 
-<strong>Plusieurs plongeurs</strong> peuvent partager une seule installation de Subsurface, en utilisant différentes préférences et paramètres.
+
+  <strong>Plusieurs plongeurs</strong> peuvent partager une seule installation de Subsurface, en utilisant différentes préférences et paramètres.
 
 Le programme est traduit en <strong>20 langues</strong> environ et il est très bien maintenu par une communauté active de développeurs.
 
 [/et_pb_text][/et_pb_column][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Une des importances majeures de Subsurface est sa compatibilité avec un très grand nombre d'<strong>ordinateurs de plongée</strong> (voire la <a href="documentation/supported-dive-computers/">liste d'ordinateurs de plongée pris en charge</a>). Subsurface peut également importer le journal de plongées de plusieurs sources tels que MacDive, Suunto DM3, DM4 & DM5, JDiveLog et divelogs.de.
+Une des importances majeures de Subsurface est sa compatibilité avec un très grand nombre d'<strong>ordinateurs de plongée</strong> (voire la <a href="documentation/supported-dive-computers/">liste d'ordinateurs de plongée pris en charge</a>). Subsurface peut également importer le journal de plongées de plusieurs sources tels que MacDive, Suunto DM3, DM4 &amp; DM5, JDiveLog et divelogs.de.
 
 Un autre atout est sa capacité à <strong>visualiser</strong> le profil de profondeur (et, si disponible, la courbe de pression des bouteilles) de manière innovante, qui donne à l'utilisateur les informations de vitesse relative, et la consommation d'air momentanée pendant une plongée. Les plongeurs qui plongent avec <strong>plusieurs ordinateurs de plongée</strong>peuvent combiner les données de chaque ordinateur dans une seule plongée, permettant la visualisation des données collectées depuis plusieurs sources.
 

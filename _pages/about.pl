@@ -55,13 +55,14 @@ You can tag dives and <strong>filter a dive list</strong> based on criteria incl
 
 Subsurface also calculates a wide variety of <strong>statistics</strong> of the user’s diving and tracks information like the SAC rate, partial pressures of O2, N2 and He, calculated deco information, and many more.
 
-<strong>Multiple divers</strong> can share one instance of Subsurface using different preferences and settings.
+
+  <strong>Multiple divers</strong> can share one instance of Subsurface using different preferences and settings.
 
 The program is localized in about <strong>20 languages</strong> and well supported by an active developer community.
 
 [/et_pb_text][/et_pb_column][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-One of the major strengths of Subsurface is its support of a wide range of <strong>dive computers</strong> (see the <a href="documentation/supported-dive-computers/">list of supported dive computers</a>). Subsurface can also import existing dive logs from several sources including MacDive, Suunto DM3, DM4 & DM5, JDiveLog and divelogs.de.
+One of the major strengths of Subsurface is its support of a wide range of <strong>dive computers</strong> (see the <a href="documentation/supported-dive-computers/">list of supported dive computers</a>). Subsurface can also import existing dive logs from several sources including MacDive, Suunto DM3, DM4 &amp; DM5, JDiveLog and divelogs.de.
 
 Another strength is its ability to <strong>visualize</strong> the depth profile (and, if available, the tank pressure curve) in innovative ways that give the user additional information on relative velocity, and momentary air consumption, during a dive. Users who dive with <strong>multiple dive computers</strong> can combine the data from each of their dive computers into one dive – allowing visualization of the data collected from multiple sources.
 
@@ -77,7 +78,7 @@ Subsurface lets the user <strong>print</strong> out a detailed log book includin
 
 <h5>A bit of background:</h5>
 In fall of 2011, when a forced lull in kernel development gave him a chance to start a new project, Linux creator Linus Torvalds decided to tackle his frustration with the lack of decent divelog software on Linux.
-Linus worked with a team of developers, and Subsurface is the result. It now supports Linux, Windows and MacOS and allows data import from many dive computers and several existing divelog programs. It provides a quick and easy way to see the key information provided by a modern dive computer and lets users track a wide variety of data about their dives. In fall of 2012 Dirk Hohndel took over as Subsurface maintainer.
+Linus worked with a team of developers, and Subsurface is the result.  It now supports Linux, Windows and MacOS and allows data import from many dive computers and several existing divelog programs. It provides a quick and easy way to see the key information provided by a modern dive computer and lets  users track a wide variety of data about their dives. In fall of 2012 Dirk Hohndel took over as Subsurface maintainer.
 License: GPLv2
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

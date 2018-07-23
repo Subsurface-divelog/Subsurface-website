@@ -43,9 +43,9 @@ Usando Subsurface-mobile sul tuo dispositivo Android o iOS potrai accedere alle 
 
 [/et_pb_slider][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row" make_fullwidth="off" use_custom_width="off" width_unit="on" use_custom_gutter="on" gutter_width="4" padding_mobile="off" allow_player_pause="off" parallax="off" parallax_method="off" make_equal="off" column_padding_mobile="on"][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Subsurface può <strong>pianificare</strong> and <strong>tenere traccia</strong> di <strong>immersioni</strong> con una o più bombole, con l'uso di aria, Nitrox or TriMix. Permette la registrazione dei punti di immersioni con le loro coordinate GPS che possono essere inserite anche in maniera visuale tramite una mappa. Tiene nota inoltre dell'attrezzatura usata, i compagni di immersione, l'indice di gradimento e un campo note aggiuntivo.
+Subsurface può <strong>pianificare</strong> and <strong>tenere traccia</strong> di <strong>immersioni</strong> con una o più bombole,  con l'uso di aria, Nitrox or TriMix. Permette la registrazione dei punti di immersioni con le loro coordinate GPS che possono essere inserite anche in maniera visuale tramite una mappa. Tiene nota inoltre dell'attrezzatura usata, i compagni di immersione, l'indice di gradimento e un campo note aggiuntivo.
 
-Puoi taggare le immersioni e <strong>filtrare la lista</strong> in base a criteri come etichette, luoghi, compagni di immersioni e altro ancora. Puoi raggrupparle in viaggi e modificarne più alla volta rendendo facile la gestione di una gran numero di immersioni
+Puoi taggare le immersioni e <strong>filtrare la lista</strong> in base a criteri come etichette, luoghi, compagni di immersioni  e altro ancora. Puoi raggrupparle in viaggi e modificarne più alla volta rendendo facile la gestione di una gran numero di immersioni
 
 [/et_pb_text][et_pb_image admin_label="Image" src="https://subsurface-divelog.org/wp-content/uploads/2011/10/TagsAndRating1.png" alt="Screenshot of rating, tags and other data fields" show_in_lightbox="off" url_new_window="off" animation="left" sticky="off" align="center" force_fullwidth="off" always_center_on_mobile="on" use_border_color="on" border_color="#878787" border_style="solid" custom_margin="1em|1em|2em|1em" saved_tabs="all"]
 
@@ -61,7 +61,7 @@ Il programma è tradotto in circa <strong>20 lingue</strong> ed è ben supportat
 
 [/et_pb_text][/et_pb_column][et_pb_column type="1_2"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Uno dei punti di forza di Subsurface è la capacità di interfacciarsi con tantissimi computer subacquei (guarda la lista dei computer supportati). Subsurface può anche importare libretti di immersione da altri programmi, tra cui: <a href="http://www.mac-dive.com/">MacDive</a>, Suunto DM3, DM4 & DM5,<a href="http://jdivelog.org/">JDiveLog</a> e <a href="http://en.divelogs.de/">divelogs.de</a>.
+Uno dei punti di forza di Subsurface è la capacità di interfacciarsi con tantissimi computer subacquei (guarda la lista dei computer supportati). Subsurface può anche importare libretti di immersione da altri programmi, tra cui: <a href="http://www.mac-dive.com/">MacDive</a>, Suunto DM3,  DM4 &amp; DM5,<a href="http://jdivelog.org/">JDiveLog</a> e <a href="http://en.divelogs.de/">divelogs.de</a>.
 
 Un altro punto di forza è la capacità di <strong>visualizzare</strong> il profilo dell'immersione ( e se disponibile, l'andamento della pressione delle bombole) in modi innovativi che diano all'utente informazioni aggiuntive relative alla velocità, al consumo momentaneo di aria, alla durata dell'immersione. Gli utenti che si immergono con <strong>più computer</strong> possono combinare i dati di immersione di ogni singolo computer in un'unica immersione – permettendo la visualizzazione dei dati collezionati da sorgenti multiple.
 
@@ -71,11 +71,13 @@ Un altro punto di forza è la capacità di <strong>visualizzare</strong> il prof
 
 [/et_pb_image][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Con Subsurface puoi stampare un logbook per le immersioni dettagliato completo di profili e delle informazioni più importanti.
+Con Subsurface puoi stampare un logbook per le immersioni  dettagliato completo di profili e delle informazioni più importanti.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row admin_label="Row"][et_pb_column type="4_4"][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid" custom_margin="2em|||"]
 
-<h5><strong>Un po’ di storia:</strong></h5>
+<h5>
+   <strong>Un po’ di storia:</strong>
+  </h5>
 Nell’autunno del 2011, una pausa forzata nello sviluppo del kernel Linux diede la possibilità a Linus Torvalds di avviare un nuovo progetto affrontando la sua frustazione per la mancanza di un logbook di immersioni software decente su Linux.
 Subsurface è il risultato del lavoro di Linus e di un team di sviluppatori. Adesso supporta Linux, Windows e MacOs permettendo l’importazione dei dati di immersione da un gran numero di computer e altri programmi. Subsurface fornisce visualizzazioni avanzate delle informazioni chiave fornite dai moderni computer subacquei e permette all’utente di tenere tracia di tantissime informazioni sulle sue immersioni. Nell’autunno del 2012 Dirk Hohndel è subentrato come mantainer del progetto Subsurface.
 Licenza: GPLv2

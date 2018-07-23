@@ -55,7 +55,8 @@ Tauchgängen können Stichworte zugewiesen werden und das Tauchlogbuch kann nach
 
 Subsurface kann mit verschiedenen Gasgemischen wie Luft, Nitrox und TriMix auch bei Gaswechseln innerhalb desselben Tauchgangs umgehen und berechnet auf Basis der aufgezeichneten Daten weitere Werte und <strong>Statistiken</strong> wie etwa das Atemminutenvolumen, Partialdrücke der Atemgase, berechnete Deko-Daten und vieles mehr.
 
-<strong>Mehrere Taucher</strong> können gemeinsam eine Installation von Subsurface benutzen und unabhängig voneinander Voreinstellungen speichern.
+
+  <strong>Mehrere Taucher</strong> können gemeinsam eine Installation von Subsurface benutzen und unabhängig voneinander Voreinstellungen speichern.
 
 Subsurface kann in <strong>20 Sprachen</strong> benutzt werden und wird von einer aktiven Entwicklergemeinde unterstützt.
 
