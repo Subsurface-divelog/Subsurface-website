@@ -13,15 +13,15 @@ published: true
 
 
 
-[/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
+[/et_pb_post_title][et_pb_text admin_label="Text"]
 
 Das Subsurface Team möchte neben allen Entwicklern und Testern auch den folgenden Firmen und Privatpersonen für ihre Hilfe durch Bereitstellung von Dokumentation und Geräte-Leihgaben ganz herzlich danken:
 <ul>
 	<li><a href="http://www.uemis.com/">Uemis</a></li>
 	<li><a href="http://www.heinrichsweikamp.com/">heinrichs weikamp</a></li>
-	<li><a href="http://www.shearwaterresearch.com/">Shearwater Reserach</a></li>
-<li><a href="http://www.atomicaquatics.com/computer.html">Atomics Aquatics</a></li>
-<li><a href="http://www.mares.com/products/computers/wrist-dive-computer/?region=eu">Mares</a></li>
+	<li><a href="http://www.shearwaterresearch.com/">Shearwater Research</a></li>
+	<li><a href="http://www.atomicaquatics.com/computer.html">Atomics Aquatics</a></li>
+	<li><a href="http://www.mares.com/products/computers/wrist-dive-computer/?region=eu">Mares</a></li>
         <li><a href="http://www.seabear-diving.com/touch-dive-computer">Sea Bear</a></li>
 	<li>Oleg Mazurov</li>
 	<li>Andy Clements</li>

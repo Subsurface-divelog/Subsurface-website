@@ -16,14 +16,15 @@ published: true
 [/et_pb_post_title][et_pb_text admin_label="Text"]
 
 L'équipe Subsurface souhaite remercier les sociétés ou individus qui ont aidé par de la documentation, des prêts ou du don de matériels :
-<ul><li><a href="http://www.uemis.com/">Uemis</a></li>
-<li><a href="http://www.heinrichsweikamp.com/">heinrichs weikamp</a></li>
-	<li><a href="http://www.shearwaterresearch.com/">Shearwater Reserach</a></li>
-<li><a href="http://www.atomicaquatics.com/computer.html">Atomics Aquatics</a></li>
-<li><a href="http://www.mares.com/products/computers/wrist-dive-computer/?region=eu">Mares</a></li>
+<ul>
+	<li><a href="http://www.uemis.com/">Uemis</a></li>
+	<li><a href="http://www.heinrichsweikamp.com/">heinrichs weikamp</a></li>
+	<li><a href="http://www.shearwaterresearch.com/">Shearwater Research</a></li>
+	<li><a href="http://www.atomicaquatics.com/computer.html">Atomics Aquatics</a></li>
+	<li><a href="http://www.mares.com/products/computers/wrist-dive-computer/?region=eu">Mares</a></li>
         <li><a href="http://www.seabear-diving.com/touch-dive-computer">Sea Bear</a></li>
-<li>Oleg Mazurov</li>
-<li>Andy Clements</li>
+	<li>Oleg Mazurov</li>
+	<li>Andy Clements</li>
 </ul>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

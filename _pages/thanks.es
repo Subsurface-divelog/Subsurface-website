@@ -20,8 +20,8 @@ El equipo de Subsurface desea expresar su agradecimiento a algunas personas y em
 	<li><a href="http://www.uemis.com/">Uemis</a></li>
 	<li><a href="http://www.heinrichsweikamp.com/">heinrichs weikamp</a></li>
 	<li><a href="http://www.shearwaterresearch.com/">Shearwater Research</a></li>
-<li><a href="http://www.atomicaquatics.com/computer.html">Atomics Aquatics</a></li>
-<li><a href="http://www.mares.com/products/computers/wrist-dive-computer/?region=eu">Mares</a></li>
+	<li><a href="http://www.atomicaquatics.com/computer.html">Atomics Aquatics</a></li>
+	<li><a href="http://www.mares.com/products/computers/wrist-dive-computer/?region=eu">Mares</a></li>
         <li><a href="http://www.seabear-diving.com/touch-dive-computer">Sea Bear</a></li>
 	<li>Oleg Mazurov</li>
 	<li>Andy Clements</li>

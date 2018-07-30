@@ -15,10 +15,10 @@ published: true
 
 [/et_pb_post_title][et_pb_text admin_label="Text"]
 
-Het Subsurface will graag een aantal bedrijven en personen uitdrukkelijk bedanken voor hulp door goede documentatie, hardware donaties, en leen duikcomputers.
+Het Subsurface team wil graag een aantal bedrijven en personen uitdrukkelijk bedanken voor hun hulp door goede documentatie, hardware donaties en leen duikcomputers:
 <ul>
 	<li><a href="http://www.uemis.com/">Uemis</a></li>
-	<li><a href="http://www.heinrichsweikamp.com/">Heinrichs Weikamp</a></li>
+	<li><a href="http://www.heinrichsweikamp.com/">heinrichs weikamp</a></li>
 	<li><a href="http://www.shearwaterresearch.com/">Shearwater Research</a></li>
 	<li><a href="http://www.atomicaquatics.com/computer.html">Atomics Aquatics</a></li>
 	<li><a href="http://www.mares.com/products/computers/wrist-dive-computer/?region=eu">Mares</a></li>
