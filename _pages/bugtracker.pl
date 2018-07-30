@@ -15,7 +15,8 @@ published: true
 
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-Z przyjemnością przyjmujemy raporty o błędach (a także poprawki!) za pośrednictwem naszej <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">listy mailingowej</a>. Mamy również <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bugtracker</a>, który służy specjalnie do tego celu.<p></p>
-<p>Proszę zwrócić uwagę, że językiem używanym na liście mailingowej i Bugtrackerze jest angielski.</p>
+Z przyjemnością przyjmujemy raporty o błędach (a także poprawki!) za pośrednictwem naszej <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">listy mailingowej</a>. Mamy również <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bugtracker</a>, który służy specjalnie do tego celu.
+
+Proszę zwrócić uwagę, że językiem używanym na liście mailingowej i Bugtrackerze jest angielski.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

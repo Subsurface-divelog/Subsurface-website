@@ -15,7 +15,8 @@ published: true
 
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
-<p>Wir freuen uns über Nachrichten zu Fehlern in Subsurface auf unserer <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">Mailing-Liste</a> (natürlich besonders, wenn Patches mitgeschickt werden), zusätzlich haben wir einen <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bugtracker</a> auf dem solche Berichte eingestellt und weiter bearbeitet werden können.</p>
-<p>Die bevorzugte Sprache sowohl auf der Mailing-Liste als auch auf dem Bugtracker ist Englisch - zur Not können wir aber natürlich auch mit deutschen Nachrichten umgehen.</p>
+Wir freuen uns über Nachrichten zu Fehlern in Subsurface auf unserer <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">Mailing-Liste</a> (natürlich besonders, wenn Patches mitgeschickt werden), zusätzlich haben wir einen <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bugtracker</a> auf dem solche Berichte eingestellt und weiter bearbeitet werden können.
+
+Die bevorzugte Sprache sowohl auf der Mailing-Liste als auch auf dem Bugtracker ist Englisch - zur Not können wir aber natürlich auch mit deutschen Nachrichten umgehen.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

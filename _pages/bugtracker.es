@@ -17,4 +17,6 @@ published: true
 
 Aunque estamos encantados de recibir informes acerca de fallos/bugs (¡y parches!) en nuestra <a href="http://lists.subsurface-divelog.org/cgi-bin/mailman/listinfo/subsurface">lista de distribución</a>, también puedes abrir incidencias en nuestro <a href="https://github.com/Subsurface-divelog/subsurface/issues">repositorio principal en GitHub</a>.
 
+El idioma preferido para nuestra lista de distribución y repositorio en GitHub es el inglés, pero también podemos responder mensajes en español.
+
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
