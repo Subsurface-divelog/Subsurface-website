@@ -15,7 +15,7 @@ published: true
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
 <h2>Uusi versio on julkaistu</h2>
-Katso <a href="https://subsurface-divelog.org/fi/2018/07/announcing-subsurface-4-8-1/">Subsurface 4.8.1:n julkistusviesti</a>.
+Katso <a href="https://subsurface-divelog.org/2018/07/announcing-subsurface-4-8-1/">Subsurface 4.8.1:n julkistusviesti</a>.
 
 [/et_pb_text][et_pb_slider admin_label="Slider" show_arrows="on" show_pagination="on" auto="on" auto_speed="5000" auto_ignore_hover="off" parallax="off" parallax_method="off" remove_inner_shadow="off" background_position="default" background_size="default" hide_content_on_mobile="off" hide_cta_on_mobile="off" show_image_video_mobile="off" custom_button="off" button_letter_spacing="0" button_use_icon="default" button_icon_placement="right" button_on_hover="on" button_letter_spacing_hover="0" header_font_size="20"]
 
@@ -55,8 +55,7 @@ Voit "tägätä" sukellukset ja <strong>suodattaa sukelluslistan</strong> käytt
 
 Subsurface laskee <strong>tilastoja</strong> käyttäjän sukelluksista ja pitää kirjaa tiedoista kuten ilman kulutus (SAC), osapaineet (O2, N2 ja He), laskettu dekompressiotieto ja paljosta muusta. Ohjelma on käännetty noin 20 kielelle ja on hyvin tuettu aktiivisen kehittäjäyhteisön toimesta.
 
-
-  <strong>Useat sukeltajat</strong> voivat jakaa saman Subsurfacen ja käyttää eri asetuksia.
+<strong>Useat sukeltajat</strong> voivat jakaa saman Subsurfacen ja käyttää eri asetuksia.
 
 Subsurface on käännetty noin <strong>20:lle kielelle</strong> ja sen taustalla on aktiivinen ja avulias kehittäjäyhteisö.
 
