@@ -37,10 +37,12 @@ Pode obter o Subsurface 4.8.1 a partir dos seguintes locais:
 
   <strong>Windows:</strong>
   <a href="https://subsurface-divelog.org/downloads/subsurface-4.8.1.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.1.exe</a>
+ 
 
 
   <strong>Mac:</strong>
   <a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.1.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.1.dmg</a>
+ 
 
 
   <strong>Linux:</strong> Está disponível um ficheiro genérico do tipo AppImage na <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.8.1">página do Subsurface no GitHub</a>. Descarregue o ficheiro <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.8.1/Subsurface-4.8.1-x86_64.AppImage">Subsurface-4.8.1-x86_64.AppImage</a>, dê-lhe permissões de execução
@@ -51,6 +53,7 @@ Pode obter o Subsurface 4.8.1 a partir dos seguintes locais:
 
 
   <strong>Linux: openSUSE / Fedora:</strong> visite a <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">página do open build service</a>
+ 
 
 Por favor, coloque questões sobre problemas no <a href="https://subsurface-divelog.org/user-forum/">Fórum de utilizadores</a> ou preencha um bug no nosso <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
 
