@@ -42,10 +42,12 @@ category: Новости
 
   <strong>Windows:</strong>
   <a href="https://subsurface-divelog.org/downloads/subsurface-4.8.0.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.0.exe</a>
+ 
 
 
   <strong>Mac:</strong>
   <a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.0.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.0.dmg</a>
+ 
 
 
   <strong>Linux:</strong> Универсальный AppImage доступен на странице <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.8.0">выпусков Subsurface в GitHub</a>. Загрузите <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.8.0/Subsurface-4.8.0-x86_64.AppImage">Subsurface-4.8.0-x86_64.AppImage</a> и сделайте его исполняемым
@@ -56,6 +58,7 @@ category: Новости
 
 
   <strong>Linux: openSUSE / Fedora:</strong> перейдите на страницу <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">сервиса сборки</a>
+ 
 
 Вы можете задать вопросы на <a href="https://subsurface-divelog.org/user-forum/">форуме пользователей</a> или сообщить об ошибке через <a href="https://github.com/Subsurface-divelog/subsurface/issues">систему отслеживания ошибок</a>.
 

@@ -1,8 +1,6 @@
 ---
 ID: 3992
-post_title: >
-  Aankondiging Subsurface 4.8 en
-  Subsurface-mobile 2.1
+post_title: Aankondiging Subsurface 4.8 en Subsurface-mobile 2.1
 author: hohndel
 post_date: 2018-06-29 11:29:21
 post_excerpt: ""

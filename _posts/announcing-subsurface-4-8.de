@@ -1,8 +1,6 @@
 ---
 ID: 3990
-post_title: >
-  Ankündigung der Versionen 4.8 von
-  Subsurface und 2.1 von Subsurface-mobile
+post_title: Ankündigung der Versionen 4.8 von Subsurface und 2.1 von Subsurface-mobile
 author: hohndel
 post_date: 2018-06-29 11:29:46
 post_excerpt: ""
@@ -34,7 +32,7 @@ Hier sind einige der wichtigsten Neuerungen in Subsurface 4.8:
 	 <li>fix bug with the maximum number of allowed tanks</li>
 	 <li>Shearwater import: include DC reported ceiling</li>
 	 <li>Suunto DM import: improved temperature parsing in special cases</li>
-	 <li>CSV import: allow newline ('n') in notes field</li>
+	 <li>CSV import: allow newline ('\n') in notes field</li>
 	 <li>BLE support: fix several issues with BLE download</li>
 </ul>
 
