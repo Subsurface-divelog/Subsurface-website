@@ -15,7 +15,7 @@ published: true
 [/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
 
 <div style="margin-bottom: 2em;">[himage][s-var slug="exeurl"]<img src="/wp-content/uploads/2011/10/en-button-win.png" alt="" width="288" height="54">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-win-hover.png" alt="" width="288" height="54">[/himage] [himage][s-var slug="dmgurl"]<img src="/wp-content/uploads/2011/10/en-button-mac.png" alt="" width="288" height="54">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-mac-hover.png" alt="" width="288" height="54">[/himage]</div>
-<div style="margin-bottom: 2em;"> [himage][s-var slug="dmgurl"]<img src="/wp-content/uploads/2011/10/en-button-mac.png" alt="" width="288" height="54">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-mac-hover.png" alt="" width="288" height="54">[/himage]</div>
+
 <h2>Windows</h2>
 [s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] ist ein ausführbares Programm für das Windows Betriebssystem, das unter verschiedenen 32- und 64-bit Windows Versionen (insbesondere Windows 7, Windows 8 und Windows 10) getestet ist.
 <h2>Mac</h2>
