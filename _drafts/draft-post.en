@@ -2,7 +2,7 @@
 ID: 4194
 post_title: Announcing Subsurface 4.8.2
 author: hohndel
-post_date: 2018-09-17 09:19:20
+post_date: 2018-09-17 09:20:09
 post_excerpt: ""
 layout: post
 permalink: https://subsurface-divelog.org/?p=4194
@@ -33,18 +33,16 @@ Some of the changes in Subsurface 4.8.2:
 	<li> Desktop/Profile: immediately update thumbnail positions on deletion</li>
 	<li> Mac: fix problem downloading from divelogs.de</li>
 	<li> Support for videos as well as pictures as dive media</li>
-<ul>
-	<li> Dive media: paint duration of videos on thumbnails in the dive-photo tab</li>
+<ul>	<li> Dive media: paint duration of videos on thumbnails in the dive-photo tab</li>
 	<li> Dive media: extract video thumbnails</li>
 	<li> Dive media: Change term "photos" and "images" everywhere in the UI to "media files"</li>
 	<li> Dive media: sort thumbnails by timestamp</li>
-</ul>
-	<li> Dive computer support:</li>
+</ul>	<li> Dive computer support:</li>
 <ul>
 	<li> add Garmin Descent Mk1</li>
 	<li> add Shearwater Teric</li>
 	<li> add Mares Smart Air</li>
 	<li> add Oceanic Pro Plus X</li>
-</ul>
+</ul></ul>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
