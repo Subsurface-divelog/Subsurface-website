@@ -1,6 +1,6 @@
 ---
 ID: 4207
-post_title: Announcing Subsurface 4.8.2
+post_title: Ankündigung Subsurface 4.8.2
 author: hohndel
 post_date: 2018-09-17 16:08:13
 post_excerpt: ""
@@ -13,58 +13,58 @@ post_language: null
 ---
 [et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" /][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
-The Subsurface development team proudly announces the release 4.8.2 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+Das Subsurfe-Entwicklingsteam freut sich, Version 4.8.2 von Subsurface anzukündigen, einem Open-Source Tauch-Logbuch und -Planungsprogramm für Windows, Mac und Linux.
 
-This version brings a number of small bug-fixes and a couple of new features. This also removes a feature (the integration with the old GPSfix webservice that was used for the now obsolete companion apps) and in context with that we are announcing the shut down of that webservice by the end of this year. To avoid any confusion, this has nothing to do with the Subsurface Cloud Storage service, which will of course continue.
+Diese Version behebt eine Zahl von Fehlern und bringt eine Reihe neuer Features. Gleichzeitig entfernen wir die Unterstützung für die überholte Begleiter-App (mit dem GPS-Webservice) und kündigen die Abschaltung dieses Dienstes zum Jahresende an. Dies hat nichts mit dem Subsurface-Cloud-Dienst zu tun, der selbstverständlich weiter besteht und weiter unterstützt wird.
 
-Some of the changes in Subsurface 4.8.2:
+Einige der Neuerungen in Subsurface 4.8.2:
 <ul>
-	<li> Desktop: remove "edit dive" from the log menu. Nowadays we edit in place</li>
-	<li> Desktop: disable UI elements that make no sense during editing [#1445]</li>
-	<li> Desktop: Add anonymization option to divelog export</li>
-	<li> Desktop: remove UI components of the Webservice GPS import</li>
-	<li> Desktop: add support for USB download from the Garmin Descent Mk1</li>
-	<li> Desktop: fix issue with dive list row height in case of larger fonts [#1600]</li>
-	<li> Desktop: fix a bug where it is possible for the user to hide all divelist columns [#1600]</li>
-	<li> Desktop: allow buddies to be shown in the divelist [#1587]</li>
-	<li> DLF import: record battery status at start and end of dive</li>
-	<li> Mac: include the FTDI driver and no longer require Mac FTDI drivers to be installed</li>
-	<li> Windows: write log files to the user path instead of the path where Subsurface is installed</li>
-	<li> Desktop/Export: fix bug related to quoted text when exporting to HTML [#1576]</li>
-	<li> Desktop/Map-Widget: add support for filtering of map locations [#1581]</li>
-	<li> Desktop/Profile: immediately update thumbnail positions on deletion</li>
-	<li> Mac: fix problem downloading from divelogs.de</li>
-	<li> Support for videos as well as pictures as dive media</li>
+	<li>Desktop: "Tauchgang editieren" aus dem Menü entfernt, inzwischen können Tauchgänge direkt bearbeitet werden.</li>
+	<li>Desktop: Unterdrücke UI-Elemente, die während des Editieren keine sinnvolle Funktion haben [#1445]</li>
+	<li>Desktop: Anonymisierungsfunktion für den Logbuch-Export</li>
+	<li>Desktop: Abschaltung der UI-Elemente für den Datenimport vom GPS-Webservice</li>
+	<li>Desktop: Unterstützung für USB-Dpenload vom Garmin Descent Mk1</li>
+	<li>Desktop: Behebung eines Problems mit der Zeilenhöhe in der Tauchgangsliste bei großen Fonts [#1600]</li>
+	<li>Desktop: Behebung eines Problems, bei dem es dem Benutzer möglich war alle Spalten der Tauchgangsliste zu löschen [#1600]</li>
+	<li>Desktop: Anzeige von Buddies in der Tauchgangsliste ermöglicht [#1587]</li>
+	<li>DLF-Import: Batteriestatus zu Beginn und Ende des Tauchgangs</li>
+	<li>Mac: Integration des FTDI-Treibers. Es ist nicht mehr nötig, dass ein Mac FTDI-Treiber manuell installiert wird.</li>
+	<li>Windows: Schreiben von Logdaten in den Benutzer-Pfad an Stelle des Subsurface-Installationspfads</li>
+	<li>Desktop/Export: Beseitigung eines Problems mit Text in Anführungszeichen beim HTML-Export [#1576]</li>
+	<li>Desktop/Karten-Widget: Unterstützung des Filterns von Karten-Orten [#1581]</li>
+	<li>Dektop/Tauchgangsprofil: Unmittelbare Anpassung von Thumbnail-Positionen beim Löschen</li>
+	<li>Mac: Beseitigung eines Problems beim Herunterladen von divelogs.de</li>
+	<li>Unterstützung für Videos neben Bildern als Tauchgangs-Medien</li>
 <ul>
-	<li> Dive media: paint duration of videos on thumbnails in the dive-photo tab</li>
-	<li> Dive media: extract video thumbnails</li>
-	<li> Dive media: Change term "photos" and "images" everywhere in the UI to "media files"</li>
-	<li> Dive media: sort thumbnails by timestamp</li>
+	<li>Tauchgangs-Medien: Anzeige der Videolänge auf Video-Thumbnails im Foto-Tab</li>
+	<li>Tauchgangs-Medien: Extraktion von Video-Thumbnails</li>
+	<li>Tauchgangsmedien: Umbenennung von "Fotos" und "Bilder" im User-Interface zu "Medien-Dateien"</li>
+	<li>Tauchgangs-Medien: Thumbnails nach Zeitstempel sortieren</li>
 </ul>
-	<li> Dive computer support:</li>
+	<li>Unterstützte Tauchcomputer:</li>
 <ul>
-	<li> add Garmin Descent Mk1</li>
-	<li> add Shearwater Teric</li>
-	<li> add Mares Smart Air</li>
-	<li> add Oceanic Pro Plus X</li>
+	<li>Garmin Descent Mk1 hinzugefügt</li>
+	<li>Shearwater Teric hinzugefügt</li>
+	<li>Mares Smart Air hinzugefügt</li>
+	<li>Oceanic Pro Plus X hinzugefügt</li>
 </ul></ul>
 
 [/et_pb_text][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
-As always, binaries are available for Windows, Mac, and an AppImage for x86-64 Linux (plus distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE).
+Wie immer sind ausführbare Programme für Windows, Mac und Linux verfügbar. Für x86-64 Linux stellen wir sowohl ein AppImage bereit, das auf den meisten Distributionen laufen sollte, als auch Distributions-spezifische Pakete (Ubuntu, Debian, Linux Mint, Fedora, und openSUSE).
 
-You can get Subsurface 4.8.2 from these locations:
+Hier findet sich Subsurface 4.8.2:
 
-<strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.8.2.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.2.exe</a>
+<strong>Windows:</strong><a href="https://subsurface-divelog.org/downloads/subsurface-4.8.2.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.2.exe</a>
 
-<strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.2.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.2.dmg</a>
- 
-<strong>Linux:</strong> A generic AppImage is available for download at the <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.8.2">Subsurface GitHub Release page</a>. Download <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.8.2/Subsurface-4.8.2-x86_64.AppImage">Subsurface-4.8.2-x86_64.AppImage</a>, make it executable
-<code>chmod +x Subsurface-4.8.2-x86_64.AppImage</code> and then simply run this file.
-<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
+<strong>Mac:</strong><a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.2.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.2.dmg</a>
 
-<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
+<strong>Linux:</strong> Ein generisches AppImage ist auf unserer <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.8.2">Subsurface GitHub Release Seite</a>. Klicke auf <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.8.2/Subsurface-4.8.2-x86_64.AppImage">Subsurface-4.8.2-x86_64.AppImage</a>, um es herunterzuladen und mache es mittels
+<code>chmod +x Subsurface-4.8.2-x86_64.AppImage</code> ausführbar; nun kann diese Datei direkt aufgerufen werden.
+<strong>Linux: Ubuntu:</strong> Trage <code>ppa:subsurface/subsurface</code> in die Software Sources ein; die .deb Dateien in diesem PPA können auch auf hinreichend neuen <strong>Debian</strong> und <strong>LinuxMint</strong> Distributionen installiert werden; siehe die <a href="https://subsurface-divelog.org/download/">Programme herunterladen</a> Seite und <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> für die aktuelle Version.
 
-Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
+<strong>Linux: openSUSE / Fedora:</strong> finden sich auf unserer <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">Open Build Service Release Seite</a>
+
+Wir freuen uns über Nachrichten zu Fehlern in Subsurface in unserem <a href="https://subsurface-divelog.org/user-forum/">Benutzer Forum</a> ausserdem haben wir einen <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bugtracker</a> auf dem solche Berichte eingestellt und bearbeitet werden können.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
