@@ -2,11 +2,28 @@
 ID: 4235
 post_title: Announcing Subsurface 4.8.3
 author: hohndel
-post_date: 2018-09-28 16:32:31
+post_date: 2018-09-28 16:33:45
 post_excerpt: ""
 layout: post
 permalink: https://subsurface-divelog.org/?p=4235
 published: false
 category: News
 ---
-[et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_text _builder_version="3.0.92" /][/et_pb_column][/et_pb_row][/et_pb_section]
+[et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_text _builder_version="3.0.92" background_layout="light"]
+
+The Subsurface development team proudly announces the release 4.8.3 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+
+This version comes fairly quickly after 4.8.2; it brings a couple of small bug-fixes and a couple of new features. Some of the changes in Subsurface 4.8.3:
+<ul>
+	<li>Desktop: enable GPU switching on macOS</li>
+	<li>Dive media: rudimentary support for XMP metadata</li>
+	<li>Desktop: remember up to four dive computers that have been used to download dives and provide easy shortcut buttons to switch between them</li>
+	<li>Dive computer support:
+<ul>
+	<li>add support for Mares BlueLink Pro based BLE download</li>
+	<li>add support for Aqualung i100</li>
+	<li>Garmin Descent Mk1: allow import of FIT files downloaded from Garmin Connect</li>
+	<li>fix bug in Shearwater Teric support</li>
+</ul></ul>
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
