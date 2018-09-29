@@ -1,6 +1,6 @@
 ---
 ID: 1725
-post_title: Transferir/Baixar
+post_title: Transferências
 author: hohndel
 post_date: 2011-10-12 20:59:58
 post_excerpt: ""
@@ -8,41 +8,44 @@ layout: page
 permalink: https://subsurface-divelog.org/download/
 published: true
 ---
-[et_pb_section admin_label="section"][et_pb_row admin_label="row"][et_pb_column type="4_4"][et_pb_post_title admin_label="Post Title" global_module="1887" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid" saved_tabs="all" title_font="|on|||" title_font_size="31px" title_text_color="#204a87"]
+[et_pb_section bb_built="1" admin_label="section"][et_pb_row admin_label="row" background_position="top_left" background_repeat="repeat" background_size="initial"][et_pb_column type="4_4"][et_pb_post_title global_module="1887" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="off" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid" saved_tabs="all" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" parallax="on" background_color="rgba(255,255,255,0)" background_position="top_left" background_repeat="repeat" background_size="initial"]
 
+&nbsp;
 
+[/et_pb_post_title][et_pb_text background_layout="light" use_border_color="off" _builder_version="3.0.92"]
 
-[/et_pb_post_title][et_pb_text admin_label="Text" background_layout="light" text_orientation="left" use_border_color="off" border_color="#ffffff" border_style="solid"]
-
-[himage][s-var slug="exeurl"]<img src="/wp-content/uploads/2011/10/en-button-win.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-win-hover.png" alt="" height="54" width="288">[/himage] [himage][s-var slug="dmgurl"]<img src="/wp-content/uploads/2011/10/en-button-mac.png" alt="" height="54" width="288">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-mac-hover.png" alt="" height="54" width="288">[/himage]
+<div style="margin-bottom: 2em;">[himage][s-var slug="exeurl"]<img src="/wp-content/uploads/2011/10/en-button-win.png" alt="" width="288" height="54">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-win-hover.png" alt="" width="288" height="54">[/himage] [himage][s-var slug="dmgurl"]<img src="/wp-content/uploads/2011/10/en-button-mac.png" alt="" width="288" height="54">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-mac-hover.png" alt="" width="288" height="54">[/himage]</div>
+<div style="margin-bottom: 2em;"> [himage][s-var slug="dmgurl"]<img src="/wp-content/uploads/2011/10/en-button-mac.png" alt="" width="288" height="54">[s-var slug="endlink"]<img src="/wp-content/uploads/2011/10/en-button-mac-hover.png" alt="" width="288" height="54">[/himage]</div>
 <h2>Windows</h2>
-[s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] é a versão oficial para as versões 32/64bits do Windows (Windows 7, Windows 8 e Windows 10).
+[s-var slug="exeurl"][s-var slug="exe"][s-var slug="endlink"] foi testado em várias versões do Windows (32 e 64 bits) incluindo Windows 7, Windows 8 e Windows 10.
 <h2>Mac</h2>
-[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] é a aplicação para máquinas Intel Mac 64 bits, que corram a versão MacOS 10.10 ou superior. Pode ser instalado por arrasto de Subsurface.app para a sua pasta local <code>/Applications</code>.
+[s-var slug="dmgurl"][s-var slug="dmg"][s-var slug="endlink"] é uma imagem Mac que pode ser instalada em Macs Intel de 64 bits a correr o MacOS 10.10 ou posterior arrastando o ficheiro Subsurface.app para a pasta <tt>/Applications</tt>.
 <h2>Linux</h2>
-A equipa começou a disponibilizar binários próprios para algumas das distribuições de Linux.
-<h2>Ubuntu (14.04 - only up to Subsurface 4.6.4, 16.04, 16.10 (up to 4.6.4), and 17.04), LinuxMint (17 (up to 4.6.4) and 18), and Debian Jessie (up to 4.6.4) and Stretch</h2>
-Para usar a aplicação em Ubuntu, adicionar o seguinte PPA:
+A equipa do Subsurface produz os seus próprios ficheiros binários para uma série de versões Linux, bem como uma "AppImage" genéricas que deverá funcionar em quase todas as distribuições Linux.
+<h2>Ubuntu (16.04 e 18.04), LinuxMint (18), e Debian Stretch</h2>
+Para usar estes binários com o Ubuntu, adicione o PPA seguinte ao seu sistema:
 <pre><code>ppa:subsurface/subsurface</code></pre>
-Em LinuxMint, tem de o adicionar pela linha de comando e explicitamente pedir a versão PPA do Subsurface. Caso contrário a versão mais antiga Subsurface 4.0 será instalada.
-Assim, os passos são
+No LinuxMint tem que ser adicionado na linha de comandos e pedida explicitamente a versão do PPA do Subsurface. Caso contrário será instalada a versão 4.0 (obsolteta);
 <pre><code>sudo apt-add-repository ppa:subsurface/subsurface
 sudo apt-get update
 sudo apt-get install subsurface=[s-var slug="latest"]-1~xenial</code></pre>
-Para Debian Jessie precisa de adicionar o repositorio Ubuntu:
-<pre><code style="font-size: 10px;">echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu xenial main" 
-        | sudo tee /etc/apt/sources.lists.d/subsurface.list
+Para o Debian Jessie é necessário adicionar o repositório do Ubuntu:
+<pre><code>echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu xenial main" 
+        | sudo tee /etc/apt/sources.list.d/subsurface.list
 gpg --keyserver subkeys.pgp.net --recv-keys A8BC9756EE61D9C6
 gpg -a --export A8BC9756EE61D9C6 | sudo apt-key add -
 sudo apt-get update</code></pre>
-A partir deste momento pode instalar Subsurface a partir do repositório:
-<pre><code style="font-size: 10px;">sudo apt-get install subsurface</code></pre>
-Por favor, confirme que está a obter a versão mais actualizada, juntamente com todas as dependecias de QT5.
-<h2>OpenSUSE Leap 42.1, Leap 42.2, Leap 42.3, Tumbleweed and Fedora 24, 25, 26, 27</h2>
-Para instalar o pacote oficial do Subsurface em OpenSUSE ou também Fedora, consulte <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">a nossa página de de projecto</a> e siga as instruções a partir daí. É um procedimentos simples.
-<h2>Pacotes obsoletos mantidos pelas distribuições</h2>
-Muitas distribuições de Linux permitem a instalação do Subsurface por mecanismos próprios. Apesar de conviniente, estas versões acabam sempre por estar desactualizadas e não usam as versões de bibliotecas privadas mantidas internamente. Por esta razão recomendamos instalar directamente as versões oficiais do Subsurface.
-<h2>Código fonte</h2>
-O código fonte está disponível via <a href="http://github.com/Subsurface-divelog/subsurface">git</a> ou em alternativa num pacote <i>release tar-ball</i> [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"]. Código fonte de diversos componentes com licenças GPL e LGPL, incluído nos binários Mac e Windows, pode ser encontrado em <a href="http://www.macports.org/">MacPorts</a> e <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.
+Para distribuições que apenas suportem a versão antiga do Subsurface, substituir <code>xenial</code>por <code>trusty</code>.
+Agora pode instalar o Subsurface a partir do repositório;
+<pre><code>sudo apt-get install subsurface</code></pre>
+Assegure-se que vai instalar uma versão corrente com todas as dependências do Qt5.
+<h2>OpenSUSE Leap 42.3, Leap 15.0, Tumbleweed e Fedora 27, 28, e rawhide</h2>
+Para instalar o pacote oficial do Subsurface nestas versões do OpenSUSE ou Fedora, visite a nossa <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">página do projecto build service</a> e siga as instruções lá colocadas - é tão simples como 2 cliques.
+<h2>Todas as outras versões Linux de 64 bits</h2>
+Está disponível para descarga uma AppImage genérica em  [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"]. Deverá ser possível descarregar este ficheiro, torná-lo executável: chmod +x [s-var slug="appimage"] e depois correr o ficheiro. Estamos muito interessados em receber comentários sobre esta forma de distribuição de ficheiros binários para Linux.
+<h2>Pacotes obsoletos mantidos pelas várias distribuições</h2>
+Algumas distribuições de Linux permitem instalar o Subsurface directamente do SO. Embora isto possa ser muito prático, recomendamos a utilização dos pacotes oficiais, tal como descrito acima.
+<h2>Fontes</h2>
+O código-fonte está disponível via <a href="http://github.com/Subsurface-divelog/subsurface.git">git</a> ou como um ficheiro compactado [s-var slug="srctarurl"][s-var slug="srctar"][s-var slug="endlink"]. O código fonte dos componentes sob licença GPL e LGPL distribuídos com as versões Mac e Windows podem ser obtidas em <a href="http://www.macports.org/">MacPorts</a> e <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
