@@ -12,7 +12,7 @@ post_language:
   - en
 ---
 <!--:en--><p>Yes, we skipped versions 2.0 and never released it in public, but it was worth it.</p>
-<p>Subsurface 2.1 is out, we have binaries for Windows and Mac on our <a href="https://subsurface-divelog.org/downloads/">Downloads</a> page and packages for various Linux distributions are under way. And of course it's quite easy to build Subsurface from source - check the <a href="https://subsurface-divelog.org/building/">build page</a> for details.</p>
+<p>Subsurface 2.1 is out, we have binaries for Windows and Mac on our <a href="https://subsurface-divelog.org/downloads/">Downloads</a> page and packages for various Linux distributions are under way. And of course it's quite easy to build Subsurface from source - check the <a href="https://subsurface-divelog.org/documentation/building/">build page</a> for details.</p>
 <p><a href="https://subsurface-divelog.org/wp-content/uploads/2012/10/Screenshot-Subsurface-2.1.png"><img src="https://subsurface-divelog.org/wp-content/uploads/2012/10/Screenshot-Subsurface-2.1.png" alt="Screenshot-Subsurface-2.1" title="Screenshot-Subsurface-2.1" width="983" height="719" class="aligncenter size-full wp-image-214" /></a></p>
 <p>Here are some of the highlights of what changed since Subsurface 1.2:<ul>
 <li>Localization into more than ten languages</li>

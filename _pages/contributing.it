@@ -19,7 +19,7 @@ published: true
 <p>Di solito, &egrave; possibile trovare degli sviluppatori nel canale <code>#subsurface</code> su <a href="http://freenode.net/">Freenode</a>.</p>
 <p>Ci sono molti modi in cui puoi contribuire. Siamo sempre alla ricerca di persone che abbiano la volont&agrave; di provare il codice durante lo sviluppo. Abbiamo specialmente bisogno di persone che utilizzano il programma su Windows e Mac (dato che la maggior parte degli sviluppatori attivi sono persone Linux). Siamo anche sempre alla ricerca di volontari che ci aiutino a revisionare e migliorare la documentazione. In particolare cerchiamo traduttori che possano tradurre il programma in altre lingue. Le nostre traduzioni sono centralizzate in <a href="https://www.transifex.com/">Transifex</a> - per favore, crea un account e chiedi di unirti al <a href="https://www.transifex.com/projects/p/subsurface/">Subsurface Team</a>.</p>
 <p>Se vuoi contribuire con patch che correggono bug o aggiungono nuove funzionalit&agrave; hai il nostro pi&ugrave; caldo benvenuto. Qui c'&egrave; una breve introduzione su come creare delle commit  che puoi inviare alla mailing list. Maggiori dettagli sull'utilizzo di git li puoi trovare nel <a href="https://www.kernel.org/pub/software/scm/git/docs/user-manual.html">git user manual</a>.</p>
-<p>Inizia col prendere i sorgenti pi&ugrave; aggiornati (per scoprire come dai un'occhiata alla pagina <a href="https://subsurface-divelog.org/building/">Building</a>).<br />
+<p>Inizia col prendere i sorgenti pi&ugrave; aggiornati (per scoprire come dai un'occhiata alla pagina <a href="https://subsurface-divelog.org/documentation/building/">Building</a>).<br />
 <code>cd subsurface<br />
 git checkout master<br />
 git pull</code><br />

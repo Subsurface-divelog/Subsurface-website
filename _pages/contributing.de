@@ -25,7 +25,7 @@ Patches, die Fehler beheben und Features hinzuf&uuml;gen sind selbstredend beson
 
 Hier ist eine kurze Einf&uuml;hrung, wie man Patches erstellt, die entweder als <a href="https://github.com/Subsurface-divelog/subsurface/pulls">Pull-Requests</a> im zentralen Git-Repository oder als Emails an die Mailingliste geschickt werden k&ouml;nnen. Umfangreiche Informationen zum Umgang mit Git findet man im <a href="https://git-scm.com/book/de/v1">Git online-Buch</a>.
 
-Am besten beginnt man mit dem aktuellen Source-Code (siehe  <a href="https://subsurface-divelog.org/building/">Subsurface bauen</a>).
+Am besten beginnt man mit dem aktuellen Source-Code (siehe  <a href="https://subsurface-divelog.org/documentation/building/">Subsurface bauen</a>).
 <code>cd subsurface
 git checkout master
 git pull</code>

@@ -25,7 +25,7 @@ If you would like to contribute patches that fix bugs or add new features, that 
 
 Here is a very brief introduction on creating commits that you can send to the mailing list. Much more details on how to use git can be found at the <a href="https://www.kernel.org/pub/software/scm/git/docs/user-manual.html">git user manual</a>.
 
-Start with getting the latest source (look at the <a href="https://subsurface-divelog.org/building/">Building Page</a> to find out how).
+Start with getting the latest source (look at the <a href="https://subsurface-divelog.org/documentation/building/">Building Page</a> to find out how).
 <code>cd subsurface
 git checkout master
 git pull</code>
