@@ -2,29 +2,37 @@
 ID: 4286
 post_title: Announcing Subsurface 4.8.4
 author: hohndel
-post_date: 2018-11-15 03:40:18
+post_date: 2018-11-15 03:43:33
 post_excerpt: ""
 layout: post
 permalink: https://subsurface-divelog.org/?p=4286
 published: false
 category: News
 ---
-[et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="on" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" /][et_pb_text _builder_version="3.0.92" background_layout="light"]
+[et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="off" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" parallax="on" background_color="rgba(255,255,255,0)" /][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
-The Subsurface development team proudly announces the release 4.8.3 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+The Subsurface development team proudly announces the release 4.8.4 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
 
-This version comes fairly quickly after 4.8.2; it brings a couple of small bug-fixes and a couple of new features. Some of the changes in Subsurface 4.8.3:
+This version adds experimental support for BLE dive computers under Windows and additionally brings a couple of small bug-fixes and a couple of new features. Some of the changes in Subsurface 4.8.4:
 <ul>
-	<li>Desktop: enable GPU switching on macOS</li>
-	<li>Dive media: rudimentary support for XMP metadata</li>
-	<li>Desktop: remember up to four dive computers that have been used to download dives and provide easy shortcut buttons to switch between them</li>
-	<li>Dive computer support:
-<ul>
-	<li>add support for Mares BlueLink Pro based BLE download</li>
-	<li>add support for Aqualung i100</li>
-	<li>Garmin Descent Mk1: allow import of FIT files downloaded from Garmin Connect</li>
-	<li>fix bug in Shearwater Teric support</li>
-</ul></ul>
+	<li> Windows: add experimental support for BTLE dive computers. For more information have a look at section 5.2.2 of the user manual ("On Windows").</li>
+	<li> Desktop: fix import of CSV files containing quotes</li>
+	<li> Desktop: import Poseidon MkIV via dive log import dialog</li>
+	<li> Desktop: show coordinates if no tags from reverse geo lookup</li>
+	<li> Desktop: sort on date in case of equal fields</li>
+	<li> Desktop: indicate sort direction in list header</li>
+	<li> Desktop: use defined sort-order when switching sort column</li>
+	<li> Desktop: fix a bug in planner for dives with manual gas changes</li>
+	<li> Desktop: don't add dive-buddy or dive-master when tabbing through fields</li>
+	<li> Desktop: implement undo/redo for all dive list-modifying operations</li>
+	<li> Desktop: don't show "invalid dive site" debugging message</li>
+	<li> Desktop: HTML export: write statistics of exported dives only</li>
+	<li> Desktop: fix calculation of surface interval in the case of overlappimg dives</li>
+	<li> Performance: don't recalculate all filters on dive list-modifying operations</li>
+	<li> Performance: don't recalculate full dive list on dive list-modifying operations</li>
+	<li> Performance: calculate full statistics only when needed</li>
+	<li> Map: zoom on dive site when selecting items in dive site list</li>
+	</ul>
 
 [/et_pb_text][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
