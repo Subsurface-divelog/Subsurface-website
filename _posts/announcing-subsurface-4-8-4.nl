@@ -1,6 +1,6 @@
 ---
 ID: 4289
-post_title: Announcing Subsurface 4.8.4
+post_title: Aankondiging Subsurface 4.8.4
 author: hohndel
 post_date: 2018-11-15 03:50:33
 post_excerpt: ""
@@ -13,45 +13,45 @@ post_language: nl
 ---
 [et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="off" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" parallax="on" background_color="rgba(255,255,255,0)" /][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
-The Subsurface development team proudly announces the release 4.8.4 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+Het Subsurface ontwikkelteam presenteert met trots versie 4.8.4 van Subsurface, een open source duiklog en duikplan programma beschikbaar voor Windows, Mac en Linux.
 
-This version adds experimental support for BLE dive computers under Windows and additionally brings a couple of small bug-fixes and a couple of new features. Some of the changes in Subsurface 4.8.4:
+In deze versie is experimentele ondersteuning toegevoegd voor BLE duikcomputers onder Windows, en daarnaast zijn een aantal kleine fouten gerepareerd en enkele nieuwe functies toegevoegd. In 4.8.4 zijn de volgende aanpassingen gedaan:
 <ul>
-	<li> Windows: add experimental support for BTLE dive computers. For more information have a look at section 5.2.2 of the user manual ("On Windows").</li>
-	<li> Desktop: fix import of CSV files containing quotes</li>
-	<li> Desktop: import Poseidon MkIV via dive log import dialog</li>
-	<li> Desktop: show coordinates if no tags from reverse geo lookup</li>
-	<li> Desktop: sort on date in case of equal fields</li>
-	<li> Desktop: indicate sort direction in list header</li>
-	<li> Desktop: use defined sort-order when switching sort column</li>
-	<li> Desktop: fix a bug in planner for dives with manual gas changes</li>
-	<li> Desktop: don't add dive-buddy or dive-master when tabbing through fields</li>
-	<li> Desktop: implement undo/redo for all dive list-modifying operations</li>
-	<li> Desktop: don't show "invalid dive site" debugging message</li>
-	<li> Desktop: HTML export: write statistics of exported dives only</li>
-	<li> Desktop: fix calculation of surface interval in the case of overlappimg dives</li>
-	<li> Performance: don't recalculate all filters on dive list-modifying operations</li>
-	<li> Performance: don't recalculate full dive list on dive list-modifying operations</li>
-	<li> Performance: calculate full statistics only when needed</li>
-	<li> Map: zoom on dive site when selecting items in dive site list</li>
+	<li>Windows: experimentele ondersteuning toegevoegd voor BTLE duikcomputers. Meer informatie is te vinden in de gebruikershandleiding paragraaf 5.2.2 ("On Windows").</li>
+	<li>Desktop: fout bij importeren van CSV bestanden met quotes opgelost</li>
+	<li>Desktop: importeer Poseidon MkIV via duik log import dialoog</li>
+	<li>Desktop: toon coördinatenals er geen tags uit de reverse geo lookup functie beschikbaar zijn</li>
+	<li>Desktop: sorteer op datum in geval van gelijke velden</li>
+	<li>Desktop: indicator in de duiklijst kop toegevoegd die de sorteer volgorde aangeeft</li>
+	<li>Desktop: gebruik een gedefinieerde sorteer volgorde bij wisselen van kolommen</li>
+	<li>Desktop: fout gerepareerd in de planner in geval van duiken met handmatig ingevoerde gaswissels</li>
+	<li>Desktop: voeg geen buddy of divemaster toe bij het door de velden lopen met de tab-toets</li>
+	<li>Desktop: undo/redo operaties zijn nu mogelijk voor alle acties die de duiklijst aanpassen</li>
+	<li>Desktop: verwijder debug uitvoer "invalid dive site"</li>
+	<li>Desktop: HTML export: toon alleen de statistieken voor geëxporteerde duiken</li>
+	<li>Desktop: corrigeer berekening van het oppervlakte interval bij overlappende duiken</li>
+	<li>Verbeterde prestaties: herbereken niet alle filters bij operaties die de duiklijst aanpassen</li>
+	<li>Verbeterde prestaties: herbereken niet alle duik data bij operaties die de duiklijst aanpassen</li>
+	<li>Verbeterde prestaties: bereken alleen de volledige statistieken wanneer nodig</li>
+	<li>Kaart:  zoom in op duikplek wanneer deze wordt geselecteerd in de lijst</li>
 	</ul>
 
 [/et_pb_text][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
-As always, binaries are available for Windows, Mac, and an AppImage for x86-64 Linux (plus distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE).
+De software is beschikbaar voor Windows, Mac en een AppImage x86-64 voor Linux (en daarnaast distributie specifieke software voor een aantal Linux smaken waaronder Ubuntu, Debian, Linux Mint, Fedora en openSUSE).
 
-You can get Subsurface 4.8.4 from these locations:
+Je kunt Subsurface 4.8.4 ophalen van de volgende locaties:
 
-<strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.8.4.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.4.exe</a>
+<strong>Windows:</strong><a href="https://subsurface-divelog.org/downloads/subsurface-4.8.4.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.4.exe</a>
 
-<strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.4.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.4.dmg</a>
- 
-<strong>Linux:</strong> A generic AppImage is available for download at the <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.8.4">Subsurface GitHub Release page</a>. Download <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.8.4/Subsurface-4.8.4-x86_64.AppImage">Subsurface-4.8.4-x86_64.AppImage</a>, make it executable
-<code>chmod +x Subsurface-4.8.4-x86_64.AppImage</code> and then simply run this file.
-<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
+<strong>Mac:</strong><a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.4.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.4.dmg</a>
 
-<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
+<strong>Linux:</strong> Een generieke AppImage is beschikbaar als <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.8.4">Subsurface GitHub Release page</a>. Download <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.8.4/Subsurface-4.8.4-x86_64.AppImage">Subsurface-4.8.4-x86_64.AppImage</a>, en maak hem executable
+<code>chmod +x Subsurface-4.8.4-x86_64.AppImage</code> en voer dan eenvoudig dit bestand uit.
+<strong>Linux: Ubuntu: </strong>Voeg <code>ppa:subsurface/subsurface</code> toe aan je software bronnen; de .deb files in deze PPA kunnen ook op redelijk recente versies van <strong>Debian</strong> en <strong>LinuxMint</strong>; zie de <a href="https://subsurface-divelog.org/nl/downloads/">Downloads</a> pagina en gebruik <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> om de laatste versie te downloaden.
 
-Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
+<strong>Linux: openSUSE / Fedora:</strong> ga naar onze <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
+
+Post vragen of problemen op het <a href="https://subsurface-divelog.org/nl/user-forum-nl/">User Forum</a> of rapporteer een fout in onze <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
