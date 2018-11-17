@@ -20,14 +20,14 @@ Tämä versio korjaa useita pieniä vikoja ja lisää joitakin uusia ominaisuuks
 
 Joitakin Subsurfacen version 4.8.1 muutoksista:
 <ul>
-	 <li>Mac: kaatuminen korjattu, kun yritetään avata käyttöohjetta tai kirjautua Facebookiin</li>
-	 <li>BLE tuki: korjattu Heinrich Weikamp OSTC 2:n ja OSTC Plussan tunnistus</li>
-	 <li>BT tuki: korjattu joidenkin OSTC-mallien lataus ja konfigurointi</li>
-	 <li>Pilvitallennus: korjattu mahdollinen ongelma käyttäjätunnuksessa Linuxissa</li>
-	 <li>Profiili: mahdollisuus pakottaa sukelluksen jakaminen kahtia</li>
-	 <li>Tuki videoiden lisäämiseksi lokiin</li>
-	 <li>Siirrettyjen kuvien ja videoiden etsiminen tiedostonimen ja polun mukaan</li>
-	 <li>Vika sukellusmoodin valinnassa ja suunnitelman muistiinpanoissa korjattu</li>
+	<li>Mac: kaatuminen korjattu, kun yritetään avata käyttöohjetta tai kirjautua Facebookiin</li>
+	<li>BLE tuki: korjattu Heinrich Weikamp OSTC 2:n ja OSTC Plussan tunnistus</li>
+	<li>BT tuki: korjattu joidenkin OSTC-mallien lataus ja konfigurointi</li>
+	<li>Pilvitallennus: korjattu mahdollinen ongelma käyttäjätunnuksessa Linuxissa</li>
+	<li>Profiili: mahdollisuus pakottaa sukelluksen jakaminen kahtia</li>
+	<li>Tuki videoiden lisäämiseksi lokiin</li>
+	<li>Siirrettyjen kuvien ja videoiden etsiminen tiedostonimen ja polun mukaan</li>
+	<li>Vika sukellusmoodin valinnassa ja suunnitelman muistiinpanoissa korjattu</li>
 </ul>
 
 [/et_pb_text][et_pb_text _builder_version="3.0.92" background_layout="light"]
@@ -36,26 +36,15 @@ Binäärit ovat tarjolla Windowsille, Macille ja AppImage x86-64 Linuxille (jonk
 
 Voit ladata Subsurface 4.8.1:n seuraavista paikoista:
 
+<strong>Windows:</strong><a href="https://subsurface-divelog.org/downloads/subsurface-4.8.1.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.1.exe</a>
 
-  <strong>Windows:</strong>
-  <a href="https://subsurface-divelog.org/downloads/subsurface-4.8.1.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.1.exe</a>
- 
+<strong>Mac:</strong><a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.1.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.1.dmg</a>
 
+<strong>Linux:</strong> Geneerinen AppImage on saatavilla <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.8.0"> GitHubissa Subsurfacen Julkaisut -sivulla</a>. Lataa <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.8.0/Subsurface-4.8.0-x86_64.AppImage">Subsurface-4.8.1-x86_64.AppImage</a> ja lisää suoritusasetukset
+<code>chmod +x Subsurface-4.8.1-x86_64.AppImage</code>, jonka jälkeen voit suorittaa tiedoston.
+<strong>Linux: Ubuntu: </strong>Lisää <code>ppa:subsurface/subsurface</code> ohljemalähteiksi; sieltä saatavat .deb -tiedostot voidaan asentaa myös riittävän uusiin versioihin seuraavista distribuutioista: <strong>Debian</strong> ja <strong>LinuxMint</strong>; katso <a href="https://subsurface-divelog.org/download/">Lataukset</a> -sivua ja käytä <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> polkua saadaksesi viimeisimmän julkaistun version. Jälleen, Ubuntu 18.04:ään pohjautuvissa versioissa ei ole tällä hetkellä tuettuna natiivipaketteja.
 
-  <strong>Mac:</strong>
-  <a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.1.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.1.dmg</a>
- 
-
-
-  <strong>Linux:</strong> Geneerinen AppImage on saatavilla <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.8.0"> GitHubissa Subsurfacen Julkaisut -sivulla</a>. Lataa <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.8.0/Subsurface-4.8.0-x86_64.AppImage">Subsurface-4.8.1-x86_64.AppImage</a> ja lisää suoritusasetukset
-
-  <code>chmod +x Subsurface-4.8.1-x86_64.AppImage</code>, jonka jälkeen voit suorittaa tiedoston.
-
-  <strong>Linux: Ubuntu: </strong>Lisää <code>ppa:subsurface/subsurface</code> ohljemalähteiksi; sieltä saatavat .deb -tiedostot voidaan asentaa myös riittävän uusiin versioihin seuraavista distribuutioista: <strong>Debian</strong> ja <strong>LinuxMint</strong>; katso <a href="https://subsurface-divelog.org/download/">Lataukset</a> -sivua ja käytä <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> polkua saadaksesi viimeisimmän julkaistun version. Jälleen, Ubuntu 18.04:ään pohjautuvissa versioissa ei ole tällä hetkellä tuettuna natiivipaketteja.
-
-
-  <strong>Linux: openSUSE / Fedora:</strong> mene <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">avoimen julkaisupalvelimen julkaisut-sivulle</a>
- 
+<strong>Linux: openSUSE / Fedora:</strong> mene <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">avoimen julkaisupalvelimen julkaisut-sivulle</a>
 
 Kysymyksiä ja ongelmia voi esittää <a href="https://subsurface-divelog.org/user-forum/">käyttäjäfoorumilla</a> tai luoda bugiraportteja <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Trackeriin</a>.
 
