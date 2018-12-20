@@ -37,7 +37,7 @@ sudo apt-get update</code></pre>
 <p>Po czym można zainstalować Subsurface poprzez:</p>
 <pre><code style="font-size: 10px;">sudo apt-get install subsurface</code></pre>
 <p>Upewnij się, że zainstalowała się aktualna wersja razem z zależnościami Qt5.</p>
-<h2>OpenSUSE Leap 42.1, Leap 42.2, Leap 42.3, Tumbleweed and Fedora 24, 25, 26, 27</h2>
+<h2>OpenSUSE Leap 42.3, 15.0, Tumbleweed and Fedora 27, 28, 29, and rawhide</h2>
 <p>Aby zainstalować oficjalny pakiet Subsurfce w systemie OpenSUSE lub Fedora odwiedź <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">naszą stronę z pakietami</a> i postępuj według zamieszczonych tam instrukcji - wystarczy kilka kliknięć.</p>
 <h2>Nieaktualne wersje pakietów</h2>
 <p>Kilka dystrybucji Linuksa umożliwia zainstalowanie Subsurface&nbsp; ze swoich&nbsp; systemowych repozytoriów. Jest to wygodne, ale prowadzi często do zainstalowania nieaktualnej wersji oprogramowania. Ponadto zdarza się, że te pakiety są budowane bez dołączania naszych prywatnych wersji kilku bibliotek kluczowych dla działania Subsurface. Oficjalne pakiety Subsurface - w miarę jak je udostępniamy&nbsp; - z reguły są dużo lepszym wyborem.</p>

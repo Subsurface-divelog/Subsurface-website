@@ -37,7 +37,7 @@ sudo apt-get update</code></pre>
 После чего вы сможете установить Subsurface из этого репозитория:
 <pre><code>sudo apt-get install subsurface</code></pre>
 Убедитесь, что вы устанавливаете последнюю версию со всеми зависимостями Qt5.
-<h2>OpenSUSE Leap 42.1, Leap 42.2, Leap 42.3, Tumbleweed и Fedora 24, 25, 26, 27</h2>
+<h2>OpenSUSE Leap 42.3, 15.0, Tumbleweed и Fedora 27, 28, 29, rawhide</h2>
 Чтобы установить официальный пакет Subsurface в указанных версиях OpenSUSE или Fedora, перейдите на страницу <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">нашего сервиса сборки</a> и следуйте простым инструкциям, это так же просто, как два щелчка мыши.
 <h2>Другие 64-битные версии Linux</h2>
 Универсальный AppImage доступен для загрузи [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"]. Вам достаточно скачать этот файл себе, слелать его исполняемым <code>chmod +x [s-var slug="appimage"]</code> и затем просто выполнить его. Мы будем благодарны за обратную связь касательно такого способа распространения Subsurface.

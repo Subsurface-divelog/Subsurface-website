@@ -39,7 +39,7 @@ Für die älteren Versionen von vor 2016 muss statt <code>xenial</code> die ält
 Jetzt lässt sich Subsurface von diesem Repository installieren:
 <pre><code>sudo apt-get install subsurface</code></pre>
 Bitte überprüfe, dass tatsächlich die aktuelle Version mit allen Qt5 Modulen installiert wurde.
-<h2>OpenSUSE Leap 42.3, Leap 15.0, Tumbleweed und Fedora 27, 28 und rawhide</h2>
+<h2>OpenSUSE Leap 42.3, Leap 15.0, Tumbleweed und Fedora 27, 28, 29 und rawhide</h2>
 Die offiziellen Subsurface Pakete für OpenSUSE Leap 42.1, Leap 42.2, Leap 42.3, oder Tumbleweed sowie Fedora 24, 25, 26, 27, können direkt von <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">unserem Build Service Projekt</a> installiert werden.
 <h2>Alle anderen 64bit Linux Versionen</h2>
 Ein generisches AppImage kann als [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"] heruntergeladen werden. Einfach diese Datei ausfuührbar machen <code>chmod +x [s-var slug="appimage"]</code> und dann starten. Wir sind sehr an Rückmeldungen zu dieser Art der Linux-Unterstützung interessiert.

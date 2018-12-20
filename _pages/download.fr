@@ -40,7 +40,7 @@ Pour les distributions qui ne supportent que la version acienne de Subsurface re
 Maintenant vous pouvez installer Subsurface depuis ce dépôt:
 <pre><code>sudo apt-get install subsurface</code></pre>
 Assurez-vous que vous êtes en train de récuperrer une vesion actuelle ainsi que toutes ces dependances de Qt5.
-<h2>OpenSuse Leap 42.3, Leap 15.0, Tumbleweed et Fedora 27, 28 et rawhide</h2>
+<h2>OpenSuse Leap 42.3, Leap 15.0, Tumbleweed et Fedora 27, 28, 29 et rawhide</h2>
 Pour installer le paquet officiel de Subsurface pour ces versions de OpenSUSE ou Fedora, allez à <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">notre page de compilation du projet</a> et suivez les instructions simples fournie là-bas, c'est aussi simple que deux clics.
 <h2>Toutes les autres versions 64bits de Linux</h2>
 Une version AppImage générique est disponible au téléchargement [s-var slug="appimageurl"][s-var slug="appimage"][s-var slug="endlink"]. Vous devriez pouvoir télécharger ce fichier, le rendre exécutable <code>chmod +x [s-var slug="appimage"]</code> et ensuite simplement executer ce fichier. Nous sommes trés intéressé par vos avis sur cette manière de distribuer les binaires pour Linux.
