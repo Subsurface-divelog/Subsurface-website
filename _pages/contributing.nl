@@ -24,7 +24,7 @@ Als je software reparaties of nieuwe functionaliteit wil bijdragen is dat natuur
 
 Hieronder staat een zeer beknopte samenvatting hoe software aanpassingen aan te leveren. Je kunt een zogenaamd <a href="https://github.com/Subsurface-divelog/subsurface/pulls">pull requests</a> op onze GitHub repository indienen of stuur ze als email naar de mailinglijst. Meer informatie over Git kan je vinden in de <a href="https://www.kernel.org/pub/software/scm/git/docs/user-manual.html">git user manual</a>.
 
-Start met het ophalen van de laatste software (zie <a href="https://subsurface-divelog.org/documentation/building/">Building Page</a> hoe dit te doen).
+Start met het ophalen van de laatste software (zie <a href="https://github.com/Subsurface-divelog/subsurface/blob/master/INSTALL">INSTALL</a> hoe dit te doen).
 <code>cd subsurface
 git checkout master
 git pull</code>

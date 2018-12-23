@@ -20,7 +20,7 @@ La conversación aquí es en inglés, incluso aunque ésta página web y el prop
 <p>También suele haber algunos desarrolladores en el canal <code>#subsurface</code> en <a href="http://freenode.net/">Freenode</a>.</p>
 <p>Hay muchas maneras en las que puedes contribuir. Siempre andamos buscando "testers" que deseen probar el código mientras se está desarrollando.  Necesitamos especialmente personas que utilicen Windows y Mac (la mayoría de los desarrolladores activos usa Linux). También andamos siempre buscando voluntarios que ayuden revisando y mejorando la documentación.  Y, muy importante, buscamos traductores dispuestos a traducir el software a diferentes idiomas. Nuestras traducciones se manejan de forma centralizada en <a href="https://www.transifex.com/">Transifex</a>; por favor, crea una cuenta ahí y luego solicita unirte al <a href="https://www.transifex.com/projects/p/subsurface/">equipo de Subsurface</a>.</p>
 <p>Si quisieras contribuir con parches que corrijan errores o añadan nuevas funcionalidades, eso sería especialmente bienvenido. A continuación una pequeña introducción acerca de crear "commits" que puedas enviar a la lista de correo. Se pueden encontrar muchos más detalles sobre el uso de "git" en el <a href="https://www.kernel.org/pub/software/scm/git/docs/user-manual.html">manual de usuario de git</a>.</p>
-<p>Empieza por conseguir el código fuente más reciente (mira en la página <a href="https://subsurface-divelog.org/documentation/building/">Compilar</a> para ver cómo).<br>
+<p>Empieza por conseguir el código fuente más reciente (mira en la página <a href="https://github.com/Subsurface-divelog/subsurface/blob/master/INSTALL">INSTALL</a> para ver cómo).<br>
 <code>cd subsurface<br>
 git checkout master<br>
 git pull</code><br>
