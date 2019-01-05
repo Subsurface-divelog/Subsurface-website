@@ -9,5 +9,6 @@ permalink: >
   https://subsurface-divelog.org/documentation/documentation-building/
 published: true
 category: 'null'
+post_language: en
 ---
 Please refer to <a href="https://github.com/Subsurface-divelog/subsurface/blob/master/INSTALL">our installation instructions</a>.
