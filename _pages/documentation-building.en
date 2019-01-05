@@ -1,0 +1,13 @@
+---
+ID: 4378
+post_title: Building
+author: hohndel
+post_date: 2019-01-05 12:15:16
+post_excerpt: ""
+layout: page
+permalink: >
+  https://subsurface-divelog.org/documentation/documentation-building/
+published: true
+category: 'null'
+---
+Please refer to <a href="https://github.com/Subsurface-divelog/subsurface/blob/master/INSTALL">our installation instructions</a>.
