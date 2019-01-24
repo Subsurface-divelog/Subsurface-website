@@ -17,38 +17,36 @@ Het Subsurface ontwikkelteam presenteert met trots versie 4.8.5 van Subsurface, 
 
 Deze versie is een tussentijdse release terwijl we werken aan Subsurface 4.9. Deze verhelpt een aantal fouten en voegt ondersteuning toe voor een aantal nieuwe duikcomputers. Tenzij je een van de onderstaande duikcomputers gebruikt (of een van de problemen ondervindt) is het geen probleem om deze versie over te slaan. De belangrijkste wijzigingen in Subsurface 4.8.5:
 <ul>
- 	<li> Shearwater import: ondersteuning toegevoegd voor importeren van Shearwater Cloud logbestanden</li>
- 	<li> BT/BLE: alle controller statussen anders dan uitgeschakeld zijn geldig (dit lost problemen op met sommige Android apparaten waar er geen Bluetooth controller wordt gevonden)</li>
- 	<li> Kern: verschuif duik tijdstip in de juiste richting</li>
- 	<li> Desktop: vertaling van tripdatum</li>
- 	<li> Duikcomputer ondersteuning:
+ 	<li>Shearwater import: ondersteuning toegevoegd voor importeren van Shearwater Cloud logbestanden</li>
+ 	<li>BT/BLE: alle controller statussen anders dan uitgeschakeld zijn geldig (dit lost problemen op met sommige Android apparaten waar er geen Bluetooth controller wordt gevonden)</li>
+ 	<li>Kern: verschuif duik tijdstip in de juiste richting</li>
+ 	<li>Desktop: vertaling van tripdatum</li>
+ 	<li> Dive computer support:
 <ul>
- 	<li> Probleem opgelost voor ondersteuning voor Shearwater Teric met firmware v11</li>
- 	<li> Ondersteuning voor Oceanic Pro Plus X over BLE</li>
- 	<li> Ondersteuning voor de Cressi Goa en Cartesio</li>
- 	<li> Ondersteuning voor de Ratio iDive Color serie</li>
- 	<li> Ondersteuning voor de Aqualung i300C</li>
+ 	<li>Duikcomputer ondersteuning:<ul><li class="tfx8">Probleem opgelost voor ondersteuning voor Shearwater Teric met firmware v11</li><li class="tfx9">Ondersteuning voor Oceanic Pro Plus X over BLE</li><li class="tfx10">Ondersteuning voor de Cressi Goa en Cartesio</li><li class="tfx11">Ondersteuning voor de Ratio iDive Color serie</li><li class="tfx12">Ondersteuning voor de Aqualung i300C</li></ul></li>
+
+
+
+
 </ul>
 </li>
 </ul>
 [/et_pb_text][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
+
+
 De software is beschikbaar voor Windows, Mac en een AppImage x86-64 voor Linux (en daarnaast distributie specifieke software voor een aantal Linux smaken waaronder Ubuntu, Debian, Linux Mint, Fedora en openSUSE).
 
 Je kunt Subsurface 4.8.5 ophalen van de volgende locaties:
 
-<strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.8.5.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.5.exe</a>
+<strong>Windows:</strong><a href="https://subsurface-divelog.org/downloads/subsurface-4.8.5.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.5.exe</a>
 
-<strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.5.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.5.dmg</a>
-
+<strong>Mac:</strong><a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.5.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.5.dmg</a>
 <strong>Linux:</strong> Een generieke AppImage is beschikbaar als <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.8.5">Subsurface GitHub Release page</a>. Download <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.8.5/Subsurface-4.8.5-x86_64.AppImage">Subsurface-4.8.5-x86_64.AppImage</a>, en maak deze executable
-
 <code>chmod +x Subsurface-4.8.5-x86_64.AppImage</code> en voer dan eenvoudig dit bestand uit.
 
 <strong>Linux: Ubuntu: </strong>Voeg <code>ppa:subsurface/subsurface</code> toe aan je software bronnen; de .deb files in deze PPA kunnen ook op redelijk recente versies van <strong>Debian</strong> en <strong>LinuxMint</strong>; zie de <a href="https://subsurface-divelog.org/nl/downloads/">Downloads</a> pagina en gebruik <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> om de laatste versie te downloaden.
 
 <strong>Linux: openSUSE / Fedora:</strong> ga naar onze <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
-
-Post vragen of problemen op het <a href="https://subsurface-divelog.org/nl/user-forum-nl/">User Forum</a> of rapporteer een fout in onze <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

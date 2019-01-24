@@ -1,6 +1,6 @@
 ---
 ID: 4433
-post_title: Announcing Subsurface 4.8.5
+post_title: Anuncio de Subsurface 4.8.5
 author: hohndel
 post_date: 2019-01-24 10:00:06
 post_excerpt: ""
@@ -13,40 +13,40 @@ post_language: es
 ---
 [et_pb_section bb_built="1"][et_pb_row][et_pb_column type="4_4"][et_pb_post_title saved_tabs="all" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="off" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" title_all_caps="off" meta_font_size="14" use_border_color="off" border_color="#ffffff" border_style="solid" global_module="1887" parallax="on" background_color="rgba(255,255,255,0)" /][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
-The Subsurface development team proudly announces the release 4.8.5 of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+El equipo de desarrollo de Subsurface se alegra de poder anunciar la versión 4.8.5 de Subsurface, un programa de código abierto de registro y planificación de inmersiones para Windows, Mac y Linux.
 
-This version is a stop gap release while we are working towards Subsurface 4.9. It fixes a few bugs and adds support for a couple new dive computers. Unless you use any of the dive computers mentioned below (or are running into any of these bugs) it should be safe to skip this release. Some of the changes in Subsurface 4.8.4:
+Esta versión se lanza para no dejar un lapso de tiempo excesivo mientras avanzamos hacia Subsurface 4.9.  Resuelve algunos fallos y añade soporte para un par de nuevos ordenadores de buceo.  A menos que uses cualquiera de estos ordenadores (o te esté sucediendo uno de aquellos fallos) podrías saltarte esta actualización. Algunos de los cambios en Subsurface 4.8.5:
 <ul>
- 	<li> Shearwater import: add suppport for importing Shearwater Cloud logs</li>
- 	<li> BT/BLE: all controller states other than powered off are valid (this works around issues on some Android devices where we didn't find the Bluetooth controller)</li>
- 	<li> Core: shift dive time in correct direction</li>
- 	<li> Desktop: translate trip date</li>
+ 	<li>Importación de Shearwater: Añade soporte para importar divelogs desde Shearwater Cloud</li>
+ 	<li>BT/BLE: Se consideran validos todos los estados del controlador distintos de "apagado" (esto soluciona problemas en algunos dispositivos Android en los que no se localizaba el controlador Bluetooth)</li>
+ 	<li>Core: Desplaza la hora de la inmersión en la dirección correcta</li>
+ 	<li>Escritorio: Traduce la fecha de los viajes</li>
  	<li> Dive computer support:
 <ul>
- 	<li> Fix support for Shearwater Teric with firmware v11</li>
- 	<li> Add support for Oceanic Pro Plus X over BLE</li>
- 	<li> Add support for the Cressi Goa and Cartesio</li>
- 	<li> Add support for the Ratio iDive Color series</li>
- 	<li> Add support for the Aqualung i300C</li>
+ 	<li>Soporte de ordenadores de buceo:<ul><li class="tfx8">Soluciona el soporte para Shearwater Teric con firmware v11</li><li class="tfx9">Añade soporte para Oceanic Pro Plus con BLE</li><li class="tfx10">Añade soporte para Cressi Goa y Cartesio</li><li class="tfx11">Añade soporte para las series Ratio iDive Color</li><li class="tfx12">Añade soporte para el Aqualung i300C</li></ul></li>
+
+
+
+
 </ul>
 </li>
 </ul>
 [/et_pb_text][et_pb_text _builder_version="3.0.92" background_layout="light"]
 
-As always, binaries are available for Windows, Mac, and an AppImage for x86-64 Linux (plus distribution specific binaries for a number of Linux flavors including Ubuntu, Debian, Linux Mint, Fedora, and openSUSE).
 
-You can get Subsurface 4.8.5 from these locations:
 
-<strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-4.8.5.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.5.exe</a>
+Como de costumbre, hay binarios disponibles para Windows, Mac, una AppImage para x86_64 Linux y algunos binarios específicos de varias distribuciones de Linux, entre ellos Ubuntu, Debian, Linux Mint, Fedora y OpenSUSE.
 
-<strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.5.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.5.dmg</a>
+Se puede obtener Subsurface 4.8.5 desde estas ubicaciones:
 
-<strong>Linux:</strong> A generic AppImage is available for download at the <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.8.5">Subsurface GitHub Release page</a>. Download <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.8.5/Subsurface-4.8.5-x86_64.AppImage">Subsurface-4.8.5-x86_64.AppImage</a>, make it executable
-<code>chmod +x Subsurface-4.8.5-x86_64.AppImage</code> and then simply run this file.
-<strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>Debian</strong> and <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.
+<strong>Windows:</strong><a href="https://subsurface-divelog.org/downloads/subsurface-4.8.5.exe">https://subsurface-divelog.org/downloads/subsurface-4.8.5.exe</a>
 
-<strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a>
+<strong>Mac:</strong><a href="https://subsurface-divelog.org/downloads/Subsurface-4.8.5.dmg">https://subsurface-divelog.org/downloads/Subsurface-4.8.5.dmg</a>
+<strong>Linux:</strong> Una AppImage genérica esta disponible para descarga en la <a href="https://github.com/Subsurface-divelog/subsurface/releases/tag/v4.8.5">página de Subsurface en GitHub </a>. Descarga <a href="https://github.com/Subsurface-divelog/subsurface/releases/download/v4.8.5/Subsurface-4.8.5-x86_64.AppImage">Subsurface-4.8.5-x86_64.AppImage</a>, hazla ejecutable
+<code>chmod +x Subsurface-4.8.5-x86_64.AppImage</code> y, simplemente, ejecuta el archivo.
 
-Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface-divelog/subsurface/issues">Bug Tracker</a>.
+<strong>Linux: Ubuntu: </strong>Añade <code>ppa:subsurface/subsurface</code> a tus fuentes de software; los archivos .deb de este PPA también se pueden instalar en versiones suficientemente actualizadas de <strong>Debian</strong> y  <strong>LinuxMint</strong>; visita la <a href="https://subsurface-divelog.org/download/">Página de descargas</a> y utiliza <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> para obtener la última versión de nuestro software.
+
+<strong>Linux: openSUSE / Fedora:</strong> visita nuestra <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">página de lanzamiento del servicio de compilación</a>
 
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
